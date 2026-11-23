@@ -184,19 +184,7 @@ step Spitelash Serpent Guard
 step Lord Sarthiss
   collect 280610 x1 quest 88809.2
 
-step Mammoth Shark
-  when group 89015
-  tip Deadliest Catch is group work: elites. Grouping up is advised.
-  zone map 1447
-  collect 238507 x1 quest 89015.1
-
-step Berdun Cliffbrew
-  when group 89015
-  zone map 1447
-  turnin 89015
-
 step Saria Fairmoon
-  zone map 1447
   turnin 88821
 
 step Slithering Looters
@@ -217,6 +205,9 @@ step Highborne Tablets
 
 step Saria Fairmoon
   accept 89037
+
+step Memory Crystal
+  collect 238385 x1 quest 89037.1
 
 step Saria Fairmoon
   turnin 89037
@@ -256,7 +247,22 @@ step Commander Truesong
   zone map 1447
   turnin 98096
 
+step Krellian's Head
+  collect 238057 quest 88813.1
+
+step Mammoth Shark
+  when group 89015
+  tip Deadliest Catch is group work: elites. Grouping up is advised.
+  zone map 1447
+  collect 238507 x1 quest 89015.1
+
+step Berdun Cliffbrew
+  when group 89015
+  zone map 1447
+  turnin 89015
+
 step Commander Truesong
+  zone map 1447
   turnin 88813
 
 step Rune of Jin'yael

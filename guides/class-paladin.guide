@@ -19,16 +19,16 @@ step Level 45
 
 step Aeonas the Vindicated
   zone Stormwind City
-  accept 81762
+  accept 81762 only Paladin
 
 step Katherine the Pure
   zone Durotar
-  accept 96476 @48.5,49.1 map 1453
+  accept 96476 @48.5,49.1 map 1453 only Paladin
 
 step Aeonas the Vindicated
   zone Felwood
-  complete 96476 @43,57.0 map 1448
-  turnin 96476 @45,52.2 map 1448
+  complete 96476 @43,57.0 map 1448 only Paladin
+  turnin 96476 @45,52.2 map 1448 only Paladin
 
 step Materials of Significance
   only Paladin
@@ -65,11 +65,11 @@ step Lord Grayson Shadowbreaker
 
 step Strange Orb
   zone Darkshore
-  accept 78088
+  accept 78088 only Paladin
 
 step Delgren the Purifier
   zone Ashenvale
-  turnin 78088
+  turnin 78088 only Paladin
 
 step Shattered Orb
   zone Felwood
@@ -81,7 +81,7 @@ step Delgren the Purifier
 
 step Delgren the Purifier
   zone Ashenvale
-  accept 78089
+  accept 78089 only Paladin
 
 step Lord Grayson Shadowbreaker
   zone Durotar
@@ -89,32 +89,32 @@ step Lord Grayson Shadowbreaker
 
 step Katherine the Pure
   zone Durotar
-  accept 96438
+  accept 96438 only Paladin
 
 step Katherine the Pure
   zone Durotar
-  accept 81764
+  accept 81764 only Paladin
 
 step Katherine the Pure
   zone Stormwind City
-  turnin 81762
+  turnin 81762 only Paladin
 
 step Broken Warhammer
   zone Desolace
-  turnin 96438
-  accept 79939
+  turnin 96438 only Paladin
+  accept 79939 only Paladin
 
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8376
-  turnin 8376
+  accept 8376 only Paladin
+  turnin 8376 only Paladin
 
 step Elrick
   zone Dustwallow Marsh
-  turnin 81764
-  accept 81765
-  turnin 81765
+  turnin 81764 only Paladin
+  accept 81765 only Paladin
+  turnin 81765 only Paladin
 
 step Commander Ashlam Valorfist
   zone Western Plaguelands
@@ -149,7 +149,7 @@ step Merideth Carlson
 
 step Harold Riggs
   zone Wetlands
-  accept 96449
+  accept 96449 only Paladin
 
 step Brandur Ironhammer
   zone Ironforge
@@ -192,7 +192,7 @@ step Tome of Divinity
 
 step Slain Scarlet Crusader
   zone Dun Morogh
-  turnin 96449
+  turnin 96449 only Paladin
 
 step Tome of Divinity
   only Paladin,Dwarf
@@ -221,11 +221,11 @@ step Duthorian Rall
   turnin 4486 only Human,Dwarf
   accept 1661 only Human,Dwarf
   turnin 1661 only Human,Dwarf
-  turnin 78089
-  turnin 79939
+  turnin 78089 only Paladin
+  turnin 79939 only Paladin
   accept 78090 only Human,Dwarf
-  accept 79940
-  turnin 79940
+  accept 79940 only Paladin
+  turnin 79940 only Paladin
 
 step Grimand's Finest Work
   only Paladin,Human,Dwarf

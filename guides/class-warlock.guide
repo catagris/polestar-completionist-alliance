@@ -100,7 +100,7 @@ step Level 60
 
 step Spackle Thornberry
   zone Durotar
-  accept 7562 npc 5520
+  accept 7562 npc 5520 only Warlock
 
 step Summon Felsteed
   only Warlock
@@ -129,15 +129,15 @@ step The Binding
 
 step Demisette Cloyce
   zone Durotar
-  accept 8419 npc 461
+  accept 8419 npc 461 only Warlock
 
 step Felcular
   zone Blasted Lands
-  collect 14256 x1 quest 8419.1
+  collect 14256 x1 quest 8419.1 only Warlock
 
 step Impsy
   zone Felwood
-  turnin 8419
+  turnin 8419 only Warlock
 
 step Hot and Itchy
   only Warlock
@@ -148,7 +148,7 @@ step Hot and Itchy
 
 step Impsy
   zone Felwood
-  accept 8421
+  accept 8421 only Warlock
 
 step Hot and Itchy
   only Warlock
@@ -165,7 +165,7 @@ step Hot and Itchy
 
 step Gakin the Darkbinder
   zone Durotar
-  accept 1798 npc 6122
+  accept 1798 npc 6122 only Warlock
 
 step The Slaughtered Lamb
   only Warlock
@@ -176,53 +176,53 @@ step The Slaughtered Lamb
 
 step Daio the Decrepit
   zone Durotar
-  accept 7582
+  accept 7582 only Warlock
 
 step Hederine Manastalker
   zone Winterspring
-  collect 18604 x5 quest 7582.1
+  collect 18604 x5 quest 7582.1 only Warlock
 
 step Niby the Almighty
   zone Durotar
-  accept 7601
-  turnin 7601
-  accept 7602
+  accept 7601 only Warlock
+  turnin 7601 only Warlock
+  accept 7602 only Warlock
 
 step Withered Protector
-  collect 20613 x10 quest 8421.1
+  collect 20613 x10 quest 8421.1 only Warlock
 
 step Legashi Satyr
   zone Azshara
-  collect 18624 x1 quest 7602.1
+  collect 18624 x1 quest 7602.1 only Warlock
 
 step Felguard Sentry
   zone Blasted Lands
-  collect 18623 x1 quest 7602.3
+  collect 18623 x1 quest 7602.3 only Warlock
 
 step Tainted Ooze
   zone Felwood
-  collect 20614 x4 quest 8421.2
+  collect 20614 x4 quest 8421.2 only Warlock
 
 step Jaedenar Legionnaire
-  collect 18622 x1 quest 7602.2
+  collect 18622 x1 quest 7602.2 only Warlock
 
 step Impsy
-  turnin 7602
-  turnin 8421
-  accept 7603
+  turnin 7602 only Warlock
+  turnin 8421 only Warlock
+  accept 7603 only Warlock
 
 step Kroshius
-  kill 14467 x1 quest 7603.1
-  collect 18625 x1 quest 7603.2
+  kill 14467 x1 quest 7603.1 only Warlock
+  collect 18625 x1 quest 7603.2 only Warlock
 
 step Niby the Almighty
-  turnin 7603
+  turnin 7603 only Warlock
 
 step Acolyte Wytula
   zone The Barrens
-  accept 4962
-  turnin 1798
-  accept 1758
+  accept 4962 only Warlock
+  turnin 1798 only Warlock
+  accept 1758 only Warlock
 
 step Shard of an Infernal
   only Warlock
@@ -271,11 +271,11 @@ step Shard of an Infernal
 
 step Mana Eater
   zone Desolace
-  collect 12648 x1 quest 4962.1
+  collect 12648 x1 quest 4962.1 only Warlock
 
 step Menara Voidrender
   zone The Barrens
-  turnin 4962
+  turnin 4962 only Warlock
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
@@ -299,20 +299,20 @@ step Components for the Enchanted Gold Bloodrobe
 
 step Mor'zul Bloodbringer
   zone Burning Steppes
-  turnin 7562
-  accept 7563
+  turnin 7562 only Warlock
+  accept 7563 only Warlock
 
 step Raging Owlbeast
   zone Winterspring
-  collect 18590 x30 quest 7563.1
+  collect 18590 x30 quest 7563.1 only Warlock
 
 step Mor'zul Bloodbringer
   zone Burning Steppes
-  turnin 7563
-  accept 7564
-  turnin 7564
-  accept 7623
-  accept 7628
+  turnin 7563 only Warlock
+  accept 7564 only Warlock
+  turnin 7564 only Warlock
+  accept 7623 only Warlock
+  accept 7628 only Warlock
 
 step Wheel of the Black March
   only Warlock
@@ -333,10 +333,10 @@ step Wheel of the Black March
   turnin 7627 optional
 
 step Flamescale Wyrmkin
-  collect 15416 x35 quest 7628.1
+  collect 15416 x35 quest 7628.1 only Warlock
 
 step Gorzeeki Wildeyes
-  turnin 7628
+  turnin 7628 only Warlock
 
 step Bell of Dethmoora
   only Warlock
@@ -357,7 +357,7 @@ step The Slaughtered Lamb
 
 step Daio the Decrepit
   zone Blasted Lands
-  turnin 7582
+  turnin 7582 only Warlock
 
 step Suppression
   only Warlock
@@ -380,29 +380,29 @@ step Suppression
 
 step Deliana
   zone Ironforge
-  accept 8911
+  accept 8911 only Warlock
 
 step Scarshield Quartermaster
   zone Searing Gorge
-  collect 16703 x1 quest 8911.2
+  collect 16703 x1 quest 8911.2 only Warlock
 
 step Frostsaber Huntress
   zone Winterspring
-  collect 21928 x15 quest 8911.1
+  collect 21928 x15 quest 8911.1 only Warlock
 
 step Lord Banehollow
   zone Darkshore
-  turnin 7623
-  accept 7624
+  turnin 7623 only Warlock
+  accept 7624 only Warlock
 
 step Ulathek
   zone Felwood
-  collect 18719 x1 quest 7624.1
+  collect 18719 x1 quest 7624.1 only Warlock
 
 step Lord Banehollow
   zone Darkshore
-  turnin 7624
-  accept 7625
+  turnin 7624 only Warlock
+  accept 7625 only Warlock
 
 step Ur'dan
   zone Felwood
@@ -410,7 +410,7 @@ step Ur'dan
 
 step Gorzeeki Wildeyes
   zone Burning Steppes
-  turnin 7625
+  turnin 7625 only Warlock
 
 step Arcanite
   only Warlock
@@ -418,24 +418,24 @@ step Arcanite
 
 step Deliana
   zone Ironforge
-  turnin 8911
+  turnin 8911 only Warlock
 
 step Krom Stoutarm
-  turnin 1758
-  accept 1802
+  turnin 1758 only Warlock
+  accept 1802 only Warlock
 
 step Tome of the Cabal
   zone Hillsbrad Foothills
-  collect 6931 x1 quest 1802.1
+  collect 6931 x1 quest 1802.1 only Warlock
 
 step Damaged Chest
   zone The Barrens
-  collect 6997 x1 quest 1802.2
+  collect 6997 x1 quest 1802.2 only Warlock
 
 step Menara Voidrender
-  accept 1799
-  accept 4490
-  turnin 4490
+  accept 1799 only Warlock
+  accept 4490 only Warlock
+  turnin 4490 only Warlock
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
@@ -450,31 +450,31 @@ step Components for the Enchanted Gold Bloodrobe
 
 step Burning Blade Summoner
   zone Mulgore
-  collect 7291 x1 quest 1799.1
+  collect 7291 x1 quest 1799.1 only Warlock
 
 step Tabetha
   zone Dustwallow Marsh
-  turnin 1799
+  turnin 1799 only Warlock
 
 step Tabetha
   zone Dustwallow Marsh
-  accept 4961
+  accept 4961 only Warlock
 
 step Demon of the Orb
   zone Dustwallow Marsh
-  kill 6549 x1 quest 4961.1
+  kill 6549 x1 quest 4961.1 only Warlock
 
 step Tabetha
   zone Dustwallow Marsh
-  turnin 4961
+  turnin 4961 only Warlock
 
 step Tabetha
   zone The Barrens
-  accept 4976
+  accept 4976 only Warlock
 
 step Menara Voidrender
   zone The Barrens
-  turnin 4976
+  turnin 4976 only Warlock
 
 step The Completed Orb of Noh'Orahil
   only Warlock
@@ -514,17 +514,17 @@ step Components for the Enchanted Gold Bloodrobe
 
 step Krom Stoutarm
   zone Ironforge
-  turnin 1802
-  accept 1804
+  turnin 1802 only Warlock
+  accept 1804 only Warlock
 
 step Dragonmaw Bonewarder
   zone Wetlands
-  collect 6930 x3 quest 1804.1
+  collect 6930 x3 quest 1804.1 only Warlock
 
 step Strahad Farsan
   zone The Barrens
-  turnin 1804
-  accept 1795
+  turnin 1804 only Warlock
+  accept 1795 only Warlock
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
@@ -538,10 +538,10 @@ step The Completed Robe
   complete 4786 @62.5,35.5 optional
 
 step Summoned Felhunter
-  kill 6268 x1 quest 1795.1
+  kill 6268 x1 quest 1795.1 only Warlock
 
 step Strahad Farsan
-  turnin 1795
+  turnin 1795 only Warlock
 
 step The Completed Robe
   only Warlock

@@ -81,7 +81,8 @@ step Gryphon Master Talonaxe
   accept 2994
 
 step Gryphon Master Talonaxe
-  complete 2994
+  zone map 1425
+  interact 144070 quest 2994.1
   turnin 2994
 
 step Sergeant Danneth

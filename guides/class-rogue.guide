@@ -12,41 +12,38 @@ reward text What the Rogue quests give, quest by quest: abilities, forms, pets, 
 # Skipped: 4 objective N (item N) outside the zones; 4 prerequisite N not in this route; 3 exclusive with N.
 
 step Keryn Sylvius
-  zone Elwynn Forest
-  accept 2205
+  zone map 1429
+  accept 2205 only Rogue
 
 step Master Mathias Shaw
-  zone Stormwind City
-  turnin 2205
-  accept 2206
+  zone map 1453
+  turnin 2205 only Rogue
+  accept 2206 only Rogue
 
 step Defias Dockmaster
-  zone Elwynn Forest
-  collect 7675 x1 quest 2206.1
+  zone map 1429
+  collect 7675 x1 quest 2206.1 only Rogue
 
 step Master Mathias Shaw
-  zone Stormwind City
-  turnin 2206
+  zone map 1453
+  turnin 2206 only Rogue
 
 step Level 20
   level 20
 
 step Master Mathias Shaw
-  zone Stormwind City
-  accept 2360
+  accept 2360 only Rogue
 
 step Agent Kearnen
-  zone Westfall
-  turnin 2360
+  zone map 1436
+  turnin 2360 only Rogue
 
 step Agent Kearnen
-  zone Westfall
-  accept 2359
+  accept 2359 only Rogue
 
 step Duskwood Chest and Malformed Defias Drone
-  zone Westfall
-  collect 7908 x1 quest 2359.1
-  collect 7923 x1 quest 2359.2
+  collect 7908 x1 quest 2359.1 only Rogue
+  collect 7923 x1 quest 2359.2 only Rogue
 
 step SI:7
   only Rogue
@@ -62,74 +59,68 @@ step SI:7
   turnin 2300 optional
 
 step Master Mathias Shaw
-  zone Stormwind City
-  turnin 2359
+  zone map 1453
+  turnin 2359 only Rogue
 
 step Master Mathias Shaw
-  zone Stormwind City
-  accept 2607
+  accept 2607 only Rogue
 
 step Doc Mixilpixil
-  zone Stormwind City
-  turnin 2607
+  turnin 2607 only Rogue
 
 step Doc Mixilpixil
-  zone Stormwind City
-  accept 2608
+  accept 2608 only Rogue
 
 step Doc Mixilpixil
-  zone Stormwind City
-  turnin 2608
+  turnin 2608 only Rogue
 
 step Doc Mixilpixil
-  zone Stormwind City
-  accept 2609
+  accept 2609 only Rogue
 
 step Bernard Gump
-  zone Stormwind City
-  collect 3421 x1 quest 2609.1
+  collect 3421 x1 quest 2609.1 only Rogue
 
 step Keldric Boucher
-  collect 3372 x1 quest 2609.2
+  collect 3372 x1 quest 2609.2 only Rogue
 
 step Spool of Light Chartreuse Silk Thread
-  collect 8431 x1 quest 2609.4
+  collect 8431 x1 quest 2609.4 only Rogue
 
 step XT:4
-  zone Stonetalon Mountains
-  collect 4371 x1 quest 2609.3
+  zone map 1442
+  collect 4371 x1 quest 2609.3 only Rogue
 
 step Veenix
-  accept 78270
+  accept 78270 only Rogue
 
 step Venture Co. Operator
-  collect 210187 x1 quest 78270.1
+  collect 210187 x1 quest 78270.1 only Rogue
 
 step Veenix
-  turnin 78270
+  turnin 78270 only Rogue
 
 step Jannok Breezesong
-  zone Teldrassil
-  accept 2241
-  accept 2259
+  zone map 1438
+  accept 2241 only Rogue
+  accept 2259 only Rogue
 
 step Syurna
-  zone Darnassus
-  turnin 2241
-  accept 2242
-  turnin 2259
+  zone map 1457
+  turnin 2241 only Rogue
+  accept 2242 only Rogue
+  turnin 2259 only Rogue
 
 step Sethir the Ancient
-  zone Teldrassil
-  collect 7737 x1 quest 2242.1
+  zone map 1438
+  collect 7737 x1 quest 2242.1 only Rogue
 
 step Syurna
-  zone Darnassus
-  turnin 2242
+  zone map 1457
+  turnin 2242 only Rogue
 
 step Hogral Bakkan
-  zone Dun Morogh
-  accept 2218
+  zone map 1426
+  accept 2218 only Rogue
 
 step To Hulfdan!
   only Rogue
@@ -139,8 +130,9 @@ step To Hulfdan!
   accept 2299 optional
 
 step Hulfdan Blackbeard
-  turnin 2218
-  accept 2238
+  zone map 1426
+  turnin 2218 only Rogue
+  accept 2238 only Rogue
 
 step To Hulfdan!
   only Rogue
@@ -149,6 +141,7 @@ step To Hulfdan!
   turnin 2299 optional
 
 step Level 24
+  zone map 1455
   level 24
 
 step The Manor, Ravenholdt
@@ -166,25 +159,24 @@ step Kingly Shakedown
   accept 2298 optional
 
 step Onin MacHammar
-  zone Dun Morogh
-  turnin 2238
-  accept 2239
+  zone map 1426
+  turnin 2238 only Rogue
+  accept 2239 only Rogue
 
 step Hulfdan Blackbeard
-  zone Ironforge
-  turnin 2239
+  zone map 1455
+  turnin 2239 only Rogue
 
 step Level 50
   level 50
 
 step Osborne the Night Man
-  zone Stormwind City
-  accept 8233 npc 918
+  zone map 1453
+  accept 8233 npc 918 only Rogue
 
 step Doc Mixilpixil
-  zone Stormwind City
-  turnin 2609
-  accept 2281
+  turnin 2609 only Rogue
+  accept 2281 only Rogue
 
 step Kingly Shakedown
   only Rogue
@@ -193,22 +185,22 @@ step Kingly Shakedown
   turnin 2298 optional
 
 step Lucius
-  zone Redridge Mountains
-  turnin 2281
-  accept 2282
+  zone map 1433
+  turnin 2281 only Rogue
+  accept 2282 only Rogue
 
 step Lucius's Lockbox
-  collect 7871 x1 quest 2282.1
+  collect 7871 x1 quest 2282.1 only Rogue
 
 step Lucius
-  turnin 2282
+  turnin 2282 only Rogue
 
 step Fahrad
-  zone Alterac Mountains
-  accept 80526
-  turnin 80526
-  turnin 8233
-  accept 8234
+  zone map 1416
+  accept 80526 only Rogue
+  turnin 80526 only Rogue
+  turnin 8233 only Rogue
+  accept 8234 only Rogue
 
 step The Talisman of Kazdor
   only Rogue
@@ -219,6 +211,7 @@ step The Talisman of Kazdor
 
 step The Manor, Ravenholdt
   only Rogue
+  zone map 1416
   turnin 6681 optional
 
 step Syndicate Emblems
@@ -230,6 +223,7 @@ step Syndicate Emblems
 
 step The Talisman of Kazdor
   only Rogue
+  zone map 1416
   turnin 80411 optional
 
 step A Way In
@@ -239,6 +233,7 @@ step A Way In
 
 step A Way In
   only Rogue
+  zone map 1416
   turnin 96783 optional
 
 step Master of Disguise
@@ -248,6 +243,7 @@ step Master of Disguise
 
 step Master of Disguise
   only Rogue
+  zone map 1417
   turnin 96784 optional
 
 step Ain't No Telling
@@ -259,6 +255,7 @@ step Ain't No Telling
 
 step Ain't No Telling
   only Rogue
+  zone map 1417
   turnin 96785 optional
 
 step The Syndicate Sting
@@ -277,6 +274,7 @@ step What's the Big Idea?
 
 step The Syndicate Sting
   only Rogue
+  zone map 1416
   turnin 96786 optional
 
 step Syndicate Sabotage
@@ -288,6 +286,7 @@ step Syndicate Sabotage
 
 step What's the Big Idea?
   only Rogue
+  zone map 1416
   turnin 96781 optional
 
 step Covert Extraction
@@ -299,47 +298,58 @@ step Covert Extraction
 
 step Syndicate Sabotage
   only Rogue
+  zone map 1416
   turnin 96779 optional
 
 step Covert Extraction
   only Rogue
+  zone map 1416
   turnin 96782 optional
 
 step Timbermaw Shaman
-  zone Azshara
-  collect 19775 x1 quest 8234.1
+  zone map 1447
+  collect 19775 x1 quest 8234.1 only Rogue
 
 step Archmage Xylem
-  turnin 8234
-  accept 8235
+  turnin 8234 only Rogue
+  accept 8235 only Rogue
 
 step Level 58
   level 58
 
 step Deliana
-  zone Ironforge
-  accept 8910
+  zone map 1455
+  accept 8910 only Rogue
+
+step Winterspring Blood Sample
+  zone map 1452
+  collect 21928 x15 quest 8910.1 only Rogue
+
+step Shadowcraft Bracers
+  zone map 1422
+  collect 16710 x1 quest 8910.2 only Rogue
 
 step Deliana
-  zone Ironforge
-  turnin 8910
+  zone map 1455
+  turnin 8910 only Rogue
 
 step Level 58
   level 58
 
 step Geologist Larksbane
   when turnedin 8315
-  zone Silithus
-  accept 8378
-  turnin 8378
-
-step Forest Ooze
-  collect 20023 x10 quest 8235.1
-
-step Archmage Xylem
-  turnin 8235
+  zone map 1451
+  accept 8378 only Rogue
+  turnin 8378 only Rogue
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Forest Ooze
+  zone map 1451
+  collect 20023 x10 quest 8235.1 only Rogue
+
+step Archmage Xylem
+  turnin 8235 only Rogue
 
 step Erion's Behest
   only Rogue

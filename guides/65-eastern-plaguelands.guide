@@ -10,6 +10,17 @@ pitch On along the line: Eastern Plaguelands, quests of level 55 to 60.
 # Routed 28 quests; estimated level at the end 55.8 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route; 2 exclusive with N (done).
 
+step Clavicus Knavingham
+  when onquest 7795
+  zone map 1453
+  turnin 7795
+
+step Additional Runecloth
+  when onquest 7796
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1453
+  turnin 7796 direct optional
+
 step Royal Factor Bathrilor
   when onquest 5022
   zone map 1453
@@ -35,12 +46,6 @@ step Highlord Bolvar Fordragon
   zone map 1453
   accept 6187
 
-step Highlord Bolvar Fordragon
-  when group 6187
-  zone map 1453
-  complete 6187
-  turnin 6187
-
 step Deliana
   only Warlock
   when complete 8936
@@ -53,6 +58,11 @@ step Level 58
 
 step Deliana
   accept 8929
+
+step Highlord Bolvar Fordragon
+  when group 6187
+  zone map 1423
+  kill 11878 x1 quest 6187.1
 
 step Royal Factor Bathrilor
   zone map 1453
@@ -704,7 +714,7 @@ step Emmisary Whitebeard
 
 step Smokey LaRue
   zone map 1423
-  complete 6041
+  kill 12247 x8 quest 6041.1
   turnin 6041
 
 step Defenders of Darrowshire
@@ -742,6 +752,9 @@ step Marlene Redpath
   zone map 1422
   accept 5153
 
+step Joseph's Wedding Ring
+  collect 12894 x1 quest 5153.1
+
 step Chromie
   turnin 5153
 
@@ -749,7 +762,12 @@ step Chromie
   zone map 1423
   accept 5154
 
+step Annals of Darrowshire
+  zone map 1422
+  collect 12900 x1 quest 5154.1
+
 step Chromie
+  zone map 1423
   turnin 5154
 
 step Chromie
@@ -776,8 +794,24 @@ step Carlin Redpath
 step Carlin Redpath
   accept 5181
 
+step Davil's Libram
+  zone map 1422
+  collect 12954 x1 quest 5168.1
+
+step Redpath's Shield
+  collect 12955 x1 quest 5168.2
+
 step Carlin Redpath
+  zone map 1423
   turnin 5168
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Skull of Horgus
+  collect 12956 x1 quest 5181.1
+
+step Shattered Sword of Marduk
+  collect 12957 x1 quest 5181.2
 
 step Carlin Redpath
   turnin 5181
@@ -800,11 +834,9 @@ step Chromie
 step Chromie
   accept 5721
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Pamela Redpath
   zone map 1423
-  complete 5721
+  kill 10936 x1 quest 5721.1
   turnin 5721
 
 step Pamela Redpath
@@ -872,6 +904,11 @@ step Mathrengyl Bearwalker
   zone map 1457
   turnin 4986
 
+step Highlord Bolvar Fordragon
+  when group 6187
+  zone map 1453
+  turnin 6187
+
 step Arch Druid Fandral Staghelm
   zone map 1457
   turnin 5253
@@ -900,6 +937,12 @@ step The Blightcaller Cometh
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1453
   turnin 6186 optional
+
+step A Donation of Runecloth
+  when onquest 7795
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 7795 optional
 
 step Just Compensation
   when onquest 8936

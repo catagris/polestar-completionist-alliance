@@ -50,6 +50,11 @@ step They Call Him Smiling Jim
   zone map 1445
   accept 1282 optional
 
+step Alliance Trauma
+  when skill "First Aid" 1
+  zone map 1455
+  turnin 6625 optional
+
 step Triage
   when skill "First Aid" 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -109,6 +114,11 @@ step Caz Twosprocket
   complete 1265 @59.9,40.9 map 1445
   turnin 1265
   accept 1266
+
+step I Got Nothin' Left!
+  when skill Fishing 1
+  zone map 1455
+  turnin 6609 optional
 
 step Nat Pagle, Angler Extreme
   when skill Fishing 1
@@ -201,6 +211,8 @@ step Corrosive Swamp Ooze
 step Guard Jameson
   turnin 98233
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Silt Crawler
   zone map 1435
   collect 5938 x12 quest 1258.1
@@ -209,8 +221,6 @@ step Morgan Stern
   zone map 1445
   turnin 1258
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Archmage Tervosh
   turnin 1324
   accept 1267
@@ -218,16 +228,6 @@ step Archmage Tervosh
 
 step Captain Garran Vimes
   turnin 1220
-
-step I Got Nothin' Left!
-  when skill Fishing 1
-  zone map 1455
-  turnin 6609 optional
-
-step Alliance Trauma
-  when skill "First Aid" 1
-  zone map 1455
-  turnin 6625 optional
 
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 

@@ -501,16 +501,10 @@ step Thundris Windweaver
 
 step Volcor
   turnin 993
-  accept 994
-
-step Escape Through Stealth
-  when available 995
-  tip One of several exclusive quests; the route takes Escape Through Force (994). This one shows for a character the game offers it to instead.
-  zone map 1439
-  accept 995 optional
+  accept 994 either
+  accept 995 either
 
 step Terenthis
-  zone map 1439
   complete 994 @41.9,81.8 map 1439
   turnin 994
   accept 990
@@ -518,12 +512,12 @@ step Terenthis
 step Escape Through Stealth
   when onquest 995
   zone map 1439
-  complete 995 @44.6,85 optional
+  complete 995 @44.6,85
 
 step Escape Through Stealth
   when onquest 995
   zone map 1439
-  turnin 995 optional
+  turnin 995
 
 step Nessa Shadowsong
   zone map 1438

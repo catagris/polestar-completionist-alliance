@@ -636,6 +636,21 @@ step Frankal Stonebridge
   zone map 1451
   accept 8310
 
+step Hive'Ashi Silithid Brain
+  when group 8310
+  zone map 1451
+  collect 20457 x1 quest 8310.1
+
+step Hive'Zora Silithid Brain
+  when group 8310
+  zone map 1451
+  collect 20458 x1 quest 8310.2
+
+step Hive'Regal Silithid Brain
+  when group 8310
+  zone map 1451
+  collect 20459 x1 quest 8310.3
+
 step Frankal Stonebridge
   when group 8310
   zone map 1451
@@ -666,6 +681,11 @@ step Geologist Larksbane
   when group 8315
   zone map 1451
   accept 8315
+
+step Crystal Unlocking Mechanism
+  when group 8315
+  zone map 1451
+  collect 20465 x1 quest 8315.1
 
 step Geologist Larksbane
   when group 8315

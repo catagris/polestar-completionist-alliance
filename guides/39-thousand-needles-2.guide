@@ -81,23 +81,18 @@ step Agnar Beastamer
 step Kravel Koalbeard
   zone map 1441
   turnin 1119
-  accept 1120
+  accept 1120 either
+  accept 1121 either
   accept 1122
   turnin 2769
   turnin 1120
 
 step Get the Goblins Drunk
-  when available 1121
-  tip One of several exclusive quests; the route takes Get the Gnomes Drunk (1120). This one shows for a character the game offers it to instead.
-  zone map 1441
-  accept 1121 optional
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
-step Get the Goblins Drunk
   when onquest 1121
   zone map 1441
-  turnin 1121 optional
+  turnin 1121
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Crank Fizzlebub
   zone map 1434

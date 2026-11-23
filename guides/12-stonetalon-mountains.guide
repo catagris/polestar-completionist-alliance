@@ -73,8 +73,8 @@ step Pridewing Skyhunter
   collect 277917 x1 quest 86574.1
 
 step Ziz Fizziks
-  accept 1093
   turnin 1483
+  accept 1093
 
 step Venture Co. Operator
   collect 5734 x1 quest 1093.1
@@ -130,6 +130,9 @@ step Vahlarriel Demonslayer
 step Malem Chest
   zone map 1443
   turnin 1437
+
+step Centaur Ear
+  collect 6067 x15 quest 1387.1
 
 step Corporal Melkins
   turnin 1387

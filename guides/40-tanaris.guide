@@ -214,8 +214,8 @@ step Haughty Modiste
   accept 95383
   turnin 95383
   accept 95312
-  accept 2873
   turnin 2872
+  accept 2873
 
 step Security Chief Bilgewhizzle
   turnin 2875
@@ -328,6 +328,11 @@ step The Mithril Kid
   zone map 1446
   turnin 2773 optional
 
+step I Know A Guy...
+  when skill Cooking 1
+  zone map 1455
+  turnin 6612 optional
+
 step Clamlette Surprise
   when skill Cooking 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -339,11 +344,6 @@ step Clamlette Surprise
   when skill Cooking 1
   zone map 1446
   turnin 6610 optional
-
-step I Know A Guy...
-  when skill Cooking 1
-  zone map 1455
-  turnin 6612 optional
 
 step Goblin Engineering
   when skill Engineering 1

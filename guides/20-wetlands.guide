@@ -395,7 +395,9 @@ step Howin Kindfeather
 step Howin Kindfeather
   when group 98291
   zone map 1437
-  complete 98291
+  kill 271351 x8 quest 98291.1
+  kill 271348 x5 quest 98291.2
+  kill 271346 x3 quest 98291.3
   turnin 98291
 
 step Motley Garmason
@@ -481,7 +483,7 @@ step Howin Kindfeather
 step Howin Kindfeather
   when group 98297
   zone map 1437
-  complete 98297
+  kill 271373 quest 98297.1
   turnin 98297
 
 step Howin Kindfeather

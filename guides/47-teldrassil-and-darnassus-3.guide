@@ -180,6 +180,9 @@ step Troyas Moonbreeze
 step Troyas Moonbreeze
   accept 2879
 
+step Stave of Equinex
+  collect 9306 x1 quest 2879.1
+
 step Equinex Monolith
   turnin 2879
 
@@ -197,12 +200,12 @@ step Stealing Orgrimmar's Flame
   collect 23179 x1 optional
   accept 9324 item 23179 optional
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Stealing Orgrimmar's Flame
   when onquest 9324
   zone map 1438
   turnin 9324
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Stealing Thunder Bluff's Flame
   tip Flame of Thunder Bluff is looted from Flame of Thunder Bluff: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.

@@ -112,7 +112,7 @@ step Level 50
 
 step Mathrengyl Bearwalker
   zone Darnassus
-  accept 9063 npc 4217
+  accept 9063 npc 4217 only Druid
 
 step Mathrengyl Bearwalker
   zone Darnassus
@@ -186,33 +186,33 @@ step Earthroot
 
 step Tyrisius
   zone Feralas
-  accept 81924
-  turnin 81924
+  accept 81924 only Druid
+  turnin 81924 only Druid
 
 step Torwa Pathfinder
   zone Tanaris
-  turnin 9063
-  accept 9052
+  turnin 9063 only Druid
+  accept 9052 only Druid
 
 step Gorishi Wasp
   zone Un'Goro Crater
-  collect 22435 x8 quest 9052.1
+  collect 22435 x8 quest 9052.1 only Druid
 
 step Bloodpetal Sprout
-  collect 22434 x8 quest 9052.2
+  collect 22434 x8 quest 9052.2 only Druid
 
 step Torwa Pathfinder
   zone Tanaris
-  turnin 9052
-  accept 9051
+  turnin 9052 only Druid
+  accept 9051 only Druid
 
 step Devilsaur
   zone Un'Goro Crater
-  kill 6498 x1 quest 9051.1
+  kill 6498 x1 quest 9051.1 only Druid
 
 step Torwa Pathfinder
   zone Tanaris
-  turnin 9051
+  turnin 9051 only Druid
 
 step Alanndarian Nightsong
   zone Darkshore
@@ -285,8 +285,8 @@ step Level 58
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8382
-  turnin 8382
+  accept 8382 only Druid
+  turnin 8382 only Druid
 
 step Heeding the Call
   only Druid,NightElf

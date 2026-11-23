@@ -19,7 +19,7 @@ step Welcome!
   when has 14648
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1438
-  accept 5842 item 14648
+  accept 5842 item 14648 only NightElf
 
 step Young Nightsaber
   zone map 1438
@@ -41,13 +41,13 @@ step Conservator Ilthalaine
 step Welcome!
   when onquest 5842
   zone map 1438
-  turnin 5842
+  turnin 5842 only NightElf
 
 step The Goddess Provides
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97979
-  complete 97979 @59.2,40.4
+  accept 97979 only NightElf
+  complete 97979 @59.2,40.4 only NightElf
 
 step Mangy Nightsaber
   kill 2032 x7 quest 457.1
@@ -62,7 +62,7 @@ step Alyissia
 
 step The Goddess Provides
   zone map 1438
-  turnin 97979
+  turnin 97979 only NightElf
 
 step Frahun Shadewhisper
   only Rogue
@@ -182,8 +182,8 @@ step Lyreena Duskblade
 
 step The Great Outdoors
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 96606
-  complete 96606 @57.6,56.6
+  accept 96606 only NightElf
+  complete 96606 @57.6,56.6 only NightElf
 
 step Elixirs for the Bladeleafs
   when skill Alchemy 1
@@ -200,110 +200,110 @@ step Aldia
   accept 87288
 
 step The Great Outdoors
-  turnin 96606
+  turnin 96606 only NightElf
 
 step Camping 101: Tailoring
   when skill Tailoring 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97950 optional
-  complete 97950 @57.6,56.6 optional
+  accept 97950 optional only NightElf
+  complete 97950 @57.6,56.6 optional only NightElf
 
 step Camping 101: Skinning
   when skill Skinning 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97949 optional
-  complete 97949 @57.6,56.6 optional
+  accept 97949 optional only NightElf
+  complete 97949 @57.6,56.6 optional only NightElf
 
 step Camping 101: Mining
   when skill Mining 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97948 optional
-  complete 97948 @57.6,56.6 optional
+  accept 97948 optional only NightElf
+  complete 97948 @57.6,56.6 optional only NightElf
 
 step Camping 101: Mining
   when skill Mining 1
   zone map 1438
-  turnin 97948 optional
+  turnin 97948 optional only NightElf
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97946 optional
-  complete 97946 @57.6,56.6 optional
+  accept 97946 optional only NightElf
+  complete 97946 @57.6,56.6 optional only NightElf
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97944 optional
-  complete 97944 @57.6,56.6 optional
+  accept 97944 optional only NightElf
+  complete 97944 @57.6,56.6 optional only NightElf
 
 step Camping 101: Fishing
   when skill Fishing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97943 optional
-  complete 97943 @57.6,56.6 optional
+  accept 97943 optional only NightElf
+  complete 97943 @57.6,56.6 optional only NightElf
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97942 optional
-  complete 97942 @57.6,56.6 optional
+  accept 97942 optional only NightElf
+  complete 97942 @57.6,56.6 optional only NightElf
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   zone map 1438
-  turnin 97942 optional
+  turnin 97942 optional only NightElf
 
 step Camping 101: Engineering
   when skill Engineering 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97941 optional
-  complete 97941 @57.6,56.6 optional
+  accept 97941 optional only NightElf
+  complete 97941 @57.6,56.6 optional only NightElf
 
 step Camping 101: Engineering
   when skill Engineering 1
   zone map 1438
-  turnin 97941 optional
+  turnin 97941 optional only NightElf
 
 step Camping 101: Enchanting
   when skill Enchanting 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97940 optional
-  complete 97940 @57.6,56.6 optional
+  accept 97940 optional only NightElf
+  complete 97940 @57.6,56.6 optional only NightElf
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97939 optional
-  complete 97939 @57.6,56.6 optional
+  accept 97939 optional only NightElf
+  complete 97939 @57.6,56.6 optional only NightElf
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   zone map 1438
-  turnin 97939 optional
+  turnin 97939 optional only NightElf
 
 step Camping 101: Alchemy
   when skill Alchemy 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 97938 optional
-  complete 97938 @57.6,56.6 optional
+  accept 97938 optional only NightElf
+  complete 97938 @57.6,56.6 optional only NightElf
 
 step Camping 101: Cooking
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1438
-  accept 96634
-  complete 96634 @57.6,56.6
+  accept 96634 only NightElf
+  complete 96634 @57.6,56.6 only NightElf
 
 step Elixirs for the Bladeleafs
   when skill Alchemy 1
@@ -321,17 +321,17 @@ step Laurna Morninglight
   accept 99046
 
 step Camping 101: Cooking
-  turnin 96634
+  turnin 96634 only NightElf
 
 step Camping 101: Alchemy
   when skill Alchemy 1
   zone map 1438
-  turnin 97938 optional
+  turnin 97938 optional only NightElf
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   zone map 1438
-  turnin 97944 optional
+  turnin 97944 optional only NightElf
 
 step Recipe of the Kaldorei
   when skill Cooking 1
@@ -383,7 +383,7 @@ step Sentinel Eralya Leafshadow
 step Camping 101: Enchanting
   when skill Enchanting 1
   zone map 1438
-  turnin 97940 optional
+  turnin 97940 optional only NightElf
 
 step Strigid Hunter
   zone map 1438
@@ -407,12 +407,12 @@ step Sentinel Shayla Nightbreeze
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   zone map 1438
-  turnin 97946 optional
+  turnin 97946 optional only NightElf
 
 step Camping 101: Skinning
   when skill Skinning 1
   zone map 1438
-  turnin 97949 optional
+  turnin 97949 optional only NightElf
 
 step Gnarlpine Ambusher
   zone map 1438
@@ -645,12 +645,12 @@ step Laird
 step Camping 101: Tailoring
   when skill Tailoring 1
   zone map 1457
-  turnin 97950 optional
+  turnin 97950 optional only NightElf
 
 step Camping 101: Fishing
   when skill Fishing 1
   zone map 1457
-  turnin 97943 optional
+  turnin 97943 optional only NightElf
 
 step Arch Druid Fandral Staghelm
   zone map 1457

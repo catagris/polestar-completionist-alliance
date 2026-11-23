@@ -60,64 +60,64 @@ step Jocaste
 
 step Josephine Carson
   zone Elwynn Forest
-  accept 94792
+  accept 94792 only Hunter
 
 step Rockhide Boar
-  kill 524 x1 quest 94792.1
+  kill 524 x1 quest 94792.1 only Hunter
 
 step Josephine Carson
-  turnin 94792
-  accept 94863
+  turnin 94792 only Hunter
+  accept 94863 only Hunter
 
 step Gray Forest Wolf
-  kill 1922 x1 quest 94863.1
+  kill 1922 x1 quest 94863.1 only Hunter
 
 step Josephine Carson
-  turnin 94863
-  accept 94864
+  turnin 94863 only Hunter
+  accept 94864 only Hunter
 
 step Level 50
   level 50
 
 step Dorion
   zone Darnassus
-  accept 8151 npc 4205
+  accept 8151 npc 4205 only Hunter
 
 step Ogtinc
   zone Azshara
-  turnin 8151
+  turnin 8151 only Hunter
 
 step Ogtinc
   zone Azshara
-  accept 8153
+  accept 8153 only Hunter
 
 step Mosshoof Courser
   zone Azshara
-  collect 20017 x2 quest 8153.1
+  collect 20017 x2 quest 8153.1 only Hunter
 
 step Ogtinc
   zone Azshara
-  turnin 8153
+  turnin 8153 only Hunter
 
 step Ogtinc
   zone Darnassus
-  accept 8231
+  accept 8231 only Hunter
 
 step Young Wavethrasher
   zone Darnassus
-  collect 20087 x6 quest 8231.1
+  collect 20087 x6 quest 8231.1 only Hunter
 
 step Ogtinc
   zone Darnassus
-  turnin 8231
+  turnin 8231 only Hunter
 
 step Young Forest Bear
-  kill 822 x1 quest 94864.1
+  kill 822 x1 quest 94864.1 only Hunter
 
 step Josephine Carson
-  turnin 94864
-  accept 94793
-  turnin 94793
+  turnin 94864 only Hunter
+  accept 94793 only Hunter
+  turnin 94793 only Hunter
 
 step Olmin Burningbeard
   zone Ironforge
@@ -177,8 +177,8 @@ step Level 58
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8377
-  turnin 8377
+  accept 8377 only Hunter
+  turnin 8377 only Hunter
 
 step Grif Wildheart
   turnin 6085 only Dwarf

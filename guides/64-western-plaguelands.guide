@@ -21,16 +21,10 @@ step Clavicus Knavingham
   zone map 1453
   accept 7795
 
-step Clavicus Knavingham
+step Runecloth
   when onquest 7795
   zone map 1453
-  turnin 7795
-
-step Additional Runecloth
-  when onquest 7796
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1453
-  turnin 7796 direct optional
+  collect 14047 x60 quest 7795.1
 
 step Nathaniel Dumah
   zone map 1422
@@ -97,13 +91,23 @@ step Redemption
 step Tirion Fordring
   accept 5781
 
+step Taelan's Hammer
+  zone map 1423
+  collect 14613 x1 quest 5781.1
+
 step Tirion Fordring
+  zone map 1422
   turnin 5781
 
 step Tirion Fordring
   accept 5845
 
+step Symbol of Lost Honor
+  zone map 1423
+  collect 14625 x1 quest 5845.1
+
 step Tirion Fordring
+  zone map 1422
   turnin 5845
 
 step Tirion Fordring

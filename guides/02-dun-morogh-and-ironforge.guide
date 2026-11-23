@@ -20,7 +20,7 @@ step Welcome!
   when has 14647
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1426
-  accept 5841 item 14647
+  accept 5841 item 14647 only Dwarf,Gnome
 
 step Timber Wolf
   zone map 1429
@@ -58,7 +58,7 @@ step Sten Stoutarm
 step Welcome!
   when onquest 5841
   zone map 1426
-  turnin 5841
+  turnin 5841 only Dwarf,Gnome
 
 step Balir Frosthammer
   zone map 1426
@@ -240,8 +240,8 @@ step Frostmane Hold
 step The Great Outdoors
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96608
-  complete 96608 @46.6,53.9
+  accept 96608 only Dwarf,Gnome
+  complete 96608 @46.6,53.9 only Dwarf,Gnome
 
 step Innkeeper Belm
   collect 2894 x1 quest 384.2
@@ -341,104 +341,104 @@ step Maxan Anvol
 
 step The Great Outdoors
   zone map 1426
-  turnin 96608
+  turnin 96608 only Dwarf,Gnome
 
 step Camping 101: Engineering
   when skill Engineering 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96058 optional
-  complete 96058 @46.6,53.9 optional
+  accept 96058 optional only Dwarf,Gnome
+  complete 96058 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Engineering
   when skill Engineering 1
   zone map 1426
-  turnin 96058 optional
+  turnin 96058 optional only Dwarf,Gnome
 
 step Camping 101: Tailoring
   when skill Tailoring 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96057 optional
-  complete 96057 @46.6,53.9 optional
+  accept 96057 optional only Dwarf,Gnome
+  complete 96057 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Skinning
   when skill Skinning 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96056 optional
-  complete 96056 @46.6,53.9 optional
+  accept 96056 optional only Dwarf,Gnome
+  complete 96056 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96055 optional
-  complete 96055 @46.6,53.9 optional
+  accept 96055 optional only Dwarf,Gnome
+  complete 96055 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Fishing
   when skill Fishing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96050 optional
-  complete 96050 @46.6,53.9 optional
+  accept 96050 optional only Dwarf,Gnome
+  complete 96050 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Fishing
   when skill Fishing 1
   zone map 1426
-  turnin 96050 optional
+  turnin 96050 optional only Dwarf,Gnome
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96047 optional
-  complete 96047 @46.6,53.9 optional
+  accept 96047 optional only Dwarf,Gnome
+  complete 96047 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   zone map 1426
-  turnin 96047 optional
+  turnin 96047 optional only Dwarf,Gnome
 
 step Camping 101: Mining
   when skill Mining 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96046 optional
-  complete 96046 @46.6,53.9 optional
+  accept 96046 optional only Dwarf,Gnome
+  complete 96046 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Mining
   when skill Mining 1
   zone map 1426
-  turnin 96046 optional
+  turnin 96046 optional only Dwarf,Gnome
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96044 optional
-  complete 96044 @46.6,53.9 optional
+  accept 96044 optional only Dwarf,Gnome
+  complete 96044 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   zone map 1426
-  turnin 96044 optional
+  turnin 96044 optional only Dwarf,Gnome
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96031 optional
-  complete 96031 @46.6,53.9 optional
+  accept 96031 optional only Dwarf,Gnome
+  complete 96031 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Cooking
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1426
-  accept 96629
-  complete 96629 @46.6,53.9
+  accept 96629 only Dwarf,Gnome
+  complete 96629 @46.6,53.9 only Dwarf,Gnome
 
 step Camping 101: Cooking
-  turnin 96629
+  turnin 96629 only Dwarf,Gnome
 
 step Ragnar Thunderbrew
   turnin 384
@@ -581,7 +581,7 @@ step Earthseer Farsen
   accept 96390
 
 step Earthseer Farsen
-  complete 96390
+  kill 6123 x10 quest 96390.1
   turnin 96390
 
 step Pilot Hammerfoot
@@ -658,22 +658,22 @@ step Mountaineer Kadrell
 step Camping 101: Tailoring
   when skill Tailoring 1
   zone map 1455
-  turnin 96057 optional
+  turnin 96057 optional only Dwarf,Gnome
 
 step Camping 101: Skinning
   when skill Skinning 1
   zone map 1455
-  turnin 96056 optional
+  turnin 96056 optional only Dwarf,Gnome
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   zone map 1455
-  turnin 96055 optional
+  turnin 96055 optional only Dwarf,Gnome
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   zone map 1455
-  turnin 96031 optional
+  turnin 96031 optional only Dwarf,Gnome
 
 step The Reports
   when onquest 291

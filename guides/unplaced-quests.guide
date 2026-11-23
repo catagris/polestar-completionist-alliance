@@ -10,15 +10,15 @@ step About this guide
   note The reference data has no giver, hand-in, level or zone for these quests, so no guide can lead to them. Each is listed by its title for you to find and tick off. Some may not be in the game.
 
 step Hillsbrad Foothills
-  task "Your First Horse, level 40" optional -- quest 99326
+  task "Your First Horse, level 40" optional only Human -- quest 99326
 
 step Wetlands
-  task "Your First Horse, level 40" optional -- quest 98166
+  task "Your First Horse, level 40" optional only Human -- quest 98166
 
 step No zone in the data
   task "Camping 101: Engineering, level 6" optional -- quest 98287
-  task "Confounding Flash, level 10" optional -- quest 94825
-  task "Confounding Flash, level 10" optional -- quest 94826
-  task "Message from the Supreme Magister, level 35" optional -- quest 98471
+  task "Confounding Flash, level 10" optional only Priest,Gnome -- quest 94825
+  task "Confounding Flash, level 10" optional only Priest,Gnome -- quest 94826
+  task "Message from the Supreme Magister, level 35" optional only Skyborne -- quest 98471
   task "A Ticking Present, level 40" optional -- quest 79637
   task "Krol'dok No More!, level 42" optional -- quest 94969

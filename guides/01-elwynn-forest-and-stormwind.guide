@@ -25,7 +25,7 @@ step Welcome!
   when has 14646
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1429
-  accept 5805 item 14646
+  accept 5805 item 14646 only Human
 
 step Drusilla La Salle
   only Warlock
@@ -35,7 +35,7 @@ step Drusilla La Salle
 step Welcome!
   when onquest 5805
   zone map 1429
-  turnin 5805
+  turnin 5805 only Human
 
 step Eagan Peltskinner
   zone map 1429
@@ -250,97 +250,97 @@ step Jason Mathers
 
 step The Great Outdoors
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 95998
-  complete 95998 @44.9,63.4
+  accept 95998 only Human
+  complete 95998 @44.9,63.4 only Human
 
 step Innkeeper Farley
   turnin 2158
   accept 60
 
 step The Great Outdoors
-  turnin 95998
+  turnin 95998 only Human
 
 step Camping 101: Cooking
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 96626
-  complete 96626 @44.9,63.4
+  accept 96626 only Human
+  complete 96626 @44.9,63.4 only Human
 
 step Camping 101: Alchemy
   when skill Alchemy 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97915 optional
-  complete 97915 @44.9,63.4 optional
+  accept 97915 optional only Human
+  complete 97915 @44.9,63.4 optional only Human
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97916 optional
-  complete 97916 @44.9,63.4 optional
+  accept 97916 optional only Human
+  complete 97916 @44.9,63.4 optional only Human
 
 step Camping 101: Enchanting
   when skill Enchanting 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97917 optional
-  complete 97917 @44.9,63.4 optional
+  accept 97917 optional only Human
+  complete 97917 @44.9,63.4 optional only Human
 
 step Camping 101: Engineering
   when skill Engineering 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97918 optional
-  complete 97918 @44.9,63.4 optional
+  accept 97918 optional only Human
+  complete 97918 @44.9,63.4 optional only Human
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97919 optional
-  complete 97919 @44.9,63.4 optional
+  accept 97919 optional only Human
+  complete 97919 @44.9,63.4 optional only Human
 
 step Camping 101: Fishing
   when skill Fishing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97920 optional
-  complete 97920 @44.9,63.4 optional
+  accept 97920 optional only Human
+  complete 97920 @44.9,63.4 optional only Human
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97921 optional
-  complete 97921 @44.9,63.4 optional
+  accept 97921 optional only Human
+  complete 97921 @44.9,63.4 optional only Human
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97922 optional
-  complete 97922 @44.9,63.4 optional
+  accept 97922 optional only Human
+  complete 97922 @44.9,63.4 optional only Human
 
 step Camping 101: Mining
   when skill Mining 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97923 optional
-  complete 97923 @44.9,63.4 optional
+  accept 97923 optional only Human
+  complete 97923 @44.9,63.4 optional only Human
 
 step Camping 101: Skinning
   when skill Skinning 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97924 optional
-  complete 97924 @44.9,63.4 optional
+  accept 97924 optional only Human
+  complete 97924 @44.9,63.4 optional only Human
 
 step Camping 101: Tailoring
   when skill Tailoring 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97925 optional
-  complete 97925 @44.9,63.4 optional
+  accept 97925 optional only Human
+  complete 97925 @44.9,63.4 optional only Human
 
 step Priestess Josetta
   only Priest
@@ -350,17 +350,17 @@ step Priestess Josetta
 
 step Camping 101: Cooking
   zone map 1429
-  turnin 96626
+  turnin 96626 only Human
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   zone map 1429
-  turnin 97916 optional
+  turnin 97916 optional only Human
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   zone map 1429
-  turnin 97919 optional
+  turnin 97919 optional only Human
 
 step Marshal Dughan
   zone map 1429
@@ -482,7 +482,7 @@ step Sara Timberlain
 step Camping 101: Tailoring
   when skill Tailoring 1
   zone map 1429
-  turnin 97925 optional
+  turnin 97925 optional only Human
 
 step Defias Rogue Wizard
   zone map 1429
@@ -573,17 +573,17 @@ step Jason Mathers
 step Camping 101: Fishing
   when skill Fishing 1
   zone map 1429
-  turnin 97920 optional
+  turnin 97920 optional only Human
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   zone map 1429
-  turnin 97922 optional
+  turnin 97922 optional only Human
 
 step Camping 101: Skinning
   when skill Skinning 1
   zone map 1429
-  turnin 97924 optional
+  turnin 97924 optional only Human
 
 step Morgan the Collector
   zone map 1429
@@ -786,27 +786,27 @@ step Thurman Schneider
 step Camping 101: Alchemy
   when skill Alchemy 1
   zone map 1453
-  turnin 97915 optional
+  turnin 97915 optional only Human
 
 step Camping 101: Enchanting
   when skill Enchanting 1
   zone map 1453
-  turnin 97917 optional
+  turnin 97917 optional only Human
 
 step Camping 101: Engineering
   when skill Engineering 1
   zone map 1453
-  turnin 97918 optional
+  turnin 97918 optional only Human
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   zone map 1453
-  turnin 97921 optional
+  turnin 97921 optional only Human
 
 step Camping 101: Mining
   when skill Mining 1
   zone map 1453
-  turnin 97923 optional
+  turnin 97923 optional only Human
 
 step Morgan Pestle
   zone map 1453

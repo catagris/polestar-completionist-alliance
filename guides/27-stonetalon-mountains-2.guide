@@ -61,18 +61,13 @@ step Vahlarriel Demonslayer
   turnin 1440
   turnin 97284
   turnin 93224
-  accept 93226
-
-step Buying Friendship: Gelkis
-  when available 93227
-  tip One of several exclusive quests; the route takes Buying Friendship: Magram (93226). This one shows for a character the game offers it to instead.
-  zone map 1442
-  accept 93227 optional
+  accept 93226 either
+  accept 93227 either
 
 step Buying Friendship: Gelkis
   when onquest 93227
   zone map 1443
-  turnin 93227 optional
+  turnin 93227
 
 step Firepit
   zone map 1443

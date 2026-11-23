@@ -167,7 +167,7 @@ step Level 50
 
 step High Priest Rohan
   zone Ironforge
-  accept 8254 npc 11406
+  accept 8254 npc 11406 only Priest
 
 step Arcane Feedback
   only Priest,Human
@@ -189,23 +189,23 @@ step Divine Grace
 
 step Ogtinc
   zone Azshara
-  turnin 8254
+  turnin 8254 only Priest
 
 step Ogtinc
   zone Azshara
-  accept 8255
+  accept 8255 only Priest
 
 step Mosshoof Courser
   zone Azshara
-  collect 20027 x4 quest 8255.1
+  collect 20027 x4 quest 8255.1 only Priest
 
 step Ogtinc
   zone Azshara
-  turnin 8255
+  turnin 8255 only Priest
 
 step Ogtinc
   zone Darnassus
-  accept 8256
+  accept 8256 only Priest
 
 step High Priestess Mims
   zone Dun Morogh
@@ -314,16 +314,16 @@ step Returning Home
 
 step Eris Havenfire
   zone Eastern Plaguelands
-  accept 7621
-  turnin 7621
+  accept 7621 only Priest
+  turnin 7621 only Priest
 
 step Eris Havenfire
   zone Eastern Plaguelands
-  accept 7622
+  accept 7622 only Priest
 
 step Eris Havenfire
   zone Eastern Plaguelands
-  turnin 7622
+  turnin 7622 only Priest
 
 step Priestess Alathea
   zone Darnassus
@@ -385,17 +385,17 @@ step Desperate Prayer
 
 step Anguished Highborne
   zone Winterspring
-  collect 7972 x1 quest 8256.1
+  collect 7972 x1 quest 8256.1 only Priest
 
 step Ogtinc
   zone Azshara
-  turnin 8256
+  turnin 8256 only Priest
 
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8379
-  turnin 8379
+  accept 8379 only Priest
+  turnin 8379 only Priest
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 

@@ -368,7 +368,9 @@ step Sergeant Riftan
   accept 96015
 
 step Sergeant Riftan
-  complete 94889
+  kill 256795 x8 quest 94889.1
+  kill 256797 x8 quest 94889.2
+  kill 256799 x8 quest 94889.3
   turnin 94889
 
 step Sergeant Riftan
@@ -378,8 +380,14 @@ step Sergeant Riftan
 
 step Sergeant Riftan
   zone map 2548
-  complete 96015
+  kill 260995 x5 quest 96015.1
+  kill 260996 x5 quest 96015.2
   turnin 96015
+
+step Kilgar's Head
+  when group 94890
+  zone map 2548
+  collect 265837 quest 94890.1
 
 step Sergeant Riftan
   when group 94890
@@ -441,6 +449,16 @@ step Apprentice Claire
   zone map 2548
   accept 95562
 
+step Chogg's Head
+  when group 95562
+  zone map 2548
+  collect 265750 x1 quest 95562.1
+
+step Zac's Head
+  when group 95562
+  zone map 2548
+  collect 265751 x1 quest 95562.2
+
 step Apprentice Claire
   when group 95562
   zone map 2548
@@ -464,6 +482,9 @@ step Benjy Wheeler
 
 step Benjy Wheeler
   accept 94618
+
+step Sootfur's Pelt
+  collect 265738 x1 quest 94617.1
 
 step Benjy Wheeler
   turnin 94617
@@ -598,11 +619,20 @@ step Apple of My Eye
   accept 95561
   complete 95561 @63.9,82.2
 
-step Ghostmaw
-  when group 95991
-  tip WANTED: Ghostmaw is group work: elites. Grouping up is advised.
+step Apple of My Eye
+  turnin 95561
+
+step Tessa Dawnbright
+  accept 95913
+
+step Coyote Pelt
+  collect 271432 x3 quest 95913.1
+
+step Sister Rowland
+  when group 96085
   zone map 2548
-  collect 271828 x1 quest 95991.1
+  kill 263615 x1 quest 96085.1
+  turnin 96085
 
 step Blademaster Kaijo
   when group 95912
@@ -615,20 +645,14 @@ step Ember Bladewhisper
   zone map 2548
   turnin 95912
 
-step Sister Rowland
-  when group 96085
+step Ghostmaw
+  when group 95991
+  tip WANTED: Ghostmaw is group work: elites. Grouping up is advised.
   zone map 2548
-  complete 96085
-  turnin 96085
-
-step Apple of My Eye
-  zone map 2548
-  turnin 95561
+  collect 271828 x1 quest 95991.1
 
 step Tessa Dawnbright
-  accept 95913
-
-step Tessa Dawnbright
+  zone map 2548
   turnin 95913
 
 step Tessa Dawnbright
@@ -661,6 +685,9 @@ step Argo Brinewhistle
   turnin 95118
   turnin 95119
   accept 95122
+
+step Crawler Spittle
+  collect 271650 x3 quest 95988.1
 
 step Innkeeper Zizplink
   turnin 95988
@@ -698,6 +725,9 @@ step Argo Brinewhistle
 step Fimbo Greasemitz
   turnin 95121
   turnin 95254
+
+step Sea Monster's Head
+  collect 268633 x1 quest 95267.1
 
 step Argo Brinewhistle
   turnin 95267

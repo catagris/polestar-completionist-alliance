@@ -24,8 +24,8 @@ step Highlord Bolvar Fordragon
 step Exploring the Alliance
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1453
-  accept 93963
-  complete 93963 @80.2,38.4
+  accept 93963 only Skyborne
+  complete 93963 @80.2,38.4 only Skyborne
 
 step A Green Sample
   tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
@@ -38,7 +38,7 @@ step Power Overwhelming
 step Exploring the Alliance
   when onquest 93963
   zone map 1453
-  turnin 93963
+  turnin 93963 only Skyborne
 
 step Shoni the Shilent
   when complete 2040
@@ -258,7 +258,12 @@ step Elemental Bracers
 step Sentinel Velene Starstrike
   accept 1017
 
+step Sarilus Foulborne's Head
+  zone map 1413
+  collect 5537 x1 quest 1017.1
+
 step Sentinel Velene Starstrike
+  zone map 1440
   turnin 1017
 
 step Shael'dryn

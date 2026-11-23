@@ -13,11 +13,11 @@ reward text What the Warrior quests give, quest by quest: abilities, forms, pets
 
 step Elanaria
   zone Darnassus
-  accept 1683
+  accept 1683 only Warrior
 
 step Vorlus Vilehoof
   zone Teldrassil
-  collect 6805 x1 quest 1683.1
+  collect 6805 x1 quest 1683.1 only Warrior
 
 step Elanaria
   only Warrior
@@ -28,8 +28,8 @@ step Elanaria
 
 step Elanaria
   zone Darnassus
-  turnin 1683
-  accept 1686
+  turnin 1683 only Warrior
+  accept 1686 only Warrior
 
 step Elanaria
   only Warrior
@@ -39,23 +39,23 @@ step Elanaria
 
 step Crate of Elunite and Shade of Elura
   zone Darkshore
-  collect 6808 x8 quest 1686.1
-  collect 6809 x1 quest 1686.2
+  collect 6808 x8 quest 1686.1 only Warrior
+  collect 6809 x1 quest 1686.2 only Warrior
 
 step Elanaria
   zone Darnassus
-  turnin 1686
-  accept 1692
-  turnin 1692
-  accept 1693
-  turnin 1693
+  turnin 1686 only Warrior
+  accept 1692 only Warrior
+  turnin 1692 only Warrior
+  accept 1693 only Warrior
+  turnin 1693 only Warrior
 
 step Level 15
   level 15
 
 step Alonso
   zone Ashenvale
-  accept 78134
+  accept 78134 only Warrior
 
 step Level 15
   level 15
@@ -87,10 +87,10 @@ step Dark Iron Entrepreneur
 
 step Tormus Deepforge
   zone Ironforge
-  accept 1681
+  accept 1681 only Warrior
 
 step Muren Stormpike
-  accept 1680
+  accept 1680 only Warrior
 
 step Vejrek
   only Warrior
@@ -101,7 +101,7 @@ step Vejrek
 
 step Ironband's Strongbox
   zone Dun Morogh
-  collect 6800 x1 quest 1681.1
+  collect 6800 x1 quest 1681.1 only Warrior
 
 step The Quarry's Smith
   only Warrior,Paladin,Shaman
@@ -123,29 +123,29 @@ step Muren Stormpike
 
 step Tormus Deepforge
   zone Ironforge
-  turnin 1680
-  turnin 1681
-  accept 1682
-  turnin 1682
+  turnin 1680 only Warrior
+  turnin 1681 only Warrior
+  accept 1682 only Warrior
+  turnin 1682 only Warrior
 
 step Level 50
   level 50
 
 step Darnath Bladesinger
   zone Darnassus
-  accept 8417 npc 7315
+  accept 8417 npc 7315 only Warrior
 
 step Kelv Sternhammer
   zone Ironforge
-  accept 1718 npc 5113
+  accept 1718 npc 5113 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  turnin 8417
+  turnin 8417 only Warrior
 
 step Darnath Bladesinger
   zone Darnassus
-  accept 1698 npc 7315
+  accept 1698 npc 7315 only Warrior
 
 step Vejrek
   only Warrior
@@ -168,56 +168,56 @@ step Muren Stormpike
 
 step Yorus Barleybrew
   zone Redridge Mountains
-  turnin 1698
+  turnin 1698 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  accept 8423
+  accept 8423 only Warrior
 
 step Helboar
   zone Blasted Lands
-  kill 5993 x7 quest 8423.1
+  kill 5993 x7 quest 8423.1 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  turnin 8423
+  turnin 8423 only Warrior
 
 step Yorus Barleybrew
   zone Redridge Mountains
-  accept 1699
+  accept 1699 only Warrior
 
 step Yorus Barleybrew
   zone Swamp of Sorrows
-  complete 1699 @14.1,24.7 map 1433
-  turnin 1699
+  complete 1699 @14.1,24.7 map 1433 only Warrior
+  turnin 1699 only Warrior
 
 step Yorus Barleybrew
   zone Swamp of Sorrows
-  accept 1702
+  accept 1702 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  accept 8424
+  accept 8424 only Warrior
 
 step Shadowsworn Thug
   zone Blasted Lands
-  kill 6005 x20 quest 8424.3
+  kill 6005 x20 quest 8424.3 only Warrior
 
 step Shadowsworn Cultist
   zone Swamp of Sorrows
-  kill 6004 x10 quest 8424.2
+  kill 6004 x10 quest 8424.2 only Warrior
 
 step Shadowsworn Adept
   zone Swamp of Sorrows
-  kill 6006 x20 quest 8424.1
+  kill 6006 x20 quest 8424.1 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  turnin 8424
+  turnin 8424 only Warrior
 
 step Furen Longbeard
   zone Stormwind City
-  turnin 1702
+  turnin 1702 only Warrior
 
 step Furen's Armor
   only Warrior
@@ -425,20 +425,20 @@ step A Warrior's Training
 
 step Klannoc Macleod
   zone The Barrens
-  turnin 1718
-  accept 1719
+  turnin 1718 only Warrior
+  accept 1719 only Warrior
 
 step Big Will and Step on the grate to begin the Affray
-  kill 6238 x1 quest 1719.1
+  kill 6238 x1 quest 1719.1 only Warrior
   goto 68.6,48.7 "Step on the grate to begin the Affray" -- Explore for The Affray
 
 step Klannoc Macleod
-  turnin 1719
-  accept 1791
+  turnin 1719 only Warrior
+  accept 1791 only Warrior
 
 step Alonso
   zone Ashenvale
-  turnin 78134
+  turnin 78134 only Warrior
 
 step Dragonslayer's Helm
   only Warrior
@@ -456,7 +456,7 @@ step Seena Skybreaker
 
 step Bath'rah the Windwatcher
   zone Alterac Mountains
-  turnin 1791
+  turnin 1791 only Warrior
 
 step Cyclonian
   only Warrior
@@ -504,8 +504,8 @@ step Level 58
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8316
-  turnin 8316
+  accept 8316 only Warrior
+  turnin 8316 only Warrior
 
 step Lorax's Tale
   only Warrior,Paladin,Shaman

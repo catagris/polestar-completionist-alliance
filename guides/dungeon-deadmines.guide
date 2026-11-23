@@ -22,10 +22,9 @@ step Level 20
   level 20
 
 step The Test of Righteousness
-  zone map 1426
   only Paladin,Human,Dwarf
   when turnedin 1653
-  zone map 1455
+  zone map 1426
   accept 1654 optional
 
 step The Test of Righteousness
@@ -36,24 +35,21 @@ step The Test of Righteousness
   complete 1654 @52.5,36.9 optional
 
 step The Test of Righteousness
-  zone map 1426
   only Paladin,Human,Dwarf
   when onquest 1654
-  zone map 1455
+  zone map 1426
   turnin 1654 optional
 
 step The Test of Righteousness
-  zone map 1426
   only Paladin,Human,Dwarf
   when turnedin 1654
-  zone map 1455
+  zone map 1426
   accept 1806 optional
 
 step The Test of Righteousness
-  zone map 1426
   only Paladin,Human,Dwarf
   when onquest 1806
-  zone map 1455
+  zone map 1426
   turnin 1806 optional
 
 step Getting there
