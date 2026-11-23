@@ -1,0 +1,114 @@
+guide completionist-alliance/dungeon-scarlet-monastery
+title Scarlet Monastery (Completionist)
+faction Alliance
+category Dungeons
+levels 30-40
+zone Tirisfal Glades
+next completionist-alliance/36-shendralas
+pitch Scarlet Monastery, in Tirisfal Glades.
+why Every Alliance quest of Scarlet Monastery: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Librarian Mae Paledust
+  zone map 1455
+  accept 1050
+
+step Getting there
+  zone map 1420
+  note The entrance is in Tirisfal Glades: the arrow leads to it.
+
+step The Horn of Xelthos
+  only Rogue
+  zone map 1421
+  accept 78261
+
+step The Horn of Xelthos
+  only Rogue
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1421
+  complete 78261 @47.12,70.99
+
+step The Horn of Xelthos
+  only Rogue
+  zone map 1421
+  turnin 78261
+
+step The Horn of Xelthos
+  only Rogue
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1421
+  turnin 78307 direct
+
+step Magus Olvek
+  zone map 1416
+  accept 96800
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  accept 78676
+
+step Level 34
+  zone map 1424
+  level 34
+
+step Raleigh the Devout
+  accept 1053
+
+step Inside Scarlet Monastery
+  zone map 1420
+  complete 1050 @85.2,31.3
+  complete 96800 @85.2,31.3
+  complete 1053 @85.2,31.3
+
+step Inside Scarlet Monastery
+  only Rogue
+  zone map 1420
+  complete 78676 @85.2,31.3
+
+step Magus Olvek
+  zone map 1416
+  turnin 96800
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  turnin 78676
+
+step Raleigh the Devout
+  zone map 1424
+  turnin 1053
+
+step Rituals of Power
+  only Mage
+  when turnedin 1950
+  zone map 1441
+  accept 1951 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Rituals of Power
+  only Mage
+  when onquest 1951
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1441
+  complete 1951 @78.3,75.7 optional
+
+step Rituals of Power
+  only Mage
+  when onquest 1951
+  zone map 1445
+  turnin 1951 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step In the Name of the Light
+  when onquest 1053
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1424
+  turnin 1053 optional
+
+step Past Due
+  when onquest 96800
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1416
+  turnin 96800 optional

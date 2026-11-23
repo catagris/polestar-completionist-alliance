@@ -1,0 +1,23 @@
+guide completionist-alliance/dungeon-the-hall-of-thanes
+title The Hall of Thanes (Completionist)
+faction Alliance
+category Dungeons
+levels 10-16
+zone Ironforge
+next completionist-alliance/dungeon-deadmines
+next completionist-alliance/16-ashenvale
+pitch The Hall of Thanes, in Ironforge.
+why Every Alliance quest of The Hall of Thanes: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Afadra Dunwall
+  accept 96394
+
+step Thom Filch
+  accept 96403
+
+step Getting there
+  note The entrance is in Ironforge: the arrow leads to it.
+
+step Earthseer Farsen
+  zone map 1426
+  accept 96393

@@ -1,0 +1,232 @@
+guide completionist-alliance/24-swamp-of-sorrows
+title 24 Swamp of Sorrows (34-43) (Completionist)
+faction Alliance
+levels 34-43
+zone Swamp of Sorrows
+next completionist-alliance/25-dustwallow-marsh
+pitch On along the line: Swamp of Sorrows, quests of level 34 to 43.
+# Generated from the reference data: change the planner, not this file.
+# Routed 16 quests; estimated level at the end 34.9 (heuristic XP, class quests not counted).
+
+step Elling Trias
+  when onquest 1245
+  zone map 1453
+  turnin 1245
+  accept 1246
+
+step Dashel Stonefist
+  when onquest 1246
+  zone map 1453
+  turnin 1246
+  accept 1447
+
+step Dashel Stonefist
+  zone map 1453
+  kill 4961 x1 quest 1447.1
+
+step Dashel Stonefist
+  when onquest 1447
+  zone map 1453
+  turnin 1447
+  accept 1247
+
+step Elling Trias
+  when onquest 1247
+  zone map 1453
+  turnin 1247
+  accept 1248
+
+step Tyrion
+  when onquest 2746
+  zone map 1453
+  turnin 2746
+  accept 434
+
+step Lord Gregor Lescovar, Marzon the Silent Blade and Overhear Lescovar and Marzon's Conversation
+  zone map 1453
+  kill 1754 x1 quest 434.1
+  kill 1755 x1 quest 434.2
+  goto 68.7,14.4 "Overhear Lescovar and Marzon's Conversation" -- Explore for The Attack!
+
+step Elling Trias
+  when onquest 434
+  when onquest 394
+  zone map 1453
+  complete 434 @72.8,35.6 map 1453
+  turnin 434
+  accept 394
+  turnin 394
+  accept 395
+
+step Baros Alexston
+  when onquest 395
+  zone map 1453
+  turnin 395
+  accept 396
+
+step Lady Katrana Prestor
+  when onquest 396
+  zone map 1453
+  turnin 396
+
+step Level 38
+  zone map 1453
+  level 38
+
+step Brohann Caskbelly
+  accept 1448
+
+step Mikhail
+  when onquest 1248
+  zone map 1437
+  turnin 1248
+  accept 1249
+
+step Tapoke "Slim" Jahn
+  zone map 1437
+  kill 4962 x1 quest 1249.1
+
+step Mikhail
+  when onquest 1249
+  zone map 1437
+  turnin 1249
+
+step Tapoke "Slim" Jahn
+  when onquest 1250
+  zone map 1429
+  accept 1250
+  turnin 1250
+  accept 1264
+
+step Commander Samaul
+  when onquest 1264
+  zone map 1445
+  turnin 1264
+
+step Magtoor
+  zone map 1435
+  accept 1389
+  accept 93430
+  accept 93429
+
+step Lost One Hunter
+  kill 759 x10 quest 93429.1
+
+step Draenethyst Crystals
+  collect 6071 x6 quest 1389.1
+
+step Noboru the Cudgel and Lost One Fisherman
+  goto 55.0,30.5 "Noboru the Cudgel and Lost One Fisherman"
+  accept 1392 item 6196 -- Drops from Noboru the Cudgel
+  collect 258530 x1 quest 93430.1
+
+step Watcher Biggs
+  accept 1396
+
+step Young Sawtooth Crocolisk
+  kill 1084 x8 quest 1396.1
+
+step Amaryllis Webb
+  accept 93176
+
+step Sorrow Spinner
+  kill 858 x10 quest 1396.2
+
+step Swamp Jaguar
+  kill 767 x10 quest 1396.3
+
+step Arbor Tarantula
+  zone map 1434
+  collect 213566 x1 quest 93176.1
+
+step Flesh Picker
+  zone map 1443
+  collect 213567 x1 quest 93176.3
+
+step Hay Weevil
+  zone map 1417
+  collect 213568 x1 quest 93176.2
+
+step Galen Goodward
+  accept 1393
+
+step Galen's Strongbox
+  complete 1393 @53.1,29.6 map 1435
+  turnin 1393
+
+step Pelluk
+  turnin 93430
+  turnin 1389
+  turnin 1392
+  accept 93464
+  turnin 93429
+
+step Father Tuttle
+  accept 93585
+
+step Magtoor
+  turnin 93585
+
+step Amaryllis Webb
+  turnin 93176
+
+step Watcher Biggs
+  turnin 1396
+  accept 1421
+
+step Caravan Chest
+  collect 6170 x1 quest 1421.1
+
+step Watcher Biggs
+  turnin 1421
+  accept 1398
+
+step Sundried Driftwood
+  collect 6146 x8 quest 1398.1
+
+step Watcher Biggs
+  zone map 1453
+  turnin 1398
+  accept 1425
+  accept 94929
+
+step Cortello's Riddle
+  zone map 1434
+  accept 624 item 4056 -- Found in Cortello's Riddle
+
+step A Soggy Scroll
+  turnin 624
+
+step A Soggy Scroll
+  zone map 1435
+  accept 625
+
+step Quartermaster Lungertz
+  zone map 1419
+  turnin 1425
+
+step Demar Brant
+  zone map 2548
+  turnin 94929
+
+step Brohann Caskbelly
+  zone map 1435
+  complete 1448 @70.2,45.2 map 1435
+
+step Musty Scroll
+  zone map 1413
+  turnin 625
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Missing Diplomat
+  when onquest 1245
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1245 optional
+
+step Items of Some Consequence
+  when onquest 2746
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 2746 optional

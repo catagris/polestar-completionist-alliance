@@ -1,0 +1,30 @@
+guide completionist-alliance/dungeon-uldaman-2-2-2
+title Uldaman, the second run, the second run, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 35-47
+zone Badlands
+next completionist-alliance/40-tanaris
+pitch Uldaman, in Badlands.
+why Every Alliance quest of Uldaman: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Advisor Belgrum
+  zone map 1455
+  turnin 1139
+
+step Talvash del Kissel
+  accept 3375
+  accept 2204
+
+step Inside Uldaman, again
+  zone map 1418
+  complete 3375 @67.8,44.4
+  complete 2204 @67.8,44.4
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Lost Tablets of Will
+  when onquest 1139
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 1139 optional

@@ -1,0 +1,92 @@
+guide completionist-alliance/46-odd-jobs-in-kalimdor-3
+title 46 Odd jobs in Kalimdor (47-55) (Completionist)
+faction Alliance
+levels 47-55
+zone Dustwallow Marsh
+next completionist-alliance/47-teldrassil-and-darnassus-3
+pitch On along the line: errands across Kalimdor, quests of level 47 to 55.
+# Generated from the reference data: change the planner, not this file.
+# Routed 6 quests; estimated level at the end 47.8 (heuristic XP, class quests not counted).
+# Skipped: 1 profession.
+
+step Level 48
+  zone map 1455
+  level 48
+
+step Laris Geardawdle
+  accept 4512
+
+step Our Man in Theramore
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1453
+  accept 95194
+  complete 95194 @78.3,70.7
+
+step Loh'atu
+  zone map 1440
+  accept 5535
+  accept 5536
+
+step Highborne Apparition
+  kill 6116 x6 quest 5535.1
+
+step Haldarr Satyr, Haldarr Trickster and Haldarr Felsworn
+  zone map 1447
+  kill 6125 x6 quest 5536.1
+  kill 6126 x2 quest 5536.2
+  kill 6127 x2 quest 5536.3
+
+step Highborne Lichling
+  kill 6117 x6 quest 5535.2
+
+step Loh'atu
+  zone map 1440
+  turnin 5535
+  turnin 5536
+
+step Cursed Ooze
+  zone map 1448
+  collect 11947 x6 quest 4512.1
+
+step Tainted Ooze
+  collect 11949 x6 quest 4512.2
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Sully McCleary
+  zone map 1445
+  accept 95264
+
+step Our Man in Theramore
+  zone map 1453
+  turnin 95194
+
+step Sully McCleary
+  zone map 1445
+  accept 95196
+
+step Sully McCleary
+  turnin 95196
+
+step Sully McCleary
+  accept 95198
+  turnin 95198
+
+step Tribal Leatherworking
+  when available 5143
+  tip One of several exclusive quests; the route takes Dragonscale Leatherworking (5141). This one shows for a character the game offers it to instead.
+  when turnedin 2853
+  when skill Leatherworking 225
+  zone map 1441
+  accept 5143 optional
+
+step Tribal Leatherworking
+  when onquest 5143
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1441
+  complete 5143 @7.7,19 optional
+
+step Tribal Leatherworking
+  when onquest 5143
+  zone map 1441
+  turnin 5143 optional

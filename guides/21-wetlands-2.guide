@@ -1,0 +1,221 @@
+guide completionist-alliance/21-wetlands-2
+title 21 Wetlands (27-40) (Completionist)
+faction Alliance
+levels 27-40
+zone Wetlands
+next completionist-alliance/dungeon-excavation-site-wetlands
+next completionist-alliance/22-elwynn-forest-and-stormwind-3
+pitch On along the line: Wetlands, quests of level 27 to 40.
+# Generated from the reference data: change the planner, not this file.
+# Routed 9 quests; estimated level at the end 28.1 (heuristic XP, class quests not counted).
+
+step Highlord Bolvar Fordragon
+  when onquest 98190
+  zone map 1453
+  turnin 98190
+  accept 98191
+
+step Archbishop Benedictus
+  when onquest 293
+  zone map 1453
+  turnin 293
+  accept 270
+  turnin 98191
+  accept 98219
+
+step Level 30
+  zone map 1453
+  level 30
+
+step Connor Rivers
+  accept 1301
+
+step King Magni Bronzebeard
+  when onquest 98300
+  zone map 1455
+  turnin 98300
+
+step Glorin Steelbrow
+  when onquest 270
+  zone map 1437
+  turnin 270
+  accept 321
+
+step Waterlogged Chest
+  when onquest 321
+  zone map 1437
+  turnin 321
+  accept 324
+
+step Bluegill Raider
+  zone map 1437
+  collect 2702 x5 quest 324.1
+
+step Glorin Steelbrow
+  when onquest 324
+  zone map 1437
+  turnin 324
+  accept 322
+  accept 526
+
+step Bluegill Raider
+  zone map 1437
+  collect 2702 x5 quest 526.1
+
+step Glorin Steelbrow
+  when onquest 526
+  zone map 1437
+  turnin 526
+
+step Lieutenant Farren Orinelle
+  when onquest 98219
+  zone map 1424
+  turnin 98219
+
+step Prospector Whelgar
+  zone map 1437
+  accept 299
+
+step Ancient Relic and Loose Soil
+  collect 2658 x1 quest 299.1
+  collect 2659 x1 quest 299.2
+  collect 2660 x1 quest 299.3
+  collect 2661 x1 quest 299.4
+
+step Prospector Whelgar
+  turnin 299
+
+step Prospector Whelgar
+  when group 98216
+  zone map 1437
+  accept 98216
+
+step Goaz Warder
+  when group 98216
+  tip Understanding Our Present is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 279993 x1 quest 98216.1
+
+step Prospector Whelgar
+  when group 98216
+  zone map 1437
+  turnin 98216
+
+step Prospector Whelgar
+  when group 98310
+  zone map 1437
+  accept 98310
+
+step Modr
+  when group 98310
+  tip Gleaning Our Future is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 280396 x1 quest 98310.2
+
+step Neru
+  when group 98310
+  tip Gleaning Our Future is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 280398 x1 quest 98310.4
+
+step Ados
+  when group 98310
+  tip Gleaning Our Future is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 280395 x1 quest 98310.1
+
+step Golm
+  when group 98310
+  tip Gleaning Our Future is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 280397 x1 quest 98310.3
+
+step Prospector Whelgar
+  when group 98310
+  zone map 1437
+  turnin 98310
+
+step Prospector Whelgar
+  when turnedin 98310
+  zone map 1437
+  accept 98313 optional
+
+step Longbraid the Grim
+  when group 304
+  zone map 1437
+  accept 304
+
+step Level 28
+  zone map 1437
+  level 28
+
+step Rhag Garmason
+  accept 631
+
+step Bring Back a Bang
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 88756
+  complete 88756 @50.0,18.2
+
+step Bring Back a Bang
+  turnin 88756
+
+step Balgaras the Foul
+  when group 304
+  tip A Grim Task is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 3639 x1 quest 304.1
+
+step Longbraid the Grim
+  when group 304
+  zone map 1437
+  turnin 304
+
+step Ebenezer Rustlocke's Corpse
+  zone map 1417
+  turnin 631
+
+step Vincent Hyal
+  zone map 1437
+  sethome "Deepwater Tavern"
+  turnin 1301
+  accept 1302
+
+step Lost in the Thicket Things
+  tip For Excavation Site: Wetlands: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 95647 optional
+
+step Level 40
+  level 40
+
+step Unger Statforth
+  accept 97171 only Human @8.6,54.3 map 1437
+  turnin 97171 only Human @8.6,54.3 map 1437
+
+step Highland Hides
+  tip For Excavation Site: Wetlands: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 98815 optional
+
+step Clerk Lendry
+  zone map 1445
+  turnin 1302
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Cleansing the Eye
+  when onquest 293
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 293 optional
+
+step A Friend of the Family
+  when onquest 98190
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 98190 optional
+
+step Word to Ironforge
+  when onquest 98300
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 98300 optional

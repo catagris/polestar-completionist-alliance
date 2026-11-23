@@ -1,0 +1,274 @@
+guide completionist-alliance/25-dustwallow-marsh
+title 25 Dustwallow Marsh (35-45) (Completionist)
+faction Alliance
+levels 35-45
+zone Dustwallow Marsh
+next completionist-alliance/26-desolace
+pitch On along the line: Dustwallow Marsh, quests of level 35 to 45.
+# Generated from the reference data: change the planner, not this file.
+# Routed 26 quests; estimated level at the end 37.7 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N (done).
+
+step Brohann Caskbelly
+  when onquest 1448
+  zone map 1453
+  turnin 1448
+
+step Angus Stern
+  zone map 1453
+  accept 1260
+
+step I Got Nothin' Left!
+  when skill Fishing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  accept 6609 optional
+
+step Alliance Trauma
+  when skill "First Aid" 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  accept 6625 optional
+
+step Commander Samaul
+  zone map 1445
+  sethome "Theramore Isle"
+  getfp "Theramore"
+  accept 1265
+  turnin 1252
+  turnin 1253
+  turnin 1284
+  accept 1259
+  accept 1319
+  turnin 1259
+  accept 1285
+
+step They Call Him Smiling Jim
+  when available 1282
+  tip One of several exclusive quests; the route takes James Hyal (1302). This one shows for a character the game offers it to instead.
+  zone map 1445
+  accept 1282 optional
+
+step Triage
+  when skill "First Aid" 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1445
+  accept 6624 optional
+  complete 6624 @67.8,49.0 optional
+
+step Captain Garran Vimes
+  zone map 1445
+  turnin 1285
+  accept 1286
+
+step They Call Him Smiling Jim
+  when onquest 1282
+  zone map 1445
+  turnin 1282 optional
+
+step Triage
+  when skill "First Aid" 1
+  zone map 1445
+  turnin 6624 optional
+
+step Balos Jacken
+  zone map 1413
+  turnin 1286
+  accept 1287
+
+step Drazzit Dripvalve
+  zone map 1445
+  accept 98205
+  accept 98215
+
+step Active Ingredient
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 98231
+  complete 98231 @41.0,75.7
+
+step Searing Hatchling and Searing Whelp
+  zone map 1413
+  kill 4323 x8 quest 98205.1
+  kill 4324 x8 quest 98205.2
+
+step Firemane Ash Tail
+  collect 279934 x20 quest 98215.1
+
+step Drazzit Dripvalve
+  zone map 1445
+  turnin 98205
+  turnin 98215
+
+step Active Ingredient
+  turnin 98231
+
+step Caz Twosprocket
+  turnin 1319
+  accept 1320
+  complete 1265 @59.9,40.9 map 1445
+  turnin 1265
+  accept 1266
+
+step Nat Pagle, Angler Extreme
+  when skill Fishing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1445
+  accept 6607 optional
+  complete 6607 @58.6,60.1 optional
+
+step Nat Pagle, Angler Extreme
+  when skill Fishing 1
+  zone map 1445
+  turnin 6607 optional
+
+step Captain Garran Vimes
+  zone map 1445
+  turnin 1287
+  turnin 1320
+  accept 1288
+  turnin 1288
+
+step "Swamp Eye" Jarl
+  accept 1218
+  accept 1219
+
+step Jarl Needs a Blade
+  when available 81570
+  tip One of several exclusive quests; the route takes Jarl Needs a Blade (1203). This one shows for a character the game offers it to instead.
+  zone map 1445
+  accept 81570 optional
+
+step Gunder Thornbush
+  zone map 1431
+  buy 3713 x3 npc 960 -- for Soothing Spices
+
+step "Swamp Eye" Jarl
+  zone map 1445
+  turnin 1218
+  accept 1206
+
+step Jarl Needs a Blade
+  when onquest 81570
+  zone map 1445
+  turnin 81570 optional
+
+step Private Hendel
+  zone map 1445
+  turnin 1266
+  accept 1324
+
+step Private Hendel
+  kill 4966 x1 quest 1324.1
+
+step Darkmist Silkspinner
+  zone map 1413
+  collect 5884 x40 quest 1206.1
+
+step "Stinky" Ignatz
+  zone map 1445
+  accept 1222
+
+step "Swamp Eye" Jarl
+  turnin 1206
+
+step Theramore Lieutenant
+  turnin 1219
+  accept 1220
+  complete 1222 @48.9,24.6 map 1445
+  turnin 1222
+  turnin 1260
+  accept 1204
+
+step Mudrock Spikeshell
+  zone map 1413
+  collect 5883 x8 quest 1204.1
+
+step Morgan Stern
+  zone map 1445
+  turnin 1204
+  accept 1258
+
+step Level 36
+  level 36
+
+step Guard Jameson
+  accept 98233
+
+step Corrosive Swamp Ooze
+  collect 280203 x1 quest 98233.1
+
+step Guard Jameson
+  turnin 98233
+
+step Silt Crawler
+  zone map 1435
+  collect 5938 x12 quest 1258.1
+
+step Morgan Stern
+  zone map 1445
+  turnin 1258
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Archmage Tervosh
+  turnin 1324
+  accept 1267
+  turnin 1267
+
+step Captain Garran Vimes
+  turnin 1220
+
+step I Got Nothin' Left!
+  when skill Fishing 1
+  zone map 1455
+  turnin 6609 optional
+
+step Alliance Trauma
+  when skill "First Aid" 1
+  zone map 1455
+  turnin 6625 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Jarl Needs a Blade
+  when available 1203
+  tip One of several exclusive quests; the route takes Jarl Needs a Blade (81570). This one shows for a character the game offers it to instead.
+  zone map 1445
+  accept 1203 optional
+
+step Jarl Needs a Blade
+  when onquest 1203
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1445
+  complete 1203 @55.4,26.3 optional
+
+step Jarl Needs a Blade
+  when onquest 1203
+  zone map 1445
+  turnin 1203 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Lieutenant Paval Reethe
+  when onquest 1252
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1445
+  turnin 1252 optional
+
+step The Black Shield
+  when onquest 1253
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1445
+  turnin 1253 optional
+
+step Suspicious Hoofprints
+  when onquest 1284
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1445
+  turnin 1284 optional
+
+step In Search of The Temple
+  when onquest 1448
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1448 optional

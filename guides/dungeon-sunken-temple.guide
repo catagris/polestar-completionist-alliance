@@ -1,0 +1,305 @@
+guide completionist-alliance/dungeon-sunken-temple
+title Sunken Temple (Completionist)
+faction Alliance
+category Dungeons
+levels 50-60
+zone Swamp of Sorrows
+next completionist-alliance/dungeon-sunken-temple-2
+pitch Sunken Temple, in Swamp of Sorrows.
+why Every Alliance quest of Sunken Temple: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Brohann Caskbelly
+  zone map 1453
+  accept 1475
+
+step Getting there
+  zone map 1435
+  note The entrance is in Swamp of Sorrows: the arrow leads to it.
+
+step The Prophecy of Mosh'aru
+  zone map 1446
+  accept 3527
+
+step The Prophecy of Mosh'aru
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 3527 @66.99,22.36
+
+step The Prophecy of Mosh'aru
+  turnin 3527
+
+step The Ancient Egg
+  accept 4787
+
+step The Ancient Egg
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 4787 @66.99,22.36
+
+step The Ancient Egg
+  turnin 4787
+
+step Level 60
+  zone map 1451
+  level 60
+
+step Only One May Rise
+  accept 8288
+
+step Only One May Rise
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8288 @49.45,36.45
+
+step Only One May Rise
+  turnin 8288
+
+step The Path of the Righteous
+  accept 8301
+
+step The Path of the Righteous
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8301 @49.45,36.45
+
+step The Path of the Righteous
+  turnin 8301
+
+step Anachronos
+  accept 8303
+
+step Anachronos
+  zone map 1446
+  turnin 8303
+
+step Long Forgotten Memories
+  accept 8305
+
+step Long Forgotten Memories
+  zone map 1451
+  turnin 8305
+
+step A Pawn on the Eternal Board
+  accept 8519
+
+step A Pawn on the Eternal Board
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8519 @28.68,89.14
+
+step A Pawn on the Eternal Board
+  zone map 1446
+  turnin 8519
+
+step The Charge of the Dragonflights
+  accept 8555
+
+step The Charge of the Dragonflights
+  turnin 8555
+
+step Malfurion Stormrage
+  zone map 1435
+  accept 8733 @69.9,53.5
+
+step Atal'ai Exile
+  zone map 1425
+  accept 1446
+
+step Gregan Brewspewer
+  zone map 1444
+  accept 4143
+
+step Marvon Rivetseeker
+  zone map 1446
+  accept 3446
+  accept 3447
+
+step Yeh'kinya
+  accept 3528
+
+step Inside Sunken Temple
+  zone map 1435
+  collect 10454 @69.9,53.5
+  accept 3373 item 10454
+  complete 1475 @69.9,53.5
+  turnin 3446 @69.9,53.5
+  turnin 3447 @69.9,53.5
+  complete 4143 @69.9,53.5
+  complete 1446 @69.9,53.5
+  complete 3528 @69.9,53.5
+  turnin 3373 @69.9,53.5
+
+step Voodoo Feathers
+  only Warrior
+  when turnedin 8424
+  zone map 1435
+  accept 8425 optional
+
+step Voodoo Feathers
+  only Warrior
+  when onquest 8425
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1435
+  complete 8425 @34.3,66.1 optional
+
+step Voodoo Feathers
+  only Warrior
+  when onquest 8425
+  zone map 1435
+  turnin 8425 optional
+
+step Atal'ai Exile
+  zone map 1425
+  turnin 1446
+
+step Yeh'kinya
+  zone map 1446
+  turnin 3528
+
+step A Better Ingredient
+  only Druid
+  when turnedin 9051
+  zone map 1446
+  accept 9053 optional
+
+step A Better Ingredient
+  only Druid
+  when onquest 9053
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 9053 @27.5,42.7 optional
+
+step A Better Ingredient
+  only Druid
+  when onquest 9053
+  zone map 1446
+  turnin 9053 optional
+
+step Muigin
+  zone map 1449
+  turnin 4143
+
+step Bloodpetal Sprouts
+  accept 4144
+
+step Bloodpetal Sprouts
+  when onquest 4144
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1449
+  complete 4144 @42.9,9.6
+
+step Bloodpetal Sprouts
+  when onquest 4144
+  zone map 1449
+  turnin 4144
+
+step The Green Drake
+  only Hunter
+  when turnedin 8231
+  zone map 1447
+  accept 8232 optional
+
+step The Green Drake
+  only Hunter
+  when onquest 8232
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8232 @42.4,42.6 optional
+
+step The Green Drake
+  only Hunter
+  when onquest 8232
+  zone map 1447
+  turnin 8232 optional
+
+step The Azure Key
+  only Rogue
+  when turnedin 8235
+  zone map 1447
+  accept 8236 optional
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step The Azure Key
+  only Rogue
+  when onquest 8236
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8236 @29.2,40.2 optional
+
+step The Azure Key
+  only Rogue
+  when onquest 8236
+  zone map 1416
+  turnin 8236 optional
+
+step Destroy Morphaz
+  only Mage
+  when turnedin 8252
+  zone map 1447
+  accept 8253 optional
+
+step Destroy Morphaz
+  only Mage
+  when onquest 8253
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8253 @29.2,40.2 optional
+
+step Destroy Morphaz
+  only Mage
+  when onquest 8253
+  zone map 1447
+  turnin 8253 optional
+
+step Blood of Morphaz
+  only Priest
+  when turnedin 8256
+  zone map 1447
+  accept 8257 optional
+
+step Blood of Morphaz
+  only Priest
+  when onquest 8257
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8257 @42.4,42.6 optional
+
+step Blood of Morphaz
+  only Priest
+  when onquest 8257
+  zone map 1448
+  turnin 8257 optional
+
+step Forging the Mightstone
+  only Paladin,Human,Dwarf
+  when turnedin 8416
+  zone map 1422
+  accept 8418 optional
+
+step Forging the Mightstone
+  only Paladin,Human,Dwarf
+  when onquest 8418
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  complete 8418 @42.7,84.0 optional
+
+step Forging the Mightstone
+  only Paladin,Human,Dwarf
+  when onquest 8418
+  zone map 1422
+  turnin 8418 optional
+
+step Trolls of a Feather
+  only Warlock
+  when turnedin 8421
+  zone map 1448
+  accept 8422 optional
+
+step Trolls of a Feather
+  only Warlock
+  when onquest 8422
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1448
+  complete 8422 @41.4,45.0 optional
+
+step Trolls of a Feather
+  only Warlock
+  when onquest 8422
+  zone map 1448
+  turnin 8422 optional

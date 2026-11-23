@@ -1,0 +1,162 @@
+guide completionist-alliance/dungeon-uldaman
+title Uldaman (Completionist)
+faction Alliance
+category Dungeons
+levels 35-47
+zone Badlands
+next completionist-alliance/dungeon-uldaman-2
+pitch Uldaman, in Badlands.
+why Every Alliance quest of Uldaman: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Krom Stoutarm
+  zone map 1455
+  accept 1360
+
+step Prospector Stormpike
+  accept 2398
+
+step Getting there
+  zone map 1418
+  note The entrance is in Badlands: the arrow leads to it.
+
+step Prospector Ryedol
+  accept 721
+
+step Rigglefuzz
+  accept 2418
+
+step Theldurin the Lost
+  accept 709
+
+step Prospector Ironband
+  zone map 1432
+  accept 704
+
+step Pozzik
+  zone map 1441
+  accept 1192
+
+step Inside Uldaman
+  zone map 1418
+  collect 7666
+  complete 2418 @67.8,44.4
+  complete 704 @67.8,44.4
+  complete 709 @67.8,44.4
+  turnin 2398 @67.8,44.4
+  complete 1192 @67.8,44.4
+  complete 1360 @67.8,44.4
+
+step Hammertoe Grez
+  turnin 721
+
+step Rigglefuzz
+  turnin 2418
+
+step Theldurin the Lost
+  turnin 709
+
+step To Ironforge for Yagyin's Digest
+  accept 727
+
+step Prospector Ironband
+  zone map 1432
+  turnin 704
+
+step Pozzik
+  zone map 1441
+  turnin 1192
+
+step Hammertoe Grez
+  zone map 1418
+  accept 722
+
+step Inside Uldaman, again
+  accept 2240 @67.8,44.4
+  complete 722 @67.8,44.4
+  complete 2240 @67.8,44.4
+
+step Hammertoe Grez
+  turnin 722
+
+step Level 38
+  zone map 1432
+  level 38
+
+step Ghak Healtouch
+  accept 17
+
+step Inside Uldaman
+  zone map 1418
+  complete 17 @67.8,44.4
+
+step Ghak Healtouch
+  zone map 1432
+  turnin 17
+
+step Inside Uldaman
+  zone map 1418
+  accept 2198 item 7666
+
+step Level 40
+  level 40
+
+step Inside Uldaman
+  accept 2278 @67.8,44.4
+  complete 2278 @67.8,44.4
+  turnin 2278 @67.8,44.4
+
+step Inside Uldaman, again
+  accept 2279 @67.8,44.4
+
+step Badlands Reagent Run II
+  when turnedin 2500
+  when skill Alchemy 210
+  zone map 1432
+  accept 2501 optional
+
+step Badlands Reagent Run II
+  when onquest 2501
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1432
+  complete 2501 @37.1,49.4 optional
+
+step Badlands Reagent Run II
+  when onquest 2501
+  zone map 1432
+  turnin 2501 optional
+
+step Prospect of Faith
+  zone map 1418
+  accept 723
+
+step Prospect of Faith
+  turnin 723
+
+step Prospect of Faith
+  accept 724
+
+step Power in Uldaman
+  only Mage
+  when turnedin 1955
+  zone map 1445
+  accept 1956 optional
+
+step Power in Uldaman
+  only Mage
+  when onquest 1956
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1445
+  complete 1956 @46.1,57.1 optional
+
+step Power in Uldaman
+  only Mage
+  when onquest 1956
+  zone map 1445
+  turnin 1956 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Lost Dwarves
+  when onquest 2398
+  tip Still in your log from an earlier guide: hand it in now.
+  turnin 2398 @67.8,44.4 optional

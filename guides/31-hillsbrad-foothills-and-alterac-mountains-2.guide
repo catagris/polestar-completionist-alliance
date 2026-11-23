@@ -1,0 +1,163 @@
+guide completionist-alliance/31-hillsbrad-foothills-and-alterac-mountains-2
+title 31 Hillsbrad Foothills and Alterac Mountains (34-43) (Completionist)
+faction Alliance
+levels 34-43
+zone Hillsbrad Foothills
+next completionist-alliance/32-arathi-highlands
+pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 34 to 43.
+# Generated from the reference data: change the planner, not this file.
+# Routed 20 quests; estimated level at the end 35.1 (heuristic XP, class quests not counted).
+# Skipped: 2 prerequisite N not in this route.
+
+step Milton Sheaf
+  zone map 1453
+  accept 538
+
+step Count Remington Ridgewell
+  when group 543
+  zone map 1453
+  accept 543
+
+step Level 38
+  zone map 1453
+  level 38
+
+step Brohann Caskbelly
+  accept 1449
+
+step Shadowy Assassin
+  zone map 1424
+  goto 50.1,57.9 "Shadowy Assassin"
+  accept 522 item 3668 -- Drops from Shadowy Assassin
+
+step Marshal Redpath
+  sethome "Southshore"
+  accept 500
+  turnin 522
+  accept 523
+
+step Crushridge Ogre
+  collect 2843 x9 quest 500.1
+
+step Baron Vardus
+  zone map 1416
+  collect 3626 x1 quest 523.1
+
+step Worn Wooden Chest
+  goto 39.2,14.7 "Worn Wooden Chest"
+  accept 551 item 3706 -- Found in Worn Wooden Chest
+
+step Syndicate Documents
+  accept 510 object 1740
+  accept 511 object 1740
+
+step Darren Malvew
+  zone map 1424
+  accept 564
+
+step Hulking Mountain Lion
+  zone map 1416
+  kill 2407 x10 quest 564.2
+
+step Mountain Lion
+  kill 2406 x8 quest 564.1
+
+step Magistrate Henry Maleb
+  zone map 1424
+  turnin 510
+  turnin 523
+  accept 512
+  turnin 500
+
+step Marshal Redpath
+  when group 504
+  zone map 1424
+  accept 504
+
+step Loremaster Dibbs
+  zone map 1424
+  turnin 511
+  turnin 551
+  accept 514
+  accept 554
+  turnin 564
+
+step Syndicate Spy
+  zone map 1416
+  collect 3505 x7 quest 512.1
+
+step Magistrate Henry Maleb
+  zone map 1424
+  turnin 512
+
+step Grel'borg the Miser
+  when group 543
+  tip The Perenolde Tiara is group work: elites. Grouping up is advised.
+  zone map 1416
+  collect 3684 x1 quest 543.1
+
+step Loremaster Dibbs
+  zone map 1424
+  turnin 538
+  accept 540
+
+step Crushridge Warmonger
+  zone map 1416
+  collect 3658 x5 quest 540.1
+
+step Weathered Bookcase
+  collect 3659 x1 quest 540.2
+
+step Loremaster Dibbs
+  zone map 1424
+  turnin 540
+  accept 542
+
+step Falstad Wildhammer
+  turnin 1449
+
+step Falstad Wildhammer
+  accept 1450
+
+step Gryphon Master Talonaxe
+  turnin 1450
+
+step Gryphon Master Talonaxe
+  accept 1451
+
+step Rhapsody Shindigger
+  zone map 1425
+  turnin 1451
+
+step Bartolo's Yeti Fur Cloak
+  tip The place is where players were recorded finishing it.
+  zone map 1424
+  accept 565
+  complete 565 @44.5,29.4
+
+step Crushridge Warmonger
+  when group 504
+  tip Crushridge Warmongers is group work: elites. Grouping up is advised.
+  zone map 1416
+  kill 2287 x15 quest 504.1
+
+step Marshal Redpath
+  when group 504
+  zone map 1424
+  turnin 504
+
+step Bartolo's Yeti Fur Cloak
+  zone map 1424
+  turnin 565
+
+step Strahnbrad Mystery
+  tip Singed Note drops from Argus Shadow Mage, Syndicate Wizard: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1416
+  collect 213421 x1 optional
+  accept 95534 item 213421 optional
+  complete 95534 @48.6,59.0
+
+step Strahnbrad Mystery
+  when onquest 95534
+  zone map 1424
+  turnin 95534

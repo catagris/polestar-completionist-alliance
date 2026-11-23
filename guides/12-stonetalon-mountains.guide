@@ -1,0 +1,174 @@
+guide completionist-alliance/12-stonetalon-mountains
+title 12 Stonetalon Mountains (21-33) (Completionist)
+faction Alliance
+levels 21-33
+zone Stonetalon Mountains
+next completionist-alliance/13-redridge-mountains
+pitch On along the line: Stonetalon Mountains, quests of level 21 to 33.
+# Generated from the reference data: change the planner, not this file.
+# Routed 13 quests; estimated level at the end 22.7 (heuristic XP, class quests not counted).
+
+step Osric Strang
+  when onquest 6261
+  zone map 1453
+  turnin 6281 only Human
+  accept 6261 only Human
+  turnin 6261 only Human
+  accept 6285 only Human
+
+step Baros Alexston
+  when onquest 399
+  zone map 1453
+  turnin 399
+
+step Sprite Jumpsprocket
+  when onquest 92748
+  zone map 1453
+  turnin 92748
+
+step A Dynamite Plan
+  when turnedin 92748
+  zone map 1453
+  accept 92749
+
+step Detonation at a Distance
+  when turnedin 92748
+  zone map 1453
+  accept 92750
+
+step Gryan Stoutmantle
+  when onquest 109
+  zone map 1436
+  turnin 109
+  turnin 6285 only Human
+
+step Keeper Albagorm
+  zone map 1442
+  sethome "Stonetalon Peak"
+  getfp "Stonetalon Peak"
+  accept 1057
+
+step Bloodfury Harpy
+  kill 4022 x7 quest 1057.1
+
+step Bloodfury Ambusher
+  kill 4025 x7 quest 1057.2
+
+step Bloodfury Roguefeather
+  kill 4023 x7 quest 1057.4
+
+step Bloodfury Slayer
+  kill 4024 x7 quest 1057.3
+
+step Pocket Litter
+  accept 79980
+  turnin 79980
+  accept 79974
+
+step Night Elf Courier
+  accept 86574
+
+step Pridewing Skyhunter
+  collect 277917 x1 quest 86574.1
+
+step Ziz Fizziks
+  accept 1093
+  turnin 1483
+
+step Venture Co. Operator
+  collect 5734 x1 quest 1093.1
+
+step Ziz Fizziks
+  turnin 1093
+  accept 1094
+
+step Keeper Albagorm
+  turnin 1057
+  accept 1059
+  turnin 86574
+
+step Sputtervalve
+  zone map 1413
+  turnin 1094
+  accept 1095
+
+step Ziz Fizziks
+  zone map 1442
+  turnin 1095
+  accept 1096
+
+step Gerenzo Wrenchwhistle
+  collect 5736 x1 quest 1096.1
+
+step Ziz Fizziks
+  turnin 1096
+
+step Gerenzo's Orders
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 1090
+  complete 1090 @71.9,60
+
+step Gerenzo's Orders
+  turnin 1090
+
+step Piznik
+  accept 1092
+
+step Ziz Fizziks
+  turnin 1092
+
+step Level 30
+  level 30
+
+step Corporal Melkins
+  accept 1387
+
+step Vahlarriel Demonslayer
+  accept 1437
+
+step Malem Chest
+  zone map 1443
+  turnin 1437
+
+step Corporal Melkins
+  turnin 1387
+
+step Falfindel Waywarder
+  zone map 1441
+  turnin 1059
+
+step Carved Figurine
+  zone map 1432
+  turnin 79974
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Report to Gryan Stoutmantle
+  when onquest 109
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1436
+  turnin 109 optional
+
+step Humble Beginnings
+  when onquest 399
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 399 optional
+
+step Ziz Fizziks
+  when onquest 1483
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1442
+  turnin 1483 optional
+
+step Continue to Stormwind
+  when onquest 6281
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 6281 optional
+
+step Explosive Consultation
+  when onquest 92748
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 92748 optional

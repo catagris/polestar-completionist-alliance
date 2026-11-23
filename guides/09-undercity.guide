@@ -1,0 +1,161 @@
+guide completionist-alliance/09-undercity
+title 09 Undercity (20-20) (Completionist)
+faction Alliance
+levels 20-20
+zone Undercity
+next completionist-alliance/10-the-barrens
+pitch On along the line: Undercity, level 20 quests.
+# Generated from the reference data: change the planner, not this file.
+# Routed 17 quests; estimated level at the end 20.1 (heuristic XP, class quests not counted).
+
+step Chief Archaeologist Greywhisker
+  when onquest 741
+  zone map 1457
+  turnin 741
+
+step Baros Alexston
+  when onquest 97914
+  zone map 1453
+  turnin 97914
+  accept 97926
+  accept 97894
+
+step Garion Wendell
+  zone map 1453
+  accept 78124 npc 211033
+  accept 78127 npc 211033
+  accept 78142 npc 211033
+  accept 78143 npc 211033
+  accept 78145 npc 211033
+  accept 78146 npc 211033
+  accept 78147 npc 211033
+  accept 78148 npc 211033
+  accept 78149 npc 211033
+
+step Garion Wendell
+  accept 79091 npc 211033
+  accept 79092 npc 211033
+  accept 79093 npc 211033
+  accept 79094 npc 211033
+  accept 79095 npc 211033
+  accept 79096 npc 211033
+  accept 79097 npc 211033
+
+step Library Book
+  zone map 1455
+  collect 203754 x1 quest 79091.1
+
+step Thundris Windweaver
+  when onquest 97894
+  zone map 1439
+  turnin 97926
+  turnin 97894
+  accept 982
+
+step Silver Dawning's Lockbox
+  zone map 1439
+  collect 12191 x1 quest 982.1
+
+step Mist Veil's Lockbox
+  collect 12192 x1 quest 982.2
+
+step Gorbold Steelhand
+  when onquest 982
+  zone map 1439
+  turnin 982
+
+step Garion Wendell
+  zone map 1453
+  accept 78150
+
+step Garion Wendell
+  turnin 78150
+
+step Library Book
+  zone map 1429
+  collect 203755 x1 quest 79092.1
+
+step Spellbook
+  zone map 1431
+  collect 209849 x1 quest 78147.1
+
+step Spellbook
+  zone map 1436
+  collect 209845 x1 quest 78142.1
+
+step Scrolls
+  zone map 1442
+  collect 209851 x1 quest 78149.1
+
+step Scrolls
+  zone map 1413
+  collect 209846 x1 quest 78143.1
+
+step Goblin Tome
+  collect 208800 x1 quest 79097.1
+
+step Manual
+  collect 209847 x1 quest 78145.1
+
+step Mural of Ta'zo
+  zone map 1454
+  collect 207972 x1 quest 79094.1
+
+step Scrolls
+  zone map 1439
+  collect 209843 x1 quest 78124.1
+
+step Apothecary Society Primer
+  zone map 1420
+  collect 208185 x1 quest 79095.1
+
+step Arcane Secrets
+  zone map 1421
+  collect 210177 x1 quest 79096.1
+
+step Dalaran Digest
+  collect 209844 x1 quest 78127.1
+
+step Scrolls
+  zone map 1437
+  collect 209848 x1 quest 78146.1
+
+step Scrolls
+  zone map 1432
+  collect 209850 x1 quest 78148.1
+
+step Gnomish Tome
+  collect 208860 x1 quest 79093.1
+
+step Garion Wendell
+  zone map 1453
+  turnin 78124
+  turnin 78127
+  turnin 78142
+  turnin 78143
+  turnin 78145
+  turnin 78146
+  turnin 78147
+  turnin 78148
+  turnin 78149
+  turnin 79091
+  turnin 79092
+  turnin 79093
+  turnin 79094
+  turnin 79095
+  turnin 79096
+  turnin 79097
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Absent Minded Prospector
+  when onquest 741
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 741 optional
+
+step Expanding Horizons
+  when onquest 97914
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 97914 optional

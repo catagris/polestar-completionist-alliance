@@ -1,0 +1,180 @@
+guide completionist-alliance/27-stonetalon-mountains-2
+title 27 Stonetalon Mountains (33-45) (Completionist)
+faction Alliance
+levels 33-45
+zone Stonetalon Mountains
+next completionist-alliance/28-dun-morogh-and-ironforge-2
+pitch On along the line: Stonetalon Mountains, quests of level 33 to 45.
+# Generated from the reference data: change the planner, not this file.
+# Routed 22 quests; estimated level at the end 34.8 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N.
+
+step Roetten Stonehammer
+  zone map 1455
+  accept 1453
+
+step Brother Crowley
+  zone map 1453
+  accept 6141
+
+step Stonetalon Peak
+  zone map 1442
+  sethome "Stonetalon Peak"
+
+step Captain Pentigast
+  accept 1382
+  accept 1385
+  accept 93224
+  turnin 1465
+  accept 1438
+  accept 97284
+
+step Burning Blade Augur
+  zone map 1443
+  kill 4663 x1 quest 97284.1
+
+step Dalinda Malem
+  turnin 1438
+  accept 1439
+
+step Burning Blade Adept and Burning Blade Felsworn
+  kill 4665 x1 quest 97284.3
+  kill 4666 x1 quest 97284.4
+
+step Tyranis Malem
+  collect 6767 x1 quest 1439.1
+
+step Gelkis Windchaser
+  collect 254432 x5 quest 93224.1
+
+step Burning Blade Reaver
+  kill 4664 x1 quest 97284.2
+
+step Dalinda Malem
+  turnin 1439
+  accept 1440
+
+step Vahlarriel Demonslayer
+  zone map 1442
+  complete 1440 @58.3,30.9 map 1443
+  turnin 1440
+  turnin 97284
+  turnin 93224
+  accept 93226
+
+step Buying Friendship: Gelkis
+  when available 93227
+  tip One of several exclusive quests; the route takes Buying Friendship: Magram (93226). This one shows for a character the game offers it to instead.
+  zone map 1442
+  accept 93227 optional
+
+step Buying Friendship: Gelkis
+  when onquest 93227
+  zone map 1443
+  turnin 93227 optional
+
+step Firepit
+  zone map 1443
+  accept 80001
+
+step Dirt-stained Map
+  zone map 1412
+  collect 4470 x1 quest 80001.1
+
+step Horizon Scout Crewman
+  zone map 1447
+  collect 4471 x1 quest 80001.2
+
+step Firepit
+  zone map 1442
+  turnin 80001
+
+step Warug
+  zone map 1443
+  turnin 1385
+
+step Gorhak
+  turnin 93226
+
+step Uthek the Wise
+  turnin 1382
+
+step Kreldig Ungor
+  zone map 1455
+  turnin 1453
+  accept 1454
+  accept 1458
+
+step Hatefury Hellcaller
+  collect 6246 x10 quest 1458.1
+  collect 6247 x10 quest 1458.2
+
+step Karnitol's Chest
+  turnin 1454
+  accept 1455
+
+step Kreldig Ungor
+  zone map 1442
+  turnin 1455
+  turnin 1458
+  accept 1456
+  accept 1459
+
+step Scorpashi Snapper
+  collect 6248 x7 quest 1459.1
+
+step Slitherblade Sea Witch
+  zone map 1443
+  collect 6245 x1 quest 1456.1
+
+step Aged Kodo
+  collect 6249 x3 quest 1459.2
+
+step Kreldig Ungor
+  zone map 1442
+  turnin 1456
+  turnin 1459
+  accept 1457
+  accept 1466
+
+step Mage Hunter
+  zone map 1443
+  collect 6250 x10 quest 1466.1
+
+step Nether Sorceress and Doomwarder Captain
+  collect 6251 x10 quest 1466.2
+  collect 6252 x10 quest 1466.3
+
+step Kreldig Ungor
+  zone map 1442
+  turnin 1466
+  accept 1467
+
+step Brother Anton
+  turnin 6141
+
+step Brother Anton
+  accept 261
+
+step Undead Ravager
+  zone map 1443
+  kill 11561 x30 quest 261.1
+
+step Brother Anton
+  zone map 1442
+  turnin 261
+
+step Brother Anton
+  accept 1052
+
+step Raleigh the Devout
+  zone map 1424
+  turnin 1052
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Vahlarriel's Search
+  when onquest 1465
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1442
+  turnin 1465 optional

@@ -1,0 +1,470 @@
+guide completionist-alliance/40-tanaris
+title 40 Tanaris (38-54) (Completionist)
+faction Alliance
+levels 38-54
+zone Tanaris
+next completionist-alliance/41-odd-jobs-in-the-eastern-kingdoms-3
+pitch On along the line: Tanaris, quests of level 38 to 54.
+# Generated from the reference data: change the planner, not this file.
+# Routed 42 quests; estimated level at the end 40.8 (heuristic XP, class quests not counted).
+# Skipped: 1 prerequisite N not in this route; 1 profession.
+
+step Talvash del Kissel
+  when complete 2204
+  zone map 1455
+  turnin 3375
+  turnin 2204
+
+step Talvash del Kissel
+  zone map 1455
+  accept 2361
+
+step Talvash del Kissel
+  when onquest 2361
+  zone map 1455
+  turnin 2361
+
+step I Know A Guy...
+  when skill Cooking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  accept 6612 optional
+
+step Goblin Engineering
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  accept 3629 optional
+
+step Arch Druid Fandral Staghelm
+  zone map 1457
+  accept 3764
+
+step Goblin Engineering
+  when available 4181
+  tip One of several exclusive quests; the route takes Goblin Engineering (3629). This one shows for a character the game offers it to instead.
+  when skill Engineering 200
+  zone map 1453
+  accept 4181 optional
+
+step Innkeeper Fizzgrimble
+  zone map 1446
+  sethome "Gadgetzan"
+  getfp "Gadgetzan"
+  accept 95144
+  turnin 1188
+  accept 1189
+  accept 992
+
+step The Super Egg-O-Matic
+  when turnedin 2741
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1446
+  collect 8564 x1 anywhere optional
+  turnin 8893 direct optional
+
+step A Bad Egg
+  when turnedin 2741
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1446
+  collect 8646 x1 anywhere optional
+  turnin 2750 direct optional
+
+step Sandsorrow Watch Water Hole
+  zone map 1446
+  collect 8585 x1 quest 992.1
+
+step Tooga
+  accept 97540
+  turnin 97540
+
+step Level 44
+  level 44
+
+step Marin Noggenfogger
+  accept 2605
+
+step Thistleshrub Dew Collector
+  collect 8428 x1 quest 2605.1
+
+step Chief Engineer Bilgewhizzle
+  accept 1690
+
+step Spigot Operator Luglunket
+  accept 1707
+
+step Tooga
+  accept 1560
+
+step Andi Lynn
+  accept 5863
+
+step Curgle Cranklehop
+  accept 3022
+
+step Wanted Poster
+  accept 2875 object 150075
+
+step Level 45
+  level 45
+
+step Tran'rek
+  accept 3362
+
+step Gnarled Thistleshrub and Thistleshrub Rootshaper
+  kill 5490 x8 quest 3362.1
+  kill 5485 x8 quest 3362.2
+
+step Wanted Poster
+  accept 2781 object 150075
+
+step Dunemaul Brute and Dunemaul Enforcer
+  kill 5474 x10 quest 5863.1
+  kill 5472 x10 quest 5863.2
+
+step Gor'marok the Ravager
+  kill 12046 x1 quest 5863.3
+
+step Andre Firebeard
+  collect 9246 x1 quest 2875.1
+
+step Torta
+  turnin 1560
+
+step Wastewander Bandit and Wastewander Thief
+  kill 5618 x10 quest 1690.1
+  kill 5616 x10 quest 1690.2
+
+step Wastewander Shadow Mage
+  collect 8483 x5 quest 1707.1
+
+step Caliph Scorpidsting
+  collect 8723 x1 quest 2781.1
+
+step Marvon Rivetseeker
+  accept 3161
+  turnin 3445
+
+step Gahz'ridian
+  collect 8443 x30 quest 3161.1
+
+step Odd Totem
+  accept 95753
+
+step Odd Totem
+  turnin 95753
+
+step Senior Surveyor Fizzledowser
+  turnin 992
+  accept 82
+
+step Centipaar Worker
+  collect 8587 x5 quest 82.1
+
+step Marvon Rivetseeker
+  turnin 3161
+
+step Marin Noggenfogger
+  turnin 2605
+  accept 2606
+  turnin 1690
+  turnin 2781
+  accept 1691
+  turnin 1707
+  turnin 5863
+
+step Water Pouch Bounty
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8483 x5 anywhere optional
+  turnin 1878 direct optional
+
+step Wastewander Shadow Mage
+  kill 5617 x10 quest 1691.3
+
+step Wastewander Rogue
+  kill 5615 x8 quest 1691.1
+
+step Wastewander Assassin
+  kill 5623 x6 quest 1691.2
+
+step Chief Engineer Bilgewhizzle
+  turnin 1691
+  turnin 3362
+  turnin 2606
+  accept 2641
+  turnin 82
+  accept 10
+
+step Scrimshank's Surveying Gear
+  collect 8593 x1 quest 10.1
+
+step Violet Tragan
+  zone map 1425
+  collect 8526 x1 quest 2641.1
+
+step Friz Frazzlespark
+  zone map 2548
+  turnin 95144
+
+step Haughty Modiste
+  zone map 1446
+  accept 8365
+  accept 3520
+  accept 95383
+  turnin 95383
+  accept 95312
+  accept 2873
+  turnin 2872
+
+step Security Chief Bilgewhizzle
+  turnin 2875
+  accept 8366
+  accept 97530
+
+step Southsea Swashbuckler
+  kill 7858 x10 quest 8366.4
+
+step Southsea Dock Worker
+  collect 20519 x20 quest 8365.1
+  kill 7857 x10 quest 8366.3
+
+step Southsea Pirate
+  kill 7855 x10 quest 8366.1
+
+step Stolen Cargo and Southsea Freebooter
+  collect 9244 x1 quest 2873.1
+  kill 7856 x10 quest 8366.2
+
+step Dunemaul Enforcer
+  collect 278186 x1 quest 97530.1
+
+step Screecher Spirit
+  zone map 1444
+  kill 8612 x3 quest 3520.1
+
+step Razzeric
+  zone map 1441
+  turnin 1189
+
+step Gahz'rilla
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2770 optional
+
+step Sprinkle
+  zone map 1446
+  turnin 2641
+  accept 2661
+  turnin 95312
+  turnin 2661
+  accept 2662
+  turnin 2662
+  turnin 10
+  accept 110
+
+step Alchemist Pestlezugg
+  turnin 110
+  accept 113
+  turnin 113
+  accept 162
+
+step Haughty Modiste
+  turnin 8365
+  turnin 3520
+  turnin 8366
+  turnin 97530
+  turnin 2873
+  accept 2874
+
+step Erelas Ambersky
+  zone map 1438
+  turnin 3022
+
+step Un'Goro Dirt Pile
+  zone map 1449
+  collect 11018 x20 quest 3764.1
+
+step "Sea Wolf" MacKinley
+  zone map 1434
+  turnin 2874
+
+step Tran'rek
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2864 optional
+
+step A Good Head On Your Shoulders
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2771 optional
+  complete 2771 @51.4,28.8 optional
+
+step A Good Head On Your Shoulders
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 2771 optional
+
+step The World At Your Feet
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2772 optional
+  complete 2772 @51.4,28.8 optional
+
+step The World At Your Feet
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 2772 optional
+
+step The Mithril Kid
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2773 optional
+  complete 2773 @51.4,28.8 optional
+
+step The Mithril Kid
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 2773 optional
+
+step Clamlette Surprise
+  when skill Cooking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 6610 optional
+  complete 6610 @52.6,28.1 optional
+
+step Clamlette Surprise
+  when skill Cooking 1
+  zone map 1446
+  turnin 6610 optional
+
+step I Know A Guy...
+  when skill Cooking 1
+  zone map 1455
+  turnin 6612 optional
+
+step Goblin Engineering
+  when skill Engineering 1
+  zone map 1455
+  turnin 3629 optional
+
+step The Pledge of Secrecy
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 3638 optional
+  complete 3638 @52.5,27.3 optional
+
+step The Pledge of Secrecy
+  when skill Engineering 1
+  zone map 1446
+  turnin 3638 optional
+
+step Show Your Work
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 3639 optional
+  complete 3639 @52.5,27.3 optional
+
+step Show Your Work
+  when skill Engineering 1
+  zone map 1446
+  turnin 3639 optional
+
+step Did You Lose This?
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 3321 optional
+  complete 3321 @51.4,28.8 optional
+
+step Did You Lose This?
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 3321 optional
+
+step Tazzik's Dues
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 95321
+  complete 95321 @51.6,27.4
+
+step Membership Card Renewal
+  when skill Engineering 200
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1446
+  turnin 3644 direct optional
+
+step Tazzik's Dues
+  zone map 1446
+  turnin 95321
+
+step Tazzik
+  accept 95472
+
+step Friz Frazzlespark
+  zone map 2548
+  turnin 95472
+
+step Gnomish Garbage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 97536
+  complete 97536 @52.3,26.9
+
+step Gnomish Garbage
+  turnin 97536
+
+step Ship Schedules
+  tip Ship Schedule is pickpocketed from Southsea Pirate and is in the Pirate's Footlocker: it starts this quest. By its Wowhead page; take it if it comes, and move on if it does not.
+  collect 9250 x1 optional
+  accept 2876 item 9250 optional
+
+step Cuergo's Gold
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 9275 x1 anywhere optional
+  turnin 2882 direct optional
+
+step Ship Schedules
+  when onquest 2876
+  zone map 1446
+  turnin 2876
+
+step Goblin Engineering
+  when onquest 4181
+  zone map 1446
+  turnin 4181 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Safety First
+  when onquest 1188
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1446
+  turnin 1188 optional
+
+step Restoring the Necklace
+  when onquest 2204
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2204 optional
+
+step Stoley's Debt
+  when onquest 2872
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1446
+  turnin 2872 optional
+
+step Replacement Phial
+  when onquest 3375
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 3375 optional
+
+step The Sunken Temple
+  when onquest 3445
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1446
+  turnin 3445 optional

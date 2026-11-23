@@ -1,0 +1,281 @@
+guide completionist-alliance/35-badlands
+title 35 Badlands (35-50) (Completionist)
+faction Alliance
+levels 35-50
+zone Badlands
+next completionist-alliance/dungeon-scarlet-monastery
+next completionist-alliance/36-shendralas
+pitch On along the line: Badlands, quests of level 35 to 50.
+# Generated from the reference data: change the planner, not this file.
+# Routed 24 quests; estimated level at the end 36.8 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route.
+
+step Brohann Caskbelly
+  when onquest 1469
+  zone map 1453
+  turnin 1469
+
+step Mythology of the Titans
+  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 1050 optional
+
+step Martek the Exiled
+  zone map 1418
+  accept 1108
+  accept 703
+  accept 705
+
+step Battered Dwarven Skeleton
+  turnin 738
+  accept 739
+
+step Murdaloc and Stonevault Bonesnapper
+  kill 2945 x1 quest 739.1
+  kill 2893 x12 quest 739.2
+  collect 5797 x10 quest 1108.1
+
+step Giant Clam
+  zone map 1434
+  collect 4611 x9 quest 705.1
+
+step Greater Firebird
+  zone map 1446
+  collect 3404 x4 quest 703.1
+
+step Prospector Ironband
+  zone map 1432
+  turnin 739
+
+step Crumpled Map
+  zone map 1418
+  accept 720
+
+step Sigrun Ironhew
+  accept 718
+  turnin 720
+  accept 719
+
+step Shadowforge Tunneler
+  collect 4616 x1 quest 719.1
+
+step Excavation Supply Crate
+  collect 4629 x1 quest 718.1
+
+step Sigrun Ironhew
+  turnin 718
+  accept 733
+  turnin 719
+
+step Dustbelcher Warrior
+  collect 4630 x7 quest 733.1
+
+step Sigrun Ironhew
+  turnin 733
+
+step Lotwil Veriatus
+  accept 710
+  accept 713
+
+step Lesser Rock Elemental
+  collect 4626 x10 quest 710.1
+
+step Vilebranch Witch Doctor
+  zone map 1425
+  collect 3829 x1 quest 713.1
+
+step Gerrig Bonegrip
+  zone map 1455
+  accept 687
+
+step Lotwil Veriatus
+  zone map 1418
+  turnin 710
+  turnin 713
+  accept 711
+  accept 714
+
+step Rock Elemental
+  collect 4627 x3 quest 711.1
+
+step Compact Harvest Reaper
+  zone map 1434
+  collect 4389 x1 quest 714.1
+
+step Theldurin the Lost
+  zone map 1418
+  turnin 687
+  accept 692
+
+step Enraged Rock Elemental
+  collect 4518 x1 quest 692.1
+  collect 4519 x1 quest 692.2
+  collect 4520 x1 quest 692.3
+
+step Theldurin the Lost
+  turnin 692
+
+step Theldurin the Lost
+  when group 656
+  zone map 1418
+  accept 656
+
+step Myzrael
+  when group 656
+  tip Summoning the Princess is group work: elites. Grouping up is advised.
+  zone map 1417
+  collect 4473 x1 quest 656.1
+
+step Shards of Myzrael
+  when group 656
+  zone map 1417
+  turnin 656
+
+step Level 40
+  zone map 1418
+  level 40
+
+step Sigrun Ironhew
+  accept 706
+
+step Scalding Whelp
+  collect 4612 x1 quest 706.1
+
+step Sigrun Ironhew
+  turnin 706
+
+step Lotwil Veriatus
+  turnin 711
+  turnin 714
+  accept 712
+
+step Liquid Stone
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 715
+  complete 715 @25.8,44.2
+
+step Greater Rock Elemental
+  zone map 1427
+  collect 4628 x5 quest 712.1
+
+step Garek
+  zone map 1418
+  accept 732
+
+step Boss Tho'grun
+  collect 4640 x1 quest 732.1
+
+step Lotwil Veriatus
+  turnin 712
+
+step Stone Is Better than Cloth
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 716
+  complete 716 @25.8,44.2
+
+step Liquid Stone
+  turnin 715
+
+step Stone Is Better than Cloth
+  turnin 716
+
+step Lotwil Veriatus
+  accept 734
+
+step Lucien Tosselwrench
+  turnin 734
+
+step Lucien Tosselwrench
+  accept 777
+
+step Lotwil Veriatus
+  turnin 777
+
+step Lotwil Veriatus
+  accept 778
+
+step Fam'retor Guardian
+  collect 4847 x1 quest 778.1
+
+step Lotwil Veriatus
+  turnin 778
+
+step Martek the Exiled
+  turnin 1108
+  accept 1137
+  turnin 703
+  turnin 705
+
+step Flash Bomb Recipe
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1418
+  accept 1559 optional
+
+step Flash Bomb Recipe
+  when skill Engineering 1
+  zone map 1418
+  turnin 1559 optional
+
+step Garek
+  zone map 1418
+  turnin 732
+
+step Safety Checks
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 97617
+  complete 97617 @54.6,12.9
+
+step Mirage Mirror
+  when has 278744
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1418
+  turnin 97821 direct @54.6,12.9 map 1418
+
+step Safety Checks
+  zone map 1418
+  turnin 97617
+
+step Garek
+  when group 717
+  zone map 1418
+  accept 717
+
+step Seal of the Earth
+  when onquest 717
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1418
+  collect 4845 x1 anywhere optional
+  collect 4844 x1 anywhere optional
+  collect 4843 x1 anywhere optional
+  turnin 779 direct optional
+
+step Blacklash and Hematus
+  when group 717
+  tip Tremors of the Earth is group work: elites. Grouping up is advised.
+  zone map 1418
+  collect 4615 x1 quest 717.1
+  collect 4645 x1 quest 717.2
+
+step Garek
+  when group 717
+  zone map 1418
+  turnin 717
+
+step Fizzle Brassbolts
+  zone map 1441
+  turnin 1137
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Find Agmond
+  when onquest 738
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 738 optional
+
+step Rhapsody's Tale
+  when onquest 1469
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1469 optional

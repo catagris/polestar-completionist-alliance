@@ -1,0 +1,685 @@
+guide completionist-alliance/dungeon-scholomance
+title Scholomance (Completionist)
+faction Alliance
+category Dungeons
+levels 58-60
+zone Western Plaguelands
+next completionist-alliance/dungeon-scholomance-2
+pitch Scholomance, in Western Plaguelands.
+why Every Alliance quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1455
+  accept 8912
+
+step Saving the Best for Last
+  only Warrior
+  when turnedin 8997
+  zone map 1455
+  accept 9006 optional
+
+step Saving the Best for Last
+  only Warlock
+  when turnedin 8997
+  zone map 1455
+  accept 9005 optional
+
+step Saving the Best for Last
+  only Rogue
+  when turnedin 8997
+  zone map 1455
+  accept 9004 optional
+
+step Saving the Best for Last
+  only Priest
+  when turnedin 8997
+  zone map 1455
+  accept 9003 optional
+
+step Saving the Best for Last
+  only Paladin
+  when turnedin 8997
+  zone map 1455
+  accept 9002 optional
+
+step Saving the Best for Last
+  only Mage
+  when turnedin 8997
+  zone map 1455
+  accept 9001 optional
+
+step Saving the Best for Last
+  only Hunter
+  when turnedin 8997
+  zone map 1455
+  accept 9000 optional
+
+step Saving the Best for Last
+  only Druid
+  when turnedin 8997
+  zone map 1455
+  accept 8999 optional
+
+step An Earnest Proposition
+  only Warrior
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8912 @43.53,52.64
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1455
+  turnin 8912
+
+step Saving the Best for Last
+  only Warrior
+  when onquest 9006
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 9006 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Warrior
+  when onquest 9006
+  zone map 1455
+  turnin 9006 optional
+
+step Saving the Best for Last
+  only Warlock
+  when onquest 9005
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 9005 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Warlock
+  when onquest 9005
+  zone map 1455
+  turnin 9005 optional
+
+step Saving the Best for Last
+  only Rogue
+  when onquest 9004
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 9004 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Rogue
+  when onquest 9004
+  zone map 1455
+  turnin 9004 optional
+
+step Saving the Best for Last
+  only Priest
+  when onquest 9003
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 9003 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Priest
+  when onquest 9003
+  zone map 1455
+  turnin 9003 optional
+
+step Saving the Best for Last
+  only Paladin
+  when onquest 9002
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 9002 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Paladin
+  when onquest 9002
+  zone map 1455
+  turnin 9002 optional
+
+step Saving the Best for Last
+  only Mage
+  when onquest 9001
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 9001 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Mage
+  when onquest 9001
+  zone map 1455
+  turnin 9001 optional
+
+step Saving the Best for Last
+  only Hunter
+  when onquest 9000
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 9000 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Hunter
+  when onquest 9000
+  zone map 1455
+  turnin 9000 optional
+
+step Saving the Best for Last
+  only Druid
+  when onquest 8999
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8999 @43.5,52.6 optional
+
+step Saving the Best for Last
+  only Druid
+  when onquest 8999
+  zone map 1455
+  turnin 8999 optional
+
+step A Supernatural Device
+  zone map 1455
+  accept 8922
+
+step Deliana
+  only Druid
+  zone map 1455
+  accept 8905
+
+step An Earnest Proposition
+  only Hunter
+  zone map 1455
+  accept 8906
+
+step An Earnest Proposition
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8906 @43.53,52.64
+
+step An Earnest Proposition
+  only Hunter
+  zone map 1455
+  turnin 8906
+
+step An Earnest Proposition
+  only Mage
+  zone map 1455
+  accept 8907
+
+step An Earnest Proposition
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8907 @43.53,52.64
+
+step An Earnest Proposition
+  only Mage
+  zone map 1455
+  turnin 8907
+
+step Deliana
+  only Paladin
+  zone map 1455
+  accept 8908
+
+step An Earnest Proposition
+  only Priest
+  zone map 1455
+  accept 8909
+
+step An Earnest Proposition
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8909 @43.53,52.64
+
+step An Earnest Proposition
+  only Priest
+  zone map 1455
+  turnin 8909
+
+step Getting there
+  zone map 1422
+  note The entrance is in Western Plaguelands: the arrow leads to it.
+
+step Tinkee Steamboil
+  zone map 1452
+  accept 4907
+
+step Tinkee Steamboil
+  zone map 1428
+  turnin 4907
+
+step Pip Quickwit, At Your Service!
+  zone map 1422
+  accept 5047 @69.9,74
+
+step Pip Quickwit, At Your Service!
+  zone map 1452
+  turnin 5047
+
+step The Matron Protectorate
+  zone map 1422
+  accept 5160 @69.9,74
+
+step The Matron Protectorate
+  zone map 1452
+  turnin 5160
+
+step Wrath of the Blue Flight
+  accept 5161
+
+step Wrath of the Blue Flight
+  turnin 5161
+
+step Wrath of the Blue Flight
+  accept 5162
+
+step Wrath of the Blue Flight
+  zone map 1422
+  turnin 5162
+
+step Catalogue of the Wayward
+  accept 5164
+
+step Catalogue of the Wayward
+  turnin 5164
+
+step A Supernatural Device
+  zone map 1446
+  turnin 8922
+
+step Egg Freezing
+  zone map 1428
+  accept 4734
+
+step Egg Freezing
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 4734 @65.24,24
+
+step Egg Freezing
+  turnin 4734
+
+step Egg Collection
+  accept 4735
+
+step Egg Collection
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 4735 @65.24,24
+
+step Egg Collection
+  turnin 4735
+
+step Leonid Barthalomew
+  accept 5522
+
+step Leonid Barthalomew
+  zone map 1423
+  turnin 5522
+
+step The Ectoplasmic Distiller
+  zone map 1446
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step A Portable Power Source
+  accept 8925
+
+step A Portable Power Source
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8925 @52.47,27.23
+
+step A Portable Power Source
+  turnin 8925
+
+step A Shifty Merchant
+  accept 8928
+
+step A Shifty Merchant
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8928 @52.47,27.23
+
+step A Shifty Merchant
+  turnin 8928
+
+step Return to Deliana
+  accept 8977
+
+step Level 60
+  zone map 1428
+  level 60
+
+step Imp Delivery
+  only Warlock
+  when turnedin 7625
+  zone map 1428
+  accept 7629 optional
+
+step Imp Delivery
+  only Warlock
+  when onquest 7629
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1428
+  complete 7629 @12.4,31.6 optional
+
+step Imp Delivery
+  only Warlock
+  when onquest 7629
+  zone map 1428
+  turnin 7629 optional
+
+step Catalogue of the Wayward
+  zone map 1422
+  accept 5167
+
+step Eva Sarkhoff
+  when turnedin 5383
+  zone map 1422
+  accept 5382
+
+step Weldon Barov
+  zone map 1422
+  accept 5343
+
+step Betina Bigglezink
+  zone map 1423
+  accept 5529
+
+step Leonid Barthalomew the Revered
+  accept 5531
+
+step Malyfous's Catalogue
+  zone map 1452
+  accept 5067
+  accept 5068
+
+step Inside Scholomance
+  zone map 1422
+  collect 21514 @69.9,74
+  complete 5529 @69.9,74
+  complete 5067 @69.9,74
+  complete 5068 @69.9,74
+  complete 5167 @69.9,74
+  complete 5343 @69.9,74
+
+step Inside Scholomance
+  when turnedin 5383
+  zone map 1422
+  complete 5382 @69.9,74
+
+step Inside Scholomance
+  only Druid
+  zone map 1422
+  complete 8905 @69.9,74
+
+step Eva Sarkhoff
+  when turnedin 5383
+  zone map 1422
+  turnin 5382
+
+step Jeziba
+  zone map 1422
+  turnin 5167
+
+step Weldon Barov
+  turnin 5343
+
+step The Last Barov
+  accept 5344
+
+step The Last Barov
+  when onquest 5344
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  complete 5344 @43.5,83.7
+
+step The Last Barov
+  when onquest 5344
+  zone map 1422
+  turnin 5344
+
+step Betina Bigglezink
+  zone map 1423
+  turnin 5529
+  turnin 5531
+
+step Malyfous Darkhammer
+  zone map 1452
+  turnin 5067
+  turnin 5068
+
+step Eva Sarkhoff
+  when turnedin 5382
+  zone map 1422
+  accept 5515
+
+step Betina Bigglezink
+  zone map 1423
+  accept 4771
+
+step Inside Scholomance
+  zone map 1422
+  accept 8829 item 21514
+  complete 8829 @69.9,74
+
+step Aurel Goldleaf
+  zone map 1451
+  turnin 8829
+
+step Inside Scholomance, again
+  zone map 1422
+  collect 13920 @69.9,74
+  accept 5582 item 13920
+  complete 4771 @69.9,74
+
+step Inside Scholomance
+  when turnedin 5382
+  zone map 1422
+  complete 5515 @69.9,74
+
+step Inside Scholomance
+  only Paladin
+  zone map 1422
+  complete 8908 @69.9,74
+
+step Eva Sarkhoff
+  when turnedin 5382
+  zone map 1422
+  turnin 5515
+
+step Betina Bigglezink
+  zone map 1423
+  turnin 5582
+  turnin 4771
+
+step Anthion's Parting Words
+  only Warlock
+  when turnedin 9015
+  zone map 1423
+  accept 8958 optional
+
+step Anthion's Parting Words
+  only Rogue
+  when turnedin 9015
+  zone map 1423
+  accept 8956 optional
+
+step Anthion's Parting Words
+  only Mage
+  when turnedin 9015
+  zone map 1423
+  accept 8953 optional
+
+step Anthion's Parting Words
+  only Warlock
+  when onquest 8958
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 8958 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Rogue
+  when onquest 8956
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 8956 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Mage
+  when onquest 8953
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 8953 @26.1,11.3 optional
+
+step Eva Sarkhoff
+  when turnedin 5515
+  zone map 1422
+  accept 5384
+
+step Inside Scholomance
+  when turnedin 5515
+  zone map 1422
+  complete 5384 @69.9,74
+
+step Eva Sarkhoff
+  when turnedin 5515
+  zone map 1422
+  turnin 5384
+
+step The Human, Ras Frostwhisper
+  when turnedin 5384
+  zone map 1422
+  accept 5461
+
+step The Human, Ras Frostwhisper
+  when turnedin 5384
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  complete 5461 @70.57,74.11
+
+step The Human, Ras Frostwhisper
+  when turnedin 5384
+  zone map 1422
+  turnin 5461
+
+step The Dying, Ras Frostwhisper
+  when turnedin 5461
+  zone map 1422
+  accept 5462
+
+step The Dying, Ras Frostwhisper
+  when turnedin 5461
+  zone map 1423
+  turnin 5462
+
+step Menethil's Gift
+  when turnedin 5462
+  zone map 1423
+  accept 5463
+
+step Menethil's Gift
+  when turnedin 5462
+  zone map 1422
+  turnin 5463 @69.9,74
+
+step Menethil's Gift
+  when turnedin 5463
+  zone map 1422
+  accept 5464 @69.9,74
+
+step Menethil's Gift
+  when turnedin 5463
+  zone map 1423
+  turnin 5464
+
+step Soulbound Keepsake
+  when turnedin 5464
+  zone map 1423
+  accept 5465
+
+step Soulbound Keepsake
+  when turnedin 5464
+  zone map 1422
+  turnin 5465
+
+step Magistrate Marduke
+  when turnedin 5465
+  zone map 1422
+  accept 5466
+
+step Inside Scholomance
+  when turnedin 5465
+  zone map 1422
+  complete 5466 @69.9,74
+
+step Magistrate Marduke
+  when turnedin 5465
+  zone map 1422
+  turnin 5466
+
+step The Right Piece of Lord Valthalak's Amulet
+  when available 8992
+  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
+  when turnedin 8985
+  zone map 1427
+  accept 8992 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8992
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8992 @39.8,96.5 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8992
+  zone map 1427
+  turnin 8992 optional
+
+step Blessed Arcanite Barding
+  only Paladin,Human,Dwarf
+  when turnedin 7643
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1422
+  accept 7644 @69.9,74 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when available 8969
+  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8966). This one shows for a character the game offers it to instead.
+  when turnedin 8962
+  zone map 1427
+  accept 8969 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8969
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8969 @39.8,96.5 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8969
+  zone map 1427
+  turnin 8969 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Barov Family Fortune
+  when onquest 5343
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1422
+  turnin 5343 optional

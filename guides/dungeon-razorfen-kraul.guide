@@ -1,0 +1,108 @@
+guide completionist-alliance/dungeon-razorfen-kraul
+title Razorfen Kraul (Completionist)
+faction Alliance
+category Dungeons
+levels 25-43
+zone The Barrens
+next completionist-alliance/23-odd-jobs-in-kalimdor-2
+pitch Razorfen Kraul, in The Barrens.
+why Every Alliance quest of Razorfen Kraul: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Fire Hardened Mail
+  only Warrior
+  when turnedin 1702
+  zone map 1453
+  accept 1701 optional
+
+step Fire Hardened Mail
+  only Warrior
+  when onquest 1701
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1453
+  complete 1701 @64.6,37.2 optional
+
+step Fire Hardened Mail
+  only Warrior
+  when onquest 1701
+  zone map 1453
+  turnin 1701 optional
+
+step Getting there
+  zone map 1413
+  note The entrance is in The Barrens: the arrow leads to it.
+
+step Mebok Mizzyrix
+  accept 1221
+
+step Level 29
+  zone map 1444
+  level 29
+
+step Falfindel Waywarder
+  accept 1101
+
+step Inside Razorfen Kraul
+  zone map 1413
+  accept 1142 @42.5,90
+  accept 1144 @42.5,90
+  complete 1221 @42.5,90
+  complete 1142 @42.5,90
+  complete 1144 @42.5,90
+  turnin 1144 @42.5,90
+  complete 1101 @42.5,90
+
+step Mebok Mizzyrix
+  turnin 1221
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Falfindel Waywarder
+  zone map 1444
+  turnin 1101
+
+step Inside Razorfen Kraul
+  only Shaman
+  zone map 1413
+  collect 212748 @42.5,90
+
+step Level 30
+  zone map 1417
+  level 30
+
+step Elemental Aid
+  only Shaman
+  when turnedin 94789
+  zone map 1417
+  accept 96264 optional
+
+step Elemental Aid
+  only Shaman
+  when onquest 96264
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
+  complete 96264 @59.7,27.6 optional
+
+step Elemental Aid
+  only Shaman
+  when onquest 96264
+  zone map 1417
+  turnin 96264 optional
+
+step Storm, Earth, and Fire
+  only Shaman
+  when turnedin 96264
+  zone map 1417
+  accept 79358 optional
+
+step Storm, Earth, and Fire
+  only Shaman
+  when onquest 79358
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
+  complete 79358 @59.7,27.6 optional
+
+step Storm, Earth, and Fire
+  only Shaman
+  when onquest 79358
+  zone map 1441
+  turnin 79358 optional

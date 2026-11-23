@@ -1,0 +1,154 @@
+guide completionist-alliance/42-dun-morogh-and-ironforge-3
+title 42 Dun Morogh and Ironforge (47-55) (Completionist)
+faction Alliance
+levels 47-55
+zone Dun Morogh
+next completionist-alliance/43-searing-gorge
+pitch On along the line: Dun Morogh and Ironforge, quests of level 47 to 55.
+# Generated from the reference data: change the planner, not this file.
+# Routed 7 quests; estimated level at the end 47.1 (heuristic XP, class quests not counted).
+# Skipped: 3 profession.
+
+step Gracina Spiritmight
+  when onquest 4508
+  zone map 1457
+  turnin 4508
+
+step Curator Thorius
+  when onquest 3182
+  zone map 1455
+  turnin 3182
+  accept 3201
+
+step Innkeeper Firebrew
+  zone map 1455
+  accept 3790
+
+step High Explorer Magellas
+  accept 2963
+  turnin 2963
+  accept 2946
+  accept 3448
+
+step Tymor
+  turnin 3448
+
+step Level 54
+  level 54
+
+step Courier Hammerfall
+  accept 1019
+
+step The Smoldering Ruins of Thaurissan
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 3702
+  complete 3702 @38.4,55.3
+
+step The Smoldering Ruins of Thaurissan
+  turnin 3702
+
+step The Smoldering Ruins of Thaurissan
+  when turnedin 3702
+  zone map 1455
+  accept 3701
+
+step Signal for Pickup
+  when turnedin 3451
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1455
+  turnin 3483 direct optional
+
+step Membership Card Renewal
+  when turnedin 3639
+  when skill Engineering 200
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1455
+  turnin 3647 direct optional
+
+step The Pledge of Secrecy
+  when available 3640
+  tip One of several exclusive quests; the route takes The Pledge of Secrecy (3638). This one shows for a character the game offers it to instead.
+  when turnedin 3630
+  when skill Engineering 200
+  zone map 1455
+  accept 3640 optional
+
+step The Pledge of Secrecy
+  when onquest 3640
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 3640 @69.5,50.3 optional
+
+step The Pledge of Secrecy
+  when onquest 3640
+  zone map 1455
+  turnin 3640 optional
+
+step Show Your Work
+  when available 3641
+  tip One of several exclusive quests; the route takes The Pledge of Secrecy (3638). This one shows for a character the game offers it to instead.
+  when turnedin 3640
+  when skill Engineering 200
+  zone map 1455
+  accept 3641 optional
+
+step Show Your Work
+  when onquest 3641
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 3641 @69.5,50.3 optional
+
+step Show Your Work
+  when onquest 3641
+  zone map 1455
+  turnin 3641 optional
+
+step Gnome Engineering
+  when available 3632
+  tip One of several exclusive quests; the route takes Goblin Engineering (3629). This one shows for a character the game offers it to instead.
+  when skill Engineering 200
+  zone map 1455
+  accept 3632 optional
+
+step Gnome Engineering
+  when onquest 3632
+  zone map 1455
+  turnin 3632 optional
+
+step Mountaineer Pebblebitty
+  when onquest 3201
+  zone map 1432
+  turnin 3201
+
+step Thunderbrew Distillery
+  zone map 1426
+  sethome "Thunderbrew Distillery"
+
+step Uldum Pedestal
+  zone map 1446
+  turnin 2946
+
+step The Stone Watcher
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 2954
+  complete 2954 @37.6,81.4
+
+step The Stone Watcher
+  turnin 2954
+
+step Uldum Pedestal
+  accept 2977
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Proof of Deed
+  when onquest 3182
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 3182 optional
+
+step Calm Before the Storm
+  when onquest 4508
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 4508 optional

@@ -1,0 +1,282 @@
+guide completionist-alliance/47-teldrassil-and-darnassus-3
+title 47 Teldrassil and Darnassus (47-60) (Completionist)
+faction Alliance
+levels 47-60
+zone Teldrassil
+next completionist-alliance/48-felwood
+pitch On along the line: Teldrassil and Darnassus, quests of level 47 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 13 quests; estimated level at the end 47.3 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N (done); 2 prerequisite N not in this route; 1 exclusive with N.
+
+step Laris Geardawdle
+  when onquest 4512
+  zone map 1455
+  turnin 4512
+
+step Master Mathias Shaw
+  when onquest 95264
+  zone map 1453
+  turnin 95264
+
+step Arch Druid Fandral Staghelm
+  zone map 1457
+  accept 3781
+  turnin 3781
+
+step Morrowgrain Research
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 3785
+  complete 3785 @35.4,8.4
+
+step Gracina Spiritmight
+  accept 4510
+
+step Idriana
+  turnin 4510
+
+step Level 60
+  level 60
+
+step Jartsam
+  accept 99205 only NightElf
+
+step Nightsaber Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12303 x1 anywhere optional
+  turnin 7672 direct optional
+
+step Frostsaber Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12302 x1 anywhere optional
+  turnin 7671 direct optional
+
+step Lelanai
+  turnin 99205 only NightElf @38.3,15.4 map 1457
+
+step Arch Druid Fandral Staghelm
+  accept 6761
+
+step The New Frontier
+  when available 1047
+  tip One of several exclusive quests; the route takes The New Frontier (1015). This one shows for a character the game offers it to instead.
+  zone map 1457
+  accept 1047 optional
+
+step The New Frontier
+  when onquest 1047
+  zone map 1457
+  turnin 1047 optional
+
+step Morrowgrain Research
+  zone map 1457
+  turnin 3785
+
+step Morrowgrain to Darnassus
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11040 x10 anywhere optional
+  turnin 3803 direct optional
+
+step Mathrengyl Bearwalker
+  turnin 6761
+
+step Additional Runecloth
+  when turnedin 7800
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1457
+  collect 14047 x20 anywhere optional
+  turnin 7801 direct optional
+
+step Assisting Arch Druid Staghelm
+  when available 3763
+  tip One of several exclusive quests; the route takes Assisting Arch Druid Staghelm (3790). This one shows for a character the game offers it to instead.
+  zone map 1457
+  accept 3763 optional
+
+step Assisting Arch Druid Staghelm
+  when onquest 3763
+  zone map 1457
+  turnin 3763 optional
+
+step Dolanaar
+  zone map 1438
+  sethome "Dolanaar"
+
+step Erelas Ambersky
+  accept 3661
+  accept 2940
+  turnin 2940
+  accept 2941
+
+step Wildkin Feather
+  zone map 1425
+  collect 10819 x15 quest 3661.1
+
+step Erelas Ambersky
+  zone map 1438
+  turnin 3661
+
+step Level 53
+  level 53
+
+step Daryn Lightwind
+  accept 5250
+
+step Wynd Nightchaser
+  zone map 1452
+  turnin 5250
+
+step Erelas Ambersky
+  zone map 1438
+  accept 978
+
+step Moontouched Feather
+  zone map 1452
+  collect 12383 x10 quest 978.1
+
+step Erelas Ambersky
+  zone map 1438
+  turnin 978
+
+step Erelas Ambersky
+  accept 979
+
+step Ranshalla
+  zone map 1452
+  turnin 979
+
+step Curgle Cranklehop
+  zone map 1446
+  turnin 2941
+
+step The Super Snapper FX
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 2944
+  complete 2944 @52.4,26.9
+
+step The Super Snapper FX
+  turnin 2944
+
+step Daryn Lightwind
+  zone map 1438
+  accept 2943
+
+step Jonespyre's Request
+  when available 3788
+  tip One of several exclusive quests; the route takes Jonespyre's Request (3787). This one shows for a character the game offers it to instead.
+  zone map 1444
+  accept 3788 optional
+
+step Jonespyre's Request
+  when onquest 3788
+  zone map 1444
+  turnin 3788 optional
+
+step Troyas Moonbreeze
+  zone map 1444
+  turnin 2943
+
+step Troyas Moonbreeze
+  accept 2879
+
+step Equinex Monolith
+  turnin 2879
+
+step The Morrow Stone
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 2942
+  complete 2942 @38.8,13.2
+
+step The Morrow Stone
+  turnin 2942
+
+step Stealing Orgrimmar's Flame
+  tip Flame of Orgrimmar is looted from Flame of Orgrimmar: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1454
+  collect 23179 x1 optional
+  accept 9324 item 23179 optional
+
+step Stealing Orgrimmar's Flame
+  when onquest 9324
+  zone map 1438
+  turnin 9324
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Stealing Thunder Bluff's Flame
+  tip Flame of Thunder Bluff is looted from Flame of Thunder Bluff: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1456
+  collect 23180 x1 optional
+  accept 9325 item 23180 optional
+
+step Stealing Thunder Bluff's Flame
+  when onquest 9325
+  zone map 1438
+  turnin 9325
+
+step Stealing the Undercity's Flame
+  tip Flame of the Undercity is looted from Flame of the Undercity: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1458
+  collect 23181 x1 optional
+  accept 9326 item 23181 optional
+
+step Stealing the Undercity's Flame
+  when onquest 9326
+  zone map 1438
+  turnin 9326
+
+step Corruptor's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1420
+  collect 12843 x1 anywhere optional
+  turnin 5406 direct optional
+
+step Invader's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1420
+  collect 12841 x10 anywhere optional
+  turnin 5407 direct optional
+
+step Minion's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1420
+  collect 12840 x20 anywhere optional
+  turnin 5408 direct optional
+
+step Darkmoon Beast Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1412
+  collect 19228 x1 anywhere optional
+  turnin 7907 direct optional
+
+step Darkmoon Portals Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19277 x1 anywhere optional
+  turnin 7927 direct optional
+
+step Darkmoon Warlords Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19257 x1 anywhere optional
+  turnin 7928 direct optional
+
+step Darkmoon Elementals Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19267 x1 anywhere optional
+  turnin 7929 direct optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Little Slime Goes a Long Way
+  when onquest 4512
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 4512 optional
+
+step Shaw Needs To Know
+  when onquest 95264
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 95264 optional

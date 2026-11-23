@@ -1,0 +1,165 @@
+guide completionist-alliance/30-undercity-2
+title 30 Undercity (35-45) (Completionist)
+faction Alliance
+levels 35-45
+zone Undercity
+next completionist-alliance/31-hillsbrad-foothills-and-alterac-mountains-2
+pitch On along the line: Undercity, quests of level 35 to 45.
+# Generated from the reference data: change the planner, not this file.
+# Routed 17 quests; estimated level at the end 35.2 (heuristic XP, class quests not counted).
+
+step Grand Mason Marblesten
+  when onquest 689
+  zone map 1455
+  turnin 689
+  accept 700
+
+step King Magni Bronzebeard
+  when onquest 700
+  zone map 1455
+  turnin 700
+
+step Delivering Closure
+  when onquest 94893
+  zone map 1453
+  turnin 94893
+
+step Highlord Bolvar Fordragon
+  when onquest 94894
+  zone map 1453
+  turnin 94894
+
+step Garion Wendell
+  zone map 1453
+  accept 79535 npc 211033
+
+step Garion Wendell
+  accept 79947 npc 211033
+  accept 79948 npc 211033
+  accept 79949 npc 211033
+  accept 79950 npc 211033
+  accept 79951 npc 211033
+  accept 79952 npc 211033
+  accept 81947 npc 211033
+  accept 81949 npc 211033
+  accept 81951 npc 211033
+  accept 81952 npc 211033
+  accept 81953 npc 211033
+  accept 81954 npc 211033
+  accept 81955 npc 211033
+  accept 81956 npc 211033
+
+step Garion Wendell
+  accept 79536
+
+step Garion Wendell
+  turnin 79536
+  accept 82208
+  turnin 82208
+
+step A Ludite's Guide to Caring for Your Demonic Pet
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1458
+  accept 79953
+  complete 79953 @73.4,33
+
+step Research Notes
+  zone map 1434
+  collect 213165 x1 quest 79535.1
+
+step Book
+  zone map 1419
+  collect 220353 x1 quest 81956.1
+
+step Book
+  zone map 1435
+  collect 220345 x1 quest 81947.1
+
+step Book
+  zone map 1447
+  collect 220348 x1 quest 81952.1
+
+step Mysterious Book
+  zone map 1443
+  collect 215817 x1 quest 79950.1
+
+step Book
+  zone map 1444
+  collect 220347 x1 quest 81951.1
+
+step Scrolls
+  zone map 1441
+  collect 215683 x1 quest 79947.1
+
+step Waterlogged Book
+  zone map 1445
+  collect 215822 x1 quest 79952.1
+
+step Book
+  zone map 1446
+  collect 220346 x1 quest 81949.1
+
+step Manual
+  zone map 1416
+  collect 215815 x1 quest 79948.1
+
+step Book
+  zone map 1425
+  collect 220350 x1 quest 81954.1
+
+step Scrolls
+  zone map 1417
+  collect 215816 x1 quest 79949.1
+
+step Scrolls
+  zone map 1418
+  collect 215820 x1 quest 79951.1
+
+step Book
+  zone map 1427
+  collect 220352 x1 quest 81955.1
+
+step Book
+  zone map 1428
+  collect 220349 x1 quest 81953.1
+
+step Garion Wendell
+  zone map 1453
+  turnin 79535
+  turnin 79947
+  turnin 79948
+  turnin 79949
+  turnin 79950
+  turnin 79951
+  turnin 79952
+  turnin 81947
+  turnin 81949
+  turnin 81951
+  turnin 81952
+  turnin 81953
+  turnin 81954
+  turnin 81955
+  turnin 81956
+
+step A Ludite's Guide to Caring for Your Demonic Pet
+  turnin 79953
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A King's Tribute
+  when onquest 689
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 689 optional
+
+step Delivering Closure
+  when onquest 94893
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 94893 optional
+
+step The Twilight Threat
+  when onquest 94894
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 94894 optional

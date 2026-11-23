@@ -1,0 +1,120 @@
+guide completionist-alliance/22-elwynn-forest-and-stormwind-3
+title 22 Elwynn Forest and Stormwind (28-41) (Completionist)
+faction Alliance
+levels 28-41
+zone Elwynn Forest
+next completionist-alliance/dungeon-gnomeregan
+next completionist-alliance/23-odd-jobs-in-kalimdor-2
+pitch On along the line: Elwynn Forest and Stormwind, quests of level 28 to 41.
+# Generated from the reference data: change the planner, not this file.
+# Routed 35 quests; estimated level at the end 28.9 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N (done).
+
+step Grimand Elmore
+  when onquest 322
+  zone map 1453
+  turnin 322
+  accept 325
+
+step Gyrodrillmatic Excavationators
+  tip For Gnomeregan: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1453
+  accept 2928 optional
+
+step Tinkmaster Overspark
+  tip For Gnomeregan: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2923 optional
+
+step Level 37
+  level 37
+
+step Mazen Mac'Nadir
+  accept 1363
+
+step Acolyte Dellis
+  turnin 1363
+
+step Level 40
+  level 40
+
+step The Origins of Smithing
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1453
+  accept 2758 optional
+  complete 2758 @62.9,36.8 optional
+
+step The Origins of Smithing
+  when skill Blacksmithing 1
+  zone map 1453
+  turnin 2758 optional
+
+step Historian Karnik
+  when onquest 98313
+  zone map 1455
+  turnin 98313
+
+step High Explorer Magellas
+  when complete 98824
+  zone map 1455
+  turnin 98824
+
+step Sven Yorgen
+  when onquest 325
+  zone map 1431
+  turnin 325
+
+step Innkeeper Farley
+  zone map 1429
+  sethome "Goldshire"
+  turnin 69
+  accept 70
+
+step Storage Chest
+  collect 910 x1 quest 70.1
+
+step Randal Hunter
+  accept 97170 only Human
+
+step Your First Horse
+  only Human
+  when available 97045
+  tip One of several exclusive quests; the route takes Your First Riding Ram (97017). This one shows for a character the game offers it to instead.
+  zone map 1429
+  accept 97045 optional
+
+step Katie Hunter
+  zone map 1453
+  turnin 97170 only Human
+
+step Your First Horse
+  only Human
+  when onquest 97045
+  zone map 1429
+  turnin 97045 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Legend of Stalvan
+  when onquest 69
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1429
+  turnin 69 optional
+
+step Blessed Arm
+  when onquest 322
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 322 optional
+
+step For Further Study
+  when onquest 98313
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 98313 optional
+
+step Prehistoric Prism
+  when onquest 98824
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 98824 optional

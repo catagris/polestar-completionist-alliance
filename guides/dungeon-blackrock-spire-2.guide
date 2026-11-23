@@ -1,0 +1,196 @@
+guide completionist-alliance/dungeon-blackrock-spire-2
+title Blackrock Spire, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 57-60
+zone Searing Gorge
+next completionist-alliance/60-odd-jobs-in-the-eastern-kingdoms-4
+pitch Blackrock Spire, in Searing Gorge.
+why Every Alliance quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Deliana
+  only Hunter
+  zone map 1455
+  turnin 8906
+
+step Deliana
+  only Warrior
+  zone map 1455
+  turnin 8912
+
+step Return to Deliana
+  zone map 1455
+  turnin 8977
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  accept 8926
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8926 @43.53,52.64
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  turnin 8926
+
+step Deliana
+  only Hunter
+  zone map 1455
+  accept 8931
+
+step Deliana
+  only Warrior
+  zone map 1455
+  accept 8937
+
+step Deliana
+  only Mage
+  zone map 1455
+  turnin 8907
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  accept 8932
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8932 @43.53,52.64
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  turnin 8932
+
+step Just Compensation
+  only Paladin
+  zone map 1455
+  accept 8933
+
+step Just Compensation
+  only Paladin
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8933 @43.53,52.64
+
+step Just Compensation
+  only Paladin
+  zone map 1455
+  turnin 8933
+
+step Deliana
+  only Priest
+  zone map 1455
+  accept 8934
+
+step Deliana
+  only Rogue
+  zone map 1455
+  accept 8935
+
+step Back to the Beginning
+  when onquest 8997
+  zone map 1455
+  turnin 8997
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 8951
+  zone map 1455
+  turnin 8951 optional
+
+step Bodley's Unfortunate Fate
+  zone map 1455
+  accept 8960
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 8952
+  zone map 1455
+  turnin 8952 optional
+
+step Anthion's Parting Words
+  only Paladin
+  when onquest 8954
+  zone map 1455
+  turnin 8954 optional
+
+step Anthion's Parting Words
+  only Priest
+  when onquest 8955
+  zone map 1455
+  turnin 8955 optional
+
+step Count Remington Ridgewell
+  zone map 1453
+  turnin 4765
+
+step Inside Blackrock Spire
+  only Hunter
+  zone map 1427
+  complete 8931 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Warrior
+  zone map 1427
+  complete 8937 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Priest
+  zone map 1427
+  complete 8934 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Rogue
+  zone map 1427
+  complete 8935 @34.8,85.3
+
+step Bodley's Unfortunate Fate
+  when onquest 8960
+  zone map 1427
+  turnin 8960
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Delivery to Ridgewell
+  when onquest 4765
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 4765 optional
+
+step Anthion's Parting Words
+  when onquest 8951
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8951 optional
+
+step Anthion's Parting Words
+  when onquest 8952
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8952 optional
+
+step Anthion's Parting Words
+  when onquest 8954
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8954 optional
+
+step Anthion's Parting Words
+  when onquest 8955
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8955 optional
+
+step Back to the Beginning
+  when onquest 8997
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8997 optional

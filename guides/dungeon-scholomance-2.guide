@@ -1,0 +1,218 @@
+guide completionist-alliance/dungeon-scholomance-2
+title Scholomance, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 58-60
+zone Western Plaguelands
+next completionist-alliance/65-eastern-plaguelands
+pitch Scholomance, in Western Plaguelands.
+why Every Alliance quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Return to Deliana
+  zone map 1455
+  turnin 8977
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  accept 8926
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8926 @43.53,52.64
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  turnin 8926
+
+step Just Compensation
+  only Hunter
+  zone map 1455
+  accept 8931
+
+step Just Compensation
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8931 @43.53,52.64
+
+step Just Compensation
+  only Hunter
+  zone map 1455
+  turnin 8931
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  accept 8932
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8932 @43.53,52.64
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  turnin 8932
+
+step Just Compensation
+  only Paladin
+  zone map 1455
+  accept 8933
+
+step Just Compensation
+  only Paladin
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8933 @43.53,52.64
+
+step Just Compensation
+  only Paladin
+  zone map 1455
+  turnin 8933
+
+step Just Compensation
+  only Priest
+  zone map 1455
+  accept 8934
+
+step Just Compensation
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8934 @43.53,52.64
+
+step Just Compensation
+  only Priest
+  zone map 1455
+  turnin 8934
+
+step Just Compensation
+  only Rogue
+  zone map 1455
+  accept 8935
+
+step Just Compensation
+  only Rogue
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 8935 @43.53,52.64
+
+step Just Compensation
+  only Rogue
+  zone map 1455
+  turnin 8935
+
+step Deliana
+  only Warlock
+  zone map 1455
+  accept 8936
+
+step Deliana
+  only Druid
+  zone map 1455
+  turnin 8905
+
+step Deliana
+  only Paladin
+  zone map 1455
+  turnin 8908
+
+step Anthion's Parting Words
+  only Warlock
+  when onquest 8958
+  zone map 1455
+  turnin 8958 optional
+
+step Anthion's Parting Words
+  only Rogue
+  when onquest 8956
+  zone map 1455
+  turnin 8956 optional
+
+step Anthion's Parting Words
+  only Mage
+  when onquest 8953
+  zone map 1455
+  turnin 8953 optional
+
+step Blessed Arcanite Barding
+  only Paladin,Human,Dwarf
+  when onquest 7644
+  zone map 1453
+  turnin 7644 optional
+
+step The Divination Scryer
+  only Paladin,Human,Dwarf
+  when turnedin 7644
+  zone map 1453
+  accept 7646 optional
+
+step The Divination Scryer
+  only Paladin,Human,Dwarf
+  when onquest 7646
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1453
+  complete 7646 @48.4,50.2 optional
+
+step The Divination Scryer
+  only Paladin,Human,Dwarf
+  when onquest 7646
+  zone map 1453
+  turnin 7646 optional
+
+step Judgment and Redemption
+  only Paladin,Human,Dwarf
+  when turnedin 7646
+  zone map 1453
+  accept 7647 optional
+
+step Judgment and Redemption
+  only Paladin,Human,Dwarf
+  when onquest 7647
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1453
+  complete 7647 @48.4,50.2 optional
+
+step Inside Scholomance
+  only Warlock
+  zone map 1422
+  complete 8936 @69.9,74
+
+step Judgment and Redemption
+  only Paladin,Human,Dwarf
+  when onquest 7647
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1422
+  turnin 7647 @69.9,74 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Blessed Arcanite Barding
+  when onquest 7644
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 7644 optional
+
+step Anthion's Parting Words
+  when onquest 8953
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8953 optional
+
+step Anthion's Parting Words
+  when onquest 8956
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8956 optional
+
+step Anthion's Parting Words
+  when onquest 8958
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8958 optional

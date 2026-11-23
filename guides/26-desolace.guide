@@ -1,0 +1,469 @@
+guide completionist-alliance/26-desolace
+title 26 Desolace (33-43) (Completionist)
+faction Alliance
+levels 33-43
+zone Desolace
+next completionist-alliance/27-stonetalon-mountains-2
+pitch On along the line: Desolace, quests of level 33 to 43.
+# Generated from the reference data: change the planner, not this file.
+# Routed 17 quests; estimated level at the end 33.9 (heuristic XP, class quests not counted).
+# Skipped: 15 prerequisite N not in this route.
+
+step Angus Stern
+  when onquest 1271
+  zone map 1453
+  accept 1271
+  turnin 1271
+
+step Malem Chest
+  zone map 1443
+  accept 1465
+
+step Cork Gizelton
+  accept 5821
+
+step Smeed Scrabblescrew
+  complete 5821 @67.2,56.6 map 1443
+  turnin 5821
+  accept 5561
+
+step Aged Kodo
+  kill 4700 x5 quest 5561.1
+
+step Extinguished Campfire
+  accept 79229
+
+step Smeed Scrabblescrew
+  turnin 5561
+
+step Rigger Gizelton
+  accept 5943
+
+step Raid on the Kolkar
+  when turnedin 1382
+  tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1384 optional
+
+step Raid on the Kolkar
+  when onquest 1384
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1384 @36.2,79.2 optional
+
+step Raid on the Kolkar
+  when onquest 1384
+  zone map 1443
+  turnin 1384 optional
+
+step Smeed Scrabblescrew
+  zone map 1443
+  complete 5943 @55.7,67.8 map 1443
+  turnin 5943
+
+step Bibbly F'utzbuckle
+  turnin 79229
+  accept 5501
+  accept 79235
+
+step Kodo Bones
+  collect 13703 x10 quest 5501.1
+
+step Bibbly F'utzbuckle
+  turnin 5501
+
+step Level 36
+  level 36
+
+step Lost Shipping Crate
+  sethome "Nijel's Point"
+  getfp "Nijel's Point"
+  accept 94841
+
+step Azore Aldamort
+  accept 5741
+  turnin 93464
+  accept 93465
+
+step Burning Blade Seer
+  collect 15750 x1 quest 5741.1
+
+step Umarak
+  when group 96222
+  zone map 1443
+  accept 96222
+
+step Khan Hratha
+  when group 96222
+  tip Khan Hratha is group work: elites. Grouping up is advised.
+  zone map 1443
+  collect 6077 x1 quest 96222.1
+
+step Umarak
+  when group 96222
+  zone map 1443
+  turnin 96222
+
+step Hornizz Brimbuzzle
+  zone map 1443
+  accept 6134
+
+step Magrami Spectre
+  collect 15849 x8 quest 6134.1
+
+step Hornizz Brimbuzzle
+  turnin 6134
+
+step Melizza Brimbuzzle
+  accept 6132
+
+step Hornizz Brimbuzzle
+  complete 6132 @40.1,61.6 map 1443
+  turnin 6132
+
+step Gimashi
+  collect 258774 x1 quest 93465.1
+
+step Azore Aldamort
+  turnin 5741
+  turnin 93465
+  accept 6027
+  accept 93678
+
+step Lord Kragaru
+  collect 15803 x1 quest 6027.1
+
+step Azore Aldamort
+  turnin 6027
+
+step Rackmore's Log
+  accept 6161
+
+step Drysnap Crawler
+  collect 15878 x1 quest 6161.1
+
+step Slitherblade Naga
+  collect 15881 x1 quest 6161.2
+
+step Rackmore's Chest
+  turnin 6161
+
+step Stealing Supplies
+  when turnedin 1384
+  tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1370 optional
+
+step Stealing Supplies
+  when onquest 1370
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1370 @36.2,79.2 optional
+
+step Stealing Supplies
+  when onquest 1370
+  zone map 1443
+  turnin 1370 optional
+
+step Ongeku
+  when turnedin 1370
+  tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1373 optional
+
+step Ongeku
+  when onquest 1373
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1373 @36.2,79.2 optional
+
+step Ongeku
+  when onquest 1373
+  zone map 1443
+  turnin 1373 optional
+
+step Valley of Bones
+  when turnedin 1373
+  zone map 1443
+  accept 93034
+
+step Valley of Bones
+  when onquest 93034
+  zone map 2652
+  turnin 93034
+
+step Khan Jehn
+  when turnedin 1373
+  tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1374 optional
+
+step Khan Jehn
+  when onquest 1374
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1374 @36.2,79.2 optional
+
+step Khan Jehn
+  when onquest 1374
+  zone map 1443
+  turnin 1374 optional
+
+step Khan Hratha
+  when turnedin 1374
+  tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1380 optional
+
+step Khan Hratha
+  when onquest 1380
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1380 @36.2,79.2 optional
+
+step Khan Hratha
+  when onquest 1380
+  zone map 1443
+  turnin 1380 optional
+
+step Leather Technique
+  when turnedin 1370
+  zone map 1443
+  accept 92817
+
+step Leather Technique
+  when onquest 92817
+  zone map 1443
+  turnin 92817
+
+step I Need a Tailor
+  when turnedin 1370
+  zone map 1443
+  accept 92814
+
+step I Need a Tailor
+  when onquest 92814
+  zone map 1443
+  turnin 92814
+
+step Mysterious Mysticism
+  when turnedin 1370
+  zone map 1443
+  accept 92755
+
+step Mysterious Mysticism
+  when onquest 92755
+  zone map 1443
+  turnin 92755
+
+step Assault on the Kolkar
+  when turnedin 1385
+  tip Needs Friendly standing (3000) with Magram Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1386 optional
+
+step Assault on the Kolkar
+  when onquest 1386
+  zone map 1443
+  complete 1386 @68.5,52.2 optional
+
+step Assault on the Kolkar
+  when onquest 1386
+  zone map 1443
+  turnin 1386 optional
+
+step Broken Tears
+  when turnedin 1386
+  tip Needs Friendly standing (3000) with Magram Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1369 optional
+
+step Broken Tears
+  when onquest 1369
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1369 @75.0,68.2 optional
+
+step Broken Tears
+  when onquest 1369
+  zone map 1443
+  turnin 1369 optional
+
+step A Conqueror's Crown
+  when turnedin 1369
+  zone map 1443
+  accept 92743
+
+step A Conqueror's Crown
+  when onquest 92743
+  zone map 1443
+  turnin 92743
+
+step Valley of Bones
+  when turnedin 92743
+  zone map 1443
+  accept 92841
+
+step Valley of Bones
+  when onquest 92841
+  zone map 1443
+  turnin 92841
+
+step Mountain of Bones
+  when turnedin 92841
+  zone map 1443
+  accept 92844
+
+step Mountain of Bones
+  when onquest 92844
+  zone map 1443
+  turnin 92844
+
+step Outcast Necromancers
+  when turnedin 92841
+  zone map 1443
+  accept 92846
+
+step Outcast Necromancers
+  when onquest 92846
+  zone map 1443
+  turnin 92846
+
+step Corrupting Tears
+  when turnedin 92844
+  when turnedin 92846
+  zone map 1443
+  accept 92847
+
+step Corrupting Tears
+  when onquest 92847
+  zone map 1443
+  turnin 92847
+
+step Proof of Concept
+  when turnedin 92847
+  zone map 1443
+  accept 92873
+
+step Proof of Concept
+  when onquest 92873
+  zone map 1443
+  turnin 92873
+
+step Bone Raising
+  when turnedin 92873
+  zone map 1443
+  accept 92894
+
+step Bone Raising
+  when onquest 92894
+  zone map 1443
+  turnin 92894
+
+step No Mercy for the Weak
+  when turnedin 92873
+  zone map 1443
+  accept 92893
+
+step No Mercy for the Weak
+  when onquest 92893
+  zone map 1443
+  turnin 92893
+
+step Bristleback Retreat
+  when turnedin 92893
+  when turnedin 92894
+  zone map 1443
+  accept 93066
+
+step Bristleback Retreat
+  when onquest 93066
+  zone map 2652
+  turnin 93066
+
+step Big, No, MASSIVE Iron Axes
+  when turnedin 1369
+  zone map 1443
+  accept 92818
+
+step Big, No, MASSIVE Iron Axes
+  when onquest 92818
+  zone map 1443
+  turnin 92818
+
+step A New Need for Shadow Protection
+  when turnedin 1369
+  zone map 1443
+  accept 92754
+
+step A New Need for Shadow Protection
+  when onquest 92754
+  zone map 1443
+  turnin 92754 @70.5,70.4 map 1443
+
+step Gizmo for Warug
+  when turnedin 1369
+  tip Needs Friendly standing (3000) with Magram Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1371 optional
+
+step Gizmo for Warug
+  when onquest 1371
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1371 @75.0,68.2 optional
+
+step Gizmo for Warug
+  when onquest 1371
+  zone map 1443
+  turnin 1371 optional
+
+step Khan Shaka
+  when turnedin 1371
+  tip Needs Friendly standing (3000) with Magram Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1375 optional
+
+step Khan Shaka
+  when onquest 1375
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1375 @75.0,68.2 optional
+
+step Khan Shaka
+  when onquest 1375
+  zone map 1443
+  turnin 1375 optional
+
+step Khan Hratha
+  when turnedin 1375
+  tip Needs Friendly standing (3000) with Magram Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1381 optional
+
+step Khan Hratha
+  when onquest 1381
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1381 @75.0,68.2 optional
+
+step Khan Hratha
+  when onquest 1381
+  zone map 1443
+  turnin 1381 optional
+
+step Magtoor
+  zone map 1435
+  turnin 93678
+
+step Tokal
+  zone map 1434
+  turnin 79235
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Visiting Mage
+  when onquest 93464
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1443
+  turnin 93464 optional

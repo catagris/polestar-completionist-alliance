@@ -1,0 +1,18 @@
+guide completionist-alliance/dungeon-alcaz-prison-2
+title Alcaz Prison, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 48-53
+zone Dustwallow Marsh
+next completionist-alliance/dungeon-blackmaw-hold
+next completionist-alliance/55-hillsbrad-foothills-and-alterac-mountains-3
+pitch Alcaz Prison, in Dustwallow Marsh.
+why Every Alliance quest of Alcaz Prison: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Renzik "The Shiv"
+  zone map 1453
+  accept 96377
+
+step Inside Alcaz Prison, again
+  zone map 1445
+  complete 96377 @75.4,14

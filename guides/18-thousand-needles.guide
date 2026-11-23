@@ -1,0 +1,263 @@
+guide completionist-alliance/18-thousand-needles
+title 18 Thousand Needles (26-37) (Completionist)
+faction Alliance
+levels 26-37
+zone Thousand Needles
+next completionist-alliance/19-duskwood
+pitch On along the line: Thousand Needles, quests of level 26 to 37.
+# Generated from the reference data: change the planner, not this file.
+# Routed 15 quests; estimated level at the end 28.1 (heuristic XP, class quests not counted).
+
+step Collin Mauren
+  when onquest 1076
+  zone map 1453
+  turnin 1076
+  accept 1077
+
+step Major Samuelson
+  when onquest 563
+  zone map 1453
+  turnin 563
+
+step High Sorcerer Andromath
+  when complete 92489
+  zone map 1453
+  turnin 92489
+
+step Shylamiir
+  when complete 92456
+  zone map 1453
+  turnin 92456
+
+step Collin Mauren
+  zone map 1453
+  accept 1078
+
+step Pilot Longbeard
+  zone map 1455
+  accept 1179
+
+step Gaxim Rustfizzle
+  when onquest 1077
+  zone map 1442
+  turnin 1077
+
+step Gaxim Rustfizzle
+  zone map 1442
+  accept 1080
+
+step Venture Co. Documents
+  collect 5717 x1 quest 1080.1
+
+step Gaxim Rustfizzle
+  when onquest 1080
+  zone map 1442
+  turnin 1080
+
+step Gaxim Rustfizzle
+  zone map 1442
+  accept 1079
+
+step Venture Co. Engineering Plans
+  collect 5718 x1 quest 1079.1
+
+step Gaxim Rustfizzle
+  when onquest 1079
+  zone map 1442
+  turnin 1079
+
+step Gaxim Rustfizzle
+  zone map 1434
+  accept 1091
+
+step Kaela Shadowspear
+  when onquest 1091
+  zone map 1434
+  turnin 1091
+
+step Kaela Shadowspear
+  zone map 1434
+  accept 1084
+
+step Charred Ancient
+  collect 5664 x1 quest 1084.1
+
+step Kaela Shadowspear
+  when onquest 1084
+  zone map 1434
+  turnin 1084
+
+step Kaela Shadowspear
+  zone map 1434
+  accept 1083
+
+step Rogue Flame Spirit
+  collect 5659 x8 quest 1083.1
+
+step Kaela Shadowspear
+  when onquest 1083
+  zone map 1434
+  turnin 1083
+
+step Kaela Shadowspear
+  zone map 1434
+  accept 1082
+
+step Sentinel Thenysil
+  when onquest 1082
+  zone map 1440
+  turnin 1082
+
+step Sentinel Thenysil
+  zone map 1440
+  accept 1081
+
+step Level 28
+  zone map 1441
+  level 28
+
+step Kravel Koalbeard
+  accept 1110
+
+step Rocket Car Rubble
+  collect 5798 x30 quest 1110.1
+
+step Kravel Koalbeard
+  accept 5762
+
+step Wizzle Brassbolts
+  accept 1105
+
+step Sparkleshell Tortoise
+  collect 5795 x9 quest 1105.1
+
+step Fizzle Brassbolts
+  accept 1104
+
+step Scorpid Reaver
+  collect 5794 x6 quest 1104.1
+
+step Fizzle Brassbolts
+  turnin 1104
+
+step Level 29
+  level 29
+
+step Henrig Lonebrow's Journal
+  accept 1100 item 5791 -- Found in Henrig Lonebrow's Journal
+
+step Wizzle Brassbolts
+  turnin 1105
+
+step Wizzle Brassbolts
+  when group 1107
+  zone map 1441
+  accept 1107
+
+step Fizzle Brassbolts
+  zone map 1441
+  accept 1106
+
+step Kravel Koalbeard
+  turnin 1110
+
+step Hemet Nesingwary
+  turnin 5762
+
+step Saltstone Basilisk
+  collect 5675 x8 quest 1078.1
+
+step Pozzik
+  accept 1176
+
+step Salt Flats Scavenger
+  collect 5848 x10 quest 1176.1
+
+step Pozzik
+  turnin 1176
+  accept 1178
+  accept 1175
+
+step Saltstone Gazer
+  kill 4150 x6 quest 1175.3
+
+step Saltstone Crystalhide
+  kill 4151 x10 quest 1175.2
+
+step Saltstone Basilisk
+  kill 4147 x10 quest 1175.1
+
+step Saltscale Warrior
+  when group 1107
+  tip Encrusted Tail Fins is group work: elites. Grouping up is advised.
+  zone map 1434
+  collect 5796 x10 quest 1107.1
+
+step Wizzle Brassbolts
+  when group 1107
+  zone map 1441
+  turnin 1107
+
+step Trackmaster Zherin
+  zone map 1441
+  turnin 1175
+
+step Falfindel Waywarder
+  turnin 1100
+  accept 98155
+
+step Pesterhide Snarler
+  zone map 1413
+  collect 279472 x5 quest 98155.1
+
+step Kristy Grant
+  zone map 1441
+  turnin 98155
+  accept 98156
+
+step Gazlowe
+  turnin 1178
+
+step Level 30
+  level 30
+
+step Kravel Koalbeard
+  accept 1111
+
+step Wharfmaster Dizzywig
+  zone map 1413
+  turnin 1111
+
+step Martek the Exiled
+  zone map 1418
+  turnin 1106
+
+step Wizzle Brassbolts
+  zone map 1441
+  turnin 1179
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Reassignment
+  when onquest 563
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 563 optional
+
+step Devils in Westfall
+  when onquest 1076
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1076 optional
+
+step A Green Sample
+  when onquest 92456
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 92456 optional
+
+step Power Overwhelming
+  when onquest 92489
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 92489 optional

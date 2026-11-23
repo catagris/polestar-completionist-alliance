@@ -1,0 +1,132 @@
+guide completionist-alliance/dungeon-uldaman-2
+title Uldaman, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 35-47
+zone Badlands
+next completionist-alliance/dungeon-uldaman-2-2
+pitch Uldaman, in Badlands.
+why Every Alliance quest of Uldaman: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step To Ironforge for Yagyin's Digest
+  when onquest 727
+  zone map 1455
+  turnin 727
+
+step Krom Stoutarm
+  zone map 1455
+  turnin 1360
+
+step Prospector Stormpike
+  turnin 2240
+
+step Talvash del Kissel
+  turnin 2198
+
+step Talvash del Kissel
+  accept 2199
+
+step High Explorer Magellas
+  turnin 2279
+
+step Prospect of Faith
+  turnin 724
+
+step Passing Word of a Threat
+  accept 725
+
+step Passing Word of a Threat
+  turnin 725
+
+step Passing Word of a Threat
+  accept 726
+
+step Passing Word of a Threat
+  turnin 726
+
+step An Ambassador of Evil
+  accept 762
+
+step An Ambassador of Evil
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 762 @77.54,11.82
+
+step An Ambassador of Evil
+  turnin 762
+
+step Advisor Belgrum
+  accept 1139
+
+step High Explorer Magellas
+  accept 2439
+
+step Dinita Stonemantle
+  turnin 2439
+
+step The Star, the Hand and the Heart
+  when turnedin 727
+  zone map 1455
+  accept 735
+
+step The Star, the Hand and the Heart
+  when onquest 735
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 735 @50.8,5.6
+
+step The Star, the Hand and the Heart
+  when onquest 735
+  zone map 1455
+  turnin 735
+
+step Inside Uldaman, again
+  zone map 1418
+  complete 2199 @67.8,44.4
+
+step Forbidden Knowledge
+  when turnedin 735
+  zone map 1455
+  accept 737
+
+step Forbidden Knowledge
+  when onquest 737
+  zone map 1418
+  turnin 737
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Prospect of Faith
+  when onquest 724
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 724 optional
+
+step To Ironforge for Yagyin's Digest
+  when onquest 727
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 727 optional
+
+step Reclaimed Treasures
+  when onquest 1360
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 1360 optional
+
+step The Shattered Necklace
+  when onquest 2198
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2198 optional
+
+step The Hidden Chamber
+  when onquest 2240
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2240 optional
+
+step The Platinum Discs
+  when onquest 2279
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2279 optional

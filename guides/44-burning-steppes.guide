@@ -1,0 +1,192 @@
+guide completionist-alliance/44-burning-steppes
+title 44 Burning Steppes (50-60) (Completionist)
+faction Alliance
+levels 50-60
+zone Burning Steppes
+next completionist-alliance/dungeon-blackrock-depths
+next completionist-alliance/45-blasted-lands
+pitch On along the line: Burning Steppes, quests of level 50 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 10 quests; estimated level at the end 50.6 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N (done).
+
+step Curator Thorius
+  when onquest 3368
+  zone map 1455
+  turnin 3368
+  accept 3371
+
+step Astarii Starseeker
+  when onquest 3378
+  when group 3378
+  zone map 1457
+  turnin 3378
+
+step Dying Archaeologist
+  when onquest 3371
+  zone map 1427
+  turnin 3371
+  accept 3372
+
+step Twilight Artifact
+  zone map 1427
+  collect 10442 x1 quest 3372.1
+
+step Altar of Suntara
+  when onquest 3372
+  zone map 1427
+  turnin 3372
+
+step Dying Archaeologist
+  when group 3566
+  zone map 1427
+  accept 3566
+
+step Lathoric the Black and Obsidion
+  when group 3566
+  tip Rise, Obsidion! is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 10447 x1 quest 3566.1
+  collect 10446 x1 quest 3566.2
+
+step Oralius
+  zone map 1428
+  getfp "Morgan's Vigil"
+  accept 3823
+  accept 4283
+
+step The Good Stuff
+  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4286 optional
+
+step Jalinda Sprig
+  when group 4262
+  zone map 1428
+  accept 4262
+
+step Blackrock Worg
+  zone map 1428
+  collect 11467 x50 quest 4283.1
+
+step Book
+  accept 84396 object 463206
+
+step Book
+  collect 228133 x1 quest 84396.1
+
+step Firegut Ogre
+  kill 7033 x15 quest 3823.2
+
+step Firegut Brute
+  kill 7035 x7 quest 3823.3
+
+step Firegut Ogre Mage
+  kill 7034 x15 quest 3823.1
+
+step Oralius
+  turnin 3823
+  turnin 4283
+  accept 3824
+
+step Gor'tesh
+  collect 11080 x1 quest 3824.1
+
+step Tinkee Steamboil
+  accept 4726
+  accept 4296
+
+step The Heart of the Mountain
+  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4123 optional
+
+step Tablet of the Seven
+  collect 11470 x1 quest 4296.1
+
+step Broodling Essence
+  collect 12283 x8 quest 4726.1
+
+step Tinkee Steamboil
+  turnin 4726
+  accept 4808
+  turnin 4296
+
+step Oralius
+  turnin 3824
+  accept 3825
+
+step Soft Dirt Mound
+  interact 160840 quest 3825.1
+
+step Overmaster Pyron
+  when group 4262
+  tip Overmaster Pyron is group work: elites. Grouping up is advised.
+  zone map 1427
+  kill 9026 x1 quest 4262.1
+
+step Jalinda Sprig
+  when group 4262
+  zone map 1428
+  turnin 4262
+
+step Oralius
+  zone map 1428
+  turnin 3825
+
+step Jennea Cannon
+  zone map 1453
+  turnin 84396
+
+step Thaurissan Relic
+  zone map 1428
+  interact 153556 quest 3701.1
+
+step Level 52
+  level 52
+
+step A Taste of Flame
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 4022
+  complete 4022 @95.1,31.6
+
+step A Taste of Flame
+  when available 4023
+  tip One of several exclusive quests; the route takes A Taste of Flame (4022). This one shows for a character the game offers it to instead.
+  zone map 1428
+  accept 4023 optional
+
+step A Taste of Flame
+  zone map 1428
+  turnin 4022
+
+step Ever After
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 82062 direct @35.8,19.8 map 1428
+
+step A Taste of Flame
+  when onquest 4023
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1428
+  complete 4023 @95.1,31.6 optional
+
+step A Taste of Flame
+  when onquest 4023
+  zone map 1428
+  turnin 4023 optional
+
+step Felnok Steelspring
+  zone map 1452
+  turnin 4808
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Suntara Stones
+  when onquest 3368
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 3368 optional
+
+step Prayer to Elune
+  when onquest 3378
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 3378 optional

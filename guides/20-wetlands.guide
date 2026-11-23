@@ -1,0 +1,508 @@
+guide completionist-alliance/20-wetlands
+title 20 Wetlands (18-34) (Completionist)
+faction Alliance
+levels 18-34
+zone Wetlands
+next completionist-alliance/dungeon-stormwind-stockade
+next completionist-alliance/21-wetlands-2
+pitch On along the line: Wetlands, quests of level 18 to 34.
+# Generated from the reference data: change the planner, not this file.
+# Routed 61 quests; estimated level at the end 25.9 (heuristic XP, class quests not counted).
+
+step Zardeth of the Black Claw
+  when onquest 335
+  zone map 1453
+  turnin 335
+
+step A Noble Brew
+  when turnedin 335
+  zone map 1453
+  accept 336
+
+step Bishop Farthing
+  when onquest 269
+  zone map 1453
+  turnin 269
+
+step Chief Archaeologist Greywhisker
+  zone map 1457
+  accept 942
+
+step Klockmort's Essentials
+  tip For Gnomeregan: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2925 optional
+
+step Bart Tidewater
+  zone map 1437
+  sethome "Deepwater Tavern"
+  getfp "Menethil Harbor"
+  turnin 98459
+  accept 98197
+
+step Bloom of the Heavens
+  tip The place is where players were recorded finishing it.
+  accept 98208
+  complete 98208 @12.2,63.8
+
+step James Halloran
+  accept 484
+
+step Bloom of the Heavens
+  turnin 98208
+
+step Khaz Modan Iron
+  collect 279822 x30 quest 98197.2
+
+step Khaz Modan Timber
+  collect 279821 x6 quest 98197.1
+
+step Level 20
+  level 20
+
+step Karl Boran
+  accept 279
+
+step Bluegill Murloc
+  kill 1024 x12 quest 279.1
+
+step Gobbler
+  collect 3618 x1 quest 279.2
+
+step Level 30
+  level 30
+
+step Red Jack Flint
+  accept 1132
+
+step Captain Stoutfist
+  accept 98221
+
+step Sylessa Duskwhisper
+  accept 98209
+
+step Thundris Windweaver
+  zone map 1439
+  turnin 98209
+
+step Attack Plan: Menethil Harbor
+  zone map 1437
+  interact 671481 quest 98221.1
+
+step Dragonmaw Bonewarder and Attack Plan: Thelsamar
+  interact 671486 quest 98221.2
+
+step Valstag Ironjaw
+  accept 473
+
+step Captain Stoutfist
+  turnin 473
+
+step Captain Stoutfist
+  accept 464
+
+step Dragonmaw Bonewarder and Attack Plan: Thelsamar
+  collect 3337 x8 quest 464.1
+
+step Attack Plan: Southshore
+  interact 671483 quest 98221.3
+
+step Attack Plan: Ironforge
+  interact 671487 quest 98221.4
+
+step Young Wetlands Crocolisk
+  collect 3397 x4 quest 484.1
+
+step Tarrel Rockweaver
+  accept 305
+
+step Harlo Barnaby
+  accept 472
+  turnin 98197
+  turnin 464
+  turnin 98221
+  accept 465
+
+step First Mate Fitzsimmons
+  accept 288
+  accept 463
+  accept 98282
+  accept 470
+
+step Cave Stalker
+  collect 280319 x1 quest 98282.1
+
+step Dragonmaw Catapult
+  turnin 465 object 1609
+
+step Dragonmaw Catapult
+  when group 474
+  zone map 1437
+  accept 474 object 1609
+
+step Tattered Spellbook
+  zone map 1437
+  accept 98223
+
+step Chieftain Nek'rosh
+  when group 474
+  tip Defeat Nek'rosh is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 3625 x1 quest 474.1
+
+step Einar Stonegrip
+  zone map 1437
+  accept 469
+
+step Trying Times
+  tip The place is where players were recorded finishing it.
+  accept 98246
+  complete 98246 @69.2,32.7
+
+step Crimson Ooze
+  collect 3349 x1 quest 470.1
+
+step Malgin Barleybrew
+  zone map 1413
+  collect 2594 x1 quest 288.1
+
+step Rethiel the Greenwarden
+  turnin 463
+  accept 276
+
+step Forced Disarmament
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1437
+  accept 98293
+  complete 98293 @58.9,45.1
+
+step Mosshide Gnoll
+  kill 1007 x15 quest 276.1
+
+step Mosshide Mongrel
+  kill 1008 x10 quest 276.2
+
+step Rethiel the Greenwarden
+  turnin 276
+  accept 277
+
+step Mosshide Trapper
+  collect 2611 x9 quest 277.1
+
+step Ormer Ironbraid
+  accept 294
+  turnin 305
+  accept 306
+
+step Mottled Screecher
+  kill 1021 x10 quest 294.2
+
+step Mottled Raptor
+  kill 1020 x10 quest 294.1
+
+step Tarrel Rockweaver
+  turnin 306
+
+step James Halloran
+  turnin 469
+  turnin 484
+  accept 471
+  turnin 98223
+
+step Forced Disarmament
+  turnin 98293
+
+step Captain Stoutfist
+  when group 474
+  zone map 1437
+  turnin 474
+
+step Captain Stoutfist
+  zone map 1413
+  accept 98230
+  turnin 288
+  accept 289
+  turnin 98282
+  turnin 470
+
+step Cursed Sailor and First Mate Snellig
+  kill 1157 x13 quest 289.1
+  collect 3619 x1 quest 289.3
+
+step Cursed Marine
+  kill 1158 x5 quest 289.2
+
+step Giant Wetlands Crocolisk
+  collect 3348 x6 quest 471.1
+
+step First Mate Fitzsimmons
+  turnin 289
+  accept 290
+
+step Captain Halyndor
+  collect 2629 x1 quest 290.1
+
+step Intrepid's Locked Strongbox
+  turnin 290
+  accept 292
+
+step James Halloran
+  turnin 471
+  accept 98072
+
+step Ormer Ironbraid
+  turnin 294
+  accept 295
+
+step Mottled Scytheclaw
+  kill 1022 x10 quest 295.1
+
+step Mottled Razormaw
+  kill 1023 x10 quest 295.2
+
+step Crimson Whelp
+  collect 279385 x8 quest 98072.1
+
+step Rethiel the Greenwarden
+  turnin 277
+  accept 275
+
+step Fen Creeper
+  kill 1040 x12 quest 275.1
+
+step James Halloran
+  turnin 98072
+  accept 98240
+  turnin 279
+  accept 281
+
+step Glorin Steelbrow
+  turnin 292
+  accept 293
+
+step Damaged Crate
+  turnin 281
+  accept 284
+
+step Sealed Barrel
+  turnin 284
+  accept 285
+
+step Half-buried Barrel
+  turnin 285
+  accept 286
+
+step Karl Boran
+  turnin 286
+  accept 98189
+  turnin 98189
+  accept 98190
+
+step Ormer Ironbraid
+  zone map 1437
+  turnin 295
+  accept 296
+
+step Sarltooth
+  collect 3638 x1 quest 296.1
+
+step Ormer Ironbraid
+  turnin 296
+
+step Howin Kindfeather
+  turnin 98230
+  turnin 98240
+  accept 98245
+
+step Trying Times
+  turnin 98246
+
+step Rethiel the Greenwarden
+  turnin 275
+
+step Rethiel the Greenwarden
+  when group 98283
+  zone map 1437
+  accept 98283
+
+step Elder Razormaw
+  zone map 1437
+  collect 280103 x10 quest 98245.1
+
+step Carnage
+  when group 98283
+  tip Carnage is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 280330 x1 quest 98283.2
+
+step Maddened Rotclaw
+  when group 98283
+  tip Carnage is group work: elites. Grouping up is advised.
+  zone map 1437
+  collect 280331 x1 quest 98283.1
+
+step Ashlan Stonesmirk
+  zone map 1437
+  accept 274
+  turnin 472
+
+step Motley Garmason
+  when group 303
+  zone map 1437
+  accept 303
+
+step Dark Iron Dwarf and Dark Iron Saboteur
+  when group 303
+  tip The Dark Iron War is group work: elites. Grouping up is advised.
+  zone map 1437
+  kill 1051 x10 quest 303.1
+  kill 1052 x5 quest 303.3
+
+step Dark Iron Tunneler
+  when group 303
+  tip The Dark Iron War is group work: elites. Grouping up is advised.
+  zone map 1437
+  kill 1053 x5 quest 303.2
+
+step Captive Fire Elemental
+  zone map 1437
+  accept 87491
+
+step Roggo Harlbarrow
+  complete 87491 @47.8,16.8 map 1437
+  turnin 87491
+
+step Dark Iron Demolitionist
+  when group 303
+  tip The Dark Iron War is group work: elites. Grouping up is advised.
+  zone map 1437
+  kill 1054 x5 quest 303.4
+
+step Rethiel the Greenwarden
+  when group 98283
+  zone map 1437
+  turnin 98283
+
+step Howin Kindfeather
+  zone map 1437
+  turnin 98245
+
+step Howin Kindfeather
+  when group 98291
+  zone map 1437
+  accept 98291
+
+step Howin Kindfeather
+  when group 98291
+  zone map 1437
+  complete 98291
+  turnin 98291
+
+step Motley Garmason
+  when group 303
+  zone map 1437
+  turnin 303
+
+step Chief Engineer Hinderweir VII
+  zone map 1432
+  turnin 274
+
+step Chief Engineer Hinderweir VII
+  when group 278
+  zone map 1432
+  accept 278
+
+step Loch Crocolisk
+  when group 278
+  tip A Dark Threat Looms is group work: elites. Grouping up is advised.
+  zone map 1432
+  collect 2939 x1 quest 278.3
+
+step Wood Lurker
+  when group 278
+  tip A Dark Threat Looms is group work: elites. Grouping up is advised.
+  zone map 1432
+  collect 2606 x1 quest 278.1
+
+step Mo'grosh Ogre
+  when group 278
+  tip A Dark Threat Looms is group work: elites. Grouping up is advised.
+  zone map 1432
+  collect 2607 x1 quest 278.2
+
+step Chief Engineer Hinderweir VII
+  when group 278
+  zone map 1432
+  turnin 278
+
+step Chief Engineer Hinderweir VII
+  when turnedin 278
+  zone map 1432
+  accept 280 optional
+
+step Explosive Charge
+  when turnedin 280
+  zone map 1432
+  accept 283 optional
+
+step Explosive Charge
+  when onquest 280
+  zone map 1432
+  turnin 280
+
+step Chief Engineer Hinderweir VII
+  when onquest 283
+  zone map 1432
+  turnin 283
+
+step Fiora Longears
+  zone map 1445
+  turnin 1132
+
+step Archaeologist Flagongut
+  zone map 1437
+  turnin 942
+  accept 943
+
+step Mottled Razormaw
+  collect 5233 x1 quest 943.1
+
+step Flagongut's Fossil
+  collect 5234 x1 quest 943.2
+
+step Archaeologist Flagongut
+  turnin 943
+
+step Howin Kindfeather
+  when group 98297
+  zone map 1437
+  accept 98297
+
+step Howin Kindfeather
+  when group 98297
+  zone map 1437
+  complete 98297
+  turnin 98297
+
+step Howin Kindfeather
+  zone map 1437
+  accept 98300
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Seeking Wisdom
+  when onquest 269
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 269 optional
+
+step A Noble Brew
+  when onquest 335
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 335 optional
+
+step A Lack of Virtue
+  when onquest 98459
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1437
+  turnin 98459 optional

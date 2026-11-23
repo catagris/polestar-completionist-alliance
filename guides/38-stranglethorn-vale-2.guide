@@ -1,0 +1,422 @@
+guide completionist-alliance/38-stranglethorn-vale-2
+title 38 Stranglethorn Vale (40-51) (Completionist)
+faction Alliance
+levels 40-51
+zone Stranglethorn Vale
+next completionist-alliance/39-thousand-needles-2
+pitch On along the line: Stranglethorn Vale, quests of level 40 to 51.
+# Generated from the reference data: change the planner, not this file.
+# Routed 19 quests; estimated level at the end 41.2 (heuristic XP, class quests not counted).
+# Skipped: 3 exclusive with N.
+
+step Gracina Spiritmight
+  when onquest 2972
+  zone map 1457
+  turnin 4267
+  turnin 2972
+
+step Master of the Wild Leather
+  when onquest 2853
+  when skill Leatherworking 1
+  zone map 1457
+  turnin 2853 optional
+
+step In Search of Galvan
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1453
+  accept 2759 optional
+
+step Kindal Moonweaver
+  zone map 1444
+  accept 3841
+
+step Whiskey Slim
+  zone map 1434
+  sethome "Booty Bay"
+  accept 580
+  accept 621
+  accept 606
+  accept 2872
+  accept 348
+  accept 617
+
+step Tip the Scales - Dezian Queenfish
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 97067 direct optional
+
+step Tip the Scales - Brownell's Blue Striped Racer
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 97066 direct optional
+
+step Tip the Scales - Keefer's Angelfish
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 97065 direct optional
+
+step The Captain's Chest
+  when available 8551
+  tip One of several exclusive quests; the route takes The Captain's Chest (614). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 8551 optional
+
+step Membership Card Renewal
+  when turnedin 3639
+  when skill Engineering 200
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  turnin 3645 direct optional
+
+step Stranglethorn Fever
+  when onquest 348
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 2799 x10 anywhere optional
+  turnin 349 direct optional
+
+step Fool's Stout
+  when turnedin 1122
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 4016 x12 anywhere optional
+  turnin 1127 direct optional
+
+step Torn Mystical Scroll
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1434
+  turnin 95385 direct @28.3,76.3 map 1434
+
+step Mok'rash
+  goto 23.3,72.1 "Mok'rash"
+  accept 620 item 3985 -- Drops from Mok'rash
+  accept 8552 item 3985 -- Drops from Mok'rash
+
+step Naga Explorer
+  collect 4029 x10 quest 617.1
+
+step Pupellyverbos Port
+  zone map 1425
+  collect 3900 x1 quest 580.1
+
+step Zanzil Zombie
+  zone map 1434
+  collect 4016 x12 quest 621.1
+
+step Mokk the Savage
+  collect 2797 x1 quest 348.1
+
+step Elder Mistvale Gorilla
+  collect 3919 x5 quest 606.1
+
+step Oglethorpe Obnoticus
+  zone map 1444
+  complete 2767 @45.6,43.4 map 1444
+  turnin 2767
+  turnin 348
+  turnin 621
+  turnin 580
+  turnin 617
+  accept 623
+
+step The Captain's Chest
+  when onquest 8551
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 8551 @26.7,73.6 optional
+
+step The Captain's Chest
+  when onquest 8551
+  zone map 1434
+  turnin 8551 optional
+
+step Captain Hecklebury Smotts
+  zone map 1434
+  turnin 620
+  turnin 8552
+  accept 615
+
+step The Captain's Cutlass
+  when available 8553
+  tip One of several exclusive quests; the route takes The Captain's Cutlass (615). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 8553 optional
+
+step Sprogger
+  zone map 1434
+  turnin 615
+
+step Facing Negolash
+  when available 8554
+  tip One of several exclusive quests; the route takes Facing Negolash (618). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 8554 optional
+
+step Enticing Negolash
+  when onquest 8554
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 4457 x10 anywhere optional
+  collect 4595 x5 anywhere optional
+  turnin 619 direct optional
+
+step The Captain's Cutlass
+  when onquest 8553
+  zone map 1434
+  turnin 8553 optional
+
+step "Shaky" Phillipe
+  zone map 1434
+  turnin 606
+  accept 607
+
+step Traitor to the Bloodsail
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 4306 x40 anywhere optional
+  collect 2604 x4 anywhere optional
+  turnin 9259 direct optional
+
+step Facing Negolash
+  when onquest 8554
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 8554 @26.7,73.6 optional
+
+step Facing Negolash
+  when onquest 8554
+  zone map 1434
+  turnin 8554 optional
+
+step "Sea Wolf" MacKinley
+  zone map 1434
+  turnin 607
+  accept 609
+
+step Chucky "Ten Thumbs"
+  collect 3926 x1 quest 609.3
+
+step Maury "Club Foot" Wilkins and Jon-Jon the Crow
+  collect 3924 x1 quest 609.1
+  collect 3925 x1 quest 609.2
+
+step "Sea Wolf" MacKinley
+  turnin 609
+
+step "Sea Wolf" MacKinley
+  when group 613
+  zone map 1434
+  accept 613
+
+step Knaz Blunderflame
+  when group 97405
+  zone map 1434
+  accept 97405
+
+step Mosh'Ogg Warmonger
+  when group 97405
+  tip Noise Complaints is group work: elites. Grouping up is advised.
+  zone map 1434
+  kill 709 x3 quest 97405.2
+
+step Level 45
+  zone map 1434
+  level 45
+
+step Half-Buried Bottle
+  accept 594 item 4098 -- Found in Half-Buried Bottle
+
+step Princess Poobah
+  turnin 594
+
+step Arena Grandmaster
+  when turnedin 7810
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 18706 x12 anywhere optional
+  turnin 7838 direct optional
+
+step Princess Poobah
+  when group 630
+  zone map 1434
+  accept 630
+
+step King Mukla
+  when group 630
+  tip Message in a Bottle is group work: elites. Grouping up is advised.
+  zone map 1434
+  collect 4103 x1 quest 630.1
+
+step Princess Poobah
+  when group 630
+  zone map 1434
+  turnin 630
+
+step Mosh'Ogg Mauler and Mosh'Ogg Shaman
+  when group 97405
+  tip Noise Complaints is group work: elites. Grouping up is advised.
+  zone map 1434
+  kill 678 x3 quest 97405.3
+  kill 679 x3 quest 97405.4
+
+step Mosh'Ogg Spellcrafter
+  when group 97405
+  tip Noise Complaints is group work: elites. Grouping up is advised.
+  zone map 1434
+  kill 710 x3 quest 97405.1
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Knaz Blunderflame
+  when group 97405
+  zone map 1434
+  turnin 97405
+
+step Privateer Groy
+  zone map 1445
+  turnin 623
+
+step In Search of Galvan
+  when skill Blacksmithing 1
+  zone map 1453
+  turnin 2759 optional
+
+step The Mithril Order
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2760 optional
+
+step The Mithril Order
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2760 optional
+
+step Smelt On, Smelt Off
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2761 optional
+  complete 2761 @50.6,20.5 optional
+
+step Smelt On, Smelt Off
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2761 optional
+
+step Galvan's Finest Pupil
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2764 optional
+
+step Galvan's Finest Pupil
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 2764 optional
+
+step The Great Silver Deceiver
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2762 optional
+  complete 2762 @50.6,20.5 optional
+
+step The Great Silver Deceiver
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2762 optional
+
+step The Art of the Imbue
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2763 optional
+  complete 2763 @50.6,20.5 optional
+
+step The Art of the Imbue
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2763 optional
+
+step Expert Blacksmith!
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2765 optional
+  complete 2765 @50.6,20.5 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Expert Blacksmith!
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2765 optional
+
+step Facing Negolash
+  when available 618
+  tip One of several exclusive quests; the route takes Facing Negolash (8554). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 618 optional
+
+step Facing Negolash
+  when onquest 618
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 618 @26.7,73.6 optional
+
+step Facing Negolash
+  when onquest 618
+  zone map 1434
+  turnin 618 optional
+
+step The Captain's Chest
+  when available 614
+  tip One of several exclusive quests; the route takes The Captain's Chest (8551). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 614 optional
+
+step The Captain's Chest
+  when onquest 614
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 614 @26.7,73.6 optional
+
+step Mosh'Ogg Lord
+  when group 613
+  tip Cracking Maury's Foot is group work: elites. Grouping up is advised.
+  zone map 1434
+  collect 3930 x1 quest 613.1
+
+step "Sea Wolf" MacKinley
+  when group 613
+  zone map 1434
+  turnin 613
+
+step The Captain's Chest
+  when onquest 614
+  zone map 1434
+  turnin 614 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Rescue OOX-22/FE!
+  when onquest 2767
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1434
+  turnin 2767 optional
+
+step Master of the Wild Leather
+  when onquest 2853
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 2853 optional
+
+step Doling Justice
+  when onquest 2972
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 2972 optional
+
+step Rise of the Silithid
+  when onquest 4267
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 4267 optional

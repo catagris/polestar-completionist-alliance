@@ -1,0 +1,90 @@
+guide completionist-alliance/dungeon-gnomeregan-2
+title Gnomeregan, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 25-35
+zone Dun Morogh
+next completionist-alliance/dungeon-razorfen-kraul
+next completionist-alliance/23-odd-jobs-in-kalimdor-2
+pitch Gnomeregan, in Dun Morogh.
+why Every Alliance quest of Gnomeregan: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Shoni the Shilent
+  zone map 1453
+  turnin 2928
+
+step High Tinker Mekkatorque
+  zone map 1455
+  turnin 2929
+
+step Klockmort Spannerspan
+  turnin 2925
+
+step Master Mechanic Castpipe
+  turnin 2931
+
+step Klockmort Spannerspan
+  accept 2924
+
+step Master Mechanic Castpipe
+  accept 2930
+
+step Talvash del Kissel
+  turnin 2947
+
+step Inside Gnomeregan, again
+  zone map 1426
+  complete 2922 @22,38.7
+  complete 2926 @22,38.7
+  complete 2924 @22,38.7
+  complete 2930 @22,38.7
+
+step Ozzie Togglevolt
+  turnin 2926
+
+step Ozzie Togglevolt
+  accept 2962
+
+step Inside Gnomeregan, again
+  complete 2962 @22,38.7
+
+step Ozzie Togglevolt
+  turnin 2962
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Klockmort's Essentials
+  when onquest 2925
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2925 optional
+
+step Gnogaine
+  when onquest 2926
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 2926 optional
+
+step Gyrodrillmatic Excavationators
+  when onquest 2928
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 2928 optional
+
+step The Grand Betrayal
+  when onquest 2929
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2929 optional
+
+step Castpipe's Task
+  when onquest 2931
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2931 optional
+
+step Return of the Ring
+  when onquest 2947
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2947 optional

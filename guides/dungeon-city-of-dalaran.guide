@@ -1,0 +1,51 @@
+guide completionist-alliance/dungeon-city-of-dalaran
+title City of Dalaran (Completionist)
+faction Alliance
+category Dungeons
+levels 24-33
+zone Alterac Mountains
+next completionist-alliance/18-thousand-needles
+pitch City of Dalaran, in Alterac Mountains.
+why Every Alliance quest of City of Dalaran: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step High Sorcerer Andromath
+  zone map 1453
+  accept 92489
+
+step Shylamiir
+  accept 92456
+
+step Getting there
+  zone map 1416
+  note The entrance is in Alterac Mountains: the arrow leads to it.
+
+step Image of Archmage Modera
+  zone map 1421
+  accept 92457
+  accept 92458
+
+step Inside City of Dalaran
+  zone map 1416
+  complete 92456 @14.7,63
+  complete 92457 @14.7,63
+  complete 92458 @14.7,63
+  complete 92489 @14.7,63
+
+step Image of Archmage Modera
+  zone map 1421
+  turnin 92457
+  turnin 92458
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Starving Arcane
+  when onquest 92457
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 92457 optional
+
+step Heart of Disruption
+  when onquest 92458
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 92458 optional

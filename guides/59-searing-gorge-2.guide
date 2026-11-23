@@ -1,0 +1,103 @@
+guide completionist-alliance/59-searing-gorge-2
+title 59 Searing Gorge (60-60) (Completionist)
+faction Alliance
+levels 59-60
+zone Searing Gorge
+next completionist-alliance/dungeon-blackrock-spire
+next completionist-alliance/60-odd-jobs-in-the-eastern-kingdoms-4
+pitch On along the line: Searing Gorge, level 60 quests.
+# Generated from the reference data: change the planner, not this file.
+# Routed 1 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+# Skipped: 7 prerequisite N not in this route; 3 exclusive with N.
+
+step Mistina Steelshield
+  when onquest 7802
+  zone map 1455
+  turnin 7802
+  turnin 7803
+
+step Mistina Steelshield
+  zone map 1455
+  accept 7805
+
+step Bubulo Acerbus
+  when onquest 7807
+  zone map 1455
+  turnin 7807
+  turnin 7808
+
+step Bubulo Acerbus
+  zone map 1455
+  accept 7811
+
+step Stormwind Royal Guard
+  zone map 1453
+  collect 14047 x60 quest 7805.1
+
+step Stormwind Royal Guard
+  collect 14047 x60 quest 7811.1
+
+step Attunement to the Core
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 7487
+  complete 7487 @32.1,94.7
+
+step Attunement to the Core
+  turnin 7487
+
+step Restoring Fiery Flux Supplies via Heavy Leather
+  when turnedin 7722
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1427
+  collect 18944 x2 anywhere optional
+  collect 4234 x10 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8242 direct optional
+
+step Restoring Fiery Flux Supplies via Iron
+  when turnedin 7722
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1427
+  collect 18944 x2 anywhere optional
+  collect 3575 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8241 direct optional
+
+step Restoring Fiery Flux Supplies via Kingsblood
+  when turnedin 7722
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1427
+  collect 18944 x2 anywhere optional
+  collect 3356 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 7736 direct optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Donation of Wool
+  when onquest 7802
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 7802 optional
+
+step A Donation of Silk
+  when onquest 7803
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 7803 optional
+
+step A Donation of Wool
+  when onquest 7807
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 7807 optional
+
+step A Donation of Silk
+  when onquest 7808
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 7808 optional

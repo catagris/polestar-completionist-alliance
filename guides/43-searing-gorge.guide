@@ -1,0 +1,359 @@
+guide completionist-alliance/43-searing-gorge
+title 43 Searing Gorge (45-55) (Completionist)
+faction Alliance
+levels 45-55
+zone Searing Gorge
+next completionist-alliance/dungeon-maraudon
+next completionist-alliance/44-burning-steppes
+pitch On along the line: Searing Gorge, quests of level 45 to 55.
+# Generated from the reference data: change the planner, not this file.
+# Routed 23 quests; estimated level at the end 46.4 (heuristic XP, class quests not counted).
+
+step Arch Druid Fandral Staghelm
+  when onquest 3790
+  zone map 1457
+  turnin 3790
+
+step Arch Druid Fandral Staghelm
+  when onquest 1019
+  zone map 1457
+  turnin 1019
+
+step Historian Karnik
+  when onquest 2977
+  zone map 1455
+  turnin 2977
+
+step Historian Karnik
+  zone map 1455
+  accept 2964
+
+step High Explorer Magellas
+  when onquest 2964
+  zone map 1455
+  turnin 2964
+
+step Master Smith Burninate
+  zone map 1427
+  getfp "Thorium Point"
+  accept 7722
+  accept 7723
+  accept 7724
+  accept 7727
+  accept 7728
+  accept 7729
+
+step Wanted/Missing/Lost & Found
+  when group 7701
+  zone map 1427
+  accept 7701
+
+step Searing Lava Spider
+  zone map 1427
+  kill 5858 x20 quest 7724.1
+
+step Dark Iron Lookout
+  collect 18960 x1 quest 7728.2
+
+step Heavy War Golem
+  kill 5854 x20 quest 7723.1
+
+step Dark Iron Steamsmith
+  collect 18959 x1 quest 7728.1
+
+step Dark Iron Slaver
+  kill 5844 x15 quest 7729.2
+
+step Overseer Maltorius and Secret Plans: Fiery Flux
+  collect 18922 x1 quest 7722.1
+
+step Dark Iron Taskmaster
+  kill 5846 x15 quest 7729.1
+
+step Incendosaur
+  kill 9318 x20 quest 7727.1
+
+step Overseer Maltorius and Secret Plans: Fiery Flux
+  when group 7701
+  tip WANTED: Overseer Maltorius is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 18946 x1 quest 7701.1
+
+step Dorius Stonetender
+  zone map 1427
+  accept 3367
+  accept 4449
+
+step Dark Iron Geologist
+  kill 5839 x8 quest 4449.1
+
+step Singed Letter
+  turnin 3367
+  accept 3368
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x15 quest 4449.2
+
+step Master Smith Burninate
+  zone map 1427
+  turnin 7722
+  turnin 7723
+  turnin 7724
+  turnin 7727
+  turnin 7728
+  turnin 7729
+
+step Lookout Captain Lolo Longstriker
+  when group 7701
+  zone map 1427
+  turnin 7701
+
+step Weathered Etching
+  zone map 1427
+  accept 81900
+
+step Wooden Outhouse
+  turnin 4449
+  accept 4450
+
+step Goodsteel Ledger
+  collect 11727 x1 quest 4450.1
+
+step Glassweb Spider
+  collect 11725 x20 quest 4450.2
+
+step Jarquia
+  zone map 1435
+  collect 11723 x1 quest 4450.4
+
+step Damaged Crate
+  zone map 1445
+  collect 11724 x1 quest 4450.3
+
+step Krinkle Goodsteel
+  zone map 1446
+  turnin 4450
+
+step Shadoweaver
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3379 optional
+  complete 3379 @41.0,75.0 optional
+
+step Shadoweaver
+  when skill Tailoring 1
+  zone map 1427
+  turnin 3379 optional
+
+step The Undermarket
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3385 optional
+  complete 3385 @41.0,75.0 optional
+
+step The Undermarket
+  when skill Tailoring 1
+  zone map 1427
+  turnin 3385 optional
+
+step The Undermarket
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3402 optional
+
+step The Undermarket
+  when skill Tailoring 1
+  zone map 1427
+  turnin 3402 optional
+
+step Elemental Leatherworking
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 5144 optional
+  complete 5144 @63.6,76.0 optional
+
+step Elemental Leatherworking
+  when skill Leatherworking 1
+  zone map 1427
+  turnin 5144 optional
+
+step Prayer to Elune
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3377
+  complete 3377 @29.6,26.3
+
+step Prayer to Elune
+  turnin 3377
+
+step Zamael Lunthistle
+  when group 3378
+  zone map 1427
+  accept 3378
+
+step Twilight Fire Guard
+  when group 3378
+  tip Prayer to Elune is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 10458 x1 quest 3378.1
+
+step Divine Retribution
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3441
+  complete 3441 @39.1,39.0
+
+step Divine Retribution
+  turnin 3441
+
+step Velarok Windblade
+  accept 3442
+
+step Magma Elemental
+  collect 10511 x4 quest 3442.2
+
+step Inferno Elemental
+  collect 10509 x4 quest 3442.1
+
+step Velarok Windblade
+  turnin 3442
+
+step Velarok Windblade
+  accept 3443
+
+step Dark Iron Kidnapper
+  collect 10551 x8 quest 3443.1
+
+step Velarok Windblade
+  turnin 3443
+
+step Velarok Windblade
+  when group 3452
+  zone map 1427
+  accept 3452
+
+step Twilight Dark Shaman
+  when group 3452
+  tip The Flame's Casing is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 10552 x1 quest 3452.1
+
+step Velarok Windblade
+  when group 3452
+  zone map 1427
+  turnin 3452
+
+step The Torch of Retribution
+  when turnedin 3452
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3453 optional
+  complete 3453 @39.1,39.0 optional
+
+step The Torch of Retribution
+  when onquest 3453
+  zone map 1427
+  turnin 3453
+
+step Velarok Windblade
+  when turnedin 3453
+  zone map 1427
+  accept 3454 optional
+
+step Torch of Retribution
+  when onquest 3454
+  zone map 1427
+  turnin 3454
+
+step Velarok Windblade
+  when turnedin 3454
+  zone map 1427
+  accept 3462 optional
+
+step Squire Maltrake
+  when onquest 3462
+  zone map 1427
+  turnin 3462
+
+step Squire Maltrake
+  when turnedin 3462
+  zone map 1427
+  accept 3463 optional
+
+step Sentry Brazier
+  when onquest 3463
+  zone map 1427
+  interact 149031 quest 3463.3
+
+step Sentry Brazier
+  when onquest 3463
+  zone map 1427
+  interact 149030 quest 3463.2
+
+step Sentry Brazier
+  when onquest 3463
+  zone map 1427
+  interact 149025 quest 3463.1
+
+step Sentry Brazier
+  when onquest 3463
+  zone map 1427
+  interact 149032 quest 3463.4
+
+step Squire Maltrake
+  when onquest 3463
+  zone map 1427
+  turnin 3463
+
+step Hoard of the Black Dragonflight
+  when turnedin 3463
+  zone map 1427
+  accept 3481 optional
+  turnin 3481 optional
+
+step The Key to Freedom
+  tip Grimesilt Outhouse Key drops from Dark Iron Steamsmith, Dark Iron Slaver, Dark Iron Taskmaster: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1427
+  collect 11818 x1 optional
+  accept 4451 item 11818 optional
+
+step The Key to Freedom
+  when onquest 4451
+  zone map 1427
+  turnin 4451
+
+step Look at the Size of It!
+  when has 18950
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1427
+  accept 7704 item 18950
+
+step Look at the Size of It!
+  when onquest 7704
+  zone map 1427
+  turnin 7704
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The New Frontier
+  when onquest 1019
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 1019 optional
+
+step Return to Ironforge
+  when onquest 2977
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2977 optional
+
+step Assisting Arch Druid Staghelm
+  when onquest 3790
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 3790 optional

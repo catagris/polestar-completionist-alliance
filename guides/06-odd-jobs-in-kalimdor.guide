@@ -1,0 +1,159 @@
+guide completionist-alliance/06-odd-jobs-in-kalimdor
+title 06 Odd jobs in Kalimdor (4-20) (Completionist)
+faction Alliance
+levels 4-20
+zone Dustwallow Marsh
+next completionist-alliance/07-loch-modan
+pitch On along the line: errands across Kalimdor, quests of level 4 to 20.
+# Generated from the reference data: change the planner, not this file.
+# Routed 4 quests; estimated level at the end 5.5 (heuristic XP, class quests not counted).
+
+step Rellian Greenspyre
+  when onquest 923
+  zone map 1457
+  turnin 923
+  accept 2498
+
+step Crown of the Earth
+  when onquest 935
+  zone map 1457
+  turnin 935
+
+step Priestess A'moora
+  when onquest 2518
+  zone map 1457
+  turnin 2518
+  accept 2520
+
+step Temple of the Moon Fountain
+  zone map 1457
+  interact 138498 quest 2520.1
+
+step Priestess A'moora
+  when onquest 2520
+  zone map 1457
+  turnin 2520
+
+step Crown of the Earth
+  when turnedin 935
+  zone map 1457
+  accept 98046
+
+step Crown of the Earth
+  when onquest 98046
+  zone map 1457
+  turnin 98046
+
+step Crown of the Earth
+  when turnedin 98046
+  zone map 1457
+  accept 98065
+
+step Crown of the Earth
+  when onquest 98065
+  zone map 1457
+  turnin 98065
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Level 8
+  zone map 1457
+  level 8
+
+step Moonglow Vest
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1457
+  accept 1582 optional
+  complete 1582 @64.4,22.2 optional
+
+step Moonglow Vest
+  when skill Leatherworking 1
+  zone map 1457
+  turnin 1582 optional
+
+step Denalan
+  when onquest 2498
+  zone map 1438
+  turnin 2498
+
+step Denalan
+  when group 2499
+  zone map 1438
+  accept 2499
+
+step Oakenscowl
+  when group 2499
+  tip Oakenscowl is group work: elites. Grouping up is advised.
+  zone map 1438
+  collect 8136 x1 quest 2499.1
+
+step Denalan
+  when onquest 2499
+  when group 2499
+  zone map 1438
+  turnin 2499
+
+step Minor Manifestation of Earth
+  only Shaman
+  zone map 1411
+  accept 94375
+
+step Level 7
+  zone map 1411
+  level 7
+
+step Rezlak
+  accept 834
+
+step Stolen Supply Sack
+  collect 4918 x5 quest 834.1
+
+step Rezlak
+  turnin 834
+  accept 835
+
+step Dustwind Storm Witch
+  kill 3118 x8 quest 835.2
+
+step Dustwind Savage
+  kill 3117 x12 quest 835.1
+
+step Rezlak
+  turnin 835
+
+step Teo Hammerstorm
+  only Shaman
+  zone map 1426
+  turnin 94375
+
+step Level 18
+  zone map 1445
+  level 18
+
+step Fiora Longears
+  accept 1133
+
+step Shindrell Swiftfire
+  zone map 1440
+  turnin 1133
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Tumors
+  when onquest 923
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 923 optional
+
+step Crown of the Earth
+  when onquest 935
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 935 optional
+
+step Tears of the Moon
+  when onquest 2518
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 2518 optional

@@ -1,0 +1,255 @@
+guide completionist-alliance/17-hillsbrad-foothills-and-alterac-mountains
+title 17 Hillsbrad Foothills and Alterac Mountains (21-33) (Completionist)
+faction Alliance
+levels 21-33
+zone Hillsbrad Foothills
+next completionist-alliance/dungeon-city-of-dalaran
+next completionist-alliance/18-thousand-needles
+pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 21 to 33.
+# Generated from the reference data: change the planner, not this file.
+# Routed 24 quests; estimated level at the end 24.0 (heuristic XP, class quests not counted).
+
+step Thyn'tel Bladeweaver
+  when onquest 1037
+  zone map 1457
+  turnin 1037
+
+step Dawnwatcher Selgorm
+  when complete 1200
+  zone map 1457
+  turnin 1200
+
+step Argent Guard Manados
+  when complete 1199
+  zone map 1457
+  turnin 1199
+
+step Collin Mauren
+  when onquest 1075
+  zone map 1453
+  turnin 1075
+  accept 1076
+
+step Lomac Gearstrip
+  when onquest 1072
+  zone map 1455
+  turnin 1072
+
+step Gerrig Bonegrip
+  when complete 971
+  zone map 1455
+  turnin 971
+
+step Ineptitude + Chemicals = Fun
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  accept 1073
+  complete 1073 @72.1,51.9
+
+step Ineptitude + Chemicals = Fun
+  turnin 1073
+
+step Lomac Gearstrip
+  accept 1074
+
+step Dust Devil
+  zone map 1436
+  collect 5669 x1 quest 1076.1
+
+step Level 23
+  zone map 1424
+  level 23
+
+step Captain McManus
+  getfp "Southshore"
+  accept 98059
+
+step Captain McManus
+  complete 98059 @29.7,41.6 map 1424
+  turnin 98059
+
+step Level 26
+  level 26
+
+step Magistrate Henry Maleb
+  sethome "Southshore"
+  accept 505
+
+step Syndicate Thief
+  zone map 1416
+  kill 2241 x8 quest 505.2
+
+step Syndicate Footpad
+  zone map 1424
+  kill 2240 x12 quest 505.1
+
+step Level 30
+  level 30
+
+step Emissary Jacques
+  accept 92432
+
+step Phin Odelic
+  accept 659
+
+step Lieutenant Farren Orinelle
+  accept 536
+
+step Barkeep Kelly
+  accept 98463
+
+step Chef Jessen
+  accept 555
+
+step Coralshell Tortoise
+  zone map 1447
+  collect 3712 x10 quest 555.1
+
+step Gunder Thornbush
+  zone map 1431
+  buy 3713 x1 npc 960 -- for Soothing Turtle Bisque
+
+step Torn Fin Tidehunter
+  zone map 1424
+  kill 2377 x10 quest 536.1
+
+step Torn Fin Oracle
+  kill 2376 x10 quest 536.2
+
+step Magistrate Henry Maleb
+  turnin 505
+
+step Lieutenant Farren Orinelle
+  turnin 536
+  accept 559
+  turnin 555
+
+step Torn Fin Muckdweller
+  collect 3716 x10 quest 559.1
+
+step Tom "Half-fish" Wilson
+  accept 98459
+
+step Lieutenant Farren Orinelle
+  turnin 559
+  accept 560
+  turnin 560
+  accept 561
+  turnin 561
+  accept 562
+
+step Daggerspine Shorehunter
+  kill 2369 x10 quest 562.1
+
+step Daggerspine Siren
+  kill 2371 x10 quest 562.2
+
+step Lieutenant Farren Orinelle
+  turnin 562
+  accept 563
+
+step Bath'rah the Windwatcher
+  zone map 1416
+  accept 79362
+  accept 79363
+  accept 96137
+
+step More Unstable Magic
+  when turnedin 96603
+  zone map 1416
+  accept 96602 optional
+
+step More Unstable Magic
+  when onquest 96602
+  zone map 1416
+  turnin 96602 optional
+
+step Young Black Ravager
+  zone map 1431
+  kill 923 x10 quest 96137.1
+
+step Defias Night Blade and Defias Enchanter
+  kill 909 x7 quest 79363.1
+  kill 910 x7 quest 79363.2
+
+step Black Ravager
+  kill 628 x7 quest 96137.2
+
+step Skeletal Horror
+  collect 281146 x1 quest 79362.1
+
+step Sirra Von'Indi
+  turnin 79362 npc 268
+  turnin 79363 npc 268
+  turnin 96137
+
+step Quae
+  zone map 1417
+  turnin 659
+
+step Image of Archmage Modera
+  zone map 1421
+  turnin 92432
+
+step Heart of Disruption
+  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92458 optional
+
+step Starving Arcane
+  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92457 optional
+
+step Nixxrax Fillamug
+  zone map 1434
+  turnin 98463
+
+step Gaxim Rustfizzle
+  zone map 1442
+  turnin 1074
+
+step Brewer's Trade
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1424
+  accept 98071
+  complete 98071 @52.1,58.7
+
+step Brewer's Trade
+  turnin 98071
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Knowledge in the Deeps
+  when onquest 971
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 971 optional
+
+step Velinde Starsong
+  when onquest 1037
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 1037 optional
+
+step An Old Colleague
+  when onquest 1072
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 1072 optional
+
+step A Scroll from Mauren
+  when onquest 1075
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1075 optional
+
+step Twilight Falls
+  when onquest 1199
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 1199 optional
+
+step Blackfathom Villainy
+  when onquest 1200
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 1200 optional

@@ -1,0 +1,69 @@
+guide completionist-alliance/dungeon-blackfathom-deeps
+title Blackfathom Deeps (Completionist)
+faction Alliance
+category Dungeons
+levels 18-27
+zone Ashenvale
+next completionist-alliance/17-hillsbrad-foothills-and-alterac-mountains
+pitch Blackfathom Deeps, in Ashenvale.
+why Every Alliance quest of Blackfathom Deeps: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Gerrig Bonegrip
+  zone map 1455
+  accept 971
+
+step Dawnwatcher Shaedlass
+  zone map 1457
+  accept 1198
+
+step The Heart of the Void
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 78916 direct @56.2,24.4 map 1457
+
+step Argent Guard Manados
+  accept 1199
+
+step Getting there
+  zone map 1440
+  note The entrance is in Ashenvale: the arrow leads to it.
+
+step Gershala Nightwhisper
+  zone map 1439
+  accept 1275
+
+step Inside Blackfathom Deeps
+  zone map 1440
+  complete 971 @15.1,13.2
+  turnin 1198 @15.1,13.2
+  complete 1275 @15.1,13.2
+
+step Gershala Nightwhisper
+  zone map 1439
+  turnin 1275
+
+step Level 20
+  zone map 1413
+  level 20
+
+step Doan Karhan
+  only Warlock
+  zone map 1413
+  accept 1740
+
+step Inside Blackfathom Deeps
+  only Warlock
+  zone map 1440
+  complete 1740 @15.1,13.2
+
+step Doan Karhan
+  only Warlock
+  zone map 1413
+  turnin 1740
+
+step Inside Blackfathom Deeps, again
+  zone map 1440
+  accept 1200 @15.1,13.2
+  complete 1200 @15.1,13.2
+
+step Inside Blackfathom Deeps
+  complete 1199 @15.1,13.2

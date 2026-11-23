@@ -1,0 +1,74 @@
+guide completionist-alliance/dungeon-the-drowned-city
+title The Drowned City (Completionist)
+faction Alliance
+category Dungeons
+levels 33-40
+zone Stranglethorn Vale
+next completionist-alliance/34-odd-jobs-in-the-eastern-kingdoms-2
+pitch The Drowned City, in Stranglethorn Vale.
+why Every Alliance quest of The Drowned City: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Getting there
+  note The entrance is in Stranglethorn Vale: the arrow leads to it.
+
+step Krazek
+  accept 95789
+  accept 95791
+
+step Level 34
+  zone map 1416
+  level 34
+
+step Archmage Timear
+  accept 97130
+
+step Loremaster Dibbs
+  zone map 1424
+  accept 95787
+  accept 95788
+
+step Inside The Drowned City
+  zone map 1434
+  complete 95787 @21.6,27.7
+  complete 95788 @21.6,27.7
+  complete 95789 @21.6,27.7
+  complete 95791 @21.6,27.7
+  complete 97130 @21.6,27.7
+
+step Krazek
+  turnin 95789
+  turnin 95791
+
+step Archmage Timear
+  zone map 1416
+  turnin 97130
+
+step Loremaster Dibbs
+  zone map 1424
+  turnin 95787
+  turnin 95788
+
+step Findings for the Explorer's League
+  accept 95799
+
+step The Web of Magic
+  accept 95798
+
+step The Web of Magic
+  when onquest 95798
+  zone map 1416
+  turnin 95798
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Shady Saltseers
+  when onquest 95789
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1434
+  turnin 95789 optional
+
+step The Saltseer Captain
+  when onquest 95791
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1434
+  turnin 95791 optional

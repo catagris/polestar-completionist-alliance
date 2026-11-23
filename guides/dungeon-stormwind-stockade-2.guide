@@ -1,0 +1,75 @@
+guide completionist-alliance/dungeon-stormwind-stockade-2
+title Stormwind Stockade, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 22-29
+zone Stormwind City
+next completionist-alliance/21-wetlands-2
+pitch Stormwind Stockade, in Stormwind City.
+why Every Alliance quest of Stormwind Stockade: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step The Unsent Letter
+  turnin 373
+
+step Bazil Thredd
+  accept 389
+
+step Bazil Thredd
+  turnin 389
+
+step Warden Thelwater
+  accept 387
+  accept 391
+
+step Inside Stormwind Stockade
+  complete 386 @50.8,67
+  complete 377 @50.8,67
+  complete 387 @50.8,67
+  complete 388 @50.8,67
+  complete 378 @50.8,67
+  complete 391 @50.8,67
+
+step Nikova Raskol
+  turnin 388
+
+step Warden Thelwater
+  turnin 387
+  turnin 391
+
+step Councilman Millstipe
+  zone map 1431
+  turnin 377
+
+step Guard Berton
+  zone map 1433
+  turnin 386
+
+step Motley Garmason
+  zone map 1437
+  turnin 378
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Crime and Punishment
+  when onquest 377
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1431
+  turnin 377 optional
+
+step The Fury Runs Deep
+  when onquest 378
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1437
+  turnin 378 optional
+
+step What Comes Around...
+  when onquest 386
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1433
+  turnin 386 optional
+
+step The Color of Blood
+  when onquest 388
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 388 optional

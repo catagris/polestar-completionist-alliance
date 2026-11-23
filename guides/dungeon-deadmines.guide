@@ -1,0 +1,131 @@
+guide completionist-alliance/dungeon-deadmines
+title Deadmines (Completionist)
+faction Alliance
+category Dungeons
+levels 15-22
+zone Westfall
+next completionist-alliance/dungeon-shadowfang-keep
+next completionist-alliance/16-ashenvale
+pitch Deadmines, in Westfall.
+why Every Alliance quest of Deadmines: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Shoni the Shilent
+  zone map 1453
+  accept 2040
+
+step Wilder Thistlenettle
+  accept 168
+  accept 167
+
+step Level 20
+  zone map 1455
+  level 20
+
+step The Test of Righteousness
+  zone map 1426
+  only Paladin,Human,Dwarf
+  when turnedin 1653
+  zone map 1455
+  accept 1654 optional
+
+step The Test of Righteousness
+  only Paladin,Human,Dwarf
+  when onquest 1654
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 1654 @52.5,36.9 optional
+
+step The Test of Righteousness
+  zone map 1426
+  only Paladin,Human,Dwarf
+  when onquest 1654
+  zone map 1455
+  turnin 1654 optional
+
+step The Test of Righteousness
+  zone map 1426
+  only Paladin,Human,Dwarf
+  when turnedin 1654
+  zone map 1455
+  accept 1806 optional
+
+step The Test of Righteousness
+  zone map 1426
+  only Paladin,Human,Dwarf
+  when onquest 1806
+  zone map 1455
+  turnin 1806 optional
+
+step Getting there
+  zone map 1436
+  note The entrance is in Westfall: the arrow leads to it.
+
+step Alba Fairmoon
+  accept 92753
+
+step Gryan Stoutmantle
+  accept 166
+
+step Scout Riell
+  accept 214
+
+step Inside Deadmines
+  collect 2874 @41.9,72.8
+  complete 214 @41.9,72.8
+  complete 168 @41.9,72.8
+  complete 92753 @41.9,72.8
+  complete 167 @41.9,72.8
+  complete 2040 @41.9,72.8
+  complete 166 @41.9,72.8
+
+step Alba Fairmoon
+  turnin 92753
+
+step Gryan Stoutmantle
+  turnin 166
+
+step Scout Riell
+  turnin 214
+
+step Destruction in Deadmines
+  accept 92819
+
+step Destruction in Deadmines
+  when onquest 92819
+  zone map 1436
+  complete 92819 @38.7,83.6
+
+step Inside Deadmines
+  zone map 1436
+  accept 373 item 2874
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Destruction in Deadmines
+  when onquest 92819
+  zone map 1436
+  turnin 92819
+
+step Seeking the Kor Gem
+  only Paladin,Human,Dwarf
+  when onquest 1654
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1439
+  collect 6995 x1 anywhere optional
+  turnin 1442 direct optional
+
+step Bailor's Ore Shipment
+  only Paladin,Human,Dwarf
+  when onquest 1654
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1432
+  collect 6992 x1 anywhere optional
+  turnin 1655 direct optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Destruction in Deadmines
+  when onquest 92753
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1436
+  turnin 92753 optional

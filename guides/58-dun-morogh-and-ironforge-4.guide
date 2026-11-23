@@ -1,0 +1,127 @@
+guide completionist-alliance/58-dun-morogh-and-ironforge-4
+title 58 Dun Morogh and Ironforge (60-60) (Completionist)
+faction Alliance
+levels 59-60
+zone Dun Morogh
+next completionist-alliance/59-searing-gorge-2
+pitch On along the line: Dun Morogh and Ironforge, level 60 quests.
+# Generated from the reference data: change the planner, not this file.
+# Routed 14 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+# Skipped: 1 prerequisite N not in this route.
+
+step Mistina Steelshield
+  zone map 1455
+  accept 7802
+  accept 7803
+
+step An Earnest Proposition
+  only Priest
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8909 optional
+
+step An Earnest Proposition
+  only Paladin
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8908 optional
+
+step An Earnest Proposition
+  only Mage
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8907 optional
+
+step An Earnest Proposition
+  only Warrior
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8912 optional
+
+step An Earnest Proposition
+  only Hunter
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8906 optional
+
+step An Earnest Proposition
+  only Druid
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8905 optional
+
+step Deliana
+  zone map 1455
+  accept 84148 @43.4,52.1 map 1455
+  accept 84149 @43.4,52.1 map 1455
+  accept 84151 @43.4,52.1 map 1455
+  accept 84154 @43.4,52.1 map 1455
+  accept 97447 @43.4,52.1 map 1455
+  turnin 84148 @43.4,52.1 map 1455
+  turnin 84149 @43.4,52.1 map 1455
+  turnin 84151 @43.4,52.1 map 1455
+  turnin 84154 @43.4,52.1 map 1455
+  turnin 97447 @43.4,52.1 map 1455
+
+step Wulmort Jinglepocket
+  accept 79492
+  turnin 79492
+
+step Bubulo Acerbus
+  accept 7807
+  accept 7808
+
+step Arrows Are For Sissies
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 15997 x200 anywhere optional
+  turnin 7342 direct optional
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 7802.1
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x60 quest 7803.1
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 7807.1
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x60 quest 7808.1
+
+step Ultham Ironhorn
+  zone map 1426
+  accept 99209 only Dwarf @63.7,50.1 map 1426
+
+step Black Ram Exchange
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13328 x1 anywhere optional
+  turnin 7674 direct optional
+
+step Frost Ram Exchange
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13329 x1 anywhere optional
+  turnin 7673 direct optional
+
+step Veron Amberstill
+  turnin 99209 only Dwarf @63.5,50.6 map 1426
+
+step Binjy Featherwhistle
+  sethome "Thunderbrew Distillery"
+  accept 99207 only Gnome @49.1,48.1 map 1426
+
+step White Mechanostrider Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13326 x1 anywhere optional
+  turnin 7676 direct optional
+
+step Icy Blue Mechanostrider Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13327 x1 anywhere optional
+  turnin 7675 direct optional
+
+step Milli Featherwhistle
+  turnin 99207 only Gnome @49.1,48.0 map 1426

@@ -1,0 +1,79 @@
+guide completionist-alliance/dungeon-sunken-temple-2
+title Sunken Temple, the second run (Completionist)
+faction Alliance
+category Dungeons
+levels 50-60
+zone Swamp of Sorrows
+next completionist-alliance/58-dun-morogh-and-ironforge-4
+pitch Sunken Temple, in Swamp of Sorrows.
+why Every Alliance quest of Sunken Temple: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Forest Wisp
+  zone map 1457
+  turnin 8733
+
+step Tyrande and Remulos
+  accept 8734
+
+step Brohann Caskbelly
+  zone map 1453
+  turnin 1475
+
+step Tyrande and Remulos
+  when onquest 8734
+  zone map 1450
+  turnin 8734
+
+step The Nightmare's Corruption
+  zone map 1450
+  accept 8735
+
+step The Nightmare's Corruption
+  when onquest 8735
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1450
+  complete 8735 @36.2,41.8
+
+step The Nightmare's Corruption
+  when onquest 8735
+  zone map 1450
+  turnin 8735
+
+step The Nightmare Manifests
+  when turnedin 8735
+  zone map 1450
+  accept 8736
+
+step The Nightmare Manifests
+  when onquest 8736
+  zone map 1450
+  complete 8736 @51.8,36.4
+
+step The Nightmare Manifests
+  when onquest 8736
+  zone map 1450
+  turnin 8736
+
+step The Champion Returns
+  when turnedin 8736
+  zone map 1450
+  accept 8741
+
+step The Champion Returns
+  when onquest 8741
+  zone map 1446
+  turnin 8741
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Into The Temple of Atal'Hakkar
+  when onquest 1475
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1475 optional
+
+step Eranikus, Tyrant of the Dream
+  when onquest 8733
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1438
+  turnin 8733 optional

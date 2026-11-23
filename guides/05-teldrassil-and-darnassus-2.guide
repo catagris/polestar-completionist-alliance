@@ -1,0 +1,58 @@
+guide completionist-alliance/05-teldrassil-and-darnassus-2
+title 05 Teldrassil and Darnassus (9-12) (Completionist)
+faction Alliance
+levels 9-12
+zone Teldrassil
+next completionist-alliance/06-odd-jobs-in-kalimdor
+pitch On along the line: Teldrassil and Darnassus, quests of level 9 to 12.
+# Generated from the reference data: change the planner, not this file.
+# Routed 6 quests; estimated level at the end 9.8 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route; 1 exclusive with N (done).
+
+step Level 10
+  zone map 1457
+  level 10
+
+step Mydrannul
+  accept 6344 only NightElf
+
+step Priestess A'moora
+  accept 2518
+
+step Dolanaar
+  zone map 1438
+  sethome "Dolanaar"
+
+step Timberling Mire Beast
+  collect 5170 x5 quest 923.1
+
+step Lady Sathrah
+  collect 8344 x1 quest 2518.1
+
+step Crown of the Earth
+  when available 934
+  tip One of several exclusive quests; the route takes Crown of the Earth (7383). This one shows for a character the game offers it to instead.
+  when turnedin 933
+  zone map 1438
+  accept 934 optional
+
+step Crown of the Earth
+  when onquest 934
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1438
+  complete 934 @56.1,61.7 optional
+
+step Crown of the Earth
+  when onquest 934
+  zone map 1438
+  turnin 934 optional
+
+step Nessa Shadowsong
+  zone map 1438
+  getfp "Rut'theran Village"
+  turnin 6344 only NightElf
+
+step Crown of the Earth
+  when turnedin 934
+  zone map 1438
+  accept 935

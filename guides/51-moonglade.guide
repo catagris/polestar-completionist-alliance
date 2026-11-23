@@ -1,0 +1,101 @@
+guide completionist-alliance/51-moonglade
+title 51 Moonglade (55-60) (Completionist)
+faction Alliance
+levels 55-60
+zone Moonglade
+next completionist-alliance/52-mount-hyjal
+pitch On along the line: Moonglade, quests of level 55 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 13 quests; estimated level at the end 55.6 (heuristic XP, class quests not counted).
+
+step Laris Geardawdle
+  when onquest 4513
+  zone map 1455
+  turnin 4513
+
+step Mathrengyl Bearwalker
+  zone map 1457
+  accept 6762
+
+step Moonglade
+  zone map 1450
+  getfp "Moonglade"
+
+step Level 60
+  zone map 1425
+  level 60
+
+step Ysondre
+  accept 8446 item 20644 -- Drops from Ysondre
+
+step Rabine Saturna
+  zone map 1450
+  accept 5527
+
+step Dusty Reliquary
+  zone map 1451
+  collect 22201 x1 quest 5527.1
+
+step Rabine Saturna
+  zone map 1450
+  turnin 5527
+
+step Keeper Remulos
+  turnin 8446
+
+step Keeper Remulos
+  accept 8447
+
+step Keeper Remulos
+  zone map 1425
+  complete 8447 @40,48.6 map 1450
+  turnin 8447
+
+step Rabine Saturna
+  zone map 1450
+  turnin 6762
+  accept 1124
+
+step Layo Starstrike
+  zone map 1449
+  turnin 1124
+  accept 1125
+
+step Tortured Druid and Tortured Sentinel
+  zone map 1451
+  kill 12178 x8 quest 1125.1
+  kill 12179 x8 quest 1125.2
+
+step Layo Starstrike
+  zone map 1449
+  turnin 1125
+  accept 1126
+
+step Hive'Ashi Ambusher
+  zone map 1451
+  collect 17346 x1 quest 1126.1
+
+step Layo Starstrike
+  zone map 1449
+  turnin 1126
+  accept 6844
+
+step Umber
+  zone map 1450
+  turnin 6844
+  accept 6845
+
+step Rabine Saturna
+  turnin 6845
+
+step Umber
+  accept 1185
+  turnin 1185
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Little Slime Goes a Long Way
+  when onquest 4513
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 4513 optional

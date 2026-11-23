@@ -1,0 +1,132 @@
+guide completionist-alliance/15-odd-jobs-in-the-eastern-kingdoms
+title 15 Odd jobs in the Eastern Kingdoms (13-25) (Completionist)
+faction Alliance
+levels 13-25
+zone Burning Steppes
+next completionist-alliance/dungeon-the-hall-of-thanes
+next completionist-alliance/16-ashenvale
+pitch On along the line: errands across the Eastern Kingdoms, quests of level 13 to 25.
+# Generated from the reference data: change the planner, not this file.
+# Routed 8 quests; estimated level at the end 13.6 (heuristic XP, class quests not counted).
+
+step Gilbert Gray
+  when onquest 95065
+  zone map 1453
+  turnin 95065
+
+step Brother Kristoff
+  when onquest 346
+  zone map 1453
+  turnin 346
+
+step An Old History Book
+  when onquest 337
+  zone map 1453
+  turnin 337
+
+step Gnoarn
+  zone map 1455
+  accept 2041
+
+step Knowledge in the Deeps
+  tip For Blackfathom Deeps: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 971 optional
+
+step Important Heirlooms
+  tip For The Hall of Thanes: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 96403 optional
+
+step The Restless Dead
+  tip For The Hall of Thanes: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 96394 optional
+
+step Mountaineer Kadrell
+  zone map 1426
+  accept 1339
+
+step Mountaineer Stormpike
+  zone map 1432
+  turnin 1339
+
+step Denaaris Stargale
+  zone map 1416
+  accept 94947 only Skyborne
+
+step Level 19
+  zone map 1428
+  level 19
+
+step Corporal Keeshan
+  accept 219
+
+step Marshal Marris
+  zone map 1433
+  turnin 219
+
+step Mountaineer Kadrell
+  zone map 1426
+  accept 468
+
+step Mountaineer Rockgar
+  zone map 1432
+  turnin 468
+
+step Level 20
+  zone map 1426
+  level 20
+
+step Mountaineer Kadrell
+  accept 467 npc 1340
+
+step Pilot Stonegear
+  turnin 467
+
+step Pilot Stonegear
+  accept 466
+
+step Incendicite Mineral Vein
+  zone map 1437
+  collect 3340 x6 quest 466.1
+
+step Pilot Stonegear
+  zone map 1426
+  turnin 466
+
+step Skyborne Portal to Stormwind
+  interact 631299 quest 94947.1 only Skyborne
+
+step Underground Map
+  tip Dark Iron Map drops from Dark Iron Spy, Captain Beld: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 274268 x1 optional
+  accept 96391 item 274268 optional
+
+step Underground Map
+  when onquest 96391
+  zone map 1426
+  turnin 96391
+
+step The Powers Below
+  tip Book: The Powers Below drops from Twilight Disciple, Twilight Thug: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1439
+  collect 5352 x1 optional
+  accept 968 item 5352 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step An Old History Book
+  when onquest 337
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 337 optional
+
+step Return to Kristoff
+  when onquest 346
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 346 optional
+
+step Fishin' Time
+  when onquest 95065
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 95065 optional

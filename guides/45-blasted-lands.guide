@@ -1,0 +1,286 @@
+guide completionist-alliance/45-blasted-lands
+title 45 Blasted Lands (41-57) (Completionist)
+faction Alliance
+levels 41-57
+zone Blasted Lands
+next completionist-alliance/46-odd-jobs-in-kalimdor-3
+pitch On along the line: Blasted Lands, quests of level 41 to 57.
+# Generated from the reference data: change the planner, not this file.
+# Routed 20 quests; estimated level at the end 43.3 (heuristic XP, class quests not counted).
+
+step Curator Thorius
+  when onquest 3566
+  when group 3566
+  zone map 1455
+  turnin 3566
+
+step Royal Historian Archesonus
+  when onquest 3701
+  zone map 1455
+  turnin 3701
+
+step Deliana
+  only Paladin
+  when complete 8933
+  zone map 1455
+  turnin 8933
+
+step King Magni Bronzebeard
+  when onquest 4363
+  zone map 1455
+  turnin 4363
+
+step Acolyte Dellis
+  zone map 1453
+  accept 1364
+
+step Ambassador Ardalan
+  zone map 1419
+  getfp "Nethergarde Keep"
+  accept 91882
+
+step The Lost Supplies
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 1423 direct optional
+
+step The Divination
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 2992
+  complete 2992 @66.9,19.5
+
+step Bernie Heisten
+  accept 87295
+
+step Redstone Crystalhide
+  collect 280181 x10 quest 87295.1
+
+step Bernie Heisten
+  turnin 87295
+
+step Bloodmage Lynnore
+  turnin 81900
+
+step Level 45
+  level 45
+
+step Lieutenant Connar
+  accept 96798
+
+step The Divination
+  turnin 2992
+
+step Thadius Grimshade
+  accept 2993
+
+step Gryphon Master Talonaxe
+  zone map 1424
+  turnin 2993
+
+step Gryphon Master Talonaxe
+  accept 2994
+
+step Gryphon Master Talonaxe
+  complete 2994
+  turnin 2994
+
+step Sergeant Danneth
+  zone map 1419
+  turnin 96798
+
+step Sergeant Danneth
+  accept 96811
+
+step Lieutenant Connar
+  turnin 96811
+
+step Lieutenant Connar
+  accept 96799
+
+step Sergeant Danneth
+  turnin 96799
+
+step Level 50
+  level 50
+
+step Ambassador Ardalan
+  accept 2783
+
+step Bloodmage Lynnore
+  accept 81917
+
+step Kum'isha the Collector
+  accept 2521
+
+step Kum'isha the Collector
+  accept 3501
+
+step Nethergarde Analyst
+  collect 10593 x1 quest 3501.1
+
+step Bloodmage Lynnore
+  when group 81919
+  zone map 1419
+  accept 81919
+
+step Bloodmage Lynnore
+  zone map 1419
+  accept 2603
+
+step Bloodmage Lynnore
+  accept 2601
+
+step Sergeant Danneth
+  accept 96812
+
+step Teremus the Devourer
+  collect 8244 x1 quest 2521.1
+
+step Bloodmage Drazial
+  accept 2581
+  accept 2583
+  accept 2585
+
+step Redstone Basilisk
+  collect 8394 x1 quest 2583.3
+  collect 8394 x10 quest 2601.1
+
+step Shadowsworn Cultist
+  collect 220214 x5 quest 81917.1
+
+step Helboar and Black Slayer
+  collect 8392 x2 quest 2581.2
+  collect 8392 x3 quest 2583.1
+  collect 8396 x2 quest 2585.2
+  collect 8392 x1 quest 2585.3
+  collect 8396 x2 quest 2601.2
+  collect 8396 x10 quest 2603.1
+
+step Kum'isha the Collector
+  turnin 2521
+  turnin 3501
+
+step One Draenei's Junk...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 10593 x1 anywhere optional
+  turnin 3502 direct optional
+
+step Kum'isha's Endeavors
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8244 x1 anywhere optional
+  turnin 2522 direct optional
+
+step Ravage
+  collect 8391 x3 quest 2581.1
+  collect 8391 x2 quest 2603.2
+
+step Scorpok Stinger
+  collect 8393 x1 quest 2581.3
+  collect 8393 x2 quest 2583.2
+  collect 8393 x3 quest 2585.1
+
+step Calefactus the Unleashed
+  when group 81919
+  tip Brought to Heel is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 220213 x1 quest 81919.1
+
+step Bloodmage Lynnore
+  zone map 1419
+  turnin 2601
+  turnin 2603
+  turnin 81917
+
+step Spiritual Domination
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8396 x10 anywhere optional
+  collect 8391 x2 anywhere optional
+  turnin 2604 direct optional
+
+step Infallible Mind
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8394 x10 anywhere optional
+  collect 8396 x2 anywhere optional
+  turnin 2602 direct optional
+
+step Bloodmage Lynnore
+  when group 81919
+  zone map 1419
+  turnin 81919
+
+step Bloodmage Drazial
+  zone map 1419
+  turnin 2581
+  turnin 2583
+  turnin 2585
+
+step Salt of the Scorpok
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8393 x3 anywhere optional
+  collect 8396 x2 anywhere optional
+  collect 8392 x1 anywhere optional
+  turnin 2586 direct optional
+
+step Spirit of the Boar
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8392 x3 anywhere optional
+  collect 8393 x2 anywhere optional
+  collect 8394 x1 anywhere optional
+  turnin 2584 direct optional
+
+step Rage of Ages
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8391 x3 anywhere optional
+  collect 8392 x2 anywhere optional
+  collect 8393 x1 anywhere optional
+  turnin 2582 direct optional
+
+step Fallen Hero of the Horde
+  zone map 1435
+  turnin 2783
+
+step Swampwalker
+  collect 6065 x1 quest 1364.1
+
+step Watcher Mahar Ba
+  zone map 1419
+  turnin 1364
+
+step Orphan Matron Aria
+  zone map 1416
+  turnin 96812
+
+step Sefira Everbright
+  zone map 2482
+  turnin 91882
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Rise, Obsidion!
+  when onquest 3566
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 3566 optional
+
+step The Smoldering Ruins of Thaurissan
+  when onquest 3701
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 3701 optional
+
+step The Princess's Surprise
+  when onquest 4363
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 4363 optional
+
+step Just Compensation
+  when onquest 8933
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8933 optional
+
+step The Burning Beast
+  when onquest 81900
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1419
+  turnin 81900 optional

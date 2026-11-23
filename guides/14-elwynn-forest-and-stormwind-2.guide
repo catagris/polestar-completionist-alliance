@@ -1,0 +1,305 @@
+guide completionist-alliance/14-elwynn-forest-and-stormwind-2
+title 14 Elwynn Forest and Stormwind (15-27) (Completionist)
+faction Alliance
+levels 15-27
+zone Elwynn Forest
+next completionist-alliance/15-odd-jobs-in-the-eastern-kingdoms
+pitch On along the line: Elwynn Forest and Stormwind, quests of level 15 to 27.
+# Generated from the reference data: change the planner, not this file.
+# Routed 20 quests; estimated level at the end 16.6 (heuristic XP, class quests not counted).
+
+step General Marcus Jonathan
+  when onquest 120
+  zone map 1453
+  turnin 120
+  accept 121
+
+step Grimand Elmore
+  when onquest 1097
+  zone map 1453
+  turnin 1097
+
+step Master Mathias Shaw
+  when onquest 135
+  zone map 1453
+  turnin 135
+  accept 141
+
+step Gilbert Gray
+  zone map 1453
+  accept 95065
+
+step Oh Brother. . .
+  tip For Deadmines: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 167 optional
+
+step Collecting Memories
+  tip For Deadmines: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 168 optional
+
+step Underground Assault
+  tip For Deadmines: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2040 optional
+
+step Roy Lewells
+  accept 97234
+
+step Manifest Clerk Philmor
+  accept 97220
+
+step Sprite Jumpsprocket
+  turnin 97234
+  accept 97237
+
+step Field Accounts of Horde Razings, Trollbane Conquests, The Forsaken Ally and Cycles of Morality
+  collect 277196 x1 quest 97237.1
+  collect 277194 x1 quest 97237.2
+  collect 277195 x1 quest 97237.3
+  collect 277197 x1 quest 97237.4
+
+step Jasper Fel
+  turnin 92750
+  accept 92751
+
+step Elaine Trias
+  turnin 97220
+  accept 97222
+
+step Gatehouse Door
+  interact 460004 quest 97222.1
+
+step Elaine Trias
+  turnin 97222
+
+step Roy Lewells
+  turnin 97237
+
+step Sprite Jumpsprocket
+  turnin 92751
+
+step Stormwind
+  getfp "Stormwind"
+
+step Brother Kristoff
+  accept 343
+
+step The Tome of Valor
+  only Paladin,Human,Dwarf
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1453
+  turnin 1793 direct optional
+
+step Milton Sheaf
+  zone map 1453
+  turnin 343
+
+step Milton Sheaf
+  accept 344
+
+step A Dynamite Plan
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 92749 @61.9,30.6
+
+step A Dynamite Plan
+  turnin 92749
+
+step Sprite Jumpsprocket
+  accept 92752
+
+step Gryan Stoutmantle
+  when onquest 141
+  zone map 1436
+  turnin 141
+  accept 142
+
+step Defias Messenger
+  zone map 1436
+  collect 1381 x1 quest 142.1
+
+step Gryan Stoutmantle
+  when onquest 142
+  zone map 1436
+  turnin 142
+  accept 155
+
+step Gryan Stoutmantle
+  when onquest 155
+  zone map 1436
+  complete 155 @42.5,71.5 map 1436
+  turnin 155
+
+step Magistrate Solomon
+  when onquest 121
+  zone map 1433
+  turnin 121
+  accept 143
+
+step Gryan Stoutmantle
+  when onquest 143
+  zone map 1436
+  turnin 143
+  accept 144
+
+step Magistrate Solomon
+  when onquest 144
+  zone map 1433
+  turnin 144
+  accept 145
+
+step Lord Ello Ebonlocke
+  when onquest 145
+  zone map 1431
+  turnin 145
+
+step Ziggurat Protector
+  zone map 1423
+  collect 6530 x3 quest 95065.2
+
+step Smith Argus
+  zone map 1429
+  sethome "Goldshire"
+  turnin 118
+  accept 119
+
+step Verner Osgood
+  zone map 1433
+  turnin 119
+  accept 122
+  accept 124
+
+step Snarlflare
+  collect 1221 x6 quest 122.1
+
+step Redridge Brute
+  kill 426 x10 quest 124.1
+
+step Level 20
+  zone map 1429
+  level 20
+
+step Theocritus
+  accept 94
+
+step Redridge Mystic
+  zone map 1433
+  kill 430 x8 quest 124.2
+
+step Brother Paxton
+  zone map 1429
+  turnin 344
+
+step Brother Paxton
+  accept 345
+
+step Foreman Oslow
+  zone map 1433
+  turnin 345
+
+step Foreman Oslow
+  accept 347
+
+step Redridge Drudger
+  zone map 1428
+  collect 2798 x5 quest 347.1
+
+step Verner Osgood
+  turnin 122
+  turnin 124
+  accept 126
+
+step Yowler
+  collect 3614 x1 quest 126.1
+
+step Verner Osgood
+  turnin 126
+
+step Old Lion Statue
+  turnin 94
+  accept 248
+
+step An Empty Jar
+  turnin 248
+
+step Old Lion Statue
+  when group 249
+  zone map 1428
+  accept 249 object 31
+
+step Morganth
+  when group 249
+  tip Morganth is group work: elites. Grouping up is advised.
+  zone map 1428
+  collect 3617 x1 quest 249.1
+
+step Theocritus
+  when group 249
+  zone map 1429
+  turnin 249
+
+step Brother Paxton
+  zone map 1429
+  turnin 347
+  accept 346
+
+step Alba Fairmoon
+  zone map 1436
+  turnin 92752
+
+step Destruction in Deadmines
+  tip For Deadmines: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92753 optional
+
+step Theocritus' Retrieval
+  tip Glowing Shadowhide Pendant drops from Shadowhide Darkweaver, Shadowhide Slayer, Shadowhide Brute: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1433
+  collect 1962 x1 optional
+  accept 178 item 1962 optional
+
+step Theocritus' Retrieval
+  when onquest 178
+  zone map 1429
+  turnin 178
+
+step An Old History Book
+  tip An Old History Book drops from Flesh Eater, Skeletal Warrior, Skeletal Horror: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1431
+  collect 2794 x1 optional
+  accept 337 item 2794 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Price of Shoes
+  when onquest 118
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1429
+  turnin 118 optional
+
+step Messenger to Stormwind
+  when onquest 120
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 120 optional
+
+step The Defias Brotherhood
+  when onquest 135
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 135 optional
+
+step Elmore's Task
+  when onquest 1097
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1097 optional
+
+step A Dynamite Plan
+  when onquest 92749
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 92749 optional
+
+step Detonation at a Distance
+  when onquest 92750
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 92750 optional
