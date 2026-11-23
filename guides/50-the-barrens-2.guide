@@ -1,23 +1,23 @@
-guide completionist-alliance/49-the-barrens-2
-title 49 The Barrens, visit 2 (47-60) (Completionist)
+guide completionist-alliance/50-the-barrens-2
+title 50 The Barrens, visit 2 (47-60) (Completionist)
 faction Alliance
 levels 47-60
 category Leveling
 zone The Barrens
-next completionist-alliance/50-ungoro-crater
+next completionist-alliance/51-ungoro-crater
 pitch On along the line: The Barrens, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 10 quests; estimated level at the end 47.5 (heuristic XP, class quests not counted).
-# Skipped: 2 profession.
+# Routed 8 quests; estimated level at the end 47.4 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N (done); 2 profession.
+
+step Temple of the Moon Fountain
+  zone map 1457
+  collect 5646 x1 quest 4441.1
 
 step The Brokering of Peace
   when onquest 8484
   zone map 1455
   turnin 8484 optional
-
-step Temple of the Moon Fountain
-  zone map 1457
-  collect 5646 x1 quest 4441.1
 
 step Eridan Bluewind
   when onquest 4441
@@ -55,14 +55,6 @@ step Mending Old Wounds
 
 step Musty Scroll
   accept 626
-
-step Brelinda McFarry
-  accept 98904 @63.4,58.8 map 1413
-  turnin 98904 @63.4,58.8 map 1413
-
-step Remember Alterac Valley!
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 20560 x3 anywhere optional
 
 step Islen Waterseer
   turnin 5158
@@ -107,19 +99,6 @@ step Liv Rizzlefix
   zone map 1413
   turnin 4502
 
-step Level 50
-  level 50
-
-step Brelinda McFarry
-  accept 98905 @63.4,58.8 map 1413
-  turnin 98905 @63.4,58.8 map 1413
-
-step Concerted Efforts
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 20560 x3 anywhere optional
-  collect 20559 x3 anywhere optional
-  collect 20558 x3 anywhere optional
-
 step Islen Waterseer
   accept 5159
 
@@ -137,43 +116,14 @@ step Brazier of Pain and Brazier of Hatred
 step Brazier of Suffering
   interact 176160 quest 5165.3
 
-step Level 51
-  zone map 1413
-  level 51
-
-step Remember Alterac Valley!
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 8375
-  complete 8375 @63.6,58.6
-
-step Remember Alterac Valley!
-  turnin 8375
-
-step Remember Alterac Valley!
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8383 direct optional
-
-step Concerted Efforts
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 8371
-  complete 8371 @63.6,58.6
-
-step Concerted Efforts
-  turnin 8371
-
-step Concerted Efforts
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8385 direct optional
-
 step Brazier of Malice
-  zone map 1448
   interact 176159 quest 5165.2
 
 step Greta Mosshoof
-  zone map 1413
   turnin 5165
 
 step Greta Mosshoof
+  zone map 1413
   accept 5242
 
 step Moora, Salia and Shadow Lord Fel'dan
@@ -183,6 +133,28 @@ step Moora, Salia and Shadow Lord Fel'dan
 
 step Greta Mosshoof
   turnin 5242
+
+step The Battle for Darkspear Islands!
+  when available 98904
+  tip One of several exclusive quests; the route takes The Battle for Darkspear Islands! (98903). This one shows for a character the game offers it to instead.
+  zone map 1413
+  accept 98904 optional
+
+step The Battle for Darkspear Islands!
+  when onquest 98904
+  zone map 1413
+  turnin 98904 optional
+
+step Concerted Efforts
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 20560 x3 anywhere optional
+  collect 20559 x3 anywhere optional
+  collect 20558 x3 anywhere optional
+
+step Remember Alterac Valley!
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 20560 x3 anywhere optional
 
 step Crate Return
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -215,10 +187,49 @@ step A Sealed Crate
   tip A repeatable quest: hand it in once, with what it asks for.
   turnin 91901 direct optional
 
+step Level 51
+  level 51
+
+step Concerted Efforts
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8371
+  complete 8371 @63.6,58.6
+
+step Concerted Efforts
+  turnin 8371
+
+step Concerted Efforts
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8385 direct optional
+
+step The Battle for Darkspear Islands!
+  when available 98905
+  tip One of several exclusive quests; the route takes The Battle for Darkspear Islands! (98903). This one shows for a character the game offers it to instead.
+  zone map 1413
+  accept 98905 optional
+
+step The Battle for Darkspear Islands!
+  when onquest 98905
+  zone map 1413
+  turnin 98905 optional
+
 step A Sealed Crate
   tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
   collect 248766 x1 anywhere optional
   turnin 91900 direct optional
+
+step Remember Alterac Valley!
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8375
+  complete 8375 @63.6,58.6
+
+step Remember Alterac Valley!
+  turnin 8375
+
+step Remember Alterac Valley!
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8383 direct optional
 
 step A Sealed Crate
   tip A repeatable quest: hand it in once, with what it asks for.

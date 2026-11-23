@@ -4,41 +4,83 @@ faction Alliance
 levels 41-57
 category Leveling
 zone Blasted Lands
-next completionist-alliance/46-odd-jobs-in-kalimdor-3
+next completionist-alliance/46-burning-steppes
 pitch On along the line: Blasted Lands, quests of level 41 to 57.
 # Generated from the reference data: change the planner, not this file.
-# Routed 20 quests; estimated level at the end 43.3 (heuristic XP, class quests not counted).
+# Routed 18 quests; estimated level at the end 43.2 (heuristic XP, class quests not counted).
 
-step Curator Thorius
-  when onquest 3566
-  when group 3566
-  zone map 1455
-  turnin 3566
+step Gracina Spiritmight
+  when onquest 2972
+  zone map 1457
+  turnin 4267
+  turnin 2972
 
-step Royal Historian Archesonus
-  when onquest 3701
-  zone map 1455
-  turnin 3701
-
-step Deliana
-  only Paladin
-  when complete 8933
-  zone map 1455
-  turnin 8933
-
-step King Magni Bronzebeard
-  when onquest 4363
-  zone map 1455
-  turnin 4363
+step Master of the Wild Leather
+  when onquest 2853
+  when skill Leatherworking 1
+  zone map 1457
+  turnin 2853 optional
 
 step Acolyte Dellis
   zone map 1453
   accept 1364
 
+step Kindal Moonweaver
+  zone map 1444
+  accept 3841
+
+step Quentin
+  when onquest 3841
+  zone map 1441
+  turnin 3841
+
+step A Short Incubation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1441
+  accept 3842
+  complete 3842 @78.3,74.7
+
+step A Short Incubation
+  when onquest 3842
+  zone map 1441
+  turnin 3842
+
+step Quentin
+  zone map 1441
+  accept 3843
+
+step Agnar Beastamer
+  when onquest 3843
+  zone map 1424
+  turnin 3843
+
+step Agnar Beastamer
+  zone map 1424
+  accept 4297
+
+step Silvermane Stalker
+  zone map 1425
+  collect 11472 x5 quest 4297.1
+
+step Agnar Beastamer
+  when onquest 4297
+  zone map 1424
+  turnin 4297
+
+step Agnar Beastamer
+  when onquest 4298
+  zone map 1424
+  accept 4298
+  turnin 4298
+
 step Ambassador Ardalan
   zone map 1419
   getfp "Nethergarde Keep"
   accept 91882
+
+step Ragnar Thunderbrew
+  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4128 optional
 
 step The Lost Supplies
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -57,9 +99,6 @@ step Redstone Crystalhide
 
 step Bernie Heisten
   turnin 87295
-
-step Bloodmage Lynnore
-  turnin 81900
 
 step Level 45
   level 45
@@ -81,7 +120,6 @@ step Gryphon Master Talonaxe
   accept 2994
 
 step Gryphon Master Talonaxe
-  zone map 1425
   interact 144070 quest 2994.1
   turnin 2994
 
@@ -120,12 +158,6 @@ step Nethergarde Analyst
   collect 10593 x1 quest 3501.1
 
 step Bloodmage Lynnore
-  when group 81919
-  zone map 1419
-  accept 81919
-
-step Bloodmage Lynnore
-  zone map 1419
   accept 2603
 
 step Bloodmage Lynnore
@@ -142,20 +174,14 @@ step Bloodmage Drazial
   accept 2583
   accept 2585
 
-step Redstone Basilisk
-  collect 8394 x1 quest 2583.3
-  collect 8394 x10 quest 2601.1
+step Scorpok Stinger
+  collect 8393 x1 quest 2581.3
+  collect 8393 x2 quest 2583.2
+  collect 8393 x3 quest 2585.1
 
-step Shadowsworn Cultist
-  collect 220214 x5 quest 81917.1
-
-step Helboar and Black Slayer
-  collect 8392 x2 quest 2581.2
-  collect 8392 x3 quest 2583.1
-  collect 8396 x2 quest 2585.2
-  collect 8392 x1 quest 2585.3
-  collect 8396 x2 quest 2601.2
-  collect 8396 x10 quest 2603.1
+step Ravage
+  collect 8391 x3 quest 2581.1
+  collect 8391 x2 quest 2603.2
 
 step Kum'isha the Collector
   turnin 2521
@@ -171,26 +197,28 @@ step Kum'isha's Endeavors
   collect 8244 x1 anywhere optional
   turnin 2522 direct optional
 
-step Ravage
-  collect 8391 x3 quest 2581.1
-  collect 8391 x2 quest 2603.2
+step Helboar and Black Slayer
+  collect 8392 x2 quest 2581.2
+  collect 8392 x3 quest 2583.1
+  collect 8396 x2 quest 2585.2
+  collect 8392 x1 quest 2585.3
+  collect 8396 x2 quest 2601.2
+  collect 8396 x10 quest 2603.1
 
-step Scorpok Stinger
-  collect 8393 x1 quest 2581.3
-  collect 8393 x2 quest 2583.2
-  collect 8393 x3 quest 2585.1
+step Shadowsworn Cultist
+  collect 220214 x5 quest 81917.1
 
-step Calefactus the Unleashed
-  when group 81919
-  tip Brought to Heel is group work: elites. Grouping up is advised.
-  zone map 1419
-  collect 220213 x1 quest 81919.1
+step Redstone Basilisk
+  collect 8394 x1 quest 2583.3
+  collect 8394 x10 quest 2601.1
 
 step Bloodmage Lynnore
-  zone map 1419
   turnin 2601
   turnin 2603
   turnin 81917
+  turnin 2581
+  turnin 2583
+  turnin 2585
 
 step Spiritual Domination
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -203,17 +231,6 @@ step Infallible Mind
   collect 8394 x10 anywhere optional
   collect 8396 x2 anywhere optional
   turnin 2602 direct optional
-
-step Bloodmage Lynnore
-  when group 81919
-  zone map 1419
-  turnin 81919
-
-step Bloodmage Drazial
-  zone map 1419
-  turnin 2581
-  turnin 2583
-  turnin 2585
 
 step Salt of the Scorpok
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -257,32 +274,20 @@ step Sefira Everbright
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Rise, Obsidion!
-  when onquest 3566
+step Master of the Wild Leather
+  when onquest 2853
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 3566 optional
+  zone map 1457
+  turnin 2853 optional
 
-step The Smoldering Ruins of Thaurissan
-  when onquest 3701
+step Doling Justice
+  when onquest 2972
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 3701 optional
+  zone map 1457
+  turnin 2972 optional
 
-step The Princess's Surprise
-  when onquest 4363
+step Rise of the Silithid
+  when onquest 4267
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 4363 optional
-
-step Just Compensation
-  when onquest 8933
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 8933 optional
-
-step The Burning Beast
-  when onquest 81900
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1419
-  turnin 81900 optional
+  zone map 1457
+  turnin 4267 optional

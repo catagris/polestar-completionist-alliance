@@ -8,7 +8,7 @@ next completionist-alliance/06-odd-jobs-in-kalimdor
 pitch On along the line: Teldrassil and Darnassus, quests of level 9 to 12.
 # Generated from the reference data: change the planner, not this file.
 # Routed 6 quests; estimated level at the end 9.8 (heuristic XP, class quests not counted).
-# Skipped: 3 prerequisite N not in this route; 1 exclusive with N (done).
+# Skipped: 1 exclusive with N (done).
 
 step Level 10
   zone map 1457
@@ -52,8 +52,3 @@ step Nessa Shadowsong
   zone map 1438
   getfp "Rut'theran Village"
   turnin 6344 only NightElf
-
-step Crown of the Earth
-  when turnedin 934
-  zone map 1438
-  accept 935

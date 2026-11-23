@@ -42,7 +42,7 @@ step Garion Wendell
   accept 79096 npc 211033
   accept 79097 npc 211033
 
-step Library Book
+step Charge of the Dragonflights
   zone map 1455
   collect 203754 x1 quest 79091.1
 

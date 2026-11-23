@@ -28,6 +28,23 @@ step Craftsman's Writ: Elixir of Ogre's Strength
   zone map 1416
   turnin 94004 optional
 
+step Craftsman's Writ: Elixir of Wisdom
+  when has 264012
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1417
+  accept 94212 item 264012 optional
+
+step Craftsman's Writ: Elixir of Wisdom
+  when onquest 94212
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
+  complete 94212 @48.7,55.8 optional
+
+step Craftsman's Writ: Elixir of Wisdom
+  when onquest 94212
+  zone map 1417
+  turnin 94212 optional
+
 step Craftsman's Writ: Shadow Protection Potion
   when has 264014
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
@@ -657,23 +674,6 @@ step Craftsman's Writ: Red Woolen Boots
   zone map 1442
   turnin 94252 optional
 
-step Craftsman's Writ: Colorful Kilt
-  when has 264053
-  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
-  zone map 1434
-  accept 94253 item 264053 optional
-
-step Craftsman's Writ: Colorful Kilt
-  when onquest 94253
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1434
-  complete 94253 @50.7,19.3 optional
-
-step Craftsman's Writ: Colorful Kilt
-  when onquest 94253
-  zone map 1434
-  turnin 94253 optional
-
 step Craftsman's Writ: Greater Adept's Robe
   when has 264054
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
@@ -978,7 +978,7 @@ step Craftsman's Writ: Ornate Mithril Shoulders
 step Craftsman's Writ: Ornate Mithril Shoulders
   when onquest 94271
   zone map 1448
-  turnin 94271 @50.9,81.6 map 1448 optional
+  turnin 94271 optional
 
 step Craftsman's Writ: Blue Glittering Axe
   when has 264072
@@ -1063,7 +1063,7 @@ step Craftsman's Writ: Wicked Mithril Blade
 step Craftsman's Writ: Wicked Mithril Blade
   when onquest 94276
   zone map 1435
-  turnin 94276 @62.4,52.9 map 1435 optional
+  turnin 94276 optional
 
 step Craftsman's Writ: Truesilver Rod
   when has 264077
@@ -1097,7 +1097,7 @@ step Craftsman's Writ: Golden Scale Gauntlets
 step Craftsman's Writ: Golden Scale Gauntlets
   when onquest 94278
   zone map 1425
-  turnin 94278 @26.7,48.6 map 1425 optional
+  turnin 94278 optional
 
 step Craftsman's Writ: Heavy Mithril Axe
   when has 264079
@@ -1114,7 +1114,7 @@ step Craftsman's Writ: Heavy Mithril Axe
 step Craftsman's Writ: Heavy Mithril Axe
   when onquest 94279
   zone map 1446
-  turnin 94279 @27.5,42.7 map 1446 optional
+  turnin 94279 optional
 
 step Craftsman's Writ: Mechanical Dragonling
   when has 264080
@@ -1199,7 +1199,7 @@ step Craftsman's Writ: Catseye Ultra Goggles
 step Craftsman's Writ: Catseye Ultra Goggles
   when onquest 94284
   zone map 1444
-  turnin 94284 @72.4,52.5 map 1444 optional
+  turnin 94284 optional
 
 step Craftsman's Writ: Unstable Trigger
   when has 264085
@@ -1250,7 +1250,7 @@ step Craftsman's Writ: Fire Goggles
 step Craftsman's Writ: Fire Goggles
   when onquest 94287
   zone map 1427
-  turnin 94287 @41.1,58.3 map 1427 optional
+  turnin 94287 optional
 
 step Craftsman's Writ: Mithril Frag Bomb
   when has 264088
@@ -1539,7 +1539,7 @@ step Craftsman's Writ: Shadoweave Gloves
 step Craftsman's Writ: Shadoweave Gloves
   when onquest 94305
   zone map 1443
-  turnin 94305 @62.2,39.6 map 1443 optional
+  turnin 94305 optional
 
 step Craftsman's Writ: Crimson Silk Robe
   when has 264106
@@ -1607,7 +1607,7 @@ step Craftsman's Writ: Star Belt
 step Craftsman's Writ: Star Belt
   when onquest 94309
   zone map 1450
-  turnin 94309 @51.8,32.6 map 1450 optional
+  turnin 94309 optional
 
 step Craftsman's Writ: Black Mageweave Vest
   when has 264110
@@ -1724,7 +1724,7 @@ step Craftsman's Writ: Potion of Demonslaying
 step Craftsman's Writ: Potion of Demonslaying
   when onquest 94316
   zone map 1447
-  turnin 94316 @29.2,40.2 map 1447 optional
+  turnin 94316 optional
 
 step Craftsman's Writ: Dreamless Sleep Potion
   when has 264117
@@ -1741,7 +1741,7 @@ step Craftsman's Writ: Dreamless Sleep Potion
 step Craftsman's Writ: Dreamless Sleep Potion
   when onquest 94317
   zone map 1419
-  turnin 94317 @52.0,35.6 map 1419 optional
+  turnin 94317 optional
 
 step Craftsman's Writ: Greater Fire Protection Potion
   when has 264118
@@ -1758,7 +1758,7 @@ step Craftsman's Writ: Greater Fire Protection Potion
 step Craftsman's Writ: Greater Fire Protection Potion
   when onquest 94318
   zone map 1428
-  turnin 94318 @12.4,31.6 map 1428 optional
+  turnin 94318 optional
 
 step Craftsman's Writ: Draught of Detect Demon
   when has 264119
@@ -1770,12 +1770,12 @@ step Craftsman's Writ: Draught of Detect Demon
   when onquest 94319
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1430
-  complete 94319 @47,75.4 optional
+  complete 94319 @47.0,75.3 optional
 
 step Craftsman's Writ: Draught of Detect Demon
   when onquest 94319
   zone map 1430
-  turnin 94319 @47,75.4 map 1430 optional
+  turnin 94319 optional
 
 step Craftsman's Writ: Gift of Arthas
   when has 264120
@@ -1792,7 +1792,7 @@ step Craftsman's Writ: Gift of Arthas
 step Craftsman's Writ: Gift of Arthas
   when onquest 94320
   zone map 1423
-  turnin 94320 @50.9,11.5 map 1423 optional
+  turnin 94320 optional
 
 step Craftsman's Writ: Limited Invulnerability Potion
   when has 264122
@@ -1809,7 +1809,7 @@ step Craftsman's Writ: Limited Invulnerability Potion
 step Craftsman's Writ: Limited Invulnerability Potion
   when onquest 94322
   zone map 1449
-  turnin 94322 @23.1,16.7 map 1449 optional
+  turnin 94322 optional
 
 step Craftsman's Writ: Major Rejuvenation Potion
   when has 264123
@@ -1821,12 +1821,12 @@ step Craftsman's Writ: Major Rejuvenation Potion
   when onquest 94323
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1422
-  complete 94323 @58.2,52.1 optional
+  complete 94323 @59.6,53.1 optional
 
 step Craftsman's Writ: Major Rejuvenation Potion
   when onquest 94323
   zone map 1422
-  turnin 94323 @58.2,52.1 map 1422 optional
+  turnin 94323 optional
 
 step Craftsman's Writ: Distilled Firewater
   when has 264124
@@ -1838,12 +1838,12 @@ step Craftsman's Writ: Distilled Firewater
   when onquest 94324
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1452
-  complete 94324 @64.8,32.6 optional
+  complete 94324 @64.8,33.2 optional
 
 step Craftsman's Writ: Distilled Firewater
   when onquest 94324
   zone map 1452
-  turnin 94324 @64.8,32.6 map 1452 optional
+  turnin 94324 optional
 
 step Craftsman's Writ: Radiant Belt
   when has 264126
@@ -1860,7 +1860,7 @@ step Craftsman's Writ: Radiant Belt
 step Craftsman's Writ: Radiant Belt
   when onquest 94326
   zone map 1419
-  turnin 94326 @52.0,35.6 map 1419 optional
+  turnin 94326 optional
 
 step Craftsman's Writ: Mithril Spurs
   when has 264128
@@ -1872,12 +1872,12 @@ step Craftsman's Writ: Mithril Spurs
   when onquest 94328
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1430
-  complete 94328 @48.3,68.5 optional
+  complete 94328 @48.4,68.7 optional
 
 step Craftsman's Writ: Mithril Spurs
   when onquest 94328
   zone map 1430
-  turnin 94328 @48.3,68.5 map 1430 optional
+  turnin 94328 optional
 
 step Craftsman's Writ: Ebon Shiv
   when has 264133
@@ -1894,7 +1894,7 @@ step Craftsman's Writ: Ebon Shiv
 step Craftsman's Writ: Ebon Shiv
   when onquest 94333
   zone map 1452
-  turnin 94333 @60.8,38.6 map 1452 optional
+  turnin 94333 optional
 
 step Craftsman's Writ: Masterwork Target Dummy
   when has 264134
@@ -1928,7 +1928,7 @@ step Craftsman's Writ: Green Lens
 step Craftsman's Writ: Green Lens
   when onquest 94335
   zone map 1419
-  turnin 94335 @52.0,35.6 map 1419 optional
+  turnin 94335 optional
 
 step Craftsman's Writ: Truesilver Transformer
   when has 264140
@@ -1945,7 +1945,7 @@ step Craftsman's Writ: Truesilver Transformer
 step Craftsman's Writ: Truesilver Transformer
   when onquest 94340
   zone map 1451
-  turnin 94340 @48.7,37 map 1451 optional
+  turnin 94340 optional
 
 step Craftsman's Writ: Sniper Scope
   when has 264141
@@ -1957,12 +1957,12 @@ step Craftsman's Writ: Sniper Scope
   when onquest 94341
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1422
-  complete 94341 @65.7,76.2 optional
+  complete 94341 @65.7,76.1 optional
 
 step Craftsman's Writ: Sniper Scope
   when onquest 94341
   zone map 1422
-  turnin 94341 @65.7,76.2 map 1422 optional
+  turnin 94341 optional
 
 step Craftsman's Writ: Runic Leather Headband
   when has 264146
@@ -1974,12 +1974,12 @@ step Craftsman's Writ: Runic Leather Headband
   when onquest 94346
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1430
-  complete 94346 @47,75.4 optional
+  complete 94346 @47.0,75.3 optional
 
 step Craftsman's Writ: Runic Leather Headband
   when onquest 94346
   zone map 1430
-  turnin 94346 @47,75.4 map 1430 optional
+  turnin 94346 optional
 
 step Craftsman's Writ: Wicked Leather Bracers
   when has 264147
@@ -1996,7 +1996,7 @@ step Craftsman's Writ: Wicked Leather Bracers
 step Craftsman's Writ: Wicked Leather Bracers
   when onquest 94347
   zone map 1423
-  turnin 94347 @71.8,50.2 map 1423 optional
+  turnin 94347 optional
 
 step Craftsman's Writ: Chimeric Vest
   when has 264148
@@ -2025,12 +2025,12 @@ step Craftsman's Writ: Runic Leather Bracers
   when onquest 94350
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1422
-  complete 94350 @36.9,73.8 optional
+  complete 94350 @38.2,72.4 optional
 
 step Craftsman's Writ: Runic Leather Bracers
   when onquest 94350
   zone map 1422
-  turnin 94350 @36.9,73.8 map 1422 optional
+  turnin 94350 optional
 
 step Craftsman's Writ: Frostsaber Boots
   when has 264151
@@ -2081,7 +2081,7 @@ step Craftsman's Writ: Runecloth Bag
 step Craftsman's Writ: Runecloth Bag
   when onquest 94353
   zone map 1419
-  turnin 94353 @52.0,35.6 map 1419 optional
+  turnin 94353 optional
 
 step Craftsman's Writ: Runecloth Boots
   when has 264154
@@ -2098,7 +2098,7 @@ step Craftsman's Writ: Runecloth Boots
 step Craftsman's Writ: Runecloth Boots
   when onquest 94354
   zone map 1428
-  turnin 94354 @12.4,31.6 map 1428 optional
+  turnin 94354 optional
 
 step Craftsman's Writ: Tuxedo Jacket
   when has 264155
@@ -2110,12 +2110,12 @@ step Craftsman's Writ: Tuxedo Jacket
   when onquest 94355
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1430
-  complete 94355 @47,75.4 optional
+  complete 94355 @47.0,75.3 optional
 
 step Craftsman's Writ: Tuxedo Jacket
   when onquest 94355
   zone map 1430
-  turnin 94355 @47,75.4 map 1430 optional
+  turnin 94355 optional
 
 step Craftsman's Writ: Felcloth Boots
   when has 264156
@@ -2149,7 +2149,7 @@ step Craftsman's Writ: Shadoweave Mask
 step Craftsman's Writ: Shadoweave Mask
   when onquest 94358
   zone map 1449
-  turnin 94358 @9.1,65.4 map 1449 optional
+  turnin 94358 optional
 
 step Craftsman's Writ: Ghostweave Vest
   when has 264159
@@ -2161,12 +2161,12 @@ step Craftsman's Writ: Ghostweave Vest
   when onquest 94359
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1422
-  complete 94359 @49.8,77.6 optional
+  complete 94359 @49.9,77.5 optional
 
 step Craftsman's Writ: Ghostweave Vest
   when onquest 94359
   zone map 1422
-  turnin 94359 @49.8,77.6 map 1422 optional
+  turnin 94359 @49.9,77.5 map 1422 optional
 
 step Craftsman's Writ: Soul Pouch
   when has 264160
@@ -2178,9 +2178,9 @@ step Craftsman's Writ: Soul Pouch
   when onquest 94360
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1452
-  complete 94360 @57.8,86.0 optional
+  complete 94360 @57.6,88.1 optional
 
 step Craftsman's Writ: Soul Pouch
   when onquest 94360
   zone map 1452
-  turnin 94360 @57.8,86.0 map 1452 optional
+  turnin 94360 optional

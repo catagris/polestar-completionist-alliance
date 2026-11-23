@@ -1,10 +1,10 @@
-guide completionist-alliance/62-odd-jobs-in-kalimdor-4
-title 62 Odd jobs in Kalimdor, visit 4 (58-60) (Completionist)
+guide completionist-alliance/60-odd-jobs-in-kalimdor-4
+title 60 Odd jobs in Kalimdor, visit 4 (58-60) (Completionist)
 faction Alliance
 levels 58-60
 category Leveling
 zone Ashenvale
-next completionist-alliance/63-elwynn-forest-and-stormwind-4
+next completionist-alliance/61-mount-hyjal
 pitch On along the line: errands across Kalimdor, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 4 quests; estimated level at the end 58.1 (heuristic XP, class quests not counted).
@@ -20,15 +20,11 @@ step Gorhak
   zone Desolace
   accept 92811
 
-step Gelkis Windchaser
+step Gelkis Guardian
   collect 254432 x1 quest 92811.1
 
 step Gorhak
   turnin 92811
-
-step Veteran of the Third War
-  zone Mount Hyjal
-  turnin 92102
 
 step Ribbons of Sacrifice
   zone map 1440
@@ -59,6 +55,11 @@ step Examine the Vessel
   zone map 1444
   collect 19016 x1 optional
   accept 7785 item 19016 optional
+
+step Brawl at the Maul
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1444
+  turnin 97270 direct @62,30.1 map 1444
 
 step Brawl at the Maul
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
@@ -106,31 +107,6 @@ step More Resource Crates
   zone map 1417
   collect 19725 x1 anywhere optional
   turnin 8081 direct optional
-
-step Avast Ye, Scallywag
-  tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.
-  zone map 1434
-  accept 1036 optional
-
-step Avast Ye, Scallywag
-  when onquest 1036
-  zone map 1434
-  turnin 1036 optional
-
-step Avast Ye, Admiral!
-  tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.
-  zone map 1434
-  accept 4621 optional
-
-step Avast Ye, Admiral!
-  when onquest 4621
-  zone map 1434
-  complete 4621 @27.2,76.9 optional
-
-step Avast Ye, Admiral!
-  when onquest 4621
-  zone map 1434
-  turnin 4621 optional
 
 step Control Four Bases
   tip Needs Friendly standing (3000) with The League of Arathor; without it the quest is not offered.

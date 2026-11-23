@@ -1,29 +1,21 @@
-guide completionist-alliance/40-tanaris
-title 40 Tanaris (38-54) (Completionist)
+guide completionist-alliance/41-tanaris
+title 41 Tanaris (38-54) (Completionist)
 faction Alliance
 levels 38-54
 category Leveling
 zone Tanaris
-next completionist-alliance/41-odd-jobs-in-the-eastern-kingdoms-3
+next completionist-alliance/dungeon-zulfarrak
+next completionist-alliance/42-dun-morogh-and-ironforge-3
 pitch On along the line: Tanaris, quests of level 38 to 54.
 # Generated from the reference data: change the planner, not this file.
-# Routed 42 quests; estimated level at the end 40.8 (heuristic XP, class quests not counted).
+# Routed 39 quests; estimated level at the end 40.7 (heuristic XP, class quests not counted).
 # Skipped: 1 prerequisite N not in this route; 1 profession.
 
-step Talvash del Kissel
-  when complete 2204
+step Curator Thorius
+  when onquest 3566
+  when group 3566
   zone map 1455
-  turnin 3375
-  turnin 2204
-
-step Talvash del Kissel
-  zone map 1455
-  accept 2361
-
-step Talvash del Kissel
-  when onquest 2361
-  zone map 1455
-  turnin 2361
+  turnin 3566
 
 step I Know A Guy...
   when skill Cooking 1
@@ -53,9 +45,16 @@ step Innkeeper Fizzgrimble
   sethome "Gadgetzan"
   getfp "Gadgetzan"
   accept 95144
-  turnin 1188
   accept 1189
   accept 992
+
+step Troll Temper
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 3042 optional
+
+step Divino-matic Rod
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2768 optional
 
 step The Super Egg-O-Matic
   when turnedin 2741
@@ -75,10 +74,6 @@ step Sandsorrow Watch Water Hole
   zone map 1446
   collect 8585 x1 quest 992.1
 
-step Tooga
-  accept 97540
-  turnin 97540
-
 step Level 44
   level 44
 
@@ -95,7 +90,8 @@ step Spigot Operator Luglunket
   accept 1707
 
 step Tooga
-  accept 1560
+  accept 97540
+  turnin 97540
 
 step Andi Lynn
   accept 5863
@@ -118,6 +114,9 @@ step Gnarled Thistleshrub and Thistleshrub Rootshaper
 
 step Wanted Poster
   accept 2781 object 150075
+
+step Tooga
+  accept 1560
 
 step Dunemaul Brute and Dunemaul Enforcer
   kill 5474 x10 quest 5863.1
@@ -144,23 +143,9 @@ step Caliph Scorpidsting
 
 step Marvon Rivetseeker
   accept 3161
-  turnin 3445
 
 step Gahz'ridian
   collect 8443 x30 quest 3161.1
-
-step Odd Totem
-  accept 95753
-
-step Odd Totem
-  turnin 95753
-
-step Senior Surveyor Fizzledowser
-  turnin 992
-  accept 82
-
-step Centipaar Worker
-  collect 8587 x5 quest 82.1
 
 step Marvon Rivetseeker
   turnin 3161
@@ -193,11 +178,6 @@ step Chief Engineer Bilgewhizzle
   turnin 3362
   turnin 2606
   accept 2641
-  turnin 82
-  accept 10
-
-step Scrimshank's Surveying Gear
-  collect 8593 x1 quest 10.1
 
 step Violet Tragan
   zone map 1425
@@ -259,10 +239,22 @@ step Sprinkle
   turnin 2661
   accept 2662
   turnin 2662
-  turnin 10
-  accept 110
+  turnin 992
+  accept 82
+
+step Centipaar Worker
+  collect 8587 x5 quest 82.1
 
 step Alchemist Pestlezugg
+  turnin 82
+  accept 10
+
+step Scrimshank's Surveying Gear
+  collect 8593 x1 quest 10.1
+
+step Senior Surveyor Fizzledowser
+  turnin 10
+  accept 110
   turnin 110
   accept 113
   turnin 113
@@ -419,7 +411,7 @@ step Gnomish Garbage
   turnin 97536
 
 step Ship Schedules
-  tip Ship Schedule is pickpocketed from Southsea Pirate and is in the Pirate's Footlocker: it starts this quest. By its Wowhead page; take it if it comes, and move on if it does not.
+  tip Ship Schedule is pickpocketed from Southsea Pirate and is in the Pirate's Footlocker: it starts this quest. Take it if it comes, and move on if it does not.
   collect 9250 x1 optional
   accept 2876 item 9250 optional
 
@@ -440,32 +432,14 @@ step Goblin Engineering
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Safety First
-  when onquest 1188
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1446
-  turnin 1188 optional
-
-step Restoring the Necklace
-  when onquest 2204
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 2204 optional
-
 step Stoley's Debt
   when onquest 2872
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1446
   turnin 2872 optional
 
-step Replacement Phial
-  when onquest 3375
+step Rise, Obsidion!
+  when onquest 3566
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
-  turnin 3375 optional
-
-step The Sunken Temple
-  when onquest 3445
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1446
-  turnin 3445 optional
+  turnin 3566 optional

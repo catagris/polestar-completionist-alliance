@@ -1,38 +1,24 @@
-guide completionist-alliance/43-searing-gorge
-title 43 Searing Gorge (45-55) (Completionist)
+guide completionist-alliance/39-searing-gorge
+title 39 Searing Gorge (45-55) (Completionist)
 faction Alliance
 levels 45-55
 category Leveling
 zone Searing Gorge
-next completionist-alliance/dungeon-maraudon
-next completionist-alliance/44-burning-steppes
+next completionist-alliance/40-stranglethorn-vale-2
 pitch On along the line: Searing Gorge, quests of level 45 to 55.
 # Generated from the reference data: change the planner, not this file.
 # Routed 23 quests; estimated level at the end 46.4 (heuristic XP, class quests not counted).
 
-step Arch Druid Fandral Staghelm
-  when onquest 3790
-  zone map 1457
-  turnin 3790
-
-step Arch Druid Fandral Staghelm
-  when onquest 1019
-  zone map 1457
-  turnin 1019
-
-step Historian Karnik
-  when onquest 2977
+step Curator Thorius
+  when onquest 3182
   zone map 1455
-  turnin 2977
+  turnin 3182
+  accept 3201
 
-step Historian Karnik
-  zone map 1455
-  accept 2964
-
-step High Explorer Magellas
-  when onquest 2964
-  zone map 1455
-  turnin 2964
+step Mountaineer Pebblebitty
+  when onquest 3201
+  zone map 1432
+  turnin 3201
 
 step Master Smith Burninate
   zone map 1427
@@ -135,6 +121,10 @@ step Damaged Crate
 step Krinkle Goodsteel
   zone map 1446
   turnin 4450
+
+step Bloodmage Lynnore
+  zone map 1419
+  turnin 81900
 
 step Shadoweaver
   when skill Tailoring 1
@@ -258,68 +248,55 @@ step The Torch of Retribution
 
 step The Torch of Retribution
   when onquest 3453
-  zone map 1427
   turnin 3453
 
 step Velarok Windblade
   when turnedin 3453
-  zone map 1427
   accept 3454 optional
 
 step Torch of Retribution
   when onquest 3454
-  zone map 1427
   turnin 3454
 
 step Velarok Windblade
   when turnedin 3454
-  zone map 1427
   accept 3462 optional
 
 step Squire Maltrake
   when onquest 3462
-  zone map 1427
   turnin 3462
 
 step Squire Maltrake
   when turnedin 3462
-  zone map 1427
   accept 3463 optional
 
 step Sentry Brazier
   when onquest 3463
-  zone map 1427
   interact 149031 quest 3463.3
 
 step Sentry Brazier
   when onquest 3463
-  zone map 1427
   interact 149030 quest 3463.2
 
 step Sentry Brazier
   when onquest 3463
-  zone map 1427
   interact 149025 quest 3463.1
 
 step Sentry Brazier
   when onquest 3463
-  zone map 1427
   interact 149032 quest 3463.4
 
 step Squire Maltrake
   when onquest 3463
-  zone map 1427
   turnin 3463
 
 step Hoard of the Black Dragonflight
   when turnedin 3463
-  zone map 1427
   accept 3481 optional
   turnin 3481 optional
 
 step The Key to Freedom
   tip Grimesilt Outhouse Key drops from Dark Iron Steamsmith, Dark Iron Slaver, Dark Iron Taskmaster: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  zone map 1427
   collect 11818 x1 optional
   accept 4451 item 11818 optional
 
@@ -341,20 +318,8 @@ step Look at the Size of It!
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step The New Frontier
-  when onquest 1019
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 1019 optional
-
-step Return to Ironforge
-  when onquest 2977
+step Proof of Deed
+  when onquest 3182
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
-  turnin 2977 optional
-
-step Assisting Arch Druid Staghelm
-  when onquest 3790
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 3790 optional
+  turnin 3182 optional

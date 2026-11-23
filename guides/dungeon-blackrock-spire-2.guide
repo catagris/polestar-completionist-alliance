@@ -4,7 +4,7 @@ faction Alliance
 category Dungeons
 levels 57-60
 zone Searing Gorge
-next completionist-alliance/60-odd-jobs-in-the-eastern-kingdoms-4
+next completionist-alliance/58-odd-jobs-in-the-eastern-kingdoms-4
 pitch Blackrock Spire, in Searing Gorge.
 why Every Alliance quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
@@ -128,8 +128,11 @@ step Anthion's Parting Words
   zone map 1455
   turnin 8955 optional
 
-step Count Remington Ridgewell
+step Hand in
   zone map 1453
+  turnin 84377
+
+step Count Remington Ridgewell
   turnin 4765
 
 step Inside Blackrock Spire
@@ -194,3 +197,9 @@ step Back to the Beginning
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
   turnin 8997 optional
+
+step End of the Dark Horde
+  when onquest 84377
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 84377 optional

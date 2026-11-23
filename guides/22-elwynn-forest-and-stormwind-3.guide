@@ -39,6 +39,14 @@ step Level 40
   level 40
 
 step The Origins of Smithing
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 80241
+  complete 80241 @62.9,36.8
+
+step The Origins of Smithing
+  turnin 80241
+
+step The Origins of Smithing
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1453
@@ -73,6 +81,9 @@ step Innkeeper Farley
 
 step Storage Chest
   collect 910 x1 quest 70.1
+
+step Level 40
+  level 40
 
 step Randal Hunter
   accept 97170 only Human

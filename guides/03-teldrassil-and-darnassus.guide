@@ -10,7 +10,8 @@ next completionist-alliance/04-zephras-isle when !turnedin 94946
 next completionist-alliance/05-teldrassil-and-darnassus-2
 pitch Where Night Elves start. The other starting zones follow, then the route goes on by level.
 # Generated from the reference data: change the planner, not this file.
-# Routed 63 quests; estimated level at the end 14.4 (heuristic XP, class quests not counted).
+# Routed 66 quests; estimated level at the end 14.5 (heuristic XP, class quests not counted).
+# Skipped: 1 profession.
 
 step Conservator Ilthalaine
   accept 456
@@ -178,7 +179,7 @@ step Lyreena Duskblade
   accept 932
   accept 2438
   accept 5621 only Priest,NightElf
-  accept 98391
+  accept 98391 only NightElf
 
 step The Great Outdoors
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -227,13 +228,6 @@ step Camping 101: Mining
   when skill Mining 1
   zone map 1438
   turnin 97948 optional only NightElf
-
-step Camping 101: Leatherworking
-  when skill Leatherworking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1438
-  accept 97946 optional only NightElf
-  complete 97946 @57.6,56.6 optional only NightElf
 
 step Camping 101: Herbalism
   when skill Herbalism 1
@@ -304,6 +298,13 @@ step Camping 101: Cooking
   zone map 1438
   accept 96634 only NightElf
   complete 96634 @57.6,56.6 only NightElf
+
+step Camping 101: Leatherworking
+  only Hunter,Rogue,Druid,NightElf
+  tip A class quest, done from the quest text: the reference data does not route it.
+  zone map 1438
+  accept 97946 optional
+  complete 97946 @57.6,56.6 optional
 
 step Elixirs for the Bladeleafs
   when skill Alchemy 1
@@ -405,9 +406,9 @@ step Sentinel Shayla Nightbreeze
   accept 490
 
 step Camping 101: Leatherworking
-  when skill Leatherworking 1
+  only Hunter,Rogue,Druid,NightElf
   zone map 1438
-  turnin 97946 optional only NightElf
+  turnin 97946 optional
 
 step Camping 101: Skinning
   when skill Skinning 1
@@ -550,7 +551,7 @@ step Nessa Shadowsong
 
 step Byancie
   turnin 99050
-  accept 99073
+  accept 99073 only NightElf,Skyborne
 
 step Athridas Bearmantle
   turnin 483
@@ -561,6 +562,7 @@ step Ursal the Mauler
 
 step Corithras Moonrage
   turnin 7383 only NightElf
+  accept 935
 
 step Athridas Bearmantle
   turnin 486
@@ -593,7 +595,7 @@ step Tallonkai Swiftroot
 
 step Sentinel Eralya Leafshadow
   zone map 1438
-  turnin 99073
+  turnin 99073 only NightElf,Skyborne
 
 step Iverron
   turnin 3522
@@ -657,7 +659,7 @@ step Arch Druid Fandral Staghelm
   turnin 940
 
 step Sister Aquinne
-  turnin 98391
+  turnin 98391 only NightElf
   accept 2519
 
 step Priestess A'moora
@@ -667,6 +669,15 @@ step Priestess A'moora
 step Sentinel Dalia Sunblade
   complete 98067 @33.4,16.8 map 1457
   turnin 98067
+
+step Arch Druid Fandral Staghelm
+  turnin 935
+  accept 98046
+
+step Lariia
+  turnin 98046
+  accept 98065
+  turnin 98065
 
 step Rellian Greenspyre
   turnin 922

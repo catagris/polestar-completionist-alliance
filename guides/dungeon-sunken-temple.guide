@@ -124,6 +124,11 @@ step Inside Sunken Temple
   complete 3528 @69.9,53.5
   turnin 3373 @69.9,53.5
 
+step The Essence of Eranikus
+  tip Oathstone of Ysera's Dragonflight drops from Itharius: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 10589 x1 optional
+  accept 3374 item 10589 optional
+
 step Voodoo Feathers
   only Warrior
   when turnedin 8424
@@ -142,6 +147,27 @@ step Voodoo Feathers
   when onquest 8425
   zone map 1435
   turnin 8425 optional
+
+step The Essence of Eranikus
+  when onquest 3374
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1435
+  complete 3374 @13.7,71.7
+
+step The Essence of Eranikus
+  when onquest 3374
+  zone map 1435
+  turnin 3374
+
+step In Eranikus' Own Words
+  when turnedin 3374
+  zone map 1435
+  accept 3512
+
+step In Eranikus' Own Words
+  when onquest 3512
+  zone map 1452
+  turnin 3512
 
 step Atal'ai Exile
   zone map 1425

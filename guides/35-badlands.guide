@@ -8,13 +8,8 @@ next completionist-alliance/dungeon-scarlet-monastery
 next completionist-alliance/36-shendralas
 pitch On along the line: Badlands, quests of level 35 to 50.
 # Generated from the reference data: change the planner, not this file.
-# Routed 24 quests; estimated level at the end 36.8 (heuristic XP, class quests not counted).
+# Routed 25 quests; estimated level at the end 37.3 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route.
-
-step Brohann Caskbelly
-  when onquest 1469
-  zone map 1453
-  turnin 1469
 
 step Mythology of the Titans
   tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
@@ -26,6 +21,10 @@ step Martek the Exiled
   accept 1108
   accept 703
   accept 705
+
+step Power Stones
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2418 optional
 
 step Battered Dwarven Skeleton
   turnin 738
@@ -48,8 +47,26 @@ step Prospector Ironband
   zone map 1432
   turnin 739
 
-step Crumpled Map
+step Agmond's Fate
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 704 optional
+
+step Dorgaron
   zone map 1418
+  accept 97617
+
+step Mirage Mirror
+  when has 278744
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1418
+  turnin 97821 direct @54.6,12.9 map 1418
+
+step Shadowforge Tunneler and Explorers' League Supplies
+  zone map 1418
+  collect 278402 x8 quest 97617.1
+  collect 278403 x1 quest 97617.2
+
+step Crumpled Map
   accept 720
 
 step Sigrun Ironhew
@@ -57,11 +74,14 @@ step Sigrun Ironhew
   turnin 720
   accept 719
 
-step Shadowforge Tunneler
-  collect 4616 x1 quest 719.1
+step Pristine Mattock
+  collect 278404 x1 quest 97617.3
 
 step Excavation Supply Crate
   collect 4629 x1 quest 718.1
+
+step Shadowforge Tunneler
+  collect 4616 x1 quest 719.1
 
 step Sigrun Ironhew
   turnin 718
@@ -70,6 +90,9 @@ step Sigrun Ironhew
 
 step Dustbelcher Warrior
   collect 4630 x7 quest 733.1
+
+step Dorgaron
+  turnin 97617
 
 step Sigrun Ironhew
   turnin 733
@@ -108,6 +131,10 @@ step Theldurin the Lost
   turnin 687
   accept 692
 
+step Solution to Doom
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 709 optional
+
 step Enraged Rock Elemental
   collect 4518 x1 quest 692.1
   collect 4519 x1 quest 692.2
@@ -145,40 +172,24 @@ step Scalding Whelp
 step Sigrun Ironhew
   turnin 706
 
-step Lotwil Veriatus
-  turnin 711
-  turnin 714
-  accept 712
-
-step Liquid Stone
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 715
-  complete 715 @25.8,44.2
-
-step Greater Rock Elemental
-  zone map 1427
-  collect 4628 x5 quest 712.1
-
 step Garek
-  zone map 1418
   accept 732
 
 step Boss Tho'grun
   collect 4640 x1 quest 732.1
 
 step Lotwil Veriatus
+  turnin 711
+  turnin 714
+  accept 712
+
+step Greater Rock Elemental
+  zone map 1427
+  collect 4628 x5 quest 712.1
+
+step Lotwil Veriatus
+  zone map 1418
   turnin 712
-
-step Stone Is Better than Cloth
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 716
-  complete 716 @25.8,44.2
-
-step Liquid Stone
-  turnin 715
-
-step Stone Is Better than Cloth
-  turnin 716
 
 step Lotwil Veriatus
   accept 734
@@ -207,35 +218,8 @@ step Martek the Exiled
   turnin 703
   turnin 705
 
-step Flash Bomb Recipe
-  when skill Engineering 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1418
-  accept 1559 optional
-
-step Flash Bomb Recipe
-  when skill Engineering 1
-  zone map 1418
-  turnin 1559 optional
-
 step Garek
-  zone map 1418
   turnin 732
-
-step Safety Checks
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 97617
-  complete 97617 @54.6,12.9
-
-step Mirage Mirror
-  when has 278744
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1418
-  turnin 97821 direct @54.6,12.9 map 1418
-
-step Safety Checks
-  zone map 1418
-  turnin 97617
 
 step Garek
   when group 717
@@ -263,9 +247,33 @@ step Garek
   zone map 1418
   turnin 717
 
-step Fizzle Brassbolts
-  zone map 1441
-  turnin 1137
+step Flash Bomb Recipe
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1418
+  accept 1559 optional
+
+step Flash Bomb Recipe
+  when skill Engineering 1
+  zone map 1418
+  turnin 1559 optional
+
+step Liquid Stone
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1418
+  accept 715
+  complete 715 @25.8,44.2
+
+step Liquid Stone
+  turnin 715
+
+step Stone Is Better than Cloth
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 716
+  complete 716 @25.8,44.2
+
+step Stone Is Better than Cloth
+  turnin 716
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
@@ -274,9 +282,3 @@ step Find Agmond
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1418
   turnin 738 optional
-
-step Rhapsody's Tale
-  when onquest 1469
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 1469 optional

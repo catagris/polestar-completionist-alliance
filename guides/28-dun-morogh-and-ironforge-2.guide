@@ -7,14 +7,14 @@ zone Dun Morogh
 next completionist-alliance/29-riverglades
 pitch On along the line: Dun Morogh and Ironforge, quests of level 4 to 40.
 # Generated from the reference data: change the planner, not this file.
-# Routed 8 quests; estimated level at the end 8.3 (heuristic XP, class quests not counted).
+# Routed 9 quests; estimated level at the end 9.0 (heuristic XP, class quests not counted).
 # Skipped: 3 profession; 2 exclusive with N (done); 2 objective N (talk N) outside the zones.
 
-step Roetten Stonehammer
-  when onquest 1457
-  zone map 1455
-  turnin 1457
-  turnin 1467
+step Angus Stern
+  when onquest 1271
+  zone map 1453
+  accept 1271
+  turnin 1271
 
 step Ironforge
   zone map 1455
@@ -22,6 +22,10 @@ step Ironforge
 
 step Jemma Quikswitch
   accept 95041
+
+step The Mad King
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 80324 direct @68.8,49.0 map 1455
 
 step Camping 101: Enchanting
   when available 96059
@@ -68,19 +72,12 @@ step Level 28
 step Talvash del Kissel
   accept 2948
 
-step The Black Box
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 708 direct optional
-
-step Me Brother, Nipsy
-  tip Nipsy stands on the Stormwind platform of the Deeprun Tram: ride the tram across.
-  when turnedin 6661
-  zone map 1455
-  accept 6662 @78.0,51.4 map 1455
-
 step Level 40
-  zone map 1455
   level 40
+
+step Ironus Coldsteel
+  accept 82662 only Human,Dwarf,NightElf
+  turnin 82662 only Human,Dwarf,NightElf
 
 step The Way of the Weaponsmith
   when available 5284
@@ -88,6 +85,12 @@ step The Way of the Weaponsmith
   when skill Blacksmithing 200
   zone map 1455
   accept 5284 optional
+
+step The Art of the Armorsmith
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  accept 85713
+  complete 85713 @50.0,42.8
 
 step The Way of the Weaponsmith
   when onquest 5284
@@ -99,6 +102,20 @@ step The Way of the Weaponsmith
   when onquest 5284
   zone map 1455
   turnin 5284 optional
+
+step The Art of the Armorsmith
+  zone map 1455
+  turnin 85713
+
+step The Black Box
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 708 direct optional
+
+step Me Brother, Nipsy
+  tip Nipsy stands on the Stormwind platform of the Deeprun Tram: ride the tram across.
+  when turnedin 6661
+  zone map 1455
+  accept 6662 @78.0,51.4 map 1455
 
 step The Art of the Armorsmith
   when available 5283
@@ -117,11 +134,6 @@ step The Art of the Armorsmith
   when onquest 5283
   zone map 1455
   turnin 5283 optional
-
-step Me Brother, Nipsy
-  when onquest 6662
-  zone map 1453
-  turnin 6662 @64.5,7.5 map 1453
 
 step Thunderbrew Distillery
   zone map 1426
@@ -152,17 +164,6 @@ step Teo Hammerstorm
   zone map 1426
   turnin 96243 only Dwarf,Gnome
 
-step Your First Mechanostrider
-  when available 97046
-  tip One of several exclusive quests; the route takes Your First Riding Ram (97017). This one shows for a character the game offers it to instead.
-  zone map 1426
-  accept 97046 optional
-
-step Your First Mechanostrider
-  when onquest 97046
-  zone map 1426
-  complete 97046 @49.1,48.1 optional
-
 step Your First Riding Ram
   zone map 1426
   accept 97017
@@ -184,6 +185,17 @@ step Learning to Ride
   turnin 97188
 
 step Your First Mechanostrider
+  when available 97046
+  tip One of several exclusive quests; the route takes Your First Riding Ram (97017). This one shows for a character the game offers it to instead.
+  zone map 1426
+  accept 97046 optional
+
+step Your First Mechanostrider
+  when onquest 97046
+  zone map 1426
+  complete 97046 @49.1,48.1 optional
+
+step Your First Mechanostrider
   when onquest 97046
   zone map 1426
   turnin 97046 optional
@@ -203,17 +215,3 @@ step Your First Riding Ram
   when onquest 97017
   zone map 1426
   turnin 97017
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step The Karnitol Shipwreck
-  when onquest 1457
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 1457 optional
-
-step Reagents for Reclaimers Inc.
-  when onquest 1467
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 1467 optional

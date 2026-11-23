@@ -15,18 +15,16 @@ step Talvash del Kissel
 step Talvash del Kissel
   accept 2200
 
+step Lore for a Price
+  when onquest 2199
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2199 optional
+
 step Inside Uldaman, again
   zone map 1418
   turnin 2200 @67.8,44.4
   complete 1139 @67.8,44.4
-
-step Inside Uldaman, again
-  accept 2201 @67.8,44.4
-  complete 2201 @67.8,44.4
-
-step Talvash's Scrying Bowl
-  zone map 1455
-  turnin 2201 @67.8,44.4 map 1418
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

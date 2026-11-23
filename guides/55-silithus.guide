@@ -1,10 +1,10 @@
-guide completionist-alliance/56-silithus
-title 56 Silithus (55-60) (Completionist)
+guide completionist-alliance/55-silithus
+title 55 Silithus (55-60) (Completionist)
 faction Alliance
 levels 55-60
 category Leveling
 zone Silithus
-next completionist-alliance/57-tanaris-2
+next completionist-alliance/56-dun-morogh-and-ironforge-4
 pitch On along the line: Silithus, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 22 quests; estimated level at the end 56.3 (heuristic XP, class quests not counted).
@@ -14,10 +14,10 @@ step Clavicus Knavingham
   zone map 1453
   turnin 7794
 
-step Into The Temple of Atal'Hakkar
-  tip For Sunken Temple: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+step Mayara Brightwing
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   zone map 1453
-  accept 1475 optional
+  accept 4766 optional
 
 step Mistina Steelshield
   when onquest 7804
@@ -663,12 +663,10 @@ step Rutgar Glyphshaper
 
 step Geologist Larksbane
   when onquest 8314
-  zone map 1451
   turnin 8314
 
 step Brann Bronzebeard's Lost Letter
   tip Brann Bronzebeard's Lost Letter drops from Hive'Ashi Ambusher, Hive'Ashi Drone, Hive'Regal Hive Lord: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  zone map 1451
   collect 20461 x1 optional
   accept 8308 item 20461 optional
 

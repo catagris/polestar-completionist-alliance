@@ -1,13 +1,14 @@
-guide completionist-alliance/61-swamp-of-sorrows-2
-title 61 Swamp of Sorrows, visit 2 (55-60) (Completionist)
+guide completionist-alliance/59-swamp-of-sorrows-2
+title 59 Swamp of Sorrows, visit 2 (55-60) (Completionist)
 faction Alliance
 levels 55-60
 category Leveling
 zone Swamp of Sorrows
-next completionist-alliance/62-odd-jobs-in-kalimdor-4
+next completionist-alliance/60-odd-jobs-in-kalimdor-4
 pitch On along the line: Swamp of Sorrows, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 17 quests; estimated level at the end 55.5 (heuristic XP, class quests not counted).
+# Skipped: 1 prerequisite N not in this route.
 
 step Magtoor
   accept 93679
@@ -244,20 +245,3 @@ step The Essence of Eranikus
   tip Oathstone of Ysera's Dragonflight drops from Itharius: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
   zone map 1435
   collect 10589 x1 optional
-  accept 3374 item 10589 optional
-  complete 3374 @13.7,71.7
-
-step The Essence of Eranikus
-  when onquest 3374
-  zone map 1435
-  turnin 3374
-
-step In Eranikus' Own Words
-  when turnedin 3374
-  zone map 1452
-  accept 3512
-
-step In Eranikus' Own Words
-  when onquest 3512
-  zone map 1452
-  turnin 3512

@@ -4,22 +4,28 @@ faction Alliance
 levels 47-55
 category Leveling
 zone Dun Morogh
-next completionist-alliance/43-searing-gorge
+next completionist-alliance/43-the-hinterlands
 pitch On along the line: Dun Morogh and Ironforge, quests of level 47 to 55.
 # Generated from the reference data: change the planner, not this file.
 # Routed 7 quests; estimated level at the end 47.1 (heuristic XP, class quests not counted).
 # Skipped: 3 profession.
 
 step Gracina Spiritmight
-  when onquest 4508
+  when onquest 162
   zone map 1457
-  turnin 4508
+  turnin 162
 
-step Curator Thorius
-  when onquest 3182
-  zone map 1455
-  turnin 3182
-  accept 3201
+step Level 50
+  zone map 1457
+  level 50
+
+step Gracina Spiritmight
+  accept 4493
+
+step Jenal
+  when onquest 3764
+  zone map 1457
+  turnin 3764
 
 step Innkeeper Firebrew
   zone map 1455
@@ -47,11 +53,6 @@ step The Smoldering Ruins of Thaurissan
 
 step The Smoldering Ruins of Thaurissan
   turnin 3702
-
-step The Smoldering Ruins of Thaurissan
-  when turnedin 3702
-  zone map 1455
-  accept 3701
 
 step Signal for Pickup
   when turnedin 3451
@@ -116,10 +117,43 @@ step Gnome Engineering
   zone map 1455
   turnin 3632 optional
 
-step Mountaineer Pebblebitty
-  when onquest 3201
-  zone map 1432
-  turnin 3201
+step Alchemist Pestlezugg
+  when onquest 4493
+  zone map 1446
+  turnin 4493
+
+step Alchemist Pestlezugg
+  zone map 1446
+  accept 4496
+
+step Gorishi Worker
+  zone map 1449
+  collect 11837 x1 quest 4496.1
+
+step Un'Goro Dirt Pile
+  collect 11018 x5 quest 4496.2
+
+step Alchemist Pestlezugg
+  when onquest 4496
+  zone map 1446
+  turnin 4496
+
+step Alchemist Pestlezugg
+  zone map 1446
+  accept 4507
+
+step Gorishi Hive Queen
+  zone map 1449
+  collect 11835 x1 quest 4507.1
+
+step Alchemist Pestlezugg
+  when onquest 4507
+  zone map 1446
+  turnin 4507
+
+step Alchemist Pestlezugg
+  zone map 1446
+  accept 4508
 
 step Thunderbrew Distillery
   zone map 1426
@@ -142,14 +176,14 @@ step Uldum Pedestal
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Proof of Deed
-  when onquest 3182
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 3182 optional
-
-step Calm Before the Storm
-  when onquest 4508
+step Rise of the Silithid
+  when onquest 162
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1457
-  turnin 4508 optional
+  turnin 162 optional
+
+step Un'Goro Soil
+  when onquest 3764
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 3764 optional

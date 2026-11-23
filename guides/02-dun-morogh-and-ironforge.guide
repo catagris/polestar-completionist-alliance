@@ -139,7 +139,7 @@ step Teo Hammerstorm
   only Shaman
   zone map 1426
   turnin 98581 only Dwarf
-  accept 94373
+  accept 94373 only Dwarf
 
 step Alamar Grimm
   only Warlock
@@ -164,7 +164,7 @@ step Felix's Bucket of Bolts
 step Frostmane Troll Whelp
   only Shaman
   zone map 1426
-  collect 264356 x1 quest 94373.1
+  collect 264356 x1 quest 94373.1 only Dwarf
 
 step Frostmane Novice
   only Warlock
@@ -192,7 +192,7 @@ step Alamar Grimm
 step Teo Hammerstorm
   only Shaman
   zone map 1426
-  turnin 94373
+  turnin 94373 only Dwarf
   accept 94374
 
 step Earth Sapta
@@ -278,69 +278,60 @@ step Sunhammer's Rifle
 step Stoneanvil's Rifle
   collect 286360 x1 quest 99162.1
 
-step Coalbeard's Rifle
-  collect 286358 x1 quest 99162.3
-
 step Minor Ice Elemental
   kill 276003 x10 quest 99160.1
 
-step Father Gavin
-  turnin 99160
-  turnin 99162
-  accept 99161
+step Coalbeard's Rifle
+  collect 286358 x1 quest 99162.3
 
-step Avala
-  collect 286325 x1 quest 99161.1
-
-step Father Gavin
-  turnin 99161
-
-step Rudra Amberstill
-  accept 95212
-
-step Elder Snow Leopard
-  collect 267414 x6 quest 95212.1
-
-step Vagash
-  when group 314
-  tip Protecting the Herd is group work: elites. Grouping up is advised.
-  zone map 1426
-  collect 3627 x1 quest 314.1
-
-step Rudra Amberstill
-  when group 314
-  zone map 1426
-  turnin 314
-
-step Foreman Stonebrow
-  zone map 1426
-  accept 432
-  accept 433
-
-step Rockjaw Skullthumper and Rockjaw Bonesnapper
-  kill 1115 x6 quest 432.1
-  kill 1117 x10 quest 433.1
-
-step Foreman Stonebrow
-  turnin 432
-  turnin 433
-
-step Rudra Amberstill
-  turnin 95212
-
-step Beldin Steelgrill
-  accept 96408
-  accept 5541
+step Pilot Stonegear
   accept 313
   accept 317
+  accept 5541
 
-step Maxan Anvol
-  only Priest
+step Dire Mottled Boar
+  zone map 1411
+  collect 769 x4 quest 317.1
+
+step Ammo Crate
   zone map 1426
-  turnin 5625 only Dwarf,Gnome
+  collect 13850 x1 quest 5541.1
+
+step Mountaineer Gretchen
+  turnin 98322
+
+step Secure the Mountain
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 98319
+  complete 98319 @44.1,57.1
+
+step Secure the Mountain
+  turnin 98319
+
+step Mountaineer Gretchen
+  accept 98323
+
+step Young Black Bear
+  collect 6952 x2 quest 317.2
+
+step Young Wendigo
+  collect 2671 x8 quest 313.1
+
+step Tognus Flintfire
+  accept 98321
+  accept 400
+  turnin 384
+
+step Senir Whitebeard
+  turnin 98323
+
+step The Reports
+  when turnedin 287
+  zone map 1426
+  accept 291
 
 step The Great Outdoors
-  zone map 1426
+  zone map 1455
   turnin 96608 only Dwarf,Gnome
 
 step Camping 101: Engineering
@@ -440,56 +431,19 @@ step Camping 101: Cooking
 step Camping 101: Cooking
   turnin 96629 only Dwarf,Gnome
 
-step Ragnar Thunderbrew
-  turnin 384
-  accept 400
-  accept 98321
+step Maxan Anvol
+  only Priest
+  zone map 1426
+  turnin 5625 only Dwarf,Gnome
+
+step Razzle Sprysprocket
+  zone map 1426
+  accept 412
 
 step Flintfire's Shipment
   collect 280413 x1 quest 98321.1
 
-step Young Wendigo
-  collect 2671 x8 quest 313.1
-
-step Ammo Crate
-  collect 13850 x1 quest 5541.1
-
-step Mountaineer Gretchen
-  turnin 98322
-
-step Secure the Mountain
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 98319
-  complete 98319 @44.1,57.1
-
-step Secure the Mountain
-  turnin 98319
-
-step Mountaineer Gretchen
-  accept 98323
-
-step Young Black Bear
-  collect 6952 x2 quest 317.2
-
-step Dire Mottled Boar
-  zone map 1411
-  collect 769 x4 quest 317.1
-
-step Tognus Flintfire
-  zone map 1426
-  turnin 98321
-  accept 412
-
-step Senir Whitebeard
-  turnin 98323
-
-step The Reports
-  when turnedin 287
-  zone map 1426
-  accept 291
-
 step Leper Gnome
-  zone map 1455
   collect 3083 x8 quest 412.1
   collect 3084 x8 quest 412.2
 
@@ -521,6 +475,7 @@ step Shimmerweed Basket
 
 step Razzle Sprysprocket
   turnin 412
+  turnin 98321
 
 step Unguarded Thunder Ale Barrel
   turnin 310
@@ -531,6 +486,67 @@ step Pilot Stonegear
   turnin 317
   accept 318
   turnin 400
+
+step Father Gavin
+  turnin 99160
+  turnin 99162
+  accept 99161
+
+step Avala
+  collect 286325 x1 quest 99161.1
+
+step Father Gavin
+  turnin 99161
+
+step Rudra Amberstill
+  accept 95212
+
+step Elder Snow Leopard
+  collect 267414 x6 quest 95212.1
+
+step Vagash
+  when group 314
+  tip Protecting the Herd is group work: elites. Grouping up is advised.
+  zone map 1426
+  collect 3627 x1 quest 314.1
+
+step Rudra Amberstill
+  when group 314
+  zone map 1426
+  turnin 314
+
+step Foreman Stonebrow
+  zone map 1426
+  accept 432
+  accept 433
+
+step The Quarry's Smith
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1426
+  accept 95217 optional
+  complete 95217 @69,55.9 optional
+
+step Rockjaw Skullthumper and Rockjaw Bonesnapper
+  zone map 1426
+  kill 1115 x6 quest 432.1
+  kill 1117 x10 quest 433.1
+
+step Foreman Stonebrow
+  turnin 432
+  turnin 433
+
+step The Quarry's Smith
+  when skill Blacksmithing 1
+  zone map 1426
+  turnin 95217 optional
+
+step Rudra Amberstill
+  zone map 1426
+  turnin 95212
+
+step Beldin Steelgrill
+  accept 96408
 
 step Your Reward has Arrived!
   zone map 1455
@@ -655,6 +671,15 @@ step Mountaineer Barleybrew
 step Mountaineer Kadrell
   turnin 414
 
+step The Reports
+  when onquest 291
+  zone map 1455
+  turnin 291
+
+step Ironforge
+  zone map 1455
+  getfp "Ironforge"
+
 step Camping 101: Tailoring
   when skill Tailoring 1
   zone map 1455
@@ -675,16 +700,8 @@ step Camping 101: Leatherworking
   zone map 1455
   turnin 96031 optional only Dwarf,Gnome
 
-step The Reports
-  when onquest 291
-  zone map 1455
-  turnin 291
-
-step Ironforge
-  zone map 1455
-  getfp "Ironforge"
-
 step Misplaced Packages
+  zone map 1455
   accept 97263
 
 step Deeprun Rat Roundup

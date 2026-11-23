@@ -1,20 +1,15 @@
-guide completionist-alliance/54-azshara
-title 54 Azshara (47-60) (Completionist)
+guide completionist-alliance/53-azshara
+title 53 Azshara (47-60) (Completionist)
 faction Alliance
 levels 47-60
 category Leveling
 zone Azshara
 next completionist-alliance/dungeon-alcaz-prison
-next completionist-alliance/55-hillsbrad-foothills-and-alterac-mountains-3
+next completionist-alliance/54-hillsbrad-foothills-and-alterac-mountains-3
 pitch On along the line: Azshara, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 29 quests; estimated level at the end 49.2 (heuristic XP, class quests not counted).
+# Routed 41 quests; estimated level at the end 49.5 (heuristic XP, class quests not counted).
 # Skipped: 2 prerequisite N not in this route; 1 profession.
-
-step Arch Druid Fandral Staghelm
-  when onquest 4902
-  zone map 1457
-  turnin 4902
 
 step Sentinel Dalia Sunblade
   zone map 1457
@@ -83,9 +78,15 @@ step Meeting with the Master
   tip A repeatable quest: hand it in once, with what it asks for.
   turnin 3503 direct optional
 
+step Archmage Xylem
+  accept 90789
+
+step Warlord Krellian
+  collect 23250 x1 quest 90789.1
+
 step Ekkal
   accept 86746
-  accept 86752 @42,38.9 map 1447
+  accept 86752
 
 step Claws That Rend, Tusks that Gore
   tip For Blackmaw Hold: taken here because the route passes its giver. Leave it if you will not run the dungeon.
@@ -95,17 +96,45 @@ step Legashi Hellcaller
   kill 6202 x5 quest 86746.3
 
 step Legashi Cauldron
-  accept 86925 @57.8,21.1 map 1447
+  accept 86925
+  accept 86926
+  accept 86927
 
-step Legashi Satyr and Legashi Rogue
+step object 507746
+  collect 235470 x5 quest 86926.1
+
+step Legashi Satyr, Legashi Rogue and Fel Mote
   kill 6200 x5 quest 86746.1
   kill 6201 x5 quest 86746.2
-
-step Legashi Blackguard
   collect 235645 x1 quest 86925.1
+  collect 235471 x1 quest 86926.2
+
+step Korsa
+  accept 86777
+  accept 86792
+  accept 86797
+
+step Master Feardred
+  collect 235334 x1 quest 86777.1
+
+step Legashi Hellraiser
+  kill 236874 x6 quest 86792.1
+
+step Legashi Soulstealer and Legashi Blackguard
+  kill 236867 x4 quest 86792.2
+  kill 236876 x2 quest 86792.3
+
+step Graal
+  accept 86796
+
+step Korsa
+  turnin 86777
+  turnin 86792
+  turnin 86796
 
 step Legashi Cauldron
-  turnin 86925 @57.8,21.1 map 1447
+  turnin 86925
+  turnin 86926
 
 step Kim'jael
   turnin 3601
@@ -117,25 +146,6 @@ step Loramus Thalipedes
 step Spitelash Battlemaster
   collect 13815 x1 quest 5534.1
 
-step Kim'jael
-  turnin 5534
-
-step Furze
-  accept 86799 @45.4,22.4 map 1447
-
-step Gatekeeper Rageroar
-  turnin 86752 @42.4,20.9 map 1447
-  accept 92065 @42.4,20.9 map 1447
-  turnin 92065 @42.4,20.9 map 1447
-
-step Elder Bramblesnap
-  turnin 86799 @41.7,19.6 map 1447
-  accept 86804 @41.7,19.6 map 1447
-
-step Lorekeeper Nok
-  accept 92066 @41.4,20 map 1447
-  turnin 92066 @41.4,20 map 1447
-
 step Ekkal
   turnin 86746
 
@@ -143,28 +153,55 @@ step Legashi Horns
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   turnin 86747 direct @42,38.9 map 1447
 
-step Level 50
-  level 50
+step Furze
+  accept 86799
 
-step Berdun Cliffbrew
-  when group 89015
-  zone map 1447
-  accept 89015
+step Gatekeeper Rageroar
+  turnin 86752
+  turnin 86797
+  accept 86791
+  accept 86798
+
+step The Twin Bears
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 92066
+  complete 92066 @41.3,20.1
+
+step Blackmaw Reclamation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 92065
+  complete 92065 @42.3,20.1
+
+step The Twin Bears
+  turnin 92066
+
+step Elder Bramblesnap
+  turnin 86799
+  turnin 86927
+  accept 86804
+  accept 86812
+  accept 86813
+  turnin 86812
+  turnin 86813
+
+step Blackmaw Reclamation
+  turnin 92065
+
+step Kim'jael
+  turnin 5534
 
 step Legashi Cauldron
-  zone map 1447
-  turnin 86804 @57.8,21.1 map 1447
+  turnin 86804
+
+step Korsa
+  turnin 86791
+
+step Archmage Xylem
+  turnin 90789
 
 step Berdun Cliffbrew
   turnin 89001
   accept 89013
-
-step Winter Frontier Fishery
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 89228
-  complete 89228 @12.6,77.4
-
-step Commander Truesong
   turnin 88807
   turnin 88857
   accept 88809
@@ -173,7 +210,9 @@ step Commander Truesong
   turnin 88812
 
 step Winter Frontier Fishery
-  turnin 89228
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 89228
+  complete 89228 @12.6,77.4
 
 step Honey Wasp
   collect 238503 x5 quest 89013.1
@@ -186,84 +225,72 @@ step Lord Sarthiss
 
 step Saria Fairmoon
   turnin 88821
-
-step Slithering Looters
-  tip The reference data does not place this quest's objective: follow the quest text.
   accept 88917
-  complete 88917 @50.6,42.7
 
-step Slithering Looters
-  turnin 88917
-
-step Highborne Tablets
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 88884
-  complete 88884 @50.6,42.7
-
-step Highborne Tablets
-  turnin 88884
+step Sesspira's Hoard
+  collect 238347 x1 quest 88917.1
 
 step Saria Fairmoon
+  turnin 88917
+  accept 88884
+
+step Highborne Tablet
+  collect 238244 x1 quest 88884.1
+
+step Highborne Tablet
+  collect 238245 x1 quest 88884.2
+
+step Highborne Tablet
+  collect 238246 x1 quest 88884.3
+
+step Saria Fairmoon
+  turnin 88884
   accept 89037
 
-step Memory Crystal
+step Razorgill
   collect 238385 x1 quest 89037.1
 
 step Saria Fairmoon
   turnin 89037
-
-step A Monumental Task
-  tip The reference data does not place this quest's objective: follow the quest text.
   accept 89038
-  complete 89038 @50.6,42.7
 
-step A Monumental Task
-  turnin 89038
+step Mark of the Queen
+  collect 238517 x1 quest 89038.1
 
 step Saria Fairmoon
+  turnin 89038
   accept 89053
-
-step Saria's Knapsack
   turnin 89053
-
-step Saria's Knapsack
   accept 89470
 
 step Berdun Cliffbrew
   turnin 89013
   turnin 88809
-
-step Commander Truesong
   turnin 89470
+
+step Winter Frontier Fishery
+  turnin 89228
 
 step Commander Truesong
   accept 88813
 
+step Warlord Krellian
+  collect 238057 x1 quest 88813.1
+
+step Commander Truesong
+  turnin 88813
+
 step Maerion Thaelemaches
   zone map 2482
-  turnin 91877 @63.3,25.9 map 2482
+  turnin 91877
+
+step Gorn One Eye
+  zone map 1448
+  turnin 86798
 
 step Commander Truesong
   zone map 1447
   turnin 98096
-
-step Krellian's Head
-  collect 238057 quest 88813.1
-
-step Mammoth Shark
-  when group 89015
-  tip Deadliest Catch is group work: elites. Grouping up is advised.
-  zone map 1447
-  collect 238507 x1 quest 89015.1
-
-step Berdun Cliffbrew
-  when group 89015
-  zone map 1447
-  turnin 89015
-
-step Commander Truesong
-  zone map 1447
-  turnin 88813
 
 step Rune of Jin'yael
   collect 10564 x1 quest 3449.2
@@ -303,10 +330,21 @@ step Dragonscale Leatherworking
   zone map 1447
   turnin 5141 optional
 
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+step Level 50
+  zone map 1447
+  level 50
 
-step Wildkin of Elune
-  when onquest 4902
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 4902 optional
+step Berdun Cliffbrew
+  when group 89015
+  zone map 1447
+  accept 89015
+
+step Mammoth Shark Steak
+  when group 89015
+  zone map 1447
+  collect 238507 x1 quest 89015.1
+
+step Berdun Cliffbrew
+  when group 89015
+  zone map 1447
+  turnin 89015

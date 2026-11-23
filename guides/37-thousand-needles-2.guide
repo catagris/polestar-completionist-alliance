@@ -1,0 +1,84 @@
+guide completionist-alliance/37-thousand-needles-2
+title 37 Thousand Needles, visit 2 (37-46) (Completionist)
+faction Alliance
+levels 37-46
+category Leveling
+zone Thousand Needles
+next completionist-alliance/dungeon-uldaman
+next completionist-alliance/38-odd-jobs-in-the-eastern-kingdoms-3
+pitch On along the line: Thousand Needles, quests of level 37 to 46.
+# Generated from the reference data: change the planner, not this file.
+# Routed 8 quests; estimated level at the end 37.1 (heuristic XP, class quests not counted).
+
+step Archbishop Benedictus
+  when complete 3636
+  zone map 1453
+  turnin 3636
+
+step Level 40
+  zone map 1455
+  level 40
+
+step Klockmort Spannerspan
+  accept 2769
+
+step The Lost Dwarves
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2398 optional
+
+step Reclaimed Treasures
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 1360 optional
+
+step Kravel Koalbeard
+  zone map 1441
+  accept 1118
+  turnin 1137
+  accept 1186
+  accept 1190
+  turnin 1186
+  accept 1187
+
+step Zamek's Distraction
+  when onquest 1190
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1441
+  turnin 1191 direct optional
+
+step Gizmorium Shipping Crate
+  zone map 1445
+  collect 5862 x1 quest 1187.1
+
+step Razzeric
+  zone map 1441
+  turnin 1187
+  accept 1188
+
+step Rizzle's Unguarded Plans
+  turnin 1190
+  accept 1194
+
+step Pozzik
+  turnin 1194
+
+step Shreev
+  zone map 1446
+  turnin 1188
+
+step Wizzle Brassbolts
+  zone map 1441
+  turnin 2769
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step News for Fizzle
+  when onquest 1137
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1441
+  turnin 1137 optional
+
+step Bring the Light
+  when onquest 3636
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 3636 optional

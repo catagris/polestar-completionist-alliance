@@ -148,11 +148,8 @@ step Prospector Ironboot
   zone map 1446
   accept 4788
 
-step Felnok Steelspring
-  zone map 1452
-  accept 4907
-
 step Kilram
+  zone map 1452
   accept 5306
 
 step Inside Blackrock Spire
@@ -164,7 +161,6 @@ step Inside Blackrock Spire
   accept 5089 item 12780
   accept 5160 @34.8,85.3
   collect 227911 @34.8,85.3
-  accept 84377 item 227911
   complete 4788 @34.8,85.3
   complete 4701 @34.8,85.3
   complete 4729 @34.8,85.3
@@ -177,9 +173,6 @@ step Inside Blackrock Spire
   complete 4867 @34.8,85.3
   turnin 4867 @34.8,85.3
   complete 5306 @34.8,85.3
-
-step Hand in
-  turnin 84377 @34.8,85.3
 
 step Kibler
   zone map 1418
@@ -196,12 +189,6 @@ step Marshal Maxwell
 step Mayara Brightwing
   turnin 4766
 
-step Ragged John
-  turnin 4866
-
-step Tinkee Steamboil
-  turnin 4907
-
 step Inside Blackrock Spire
   only Hunter
   zone map 1427
@@ -211,6 +198,10 @@ step Inside Blackrock Spire
   only Warrior
   zone map 1427
   complete 8912 @34.8,85.3
+
+step Ragged John
+  zone map 1428
+  turnin 4866
 
 step Prospector Ironboot
   zone map 1446
@@ -232,7 +223,15 @@ step Wrath of the Blue Flight
 step Wrath of the Blue Flight
   turnin 5161
 
+step Level 60
+  zone map 1427
+  level 60
+
+step Inside Blackrock Spire
+  accept 84377 item 227911
+
 step Wrath of the Blue Flight
+  zone map 1452
   accept 5162
 
 step The Demon Forge
@@ -325,14 +324,10 @@ step Marshal Maxwell
 step Mayara Brightwing
   accept 4764
 
-step Tinkee Steamboil
-  accept 4734
-
 step Inside Blackrock Spire, again
   zone map 1427
   accept 5002 @34.8,85.3
   accept 4743 @34.8,85.3
-  complete 4734 @34.8,85.3
   complete 4743 @34.8,85.3
   turnin 4743 @34.8,85.3
   complete 4764 @34.8,85.3
@@ -377,29 +372,19 @@ step Marshal Maxwell
 step Mayara Brightwing
   turnin 4764
 
-step Tinkee Steamboil
-  turnin 4734
-
 step Marshal Maxwell
   accept 5081
 
 step Mayara Brightwing
   accept 4765
 
-step Tinkee Steamboil
-  accept 4735
-
 step Inside Blackrock Spire, again
   zone map 1427
-  complete 4735 @34.8,85.3
   complete 5081 @34.8,85.3
 
 step Marshal Maxwell
   zone map 1428
   turnin 5081
-
-step Tinkee Steamboil
-  turnin 4735
 
 step More Components of Importance
   when available 8988
@@ -584,3 +569,11 @@ step More Components of Importance
   when onquest 8985
   zone map 1427
   turnin 8985 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Mayara Brightwing
+  when onquest 4766
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1428
+  turnin 4766 optional

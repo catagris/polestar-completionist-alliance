@@ -114,12 +114,14 @@ step Raw Windstone
 step Hanaa Nightwind
   accept 92544
 
-step Al'Aketh Brute and Al'Aketh Neophyte
-  kill 251145 x6 quest 92544.1
+step Al'Aketh Neophyte
   kill 251448 x4 quest 92544.2
 
 step Malduko Cloudcrush
   kill 256935 x1 quest 92544.3
+
+step Al'Aketh Brute
+  kill 251145 x6 quest 92544.1
 
 step Hanaa Nightwind
   turnin 92544
@@ -132,14 +134,14 @@ step Rorian the Dayseeker
   turnin 92597 only Skyborne
   accept 92473
 
-step Scrawny Ursera
-  collect 251918 x6 quest 92473.1
+step Ursera Scavenger
+  kill 250937 x8 quest 92470.1
 
 step Urs'anah
   collect 252665 x1 quest 92470.2
 
-step Ursera Scavenger
-  kill 250937 x8 quest 92470.1
+step Scrawny Ursera
+  collect 251918 x6 quest 92473.1
 
 step Valreaa Valewind
   turnin 92473
@@ -156,16 +158,21 @@ step Ancient Hilt
 step Ealaane Nimbuswalker
   turnin 93161
   accept 97029
-  turnin 97029
 
 step Nyalah Brightfire
   accept 93317
+
+step Ancient Sword
+  collect 264501 x1 quest 97029.1
 
 step Windsong Crawler
   collect 257941 x6 quest 93317.1
 
 step Nyalah Brightfire
   turnin 93317
+
+step Ealaane Nimbuswalker
+  turnin 97029
 
 step Fendaal Windstone
   accept 98512
@@ -200,23 +207,18 @@ step A Sacrifice in Vain
   zone map 2521
   turnin 94493 optional
 
-step Al'Aketh Footsoldier
+step Al'Aketh Stormchaser
   zone map 2521
   collect 265141 x1 quest 94487.1
+
+step Elegael Thornpaw
+  turnin 94487
 
 step Vayn Moongaze
   accept 93165
 
-step Al'Aketh Footsoldier
+step Al'Aketh Stormchaser
   collect 258771 x5 quest 93165.1
-
-step Vayn Moongaze
-  turnin 93165
-
-step More Al'Aketh Ears
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 258771 x1 anywhere optional
-  turnin 93459 direct optional
 
 step Ealaane Nimbuswalker
   accept 94896
@@ -255,7 +257,8 @@ step Ealaane Nimbuswalker
 step Elegael Thornpaw
   turnin 94485
   turnin 94486
-  turnin 94487
+
+step Elegael Thornpaw
   accept 94488
 
 step Commander Haalien
@@ -263,6 +266,14 @@ step Commander Haalien
 
 step Elegael Thornpaw
   turnin 94488
+
+step Vayn Moongaze
+  turnin 93165
+
+step More Al'Aketh Ears
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 258771 x1 anywhere optional
+  turnin 93459 direct optional
 
 step The High Order
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -279,10 +290,12 @@ step Windshaper Novice Seer
   kill 257532 x6 quest 94413.1
 
 step Rathiril Sunlance
+  zone map 1432
   turnin 94413
 
 step Blood Tithe
   tip The place is where players were recorded finishing it.
+  zone map 2521
   accept 92679
   complete 92679 @46.7,81.95
 
@@ -310,11 +323,11 @@ step Aamelia Windfield
 step Aamelia Windfield
   accept 92682
 
-step Ripe Stormapple
-  collect 253591 x10 quest 92682.1
-
 step Hungry Bandit
   kill 252802 x5 quest 92682.2
+
+step Ripe Stormapple
+  collect 253591 x10 quest 92682.1
 
 step Aamelia Windfield
   turnin 92682
@@ -407,10 +420,10 @@ step Taleen Shimmerthread
   accept 93951
 
 step Hippogryph Down
-  zone map 1432
   collect 263493 x8 quest 93951.1
 
 step Taleen Shimmerthread
+  zone map 1432
   turnin 93951
 
 step Indari Sunseam
@@ -418,10 +431,10 @@ step Indari Sunseam
   accept 92515
 
 step Prideclaw
-  zone map 1432
   collect 252670 x10 quest 92515.1
 
 step Indari Sunseam
+  zone map 1432
   turnin 92515
 
 step Teeri Wellwind
@@ -429,34 +442,36 @@ step Teeri Wellwind
   accept 93319
 
 step Highlands Bandit
+  zone map 1432
   collect 257945 x10 quest 93319.1
 
 step Teeri Wellwind
-  zone map 1432
   turnin 93319
 
 step Teeri Wellwind
   zone map 2521
   accept 92516
 
-step Hippogryph Youth and Hippogryph Matriarch
-  kill 251291 x8 quest 92516.1
+step Hippogryph Protector and Hippogryph Matriarch
+  kill 251284 x6 quest 92516.2
   kill 251261 x1 quest 92516.3
 
-step Hippogryph Protector
-  kill 251284 x6 quest 92516.2
+step Hippogryph Youth
+  kill 251291 x8 quest 92516.1
 
 step Teeri Wellwind
+  zone map 1432
   turnin 92516
 
 step Constable Aonda
+  zone map 2521
   accept 92517
-
-step Highlands Bandit
-  kill 251918 x10 quest 92517.1
 
 step "Badwind" Bennic
   kill 255534 x1 quest 92517.2
+
+step Highlands Bandit
+  kill 251918 x10 quest 92517.1
 
 step Constable Aonda
   turnin 92517
@@ -483,15 +498,17 @@ step Constable Aonda
   turnin 92528
 
 step Danarii Bellowveil
-  accept 92551
+  accept 92551 only Skyborne
 
 step Galemender Delanea
-  collect 252760 x10 quest 92551.1
+  collect 252760 x10 quest 92551.1 only Skyborne
 
 step Danarii Bellowveil
-  turnin 92551
+  zone map 1432
+  turnin 92551 only Skyborne
 
 step Constable Aonda
+  zone map 2521
   accept 92550
 
 step Al'Aketh Stormcaller and Living Lightning
@@ -527,16 +544,44 @@ step Constable Aonda
   turnin 93927
 
 step Constable Aonda
+  accept 93948
+
+step Talaanis Shadowsong
+  zone map 1432
+  turnin 93948
+
+step Valennia Stormfist
+  zone map 2521
+  accept 93949
+
+step Skyhopper
+  kill 251727 x1 quest 93949.1
+
+step Valennia Stormfist
+  turnin 93949
+
+step Constable Aonda
   accept 92701
 
 step Valennia Stormfist
+  zone map 1432
   turnin 92701
 
 step Valennia Stormfist
+  zone map 2521
   accept 92699
 
 step Elaadrin Evengale
   turnin 92699
+
+step Iaadaria Bitterwind
+  accept 92741
+
+step Shadowgale Shriekling
+  collect 254378 x8 quest 92741.1
+
+step Iaadaria Bitterwind
+  turnin 92741
 
 step Dondallion Whisperwind
   accept 92727
@@ -553,13 +598,13 @@ step The Missing Scholar
   turnin 92849
 
 step Fillion Flamebreeze
-  accept 92850
+  accept 92850 only Skyborne
 
 step Shriekling Matriarch
-  collect 257107 x1 quest 92850.1
+  collect 257107 x1 quest 92850.1 only Skyborne
 
 step Fillion Flamebreeze
-  turnin 92850
+  turnin 92850 only Skyborne
 
 step Fillion Flamebreeze
   accept 99260
@@ -600,11 +645,11 @@ step Yorana Windyreed
 step Yorana Windyreed
   accept 92642
 
-step Al'Aketh Brawler
-  kill 270201 x8 quest 92642.2
-
 step Al'Aketh Healer
   kill 254596 x4 quest 92642.1
+
+step Al'Aketh Brawler
+  kill 270201 x8 quest 92642.2
 
 step Yorana Windyreed
   turnin 92642
@@ -636,20 +681,11 @@ step Talaanis Shadowsong
 step Elaadrin Evengale
   accept 92834
 
-step Al'Aketh Footsoldier
+step Al'Aketh Stormchaser
   collect 255658 x10 quest 92834.1
 
 step Elaadrin Evengale
   turnin 92834
-
-step Iaadaria Bitterwind
-  accept 92741
-
-step Shadowgale Shriekling
-  collect 254378 x8 quest 92741.1
-
-step Iaadaria Bitterwind
-  turnin 92741
 
 step A Grand Adventure
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -658,21 +694,6 @@ step A Grand Adventure
 
 step A Grand Adventure
   turnin 92709
-
-step Constable Aonda
-  accept 93948
-
-step Talaanis Shadowsong
-  turnin 93948
-
-step Valennia Stormfist
-  accept 93949
-
-step Skyhopper
-  kill 251727 x1 quest 93949.1
-
-step Valennia Stormfist
-  turnin 93949
 
 step The Anchors of Zephras
   tip The reference data does not place this quest's objective: follow the quest text.

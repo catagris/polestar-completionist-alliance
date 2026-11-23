@@ -7,24 +7,16 @@ zone Elwynn Forest
 next completionist-alliance/64-western-plaguelands
 pitch On along the line: Elwynn Forest and Stormwind, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 7 quests; estimated level at the end 47.6 (heuristic XP, class quests not counted).
-# Skipped: 2 exclusive with N (done); 1 prerequisite N not in this route; 1 profession.
+# Routed 8 quests; estimated level at the end 47.6 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N (done); 2 prerequisite N not in this route; 1 profession.
 
-step Master Mathias Shaw
-  zone map 1453
-  accept 97883 @78.3,70.7 map 1453
-
-step Squire Rowe
-  accept 99435
-
-step Major Mattingly
-  turnin 97883 @67.2,85.5 map 1453
-
-step Cracked Necrotic Crystal
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  turnin 9292 direct @69.0,82.9 map 1453
+step Arch Druid Fandral Staghelm
+  when onquest 4902
+  zone map 1457
+  turnin 4902
 
 step Clavicus Knavingham
+  zone map 1453
   accept 7791
   accept 7793
 
@@ -34,15 +26,32 @@ step Assisting Arch Druid Staghelm
   zone map 1453
   accept 3789 optional
 
-step Highlord Bolvar Fordragon
-  zone map 1453
-  turnin 99435 @80.2,38.4 map 1453
-
 step Level 56
+  zone map 1453
   level 56
 
 step Highlord Bolvar Fordragon
   accept 6182
+
+step Level 60
+  level 60
+
+step The New Frontier
+  when available 1015
+  tip One of several exclusive quests; the route takes The New Frontier (1019). This one shows for a character the game offers it to instead.
+  zone map 1453
+  accept 1015 optional
+
+step Master Mathias Shaw
+  zone map 1453
+  accept 97883
+
+step Major Mattingly
+  turnin 97883
+
+step Cracked Necrotic Crystal
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 9292 direct @69.0,82.9 map 1453
 
 step Master Mathias Shaw
   turnin 6182
@@ -56,6 +65,10 @@ step Flint Shadowmore
   zone map 1453
   accept 6184
 
+step Jennea Cannon
+  zone map 1453
+  accept 84394
+
 step Gnome Engineering
   when available 3630
   tip One of several exclusive quests; the route takes Goblin Engineering (3629). This one shows for a character the game offers it to instead.
@@ -63,30 +76,10 @@ step Gnome Engineering
   zone map 1453
   accept 3630 optional
 
-step The New Frontier
-  when available 1015
-  tip One of several exclusive quests; the route takes The New Frontier (1019). This one shows for a character the game offers it to instead.
-  zone map 1453
-  accept 1015 optional
-
-step Assisting Arch Druid Staghelm
-  when onquest 3789
-  zone map 1457
-  turnin 3789 optional
-
-step The New Frontier
-  when onquest 1015
-  zone map 1457
-  turnin 1015 optional
-
 step Gnome Engineering
   when onquest 3630
   zone map 1455
   turnin 3630 optional
-
-step Goldshire
-  zone map 1429
-  sethome "Goldshire"
 
 step Ratchet Bruiser
   zone map 1413
@@ -96,9 +89,13 @@ step Farrin Daris
   zone map 1431
   collect 2592 x60 quest 7791.1
 
+step Michelle Belle
+  zone map 1429
+  sethome "Goldshire"
+  turnin 96077
+
 step White Stallion Exchange
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1429
   collect 12353 x1 anywhere optional
   turnin 7677 direct optional
 
@@ -111,7 +108,20 @@ step Palomino Exchange
   collect 12354 x1 anywhere optional
   turnin 7678 direct optional
 
-step Additional Runecloth
-  tip A repeatable quest: hand it in once, with what it asks for.
+step Jennea Cannon
   zone map 1453
-  collect 14047 x20 anywhere optional
+  turnin 84394
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Wildkin of Elune
+  when onquest 4902
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 4902 optional
+
+step Belle's Ring
+  when onquest 96077
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1429
+  turnin 96077 optional

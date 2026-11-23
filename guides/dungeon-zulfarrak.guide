@@ -142,20 +142,6 @@ step Rescue OOX-17/TN!
   zone map 1434
   turnin 648
 
-step Level 45
-  level 45
-
-step An OOX of Your Own
-  when turnedin 836
-  when turnedin 2767
-  zone map 1434
-  accept 3721
-
-step An OOX of Your Own
-  when onquest 3721
-  zone map 1434
-  turnin 3721
-
 step Tabetha
   zone Dustwallow Marsh
   turnin 2846

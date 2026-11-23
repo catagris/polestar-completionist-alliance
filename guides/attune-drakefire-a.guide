@@ -7,7 +7,8 @@ zone Dustwallow Marsh
 pitch Drakefire Amulet: Everyone entering Onyxia's Lair carries the Drakefire Amulet.
 why Everyone entering Onyxia's Lair carries the Drakefire Amulet.
 # Generated from the reference data: change the planner, not this file.
-# Routed 8 quests; estimated level at the end 54.3 (heuristic XP, class quests not counted).
+# Routed 6 quests; estimated level at the end 54.2 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N (done); 1 prerequisite N not in this route.
 
 step Helendis Riverhorn
   zone Burning Steppes
@@ -42,8 +43,34 @@ step The True Masters
   accept 4185
   complete 4185 @80.2,38.4
 
+step The Dragon's Eye
+  when turnedin 6403
+  zone map 1453
+  accept 6501
+
+step The Dragon's Eye
+  when onquest 6501
+  zone map 1452
+  turnin 6501
+
 step The True Masters
   turnin 4185
+
+step Drakefire Amulet
+  when turnedin 6501
+  zone map 1452
+  accept 6502
+
+step Drakefire Amulet
+  when onquest 6502
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1452
+  complete 6502 @54.5,51.2
+
+step Drakefire Amulet
+  when onquest 6502
+  zone map 1452
+  turnin 6502
 
 step Highlord Bolvar Fordragon
   zone Stormwind City
@@ -79,6 +106,8 @@ step Marshal Windsor
   tip The hand-in is inside the instance: the arrow leads to its entrance.
   zone map 1445
   turnin 4241 @52.6,76.8
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Abandoned Hope
   when turnedin 4241
@@ -147,28 +176,27 @@ step Reginald Windsor
   zone Stormwind City
   turnin 6402
 
-step Reginald Windsor
-  zone Stormwind City
+step The Great Masquerade
+  zone map 1453
   accept 6403
 
-step Highlord Bolvar Fordragon
-  zone Stormwind City
+step The Great Masquerade
+  when onquest 6403
+  zone map 1453
+  complete 6403 @79.7,38.8
+
+step The Great Masquerade
+  when onquest 6403
+  zone map 1453
   turnin 6403
 
-step Highlord Bolvar Fordragon
-  zone Stormwind City
-  accept 6501
+step The Great Masquerade
+  when available 99435
+  tip One of several exclusive quests; the route takes The Great Masquerade (6403). This one shows for a character the game offers it to instead.
+  zone map 1453
+  accept 99435 optional
 
-step Haleh
-  zone Winterspring
-  turnin 6501
-
-step Drakefire Amulet
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1452
-  accept 6502
-  complete 6502 @54.5,51.2
-
-step Drakefire Amulet
-  zone map 1452
-  turnin 6502
+step The Great Masquerade
+  when onquest 99435
+  zone map 1453
+  turnin 99435 optional

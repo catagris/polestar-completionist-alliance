@@ -90,6 +90,9 @@ step Thyn'tel Bladeweaver
   turnin 1038
   accept 1039
 
+step Level 32
+  level 32
+
 step Level 40
   level 40
 
@@ -201,6 +204,11 @@ step Fiora Longears
   zone map 1445
   turnin 1135
 
+step Captain Garran Vimes
+  turnin 1252
+  turnin 1253
+  turnin 1284
+
 step Kravel Koalbeard
   zone map 1441
   turnin 1112
@@ -219,15 +227,8 @@ step Balthule Shadowstrike
   turnin 1143
   accept 981
 
-step Delgren the Purifier
-  zone map 1440
-  turnin 981
-
-step Level 32
-  zone map 1413
-  level 32
-
 step Mudcrush Durtfeet
+  zone map 1413
   accept 1177
 
 step Mirefin Muckdweller
@@ -236,7 +237,12 @@ step Mirefin Muckdweller
 step Mudcrush Durtfeet
   turnin 1177
 
+step Delgren the Purifier
+  zone map 1440
+  turnin 981
+
 step Wharfmaster Dizzywig
+  zone map 1413
   turnin 1039
   accept 1040
 
@@ -246,7 +252,6 @@ step Caravaneer Ruzzgot
   turnin 1180
 
 step Krazek
-  zone map 1457
   turnin 1115
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.

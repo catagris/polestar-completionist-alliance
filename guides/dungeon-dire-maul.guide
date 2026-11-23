@@ -4,7 +4,6 @@ faction Alliance
 category Dungeons
 levels 56-60
 zone Feralas
-next completionist-alliance/dungeon-stratholme
 pitch Dire Maul, in Feralas.
 why Every Alliance quest of Dire Maul: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
@@ -472,6 +471,11 @@ step The Right Piece of Lord Valthalak's Amulet
   when onquest 8990
   zone map 1427
   turnin 8990 optional
+
+step Nostro's Compendium
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1444
+  turnin 84555 direct @62.3,25.5 map 1444
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 

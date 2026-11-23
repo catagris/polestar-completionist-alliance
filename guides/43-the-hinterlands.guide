@@ -1,0 +1,328 @@
+guide completionist-alliance/43-the-hinterlands
+title 43 The Hinterlands (43-52) (Completionist)
+faction Alliance
+levels 43-52
+category Leveling
+zone The Hinterlands
+next completionist-alliance/44-feralas
+pitch On along the line: The Hinterlands, quests of level 43 to 52.
+# Generated from the reference data: change the planner, not this file.
+# Routed 20 quests; estimated level at the end 44.9 (heuristic XP, class quests not counted).
+
+step Gracina Spiritmight
+  when onquest 4508
+  zone map 1457
+  turnin 4508
+
+step Arch Druid Fandral Staghelm
+  when onquest 3790
+  zone map 1457
+  turnin 3790
+
+step Arch Druid Fandral Staghelm
+  when onquest 1019
+  zone map 1457
+  turnin 1019
+
+step Historian Karnik
+  when onquest 2977
+  zone map 1455
+  turnin 2977
+
+step Historian Karnik
+  zone map 1455
+  accept 2964
+
+step High Explorer Magellas
+  when onquest 2964
+  zone map 1455
+  turnin 2964
+
+step Tove Redstone
+  zone map 1425
+  sethome "Aerie Peak"
+  getfp "Aerie Peak"
+  accept 86615
+
+step Diplomatic Satchel
+  collect 279171 x1 quest 86615.1
+
+step Fraggar Thundermantle
+  accept 2877
+  accept 2880
+
+step Green Sludge
+  kill 2655 x10 quest 2877.1
+
+step Jade Ooze
+  kill 2656 x10 quest 2877.2
+
+step Vilebranch Aman'zasi Guard
+  zone map 1417
+  collect 9259 x5 quest 2880.1
+
+step Rhapsody Shindigger
+  accept 1452
+
+step Find OOX-09/HL!
+  tip OOX-09/HL Distress Beacon drops from Jalinde Summerdrake, Zul'arek Hatefowler, Shadra: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1425
+  collect 8704 x1 optional
+  accept 485 item 8704 optional
+
+step Find OOX-09/HL!
+  when onquest 485
+  zone map 1425
+  turnin 485
+
+step Fire Roc
+  zone map 1446
+  collect 6257 x3 quest 1452.1
+
+step Ironfur Patriarch
+  zone map 1444
+  collect 6258 x3 quest 1452.2
+
+step Groddoc Thunderer
+  collect 6259 x3 quest 1452.3
+
+step Rhapsody Shindigger
+  turnin 1452
+  accept 1469
+
+step Level 45
+  zone map 1425
+  level 45
+
+step Farseer Maret Firetend
+  accept 86616
+
+step Vilebranch Soothsayer
+  collect 279225 x12 quest 86616.1
+
+step Level 47
+  zone map 1444
+  level 47
+
+step Field Captain Arunnel
+  accept 82068 npc 221480
+  turnin 82068 npc 221480
+
+step Hinterlands Mission XI: Starsilver Ore
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1425
+  accept 81834
+  complete 81834 @61.4,34.4
+
+step Hinterlands Mission X: Star Lotus
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81833
+  complete 81833 @61.4,34.4
+
+step Hinterlands Mission XI: Starsilver Ore
+  turnin 81834
+
+step Hinterlands Mission VI: Moonkin Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81820
+  complete 81820 @61.4,34.4
+
+step Hinterlands Mission X: Star Lotus
+  turnin 81833
+
+step Hinterlands Mission V: Turtle Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81817
+  complete 81817 @61.4,34.4
+
+step Hinterlands Mission VI: Moonkin Intelligence
+  turnin 81820
+
+step Hinterlands Mission IV: Dragon Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81789
+  complete 81789 @61.4,34.4
+
+step Hinterlands Mission V: Turtle Intelligence
+  turnin 81817
+
+step Field Captain Korlian
+  accept 81850
+  turnin 81850
+
+step Hinterlands Mission IV: Dragon Intelligence
+  turnin 81789
+
+step Field Captain Korlian
+  when group 81788
+  zone map 1425
+  accept 81788
+
+step Field Captain Korlian
+  zone map 1425
+  accept 81835
+
+step Field Captain Korlian
+  when group 81837
+  zone map 1425
+  accept 81837
+
+step Field Captain Korlian
+  zone map 1425
+  accept 81838
+
+step Field Captain Korlian
+  when group 81839
+  zone map 1425
+  accept 81839
+
+step Field Captain Korlian
+  zone map 1425
+  accept 81852
+  turnin 81852
+
+step Field Captain Korlian
+  accept 81851
+  turnin 81851
+
+step Fallen Moonkin, Humming Box and Doomkin
+  kill 221333 x1 quest 81838.1
+
+step Field Captain Korlian
+  turnin 81838
+
+step Dreamwater Vicejaw
+  collect 219487 x1 quest 81835.1
+
+step Field Captain Korlian
+  turnin 81835
+
+step Field Captain Korlian
+  accept 81832
+
+step Dreampearl and Ghamoo-Raja
+  collect 219491 x1 quest 81832.1
+
+step Field Captain Korlian
+  turnin 81832
+
+step Field Captain Korlian
+  accept 81830
+
+step Fallen Moonkin, Humming Box and Doomkin
+  collect 219490 x1 quest 81830.1
+
+step Field Captain Korlian
+  turnin 81830
+
+step Field Captain Korlian
+  accept 81826
+
+step Star-Touched Dragon Egg and Florius
+  collect 219488 x1 quest 81826.1
+
+step Field Captain Korlian
+  turnin 81826
+
+step Field Captain Korlian
+  accept 81787
+
+step Dreamwater Vicejaw
+  kill 221328 x1 quest 81787.1
+
+step Field Captain Korlian
+  turnin 81787
+
+step Field Captain Korlian
+  accept 81786
+
+step Fallen Moonkin, Humming Box and Doomkin
+  kill 221330 x1 quest 81786.1
+
+step Wrath Whelp and Wyrmkin Starhunter
+  when group 81788
+  tip Hinterlands Mission III: Defeat Dragonkin is group work: elites. Grouping up is advised.
+  zone map 1425
+  kill 221326 x1 quest 81788.1
+  kill 221325 x1 quest 81788.2
+
+step Field Captain Korlian
+  when group 81788
+  zone map 1425
+  turnin 81788
+
+step Star-Touched Dragon Egg and Florius
+  when group 81837
+  tip Hinterlands Mission XIII: Defeat Florius is group work: elites. Grouping up is advised.
+  zone map 1425
+  kill 221331 x1 quest 81837.1
+
+step Field Captain Korlian
+  when group 81837
+  zone map 1425
+  turnin 81837
+
+step Dreampearl and Ghamoo-Raja
+  when group 81839
+  tip Hinterlands Mission XV: Defeat Ghamoo-Raja is group work: elites. Grouping up is advised.
+  zone map 1425
+  kill 221334 x1 quest 81839.1
+
+step Field Captain Korlian
+  when group 81839
+  zone map 1425
+  turnin 81839
+
+step Field Captain Korlian
+  zone map 1425
+  turnin 81786
+
+step Fraggar Thundermantle
+  turnin 2877
+  turnin 2880
+  turnin 86616
+
+step Troll Necklace Bounty
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 9259 x5 anywhere optional
+  turnin 2881 direct optional
+
+step Tove Redstone
+  turnin 86615
+
+step Rescue OOX-09/HL!
+  when turnedin 485
+  zone map 1434
+  accept 836
+  complete 836 @28.4,76.3
+
+step Rescue OOX-09/HL!
+  when onquest 836
+  zone map 1434
+  turnin 836
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The New Frontier
+  when onquest 1019
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 1019 optional
+
+step Return to Ironforge
+  when onquest 2977
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 2977 optional
+
+step Assisting Arch Druid Staghelm
+  when onquest 3790
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 3790 optional
+
+step Calm Before the Storm
+  when onquest 4508
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 4508 optional

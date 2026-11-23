@@ -8,7 +8,12 @@ next completionist-alliance/dungeon-excavation-site-wetlands
 next completionist-alliance/22-elwynn-forest-and-stormwind-3
 pitch On along the line: Wetlands, quests of level 27 to 40.
 # Generated from the reference data: change the planner, not this file.
-# Routed 9 quests; estimated level at the end 28.1 (heuristic XP, class quests not counted).
+# Routed 10 quests; estimated level at the end 28.1 (heuristic XP, class quests not counted).
+
+step King Magni Bronzebeard
+  when onquest 98300
+  zone map 1455
+  turnin 98300
 
 step Highlord Bolvar Fordragon
   when onquest 98190
@@ -30,11 +35,6 @@ step Level 30
 
 step Connor Rivers
   accept 1301
-
-step King Magni Bronzebeard
-  when onquest 98300
-  zone map 1455
-  turnin 98300
 
 step Glorin Steelbrow
   when onquest 270
@@ -110,7 +110,7 @@ step Prospector Whelgar
 step Modr
   when group 98310
   tip Gleaning Our Future is group work: elites. Grouping up is advised.
-  zone map 1437
+  zone map 1417
   collect 280396 x1 quest 98310.2
 
 step Neru
@@ -146,26 +146,23 @@ step Longbraid the Grim
   zone map 1437
   accept 304
 
-step Level 28
-  zone map 1437
-  level 28
-
 step Rhag Garmason
+  zone map 1437
   accept 631
-
-step Bring Back a Bang
-  tip The reference data does not place this quest's objective: follow the quest text.
   accept 88756
-  complete 88756 @50.0,18.2
 
-step Bring Back a Bang
-  turnin 88756
+step Stolen Explosives
+  collect 280806 x3 quest 88756.1
 
 step Balgaras the Foul
   when group 304
   tip A Grim Task is group work: elites. Grouping up is advised.
   zone map 1437
   collect 3639 x1 quest 304.1
+
+step Ashlan Stonesmirk
+  zone map 1437
+  turnin 88756
 
 step Longbraid the Grim
   when group 304
@@ -176,8 +173,19 @@ step Ebenezer Rustlocke's Corpse
   zone map 1417
   turnin 631
 
-step Vincent Hyal
+step Level 40
   zone map 1437
+  level 40
+
+step Unger Statforth
+  accept 97171 only Human
+  turnin 97171 only Human
+
+step Highland Hides
+  tip For Excavation Site: Wetlands: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 98815 optional
+
+step Vincent Hyal
   sethome "Deepwater Tavern"
   turnin 1301
   accept 1302
@@ -185,17 +193,6 @@ step Vincent Hyal
 step Lost in the Thicket Things
   tip For Excavation Site: Wetlands: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 95647 optional
-
-step Level 40
-  level 40
-
-step Unger Statforth
-  accept 97171 only Human @8.6,54.3 map 1437
-  turnin 97171 only Human @8.6,54.3 map 1437
-
-step Highland Hides
-  tip For Excavation Site: Wetlands: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 98815 optional
 
 step Clerk Lendry
   zone map 1445

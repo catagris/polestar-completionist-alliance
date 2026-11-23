@@ -363,11 +363,6 @@ step Skuerto
   zone map 1417
   accept 694
 
-step Skuerto
-  when turnedin 696
-  zone map 1417
-  accept 697 optional
-
 step Anyone Can Cook
   tip Illegible Recipe drops from Boulderfist Ogre, Boulderfist Enforcer, Boulderfist Brute: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
   zone map 1417
@@ -446,7 +441,6 @@ step Apprentice Kryten
 
 step Trelane's Footlocker, Trelane's Chest and Trelane's Lockbox
   when onquest 696
-  zone map 1417
   collect 4530 x1 quest 696.1
   collect 4531 x1 quest 696.2
   collect 4532 x1 quest 696.3
@@ -454,8 +448,11 @@ step Trelane's Footlocker, Trelane's Chest and Trelane's Lockbox
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Skuerto
+  when turnedin 696
+  accept 697 optional
+
+step Skuerto
   when onquest 696
-  zone map 1417
   turnin 696
 
 step Syndicate Prowler

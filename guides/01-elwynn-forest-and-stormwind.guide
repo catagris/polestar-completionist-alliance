@@ -325,8 +325,8 @@ step Camping 101: Mining
   when skill Mining 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97923 optional only Human
-  complete 97923 @44.9,63.4 optional only Human
+  accept 97923 optional only NightElf,Gnome
+  complete 97923 @44.9,63.4 optional only NightElf,Gnome
 
 step Camping 101: Skinning
   when skill Skinning 1
@@ -384,8 +384,12 @@ step Kobold Tunneler and Scout through the Fargodeep Mine
 step Stonetusk Boar
   collect 286215 x6 quest 99130.1
 
-step Overgrown Duskweed
-  collect 286214 x18 quest 99130.2
+step Level 6
+  level 6
+
+step "Auntie" Bernice Stonefield
+  accept 85
+  accept 88
 
 step Level 7
   level 7
@@ -394,18 +398,8 @@ step Gruff Swiftbite
   goto 27.0,86.4 "Gruff Swiftbite"
   accept 123 item 1307 -- Drops from Gruff Swiftbite
 
-step Wanted Poster
-  when group 176
-  zone map 1429
-  accept 176 object 156561
-
-step Level 6
-  level 6
-
-step "Auntie" Bernice Stonefield
-  zone map 1429
-  accept 85
-  accept 88
+step Overgrown Duskweed
+  collect 286214 x18 quest 99130.2
 
 step Billy Maclure
   turnin 85
@@ -513,21 +507,16 @@ step Ormin Pelford
   turnin 91733
   accept 52
 
-step Croaky's Head
-  tip Croaky's Head drops from Croaky: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  collect 247826 x1 optional
-  accept 91740 item 247826 optional
-
-step Croaky's Head
-  when onquest 91740
-  zone map 1429
-  turnin 91740
-
 step Prowler
-  zone map 1429
   kill 118 x8 quest 52.1
 
+step Wanted Poster
+  when group 176
+  zone map 1429
+  accept 176 object 156561
+
 step Young Forest Bear
+  zone map 1429
   kill 822 x5 quest 52.2
 
 step "Auntie" Bernice Stonefield
@@ -707,8 +696,10 @@ step Guard Thomas
 step Sara Timberlain
   turnin 59
 
-step Tharynn Bouden
-  buy 6529 x1 npc 66 -- for Fishin' Time
+step Croaky's Head
+  tip Croaky's Head drops from Croaky: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 247826 x1 optional
+  accept 91740 item 247826 optional
 
 step Applejack Still
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -769,6 +760,11 @@ step Rare Books
   zone map 1429
   turnin 91777
 
+step Croaky's Head
+  when onquest 91740
+  zone map 1429
+  turnin 91740
+
 step Stormwind
   zone map 1453
   getfp "Stormwind"
@@ -806,7 +802,7 @@ step Camping 101: Herbalism
 step Camping 101: Mining
   when skill Mining 1
   zone map 1453
-  turnin 97923 optional only Human
+  turnin 97923 optional only NightElf,Gnome
 
 step Morgan Pestle
   zone map 1453

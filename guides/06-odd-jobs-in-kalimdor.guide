@@ -15,11 +15,6 @@ step Rellian Greenspyre
   turnin 923
   accept 2498
 
-step Crown of the Earth
-  when onquest 935
-  zone map 1457
-  turnin 935
-
 step Priestess A'moora
   when onquest 2518
   zone map 1457
@@ -34,28 +29,6 @@ step Priestess A'moora
   when onquest 2520
   zone map 1457
   turnin 2520
-
-step Crown of the Earth
-  when turnedin 935
-  zone map 1457
-  accept 98046
-
-step Crown of the Earth
-  when onquest 98046
-  zone map 1457
-  turnin 98046
-
-step Crown of the Earth
-  when turnedin 98046
-  zone map 1457
-  accept 98065
-
-step Crown of the Earth
-  when onquest 98065
-  zone map 1457
-  turnin 98065
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Level 8
   zone map 1457
@@ -82,6 +55,8 @@ step Denalan
   when group 2499
   zone map 1438
   accept 2499
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Oakenscowl
   when group 2499
@@ -146,12 +121,6 @@ step Tumors
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1457
   turnin 923 optional
-
-step Crown of the Earth
-  when onquest 935
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 935 optional
 
 step Tears of the Moon
   when onquest 2518

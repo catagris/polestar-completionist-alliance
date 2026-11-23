@@ -31,7 +31,7 @@ step Panic at the Digsite
 step Panic at the Digsite
   when onquest 95924
   zone map 1455
-  turnin 95924 @71.5,15.7 map 1455
+  turnin 95924
 
 step Mapping the Way Forward
   zone map 1455
@@ -40,4 +40,4 @@ step Mapping the Way Forward
 step Mapping the Way Forward
   when onquest 95925
   zone map 1455
-  turnin 95925 @71.5,15.7 map 1455
+  turnin 95925

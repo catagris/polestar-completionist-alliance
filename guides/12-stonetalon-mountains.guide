@@ -135,6 +135,7 @@ step Centaur Ear
   collect 6067 x15 quest 1387.1
 
 step Corporal Melkins
+  zone map 1442
   turnin 1387
 
 step Falfindel Waywarder

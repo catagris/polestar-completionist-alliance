@@ -1,13 +1,13 @@
-guide completionist-alliance/47-teldrassil-and-darnassus-3
-title 47 Teldrassil and Darnassus, visit 3 (47-60) (Completionist)
+guide completionist-alliance/48-teldrassil-and-darnassus-3
+title 48 Teldrassil and Darnassus, visit 3 (47-60) (Completionist)
 faction Alliance
 levels 47-60
 category Leveling
 zone Teldrassil
-next completionist-alliance/48-felwood
+next completionist-alliance/49-felwood
 pitch On along the line: Teldrassil and Darnassus, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 13 quests; estimated level at the end 47.3 (heuristic XP, class quests not counted).
+# Routed 14 quests; estimated level at the end 47.4 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N (done); 2 prerequisite N not in this route; 1 exclusive with N.
 
 step Laris Geardawdle
@@ -20,17 +20,8 @@ step Master Mathias Shaw
   zone map 1453
   turnin 95264
 
-step Arch Druid Fandral Staghelm
-  zone map 1457
-  accept 3781
-  turnin 3781
-
-step Morrowgrain Research
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 3785
-  complete 3785 @35.4,8.4
-
 step Gracina Spiritmight
+  zone map 1457
   accept 4510
 
 step Idriana
@@ -53,10 +44,22 @@ step Frostsaber Replacement
   turnin 7671 direct optional
 
 step Lelanai
-  turnin 99205 only NightElf @38.3,15.4 map 1457
+  turnin 99205 only NightElf
 
-step Arch Druid Fandral Staghelm
+step Lelanai
+  accept 99214
+
+step Swift Stormsaber, Swift Mistsaber and Swift Frostsaber
+  kill 276730 x1 quest 99214.1
+  kill 276731 x1 quest 99214.2
+  kill 276732 x1 quest 99214.3
+
+step Lelanai
+  turnin 99214
+  accept 3781
   accept 6761
+  turnin 3781
+  turnin 6761
 
 step The New Frontier
   when available 1047
@@ -70,16 +73,18 @@ step The New Frontier
   turnin 1047 optional
 
 step Morrowgrain Research
+  tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1457
+  accept 3785
+  complete 3785 @35.4,8.4
+
+step Morrowgrain Research
   turnin 3785
 
 step Morrowgrain to Darnassus
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 11040 x10 anywhere optional
   turnin 3803 direct optional
-
-step Mathrengyl Bearwalker
-  turnin 6761
 
 step Additional Runecloth
   when turnedin 7800

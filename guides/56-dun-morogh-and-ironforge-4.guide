@@ -1,0 +1,307 @@
+guide completionist-alliance/56-dun-morogh-and-ironforge-4
+title 56 Dun Morogh and Ironforge, visit 4 (60) (Completionist)
+faction Alliance
+levels 59-60
+category Leveling
+zone Dun Morogh
+next completionist-alliance/57-searing-gorge-2
+pitch On along the line: Dun Morogh and Ironforge, level 60 quests.
+# Generated from the reference data: change the planner, not this file.
+# Routed 11 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+# Skipped: 1 prerequisite N not in this route.
+
+step Raedon Duskstriker
+  when onquest 7800
+  zone map 1457
+  turnin 7800
+
+step Mistina Steelshield
+  zone map 1455
+  accept 7802
+  accept 7803
+
+step An Earnest Proposition
+  only Priest
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8909 optional
+
+step An Earnest Proposition
+  only Paladin
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8908 optional
+
+step An Earnest Proposition
+  only Mage
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8907 optional
+
+step An Earnest Proposition
+  only Warrior
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8912 optional
+
+step An Earnest Proposition
+  only Hunter
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8906 optional
+
+step An Earnest Proposition
+  only Druid
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8905 optional
+
+step Deliana
+  when group 84152
+  zone map 1455
+  accept 84152
+
+step Deliana
+  when group 84153
+  zone map 1455
+  accept 84153
+
+step Wulmort Jinglepocket
+  zone map 1455
+  accept 79492
+  turnin 79492
+
+step Bubulo Acerbus
+  accept 7807
+  accept 7808
+
+step The Darkreaver Menace
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 97169
+  complete 97169 @47.1,13.8
+
+step The Darkreaver Menace
+  turnin 97169
+
+step Arrows Are For Sissies
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 15997 x200 anywhere optional
+  turnin 7342 direct optional
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84148
+  complete 84148 @58.1,29.5
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 97447
+  complete 97447 @58.1,29.5
+
+step Saving the Best for Last
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84202
+  complete 84202 @58.1,29.5
+
+step An Earnest Proposition
+  turnin 97447
+
+step Saving the Best for Last
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84200
+  complete 84200 @58.1,29.5
+
+step Saving the Best for Last
+  turnin 84202
+
+step Saving the Best for Last
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84196
+  complete 84196 @58.1,29.5
+
+step Saving the Best for Last
+  turnin 84200
+
+step Saving the Best for Last
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84195
+  complete 84195 @58.1,29.5
+
+step Saving the Best for Last
+  turnin 84196
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84170
+  complete 84170 @58.1,29.5
+
+step Saving the Best for Last
+  turnin 84195
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84169
+  complete 84169 @58.1,29.5
+
+step Just Compensation
+  turnin 84170
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84168
+  complete 84168 @58.1,29.5
+
+step Just Compensation
+  turnin 84169
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84167
+  complete 84167 @58.1,29.5
+
+step Just Compensation
+  turnin 84168
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84166
+  complete 84166 @58.1,29.5
+
+step Just Compensation
+  turnin 84167
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84165
+  complete 84165 @58.1,29.5
+
+step Just Compensation
+  turnin 84166
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84164
+  complete 84164 @58.1,29.5
+
+step Just Compensation
+  turnin 84165
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84163
+  complete 84163 @58.1,29.5
+
+step Just Compensation
+  turnin 84164
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84154
+  complete 84154 @58.1,29.5
+
+step Just Compensation
+  turnin 84163
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84151
+  complete 84151 @58.1,29.5
+
+step An Earnest Proposition
+  turnin 84154
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84149
+  complete 84149 @58.1,29.5
+
+step An Earnest Proposition
+  turnin 84151
+
+step An Earnest Proposition
+  turnin 84148
+
+step An Earnest Proposition
+  turnin 84149
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 7802.1
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x60 quest 7803.1
+
+step Frostsaber Huntress
+  when group 84152
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1452
+  collect 21928 x15 quest 84152.1
+
+step Scarshield Quartermaster
+  when group 84153
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 16703 x1 quest 84153.2
+
+step Frostsaber Huntress
+  when group 84153
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1452
+  collect 21928 x15 quest 84153.1
+
+step Dark Shade
+  when group 84152
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1422
+  collect 16710 x1 quest 84152.2
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 7807.1
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x60 quest 7808.1
+
+step Ultham Ironhorn
+  zone map 1426
+  accept 99209 only Dwarf @63.7,50.1 map 1426
+
+step Black Ram Exchange
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13328 x1 anywhere optional
+  turnin 7674 direct optional
+
+step Frost Ram Exchange
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13329 x1 anywhere optional
+  turnin 7673 direct optional
+
+step Veron Amberstill
+  turnin 99209 only Dwarf @63.5,50.6 map 1426
+
+step Binjy Featherwhistle
+  sethome "Thunderbrew Distillery"
+  accept 99207 only Gnome @49.1,48.1 map 1426
+
+step White Mechanostrider Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13326 x1 anywhere optional
+  turnin 7676 direct optional
+
+step Icy Blue Mechanostrider Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13327 x1 anywhere optional
+  turnin 7675 direct optional
+
+step Milli Featherwhistle
+  turnin 99207 only Gnome @49.1,48.0 map 1426
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Donation of Runecloth
+  when onquest 7800
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 7800 optional

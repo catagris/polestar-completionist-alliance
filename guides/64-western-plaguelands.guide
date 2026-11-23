@@ -8,8 +8,18 @@ next completionist-alliance/dungeon-scholomance
 next completionist-alliance/65-eastern-plaguelands
 pitch On along the line: Western Plaguelands, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 29 quests; estimated level at the end 53.2 (heuristic XP, class quests not counted).
-# Skipped: 15 prerequisite N not in this route; 2 exclusive with N (done).
+# Routed 32 quests; estimated level at the end 53.2 (heuristic XP, class quests not counted).
+# Skipped: 15 prerequisite N not in this route; 1 exclusive with N (done).
+
+step Assisting Arch Druid Staghelm
+  when onquest 3789
+  zone map 1457
+  turnin 3789 optional
+
+step The New Frontier
+  when onquest 1015
+  zone map 1457
+  turnin 1015 optional
 
 step Clavicus Knavingham
   when onquest 7791
@@ -21,15 +31,15 @@ step Clavicus Knavingham
   zone map 1453
   accept 7795
 
-step Runecloth
-  when onquest 7795
-  zone map 1453
+step Stormwind Royal Guard
+  zone map 1429
   collect 14047 x60 quest 7795.1
 
 step Nathaniel Dumah
   zone map 1422
   getfp "Chillwind Camp"
   accept 5903
+  turnin 6028
 
 step Barov Family Fortune
   tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
@@ -120,11 +130,11 @@ step Of Love and Family
   tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 5848 optional
 
-step Kirsta Deepshadow
-  accept 6004
+step Book
+  accept 84402 object 463211
 
-step Scarlet Mage
-  kill 1826 x2 quest 6004.3
+step Book
+  collect 228141 x1 quest 84402.1
 
 step Level 55
   level 55
@@ -152,28 +162,6 @@ step Mantles of the Dawn
   zone map 1422
   accept 5507 optional
 
-step Scarlet Knight
-  kill 1833 x2 quest 6004.4
-
-step Scarlet Hunter
-  kill 1831 x2 quest 6004.2
-
-step Scarlet Medic
-  kill 10605 x2 quest 6004.1
-
-step Janice Felstone
-  accept 5021
-
-step Book
-  accept 84395 object 463213
-
-step Janice's Parcel
-  turnin 5021
-  accept 5022
-
-step Book
-  collect 228132 x1 quest 84395.1
-
 step Mulgris Deepriver
   turnin 4984
   accept 4985
@@ -197,6 +185,19 @@ step Farmer Dalson
 step Locked Cabinet
   turnin 5060
 
+step Janice Felstone
+  accept 5021
+
+step Book
+  accept 84395 object 463213
+
+step Janice's Parcel
+  turnin 5021
+  accept 5022
+
+step Book
+  collect 228132 x1 quest 84395.1
+
 step Level 55
   level 55
 
@@ -219,22 +220,25 @@ step Argent Dawn Commission
   zone map 1422
   turnin 5401 optional
 
-step Mulgris Deepriver
-  zone map 1422
-  turnin 4985
-  accept 4986
-
-step Book
-  accept 84402 object 463211
-
 step Chromie
+  zone map 1422
   accept 4971
 
 step Temporal Parasite
   kill 10717 x15 quest 4971.1
 
-step Book
-  collect 228141 x1 quest 84402.1
+step Mulgris Deepriver
+  turnin 4985
+  accept 4986
+
+step Marlene Redpath
+  accept 5142
+
+step Fallen Skyborne
+  accept 7790
+
+step Argent Wayfinder
+  turnin 7790
 
 step Nathaniel Dumah
   turnin 5903
@@ -282,6 +286,21 @@ step Termite Barrel
   accept 6389
 
 step Kirsta Deepshadow
+  accept 6004
+
+step Scarlet Mage
+  kill 1826 x2 quest 6004.3
+
+step Scarlet Knight
+  kill 1833 x2 quest 6004.4
+
+step Scarlet Hunter
+  kill 1831 x2 quest 6004.2
+
+step Scarlet Medic
+  kill 10605 x2 quest 6004.1
+
+step Kirsta Deepshadow
   turnin 6004
   accept 6023
 
@@ -326,6 +345,24 @@ step Quintus Wainworth
   turnin 92842
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The New Frontier
+  when onquest 1015
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 1015 optional
+
+step Assisting Arch Druid Staghelm
+  when onquest 3789
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 3789 optional
+
+step The Everlook Report
+  when onquest 6028
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1422
+  turnin 6028 optional
 
 step Flint Shadowmore
   when onquest 6184

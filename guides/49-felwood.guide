@@ -1,13 +1,13 @@
-guide completionist-alliance/48-felwood
-title 48 Felwood (48-60) (Completionist)
+guide completionist-alliance/49-felwood
+title 49 Felwood (48-60) (Completionist)
 faction Alliance
 levels 48-60
 category Leveling
 zone Felwood
-next completionist-alliance/49-the-barrens-2
+next completionist-alliance/50-the-barrens-2
 pitch On along the line: Felwood, quests of level 48 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 24 quests; estimated level at the end 50.0 (heuristic XP, class quests not counted).
+# Routed 28 quests; estimated level at the end 50.2 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N (done).
 
 step Tannysa
@@ -30,10 +30,13 @@ step The Mystery of Morrowgrain
   zone map 1444
   turnin 3791
 
-step Greta Mosshoof
+step Ketharas
   zone map 1448
+  accept 95568
+  accept 95569
   accept 5155
   accept 91952
+  turnin 91952
   accept 86577
   accept 5156
 
@@ -47,7 +50,34 @@ step Corrupted Songflower
   collect 11516 x2 anywhere optional
   turnin 2523 direct optional
 
+step Jaedenar Hound, Jaedenar Guardian and Jaedenar Adept
+  kill 7125 x4 quest 5155.1
+  kill 7113 x4 quest 5155.2
+  kill 7115 x6 quest 5155.3
+
+step Jaedenar Cultist
+  kill 7112 x6 quest 5155.4
+
+step Entropic Beast and Entropic Horror
+  kill 9878 x2 quest 5156.1
+  kill 9879 x2 quest 5156.2
+
+step Untainted Flower
+  zone map 2482
+  collect 260176 x10 quest 95568.1
+
+step Hyjal Owl Egg
+  collect 269920 x12 quest 95569.1
+
+step Angerclaw Bear
+  zone map 1440
+  collect 277958 x8 quest 86577.1
+
+step Felpaw Wolf
+  collect 277959 x10 quest 86577.2
+
 step Arathandris Silversky
+  zone map 1448
   accept 4101
 
 step Corrupted Night Dragon
@@ -59,26 +89,6 @@ step Corrupted Songflower
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 11516 x2 anywhere optional
   turnin 4113 direct optional
-
-step Angerclaw Bear
-  zone map 1440
-  collect 277958 x8 quest 86577.1
-
-step Felpaw Wolf
-  collect 277959 x10 quest 86577.2
-
-step Jaedenar Cultist
-  kill 7112 x6 quest 5155.4
-
-step Jaedenar Hound, Jaedenar Guardian and Jaedenar Adept
-  zone map 1448
-  kill 7125 x4 quest 5155.1
-  kill 7113 x4 quest 5155.2
-  kill 7115 x6 quest 5155.3
-
-step Entropic Beast and Entropic Horror
-  kill 9878 x2 quest 5156.1
-  kill 9879 x2 quest 5156.2
 
 step Warpwood Moss Flayer
   collect 11503 x15 quest 4101.1
@@ -96,24 +106,8 @@ step Corrupted Songflower
   collect 11516 x2 anywhere optional
   turnin 3363 direct optional
 
-step The Root of All Evil
-  tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
-  accept 8481 optional
-
-step The Root of All Evil
-  when onquest 8481
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1448
-  complete 8481 @65.2,2.7 optional
-
-step The Root of All Evil
-  when onquest 8481
-  zone map 1448
-  turnin 8481 optional
-
 step Corrupted Songflower
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1448
   collect 11516 x2 anywhere optional
   turnin 4114 direct optional
 
@@ -127,56 +121,8 @@ step Corrupted Songflower
   collect 11516 x2 anywhere optional
   turnin 4118 direct optional
 
-step Level 53
-  level 53
-
-step To Winterspring!
-  when available 5249
-  tip One of several exclusive quests; the route takes Starfall (5250). This one shows for a character the game offers it to instead.
-  zone map 1448
-  accept 5249 optional
-
-step To Winterspring!
-  when onquest 5249
-  zone map 1452
-  turnin 5249 optional
-
-step Sacred Cloth
-  when skill Tailoring 280
-  tip Needs Friendly standing (3000) with Timbermaw Hold; without it the quest is not offered.
-  zone map 1448
-  accept 6032 optional
-
-step Sacred Cloth
-  when onquest 6032
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1448
-  complete 6032 @65.7,2.8 optional
-
-step Sacred Cloth
-  when onquest 6032
-  zone map 1448
-  turnin 6032 optional
-
-step Runecloth
-  tip Needs Friendly standing (3000) with Timbermaw Hold; without it the quest is not offered.
-  zone map 1448
-  accept 6031 optional
-
-step Runecloth
-  when onquest 6031
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1448
-  complete 6031 @65.7,2.8 optional
-
-step Runecloth
-  when onquest 6031
-  zone map 1448
-  turnin 6031 optional
-
 step Corrupted Whipper Root
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1448
   collect 11516 x3 anywhere optional
   turnin 4461 direct optional
 
@@ -200,13 +146,7 @@ step Deadwood Ritual Totem
   collect 20741 x1 optional
   accept 8470 item 20741 optional
 
-step Deadwood Ritual Totem
-  when onquest 8470
-  zone map 1448
-  turnin 8470
-
 step Deadwood Avenger
-  zone map 1448
   kill 7157 x6 quest 8461.2
 
 step Deadwood Shaman
@@ -215,43 +155,92 @@ step Deadwood Shaman
 step Deadwood Den Watcher
   kill 7156 x6 quest 8461.1
 
+step Level 53
+  level 53
+
+step To Winterspring!
+  when available 5249
+  tip One of several exclusive quests; the route takes Starfall (5250). This one shows for a character the game offers it to instead.
+  zone map 1448
+  accept 5249 optional
+
+step To Winterspring!
+  when onquest 5249
+  zone map 1452
+  turnin 5249 optional
+
 step Nafien
+  zone map 1452
   turnin 8461
   accept 8465
 
 step Feathers for Nafien
   tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1448
   collect 21377 x5 anywhere optional
   turnin 8467 direct optional
 
 step Book
   accept 84397 object 463209
 
+step Gorn One Eye
+  accept 87346
+
+step The Root of All Evil
+  tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
+  accept 8481 optional
+
+step Sacred Cloth
+  when skill Tailoring 280
+  tip Needs Friendly standing (3000) with Timbermaw Hold; without it the quest is not offered.
+  zone map 1448
+  accept 6032 optional
+
+step Runecloth
+  tip Needs Friendly standing (3000) with Timbermaw Hold; without it the quest is not offered.
+  zone map 1448
+  accept 6031 optional
+
+step The Root of All Evil
+  when onquest 8481
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1448
+  complete 8481 @65.2,2.7 optional
+
+step The Root of All Evil
+  when onquest 8481
+  zone map 1448
+  turnin 8481 optional
+
+step Sacred Cloth
+  when onquest 6032
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1448
+  complete 6032 @65.7,2.8 optional
+
+step Sacred Cloth
+  when onquest 6032
+  zone map 1448
+  turnin 6032 optional
+
+step Deadwood Ritual Totem
+  when onquest 8470
+  zone map 1448
+  turnin 8470
+
+step Gorn One Eye
+  when group 86814
+  zone map 1448
+  accept 86814
+
 step Book
+  zone map 1448
   collect 228134 x1 quest 84397.1
 
-step Salfa
-  turnin 8465
-  accept 8464
-
-step The Brokering of Peace
-  when turnedin 8481
-  tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
-  zone map 1448
-  accept 8484 optional
-
-step Winterfall Den Watcher
-  zone map 1452
-  kill 7440 x8 quest 8464.2
-
-step Winterfall Ursa
-  kill 7438 x8 quest 8464.3
-
-step Winterfall Shaman
-  kill 7439 x8 quest 8464.1
+step Chieftain Bloodmaw
+  collect 236631 x1 quest 87346.1
 
 step Level 49
-  zone map 1448
   level 49
 
 step Eridan Bluewind
@@ -264,173 +253,13 @@ step Jadefire Felsworn, Jadefire Shadowstalker, Jadefire Rogue and Xavathras
   kill 7106 x9 quest 4421.3
   kill 9454 x1 quest 4421.4
 
-step Salfa
-  zone map 1448
-  turnin 8464
-
-step Beads for Salfa
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 21383 x5 anywhere optional
-  turnin 8469 direct optional
-
-step Statue of Malorne
-  accept 86611
-
-step Corrupted Songflower
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 2878 direct optional
-
-step Corrupted Windblossom
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 4343 direct optional
-
-step Corrupted Windblossom
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 1514 direct optional
-
-step Corrupted Windblossom
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 4221 direct optional
-
-step Xavaric
-  zone map 1439
-  accept 939 item 11668 -- Drops from Xavaric
-
-step Jadefire Trickster
-  zone map 1448
-  collect 11674 x5 quest 939.1
-
-step Taronn Redfeather
-  complete 5156 @41.0,42.0 map 1448
-  turnin 5156
-  turnin 86577
-  turnin 5155
-  accept 5157
-  turnin 939
-  turnin 4421
-  accept 4441
-  accept 4906
-
-step Corrupt Jaedenar Moonwell
-  zone map 1439
-  collect 12907 x1 quest 5157.1
-
-step Jadefire Trickster
-  zone map 1448
-  kill 7107 x8 quest 4906.3
-
-step Jadefire Betrayer
-  kill 7108 x8 quest 4906.2
-
-step Jadefire Hellcaller and Xavaric
-  zone map 1439
-  kill 7111 x8 quest 4906.1
-  kill 10648 x1 quest 4906.4
-
-step Level 52
-  level 52
-
-step Salfa
-  accept 6241
-
-step Winterfall Den Watcher
-  zone map 1452
-  kill 7440 x6 quest 6241.1
-
-step Winterfall Pathfinder
-  kill 7442 x6 quest 6241.3
-
-step Winterfall Totemic
-  kill 7441 x6 quest 6241.2
-
-step Winterfall Ritual Totem
-  tip Winterfall Ritual Totem drops from Winterfall Totemic, Winterfall Runner, Winterfall Pathfinder: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  collect 20742 x1 optional
-  accept 8471 item 20742 optional
-
-step Winterfall Ritual Totem
-  when onquest 8471
-  zone map 1448
-  turnin 8471
-
-step Salfa
-  zone map 1448
-  turnin 6241
-
-step Golhine the Hooded
-  getfp "Talonbranch Glade"
-  turnin 86611
-
-step Corrupted Songflower
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 4116 direct optional
-
-step Corrupted Windblossom
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 998 direct optional
-
-step Corrupted Windblossom
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 4466 direct optional
-
-step Corrupted Windblossom
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 4467 direct optional
-
-step Grazle
-  accept 6131
-  accept 6221
-  accept 8460
-
-step Corrupted Night Dragon
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x4 anywhere optional
-  turnin 4447 direct optional
-
-step Corrupted Songflower
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 4401 direct optional
-
-step Deadwood Warrior
-  kill 7153 x7 quest 6131.1
-  kill 7153 x6 quest 8460.1
-
-step Deadwood Gardener and Deadwood Pathfinder
-  kill 7154 x7 quest 6131.2
-  kill 7155 x7 quest 6131.3
-  kill 7155 x6 quest 8460.2
-  kill 7154 x6 quest 8460.3
-
-step Deadwood Den Watcher
-  kill 7156 x5 quest 6221.1
-
-step Deadwood Avenger
-  kill 7157 x5 quest 6221.2
-
-step Deadwood Shaman
-  kill 7158 x5 quest 6221.3
-
-step Grazle
-  turnin 6131
-  turnin 6221
-  turnin 8460
-  accept 8462
-
-step Feathers for Grazle
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 21377 x5 anywhere optional
-  turnin 8466 direct optional
+step Ketharas
+  zone map 2482
+  turnin 95568
+  turnin 95569
 
 step Arathandris Silversky
+  zone map 1448
   turnin 4101
   accept 5882
 
@@ -462,9 +291,46 @@ step Salve via Mining
   accept 5883 optional
   complete 5883 @54.1,86.8 optional
 
+step Greta Mosshoof
+  zone map 1448
+  turnin 5155
+  accept 5157
+  turnin 86577
+
+step Xavaric
+  zone map 1439
+  accept 939 item 11668 -- Drops from Xavaric
+
+step Jadefire Trickster
+  zone map 1448
+  collect 11674 x5 quest 939.1
+
+step Taronn Redfeather
+  complete 5156 @41.0,42.0 map 1448
+  turnin 5156
+  turnin 939
+  turnin 4421
+  accept 4441
+  accept 4906
+
+step Jadefire Hellcaller and Xavaric
+  zone map 1439
+  kill 7111 x8 quest 4906.1
+  kill 10648 x1 quest 4906.4
+
+step Jadefire Betrayer
+  zone map 1448
+  kill 7108 x8 quest 4906.2
+
+step Jadefire Trickster
+  kill 7107 x8 quest 4906.3
+
 step Jaedenar Warlock
   zone map 1439
   collect 11515 x6 quest 5882.1
+
+step Corrupt Jaedenar Moonwell
+  collect 12907 x1 quest 5157.1
 
 step A Strange Red Key
   tip Blood Red Key drops from Jaedenar Darkweaver, Jaedenar Warlock, Jaedenar Enforcer: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
@@ -476,8 +342,206 @@ step A Strange Red Key
   zone map 1448
   turnin 5202
 
-step Arathandris Silversky
+step Statue of Malorne
   zone map 1448
+  accept 86611
+
+step Corrupted Songflower
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 2878 direct optional
+
+step Corrupted Windblossom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 4343 direct optional
+
+step Corrupted Windblossom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 1514 direct optional
+
+step Corrupted Windblossom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 4221 direct optional
+
+step Rescue From Jaedenar
+  when turnedin 5202
+  zone map 1448
+  accept 5203
+  complete 5203 @51.4,82.0
+
+step Rescue From Jaedenar
+  when onquest 5203
+  zone map 1448
+  turnin 5203
+
+step Grazle
+  zone map 1448
+  accept 6131
+  accept 6221
+  accept 8460
+
+step Corrupted Night Dragon
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x4 anywhere optional
+  turnin 4447 direct optional
+
+step Violence Into Verdure
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 93747
+  complete 93747 @51.2,82.2
+
+step Violence Into Verdure
+  turnin 93747
+
+step Corrupted Songflower
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 4401 direct optional
+
+step Retribution of the Light
+  when turnedin 5203
+  zone map 1448
+  accept 5204
+  complete 5204 @38.5,50.4
+
+step Retribution of the Light
+  when onquest 5204
+  zone map 1448
+  turnin 5204
+
+step Deadwood Warrior
+  zone map 1448
+  kill 7153 x7 quest 6131.1
+  kill 7153 x6 quest 8460.1
+
+step Deadwood Gardener and Deadwood Pathfinder
+  kill 7154 x7 quest 6131.2
+  kill 7155 x7 quest 6131.3
+  kill 7155 x6 quest 8460.2
+  kill 7154 x6 quest 8460.3
+
+step Deadwood Den Watcher
+  kill 7156 x5 quest 6221.1
+
+step Deadwood Avenger
+  kill 7157 x5 quest 6221.2
+
+step Deadwood Shaman
+  kill 7158 x5 quest 6221.3
+
+step Gorn One Eye
+  turnin 87346
+
+step The Brokering of Peace
+  when turnedin 8481
+  tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
+  zone map 1448
+  accept 8484 optional
+
+step Runecloth
+  when onquest 6031
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1448
+  complete 6031 @65.7,2.8 optional
+
+step Prince Halanox
+  when group 86814
+  tip Blackmaw Counter-Offensive is group work: elites. Grouping up is advised.
+  zone map 1447
+  kill 235892 x1 quest 86814.1
+
+step Gatekeeper Rageroar
+  when group 86814
+  zone map 1447
+  turnin 86814
+
+step Runecloth
+  when onquest 6031
+  zone map 1448
+  turnin 6031 optional
+
+step Salfa
+  zone map 1448
+  turnin 8465
+  accept 8464
+
+step Salfa
+  accept 6241
+
+step Winterfall Den Watcher
+  zone map 1452
+  kill 7440 x8 quest 8464.2
+
+step Winterfall Ursa
+  kill 7438 x8 quest 8464.3
+
+step Winterfall Shaman
+  kill 7439 x8 quest 8464.1
+
+step Winterfall Ritual Totem
+  tip Winterfall Ritual Totem drops from Winterfall Totemic, Winterfall Runner, Winterfall Pathfinder: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 20742 x1 optional
+  accept 8471 item 20742 optional
+
+step Winterfall Ritual Totem
+  when onquest 8471
+  zone map 1448
+  turnin 8471
+
+step Salfa
+  zone map 1448
+  turnin 8464
+
+step Beads for Salfa
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 21383 x5 anywhere optional
+  turnin 8469 direct optional
+
+step Salfa
+  kill 7440 x6 quest 6241.1
+  kill 7441 x6 quest 6241.2
+  kill 7442 x6 quest 6241.3
+  turnin 6241
+
+step Golhine the Hooded
+  getfp "Talonbranch Glade"
+  turnin 86611
+
+step Corrupted Songflower
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 4116 direct optional
+
+step Corrupted Windblossom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 998 direct optional
+
+step Corrupted Windblossom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 4466 direct optional
+
+step Corrupted Windblossom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 4467 direct optional
+
+step Grazle
+  turnin 6131
+  turnin 6221
+  turnin 8460
+  accept 8462
+
+step Feathers for Grazle
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 21377 x5 anywhere optional
+  turnin 8466 direct optional
+
+step Arathandris Silversky
   turnin 5882
 
 step Salve via Hunting
@@ -504,10 +568,6 @@ step Salve via Mining
   when skill Mining 1
   zone map 1448
   turnin 5883 optional
-
-step Ketharas
-  zone map 2482
-  turnin 91952
 
 step Nafien
   zone map 1448
@@ -560,28 +620,6 @@ step Salve via Mining
   zone map 1448
   collect 11513 x4 anywhere optional
   turnin 4104 direct optional
-
-step Rescue From Jaedenar
-  when turnedin 5202
-  zone map 1448
-  accept 5203
-  complete 5203 @51.4,82.0
-
-step Rescue From Jaedenar
-  when onquest 5203
-  zone map 1448
-  turnin 5203
-
-step Retribution of the Light
-  when turnedin 5203
-  zone map 1448
-  accept 5204
-  complete 5204 @38.5,50.4
-
-step Retribution of the Light
-  when onquest 5204
-  zone map 1448
-  turnin 5204
 
 step The Remains of Trey Lightforge
   when turnedin 5204

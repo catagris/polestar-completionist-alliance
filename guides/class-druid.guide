@@ -186,8 +186,8 @@ step Earthroot
 
 step Tyrisius
   zone Feralas
-  accept 81924 only Druid
-  turnin 81924 only Druid
+  accept 81924 only NightElf
+  turnin 81924 only NightElf
 
 step Torwa Pathfinder
   zone Tanaris

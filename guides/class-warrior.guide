@@ -1,15 +1,15 @@
 guide completionist-alliance/class-warrior
-title Warrior class quests (10-60) (Completionist)
+title Warrior class quests (10-62) (Completionist)
 faction Alliance
 class Warrior
-levels 10-60
+levels 10-62
 category Class
 zone Durotar
 why Every Warrior class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Warrior quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 29 quests; estimated level at the end 15.8 (heuristic XP).
-# Skipped: 6 prerequisite N not in this route; 5 exclusive with N; 4 objective N (item N) outside the zones; 2 profession.
+# Routed 32 quests; estimated level at the end 17.0 (heuristic XP).
+# Skipped: 6 prerequisite N not in this route; 5 exclusive with N; 4 objective N (item N) outside the zones; 1 profession.
 
 step Elanaria
   zone Darnassus
@@ -103,17 +103,6 @@ step Ironband's Strongbox
   zone Dun Morogh
   collect 6800 x1 quest 1681.1 only Warrior
 
-step The Quarry's Smith
-  only Warrior,Paladin,Shaman
-  zone map 1426
-  accept 95217 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 95217 @69,55.9 optional
-
-step The Quarry's Smith
-  only Warrior,Paladin,Shaman
-  turnin 95217 optional
-
 step Muren Stormpike
   only Warrior
   when available 1679
@@ -135,13 +124,25 @@ step Darnath Bladesinger
   zone Darnassus
   accept 8417 npc 7315 only Warrior
 
+step Fallen Hero of the Horde
+  zone Swamp of Sorrows
+  turnin 8417 only Warrior
+
+step Fallen Hero of the Horde
+  zone Swamp of Sorrows
+  accept 8423 only Warrior
+
 step Kelv Sternhammer
   zone Ironforge
   accept 1718 npc 5113 only Warrior
 
+step Helboar
+  zone Blasted Lands
+  kill 5993 x7 quest 8423.1 only Warrior
+
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  turnin 8417 only Warrior
+  turnin 8423 only Warrior
 
 step Darnath Bladesinger
   zone Darnassus
@@ -170,29 +171,17 @@ step Yorus Barleybrew
   zone Redridge Mountains
   turnin 1698 only Warrior
 
-step Fallen Hero of the Horde
-  zone Swamp of Sorrows
-  accept 8423 only Warrior
-
-step Helboar
-  zone Blasted Lands
-  kill 5993 x7 quest 8423.1 only Warrior
-
-step Fallen Hero of the Horde
-  zone Swamp of Sorrows
-  turnin 8423 only Warrior
-
 step Yorus Barleybrew
   zone Redridge Mountains
   accept 1699 only Warrior
 
 step Yorus Barleybrew
-  zone Swamp of Sorrows
+  zone Redridge Mountains
   complete 1699 @14.1,24.7 map 1433 only Warrior
   turnin 1699 only Warrior
 
 step Yorus Barleybrew
-  zone Swamp of Sorrows
+  zone Ironforge
   accept 1702 only Warrior
 
 step Fallen Hero of the Horde
@@ -204,11 +193,11 @@ step Shadowsworn Thug
   kill 6005 x20 quest 8424.3 only Warrior
 
 step Shadowsworn Cultist
-  zone Swamp of Sorrows
+  zone Searing Gorge
   kill 6004 x10 quest 8424.2 only Warrior
 
 step Shadowsworn Adept
-  zone Swamp of Sorrows
+  zone Searing Gorge
   kill 6006 x20 quest 8424.1 only Warrior
 
 step Fallen Hero of the Horde
@@ -280,6 +269,9 @@ step Iron Coral
   when onquest 1708
   zone map 1455
   turnin 1708 optional
+
+step Level 58
+  level 58
 
 step Klockmort's Creation
   only Warrior
@@ -423,6 +415,29 @@ step A Warrior's Training
   zone map 1453
   turnin 1638 optional
 
+step Red Bag
+  zone Burning Steppes
+  accept 84211 object 457056 only Warrior
+
+step Blackrock Bootlegger
+  zone Searing Gorge
+  collect 226698 x1 quest 84211.1 only Warrior
+  collect 226699 x1 quest 84211.2 only Warrior
+
+step Geologist Larksbane
+  when turnedin 8315
+  zone Silithus
+  accept 8316 only Warrior
+  turnin 8316 only Warrior
+
+step Sebastian Jurgens
+  zone Tanaris
+  accept 84213 only Warrior
+
+step Half-Buried Mech
+  accept 84135 only Warrior
+  turnin 84135 only Warrior
+
 step Klannoc Macleod
   zone The Barrens
   turnin 1718 only Warrior
@@ -443,6 +458,21 @@ step Alonso
 step Dragonslayer's Helm
   only Warrior
   turnin 78132 optional
+
+step Nami
+  zone Mount Hyjal
+  turnin 84211 only Warrior
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  zone map 1452
+  accept 5126 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 5126 @63.8,73.8 optional
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  turnin 5126 optional
 
 step Seena Skybreaker
   zone map 2521
@@ -496,27 +526,11 @@ step Whirlwind Weapon
   accept 1792 optional
   turnin 1792 optional
 
+step Mech Arm
+  zone Westfall
+  turnin 84213 only Warrior
+
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
-step Level 58
-  level 58
-
-step Geologist Larksbane
-  when turnedin 8315
-  zone Silithus
-  accept 8316 only Warrior
-  turnin 8316 only Warrior
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  zone map 1452
-  accept 5126 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 5126 @63.8,73.8 optional
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  turnin 5126 optional
 
 step Anthion's Parting Words
   only Warrior

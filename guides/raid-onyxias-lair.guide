@@ -103,20 +103,6 @@ step Stoma the Ancient
   zone Felwood
   turnin 7635
 
-step Level 60
-  level 60
-
-step The Journey Has Just Begun
-  when turnedin 7496
-  when skill Leatherworking 300
-  zone map 1453
-  accept 7497 optional
-
-step The Journey Has Just Begun
-  when onquest 7497
-  zone map 1453
-  turnin 7497 optional
-
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Level 60
@@ -146,3 +132,17 @@ step Celebrating Good Times
   when onquest 7496
   zone map 1453
   turnin 7496
+
+step Level 60
+  level 60
+
+step The Journey Has Just Begun
+  when turnedin 7496
+  when skill Leatherworking 300
+  zone map 1453
+  accept 7497 optional
+
+step The Journey Has Just Begun
+  when onquest 7497
+  zone map 1453
+  turnin 7497 optional

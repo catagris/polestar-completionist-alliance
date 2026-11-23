@@ -156,7 +156,25 @@ step Power in Uldaman
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
+step Agmond's Fate
+  when onquest 704
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1432
+  turnin 704 optional
+
+step Solution to Doom
+  when onquest 709
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 709 optional
+
 step The Lost Dwarves
   when onquest 2398
   tip Still in your log from an earlier guide: hand it in now.
   turnin 2398 @67.8,44.4 optional
+
+step Power Stones
+  when onquest 2418
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 2418 optional

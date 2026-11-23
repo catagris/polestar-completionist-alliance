@@ -10,6 +10,12 @@ pitch On along the line: Darkshore, quests of level 10 to 24.
 # Routed 69 quests; estimated level at the end 18.0 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N.
 
+step Prospector Stormpike
+  when onquest 301
+  zone map 1455
+  turnin 301
+  accept 302
+
 step Golnir Bouldertoe
   when onquest 6391
   zone map 1455
@@ -21,12 +27,6 @@ step Gryth Thurden
   zone map 1455
   turnin 6388 only Dwarf,Gnome
   accept 6392 only Dwarf,Gnome
-
-step Prospector Stormpike
-  when onquest 301
-  zone map 1455
-  turnin 301
-  accept 302
 
 step Furen Longbeard
   when onquest 1338
@@ -45,12 +45,12 @@ step Chief Archaeologist Greywhisker
 step Arch Druid Fandral Staghelm
   accept 952
 
-step Jern Hornhelm
+step Brock Stoneseeker
   when onquest 302
   zone map 1432
+  turnin 6392 only Dwarf,Gnome
   turnin 302
   accept 273
-  turnin 6392 only Dwarf,Gnome
 
 step Huldar
   when onquest 273

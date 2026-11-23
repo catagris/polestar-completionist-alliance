@@ -1,25 +1,33 @@
-guide completionist-alliance/53-winterspring
-title 53 Winterspring (52-60) (Completionist)
+guide completionist-alliance/62-winterspring
+title 62 Winterspring (52-60) (Completionist)
 faction Alliance
 levels 52-60
 category Leveling
 zone Winterspring
-next completionist-alliance/54-azshara
+next completionist-alliance/63-elwynn-forest-and-stormwind-4
 pitch On along the line: Winterspring, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 43 quests; estimated level at the end 54.1 (heuristic XP, class quests not counted).
+# Routed 47 quests; estimated level at the end 54.4 (heuristic XP, class quests not counted).
 
 step Master Mathias Shaw
   when onquest 96529
   zone map 1453
   turnin 96529
 
+step Master Mathias Shaw
+  zone map 1453
+  accept 96676
+
+step Johun "Punchy" Dillas
+  when onquest 96676
+  zone map 2482
+  turnin 96676
+
 step Nami
   zone map 1452
   sethome "Everlook"
   getfp "Everlook"
   turnin 92008
-  accept 92009
   accept 3783
 
 step Making Amends
@@ -41,60 +49,25 @@ step Book
 step Meggi Peppinrocker
   accept 6603
   turnin 93197
-  accept 93406
-  turnin 93406
-  accept 93269
   accept 6028
   accept 6030
   accept 5601
-
-step Felnok Steelspring
   accept 4809
 
-step Umaron Stragarelm
-  when group 97490
-  zone map 1452
-  accept 97490
-
-step Book and Hailspite
-  zone map 1452
+step Book
   collect 228136 x1 quest 84399.1
 
-step Kaylaena Springwhisper
-  complete 92009 @60.4,62 map 2482
-  turnin 92009
-
-step Rubble Rummage
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 2482
-  accept 92011
-  complete 92011 @60.1,61.2
-
-step Rubble Rummage
-  turnin 92011
-
-step Kaylaena Springwhisper
-  accept 92328
-  turnin 92328
-
-step Kaylaena Springwhisper
-  accept 92329
-  turnin 92329
-
-step Fledgling Chillwind
-  zone map 1452
-  collect 12444 x8 quest 4809.1
-
-step Rogue Ice Thistle
-  collect 12366 x10 quest 3783.1
+step Winterfall Totemic
+  goto 39.9,43.3 "Winterfall Totemic"
+  accept 5083 item 12771 -- Drops from Winterfall Totemic
 
 step Donova Snowden
+  turnin 5083
   turnin 6603
-  accept 5082
-  turnin 980
-  turnin 3908
   accept 3909
   accept 4842
+  accept 5082
+  accept 5084
 
 step The Videre Elixir
   when onquest 3909
@@ -112,31 +85,37 @@ step Winterfall Pathfinder
 
 step Winterfall Totemic
   kill 7441 x8 quest 5082.3
-  accept 5083 item 12771 -- Drops from Winterfall Totemic
 
-step Gregan Brewspewer
-  collect 11243 x1 quest 3909.1
-
-step Sebelia
-  zone map 2482
-  turnin 93269
-
-step Ranshalla
+step Level 54
   zone map 1452
-  accept 4901
+  level 54
 
-step Felnok Steelspring
-  turnin 4809
-  accept 4810
+step Nami
+  accept 92009
 
-step Level 55
-  level 55
+step Level 58
+  level 58
+
+step Nami
+  accept 84212
 
 step Evie Whirlbrew
   accept 92859
 
-step Fledgling Chillwind
-  collect 281241 x1 quest 92859.1
+step Winterspring Owl
+  collect 281242 x5 quest 92859.2
+
+step Nami
+  accept 84146
+
+step Harlo Wigglesworth
+  accept 6604
+
+step Innkeeper Vizzie
+  accept 93406
+
+step Ice Thistle Matriarch
+  collect 258323 x4 quest 93406.1
 
 step Fiery Plate Gauntlets
   when turnedin 5103
@@ -155,16 +134,105 @@ step Fiery Plate Gauntlets
   zone map 1452
   turnin 5124 optional
 
-step Winterspring Owl
+step Ranshalla
   zone map 1452
-  collect 281242 x5 quest 92859.2
+  accept 4901
+
+step Umaron Stragarelm
+  when group 97490
+  zone map 1452
+  accept 97490
+
+step Fledgling Chillwind
+  zone map 1452
+  collect 12444 x8 quest 4809.1
+  collect 281241 x1 quest 92859.1
+
+step Kaylaena Springwhisper
+  complete 92009 @60.4,62.1 map 2482
+  turnin 92009
+  accept 92011
+
+step Rusting Metal Chunk
+  collect 269246 x5 quest 92011.3
+
+step Tangle of Wire
+  collect 250775 x5 quest 92011.1
+
+step Calcified Excrement
+  collect 269244 x5 quest 92011.2
+
+step Gregan Brewspewer
+  zone map 1444
+  collect 11243 x1 quest 3909.1
+
+step Rogue Ice Thistle
+  zone map 1452
+  collect 12366 x10 quest 3783.1
+
+step Wennzut Togglespring
+  tip The giver and hand-in are not in the reference data. Players name Wennzut Togglespring, in the mountains between Winterspring and Felwood, as the giver; the quest text sends you to his brother Fenwick in Hyjal, taken here to be the hand-in.
+  accept 92094 @27.7,44.0 map 1452
+
+step Donova Snowden
+  turnin 3909
+  complete 4842 @59.8,74.2 map 1452
+  turnin 4842
+  turnin 5082
+  accept 3912
+
+step Deadwood Cauldron
+  zone map 1448
+  turnin 5084
+  accept 5085
+
+step Donova Snowden
+  zone map 1452
+  turnin 5085
+  accept 5086
+
+step Toxic Horror
+  zone map 1448
+  collect 12822 x3 quest 5086.1
+
+step Donova Snowden
+  zone map 1452
+  turnin 5086
+  accept 5087
+
+step Winterfall Runner
+  zone map 1448
+  collect 12829 x1 quest 5087.1
+
+step Donova Snowden
+  zone map 1452
+  turnin 5087
+
+step Donova Snowden
+  when group 5121
+  zone map 1452
+  accept 5121
+
+step Innkeeper Vizzie
+  zone map 1452
+  turnin 93406
+  accept 93269
+  turnin 4809
+  accept 4810
+
+step High Chief Winterfall
+  accept 5123 item 12842 -- Drops from High Chief Winterfall
+
+step High Chief Winterfall
+  when group 5121
+  tip High Chief Winterfall is group work: elites. Grouping up is advised.
+  zone map 1452
+  kill 10738 x1 quest 5121.1
 
 step Umi Rumplesnicker
+  zone map 1452
   turnin 3783
   accept 977
-
-step Harlo Wigglesworth
-  accept 6604
   turnin 92859
   accept 98462
 
@@ -212,7 +280,7 @@ step Quixxil
   zone map 1449
   kill 10977 x1 quest 5163.3
 
-step Book and Hailspite
+step Hailspite
   when group 97490
   tip Halt the Hail is group work: elites. Grouping up is advised.
   zone map 1452
@@ -222,6 +290,36 @@ step Umaron Stragarelm
   when group 97490
   zone map 1452
   turnin 97490
+
+step Gaeriyan
+  zone map 1446
+  turnin 3912
+
+step Sebastian Jurgens
+  turnin 84212
+
+step Fenwick Togglespring
+  zone map 2482
+  turnin 92094 @25.3,75.9 map 2482
+
+step Kaylaena Springwhisper
+  turnin 92011
+  accept 92328
+  turnin 92328
+  accept 92329
+  turnin 92329
+
+step Sebelia
+  turnin 93269
+
+step Fayran Elthas
+  accept 93444
+  turnin 93444
+  accept 96301
+
+step Marn Euhorn
+  complete 96301 @72.8,38.4 map 2482
+  turnin 96301
 
 step Damaged Crate
   zone map 1452
@@ -239,78 +337,10 @@ step Crazed Owlbeast
 step Umi Rumplesnicker
   turnin 5163
 
-step A Yeti of Your Own
-  when skill Engineering 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1452
-  accept 8798 optional
-
-step A Yeti of Your Own
-  when skill Engineering 1
-  zone map 1452
-  turnin 8798 optional
-
 step Jaron Stoneshaper
-  zone map 1452
   turnin 4864
 
 step Donova Snowden
-  turnin 3909
-  complete 4842 @59.8,74.2 map 1452
-  turnin 4842
-  turnin 5082
-  turnin 5083
-  accept 3912
-  accept 5084
-
-step Wennzut Togglespring
-  tip The giver and hand-in are not in the reference data. A player's comment on the quest's Wowhead page names Wennzut Togglespring, in the mountains between Winterspring and Felwood, as the giver; the quest text sends you to his brother Fenwick in Hyjal, taken here to be the hand-in.
-  accept 92094 @27.7,44.0 map 1452
-
-step Deadwood Cauldron
-  zone map 1448
-  turnin 5084
-  accept 5085
-
-step Donova Snowden
-  zone map 1452
-  turnin 5085
-  accept 5086
-
-step Toxic Horror
-  zone map 1448
-  collect 12822 x3 quest 5086.1
-
-step Donova Snowden
-  zone map 1452
-  turnin 5086
-  accept 5087
-
-step Winterfall Runner
-  zone map 1448
-  collect 12829 x1 quest 5087.1
-
-step Donova Snowden
-  zone map 1452
-  turnin 5087
-
-step Donova Snowden
-  when group 5121
-  zone map 1452
-  accept 5121
-
-step High Chief Winterfall
-  zone map 1452
-  accept 5123 item 12842 -- Drops from High Chief Winterfall
-
-step High Chief Winterfall
-  when group 5121
-  tip High Chief Winterfall is group work: elites. Grouping up is advised.
-  zone map 1452
-  kill 10738 x1 quest 5121.1
-
-step Donova Snowden
-  zone map 1452
   turnin 5123
   accept 5128
 
@@ -335,10 +365,6 @@ step Donova Snowden
   zone map 1452
   turnin 5121
 
-step Fenwick Togglespring
-  zone map 2482
-  turnin 92094 @25.3,75.9 map 2482
-
 step Kelek Skykeeper
   zone map 1448
   turnin 5128
@@ -349,45 +375,29 @@ step Erelas Ambersky
   turnin 4901
   accept 4902
 
-step Gaeriyan
-  zone map 1446
-  turnin 3912
-
 step Tinkee Steamboil
   zone map 1428
   turnin 4810
+
+step Red Bag
+  turnin 84146 object 457056
 
 step Jennea Cannon
   zone map 1453
   turnin 84399
 
-step Argent Officer Pureheart
-  zone map 1422
-  turnin 6028
+step A Yeti of Your Own
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1452
+  accept 8798 optional
 
-step Pamela Redpath
-  zone map 1423
-  turnin 5601
-
-step Aurora Skycaller
-  turnin 5245
-
-step Duke Nicholas Zverenhoff
-  turnin 6030
+step A Yeti of Your Own
+  when skill Engineering 1
+  zone map 1452
+  turnin 8798 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step The New Springs
-  when onquest 980
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1452
-  turnin 980 optional
-
-step It's a Secret to Everybody
-  when onquest 3908
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1452
-  turnin 3908 optional
 
 step Premiere Parts
   when onquest 92008

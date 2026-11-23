@@ -1,13 +1,14 @@
-guide completionist-alliance/55-hillsbrad-foothills-and-alterac-mountains-3
-title 55 Hillsbrad Foothills and Alterac Mountains, visit 3 (60) (Completionist)
+guide completionist-alliance/54-hillsbrad-foothills-and-alterac-mountains-3
+title 54 Hillsbrad Foothills and Alterac Mountains, visit 3 (58-60) (Completionist)
 faction Alliance
-levels 59-60
+levels 58-60
 category Leveling
 zone Alterac Mountains
-next completionist-alliance/56-silithus
-pitch On along the line: Hillsbrad Foothills and Alterac Mountains, level 60 quests.
+next completionist-alliance/55-silithus
+pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 15 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+# Routed 14 quests; estimated level at the end 58.6 (heuristic XP, class quests not counted).
+# Skipped: 1 no turn-in in data.
 
 step Mathrengyl Bearwalker
   when onquest 92345
@@ -213,25 +214,26 @@ step Towers and Bunkers
 step Strange Snowman
   turnin 79482
 
-step Archmage Celindra
-  accept 96603
-
-step Anvilrage Overseer
-  zone map 1428
-  collect 274964 x10 quest 96603.1
-
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7794.1
-
-step Archmage Celindra
-  zone map 1416
-  turnin 96603
-
 step Belanaa Windveil
   accept 99191
   accept 99192
   accept 99193
+
+step Unstable Magic
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 96603
+  complete 96603 @14.2,60.0
+
+step Unstable Magic
+  turnin 96603
+
+step More Unstable Magic
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 96602
+  complete 96602 @14.2,60.0
+
+step More Unstable Magic
+  turnin 96602
 
 step Baron Bloodbane
   zone map 1423
@@ -247,7 +249,7 @@ step Farrin Daris
 
 step Baron Bloodbane
   zone map 1423
-  collect 4338 x60 quest 7809.1
+  collect 4338 x60 quest 7794.1
 
 step Belanaa Windveil
   zone map 1416
@@ -259,6 +261,10 @@ step Belanaa Windveil
 step Stormwind Royal Guard
   zone map 1453
   collect 14047 x1 quest 99194.1
+
+step Baron Bloodbane
+  zone map 1423
+  collect 4338 x60 quest 7809.1
 
 step Belanaa Windveil
   zone map 1416

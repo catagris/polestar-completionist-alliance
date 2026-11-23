@@ -48,17 +48,24 @@ step Black Bear Patriarch
 step Marek Ironheart
   accept 385
 
-step Loch Crocolisk
+step Loch Crocolisk and Daggerfang
   collect 2924 x5 quest 385.1
 
 step Giant Wetlands Crocolisk
   collect 2925 x6 quest 385.2
 
+step Mountaineer Stormpike
+  accept 307
+  accept 1338
+
+step Miners' League Crates
+  collect 2640 x4 quest 307.1
+
+step Mountaineer Stormpike
+  turnin 307
+
 step Brock Stoneseeker
   accept 6387 only Dwarf,Gnome
-
-step Marek Ironheart
-  turnin 385
 
 step Level 12
   level 12
@@ -66,15 +73,10 @@ step Level 12
 step Marek Ironheart
   accept 86758
 
-step Daggerfang
+step Loch Crocolisk and Daggerfang
   collect 279591 x1 quest 86758.1
 
-step Marek Ironheart
-  zone map 1437
-  turnin 86758
-
 step Level 19
-  zone map 1432
   level 19
 
 step Mountaineer Rockgar
@@ -85,106 +87,38 @@ step Dragonmaw Scout and Dragonmaw Grunt
   kill 2103 x8 quest 455.1
   kill 2102 x6 quest 455.2
 
-step Daryl the Youngling
-  zone map 1432
-  accept 257
-
-step Discarded Fishing Toolbox
-  accept 86614
-
-step Khara Deepwater
-  turnin 86614
-
-step WANTED
-  when group 256
-  zone map 1432
-  accept 256
-
-step Chok'sul
-  when group 256
-  tip WANTED: Chok'sul is group work: elites. Grouping up is advised.
-  zone map 1437
-  collect 2561 x1 quest 256.1
-
-step Jern Hornhelm
-  zone map 1432
-  accept 436
-
-step Mountain Buzzard
-  kill 1194 x6 quest 257.1
-
-step Daryl the Youngling
-  turnin 257
-  accept 258
-
-step Elder Mountain Boar
-  kill 1192 x5 quest 258.1
-
-step Prospector Ironband
-  accept 298
-  turnin 436
-  accept 297
-
-step Excavation Tools
-  tip Excavation Tools is looted from Excavation Tools: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  collect 278049 x1 optional
-  accept 86613 item 278049 optional
-  complete 86613 @65.9,65.6
-
-step Stonesplinter Digger
-  collect 2636 x8 quest 297.1
-
-step Magmar Fellhew
-  turnin 297
-
-step Excavation Tools
-  when onquest 86613
-  zone map 1432
-  turnin 86613
-
-step Daryl the Youngling
-  zone map 1432
-  turnin 258
-
-step Vyrin Swiftwind
-  when group 271
-  zone map 1432
-  accept 271
-
-step Ol' Sooty
-  when group 271
-  tip Vyrin's Revenge is group work: elites. Grouping up is advised.
-  zone map 1432
-  collect 2713 x1 quest 271.1
-
-step Thorgrum Borrelson
-  zone map 1426
-  turnin 6387 only Dwarf,Gnome
-  accept 6391 only Dwarf,Gnome
-
-step Vidra Hearthstove
-  zone map 1432
-  turnin 418
-
-step Jern Hornhelm
-  turnin 298
-  accept 301
+step Valstag Ironjaw
+  complete 455 @53.7,70.3 map 1437
+  turnin 455
 
 step Magistrate Bluntnose
   when group 255
   zone map 1432
   accept 255
 
-step Magistrate Bluntnose
-  when group 256
-  zone map 1432
-  turnin 256
-
 step Mo'grosh Ogre
   when group 255
   tip Mercenaries is group work: elites. Grouping up is advised.
   zone map 1432
   kill 1178 x4 quest 255.1
+
+step WANTED
+  when group 256
+  zone map 1432
+  accept 256
+
+step Jern Hornhelm
+  zone map 1432
+  accept 436
+
+step Discarded Fishing Toolbox
+  accept 86614
+
+step Chok'sul
+  when group 256
+  tip WANTED: Chok'sul is group work: elites. Grouping up is advised.
+  zone map 1432
+  collect 2561 x1 quest 256.1
 
 step Mo'grosh Brute
   when group 255
@@ -198,32 +132,44 @@ step Mo'grosh Enforcer
   zone map 1432
   kill 1179 x4 quest 255.3
 
-step Chief Engineer Hinderweir VII
+step Bingles Blastenheimer
   zone map 1432
-  accept 250
+  turnin 2039
+  accept 2038
 
-step Suspicious Barrel
-  turnin 250
-  accept 199
+step Bingles's Blastencapper
+  collect 7376 x1 quest 2038.4
 
-step Chief Engineer Hinderweir VII
-  turnin 199
-  accept 161
+step Bingles's Toolbucket
+  collect 7346 x1 quest 2038.3
 
-step Mountaineer Stormpike
-  accept 307
-  accept 1338
+step Bingles's Toolbucket
+  collect 7345 x1 quest 2038.2
 
-step Miners' League Crates
-  collect 2640 x4 quest 307.1
+step Bingles's Toolbucket
+  collect 7343 x1 quest 2038.1
 
-step Mountaineer Stormpike
-  turnin 307
+step Khara Deepwater
+  turnin 86614
+
+step Magistrate Bluntnose
+  when group 256
+  zone map 1432
+  turnin 256
 
 step Magistrate Bluntnose
   when group 255
   zone map 1432
   turnin 255
+
+step Vidra Hearthstove
+  zone map 1432
+  turnin 418
+
+step Thorgrum Borrelson
+  zone map 1426
+  turnin 6387 only Dwarf,Gnome
+  accept 6391 only Dwarf,Gnome
 
 step Captain Rugelfuss
   zone map 1432
@@ -233,10 +179,31 @@ step Captain Rugelfuss
 step Stonesplinter Scout
   kill 1162 x10 quest 224.2
 
+step Magmar Fellhew
+  turnin 436
+  accept 297
+  accept 298
+
+step Excavation Tools
+  tip Excavation Tools is looted from Excavation Tools: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 278049 x1 optional
+  accept 86613 item 278049 optional
+  complete 86613 @65.9,65.6
+
 step Stonesplinter Digger
   collect 2536 x8 quest 267.1
+  collect 2636 x8 quest 297.1
+
+step Magmar Fellhew
+  turnin 297
+
+step Excavation Tools
+  when onquest 86613
+  zone map 1432
+  turnin 86613
 
 step Stonesplinter Trogg
+  zone map 1432
   kill 1161 x10 quest 224.1
 
 step Mountaineer Ylva
@@ -279,45 +246,71 @@ step Grawmug, Gnasher and Brawler
 step Captain Rugelfuss
   turnin 217
 
+step Jern Hornhelm
+  turnin 298
+  accept 301
+
+step Chief Engineer Hinderweir VII
+  accept 250
+
+step Suspicious Barrel
+  turnin 250
+  accept 199
+
+step Chief Engineer Hinderweir VII
+  turnin 199
+  accept 161
+
+step Bingles Blastenheimer
+  turnin 2038
+
+step Marek Ironheart
+  turnin 385
+  turnin 86758
+
+step Daryl the Youngling
+  accept 257
+
+step Mountain Buzzard
+  kill 1194 x6 quest 257.1
+
+step Daryl the Youngling
+  turnin 257
+  accept 258
+
+step Elder Mountain Boar
+  kill 1192 x5 quest 258.1
+
+step Daryl the Youngling
+  turnin 258
+
+step Vyrin Swiftwind
+  when group 271
+  zone map 1432
+  accept 271
+
+step Ol' Sooty
+  when group 271
+  tip Vyrin's Revenge is group work: elites. Grouping up is advised.
+  zone map 1432
+  collect 2713 x1 quest 271.1
+
 step Daryl the Youngling
   when group 271
   zone map 1432
   turnin 271
 
 step Daryl the Youngling
+  when turnedin 271
   zone map 1432
-  accept 531
-  turnin 531
+  accept 531 optional
+  turnin 531 optional
 
 step Supplying the Front
   when skill Blacksmithing 1
   zone map 1455
   turnin 1578 optional
 
-step Valstag Ironjaw
-  zone map 1437
-  complete 455 @53.7,70.3 map 1437
-  turnin 455
-
 step Ashlan Stonesmirk
+  zone map 1437
   turnin 161
-
-step Bingles Blastenheimer
-  zone map 1432
-  turnin 2039
-  accept 2038
-
-step Bingles's Blastencapper
-  collect 7376 x1 quest 2038.4
-
-step Bingles's Toolbucket
-  collect 7346 x1 quest 2038.3
-
-step Bingles's Toolbucket
-  collect 7345 x1 quest 2038.2
-
-step Bingles's Toolbucket
-  collect 7343 x1 quest 2038.1
-
-step Bingles Blastenheimer
-  turnin 2038

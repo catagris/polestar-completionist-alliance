@@ -1,10 +1,10 @@
-guide completionist-alliance/51-moonglade
-title 51 Moonglade (55-60) (Completionist)
+guide completionist-alliance/52-moonglade
+title 52 Moonglade (55-60) (Completionist)
 faction Alliance
 levels 55-60
 category Leveling
 zone Moonglade
-next completionist-alliance/52-mount-hyjal
+next completionist-alliance/53-azshara
 pitch On along the line: Moonglade, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 13 quests; estimated level at the end 55.6 (heuristic XP, class quests not counted).
@@ -18,8 +18,11 @@ step Mathrengyl Bearwalker
   zone map 1457
   accept 6762
 
-step Moonglade
+step Nighthaven
   zone map 1450
+  getfp "Nighthaven"
+
+step Moonglade
   getfp "Moonglade"
 
 step Level 60

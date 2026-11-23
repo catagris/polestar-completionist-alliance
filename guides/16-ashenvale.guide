@@ -198,7 +198,7 @@ step Foulweald Den Watcher and Foulweald Ursa
 step Maseara Autumnmoon
   accept 98417
 
-step Kurothel's Knapsack
+step Campfire
   collect 281014 x1 quest 98417.1
 
 step Kayneth Stillwind

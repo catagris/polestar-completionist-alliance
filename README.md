@@ -5,8 +5,8 @@ WoW: Forever, by catagris. It is not one of Polestar's own addons and it needs P
 
 The aim: when every guide in the pack is finished, an Alliance character has done every quest
 the reference data knows how to guide, in every zone, dungeons and raids included. It is not a fast
-leveling route: it is every quest, in an order that keeps walking back to a minimum. 4,051 of the
-4,298 quests the data lists for the Alliance are handed in by a guide.
+leveling route: it is every quest, in an order that keeps walking back to a minimum. 4,134 of the
+4,401 quests the data lists for the Alliance are handed in by a guide.
 
 The guides are generated: a custom route planner decides which quests go in which guide and in what
 order, and Polestar's own drafter writes each guide. If a step sends you to the wrong spot or a route
@@ -14,13 +14,13 @@ feels awkward, please report it.
 
 ## What is in it
 
-147 guides, 100 of them on one line that leads from guide to guide.
+149 guides, 102 of them on one line that leads from guide to guide.
 
 | Guides | What they are |
 |---|---|
 | The first four | The starting zones: Elwynn Forest and Stormwind, Dun Morogh and Ironforge, Teldrassil and Darnassus, Zephras Isle. Start in your own; the others follow. Each ends in its capital. |
 | The numbered guides after them | One guide per zone visit, ordered by level and by distance: the nearest guide among those of about the same level comes next. A zone whose quests span many levels is visited more than once. "Odd jobs" guides collect the few quests of zones too small for a guide of their own. |
-| `dungeon-*` | One per dungeon: the pick-ups, the run, the hand-ins. They stand on the line behind the zone guides that lead to them; the next zone guide is always offered as the way round. A second run is a guide of its own. A dungeon in a Horde city, or with fewer than three Alliance quests, stands off the line. |
+| `dungeon-*` | One per dungeon: the pick-ups, the run, the hand-ins. They stand on the line behind the zone guides that lead to them; the next zone guide is always offered as the way round. A dungeon that takes more than one trip is split into numbered parts. A dungeon in a Horde city, or with fewer than three Alliance quests, stands off the line. |
 | `raid-*`, `attune-*`, `class-*` | Raids, attunements and keys, and each class's quests from level 10 on. Off the line: pick them from the guide list. |
 | `event-*`, `pvp-battlegrounds`, `craftsmans-writs` | Seasonal events, battleground quests and Craftsman's Writs. Every step optional; off the line. |
 | `unplaced-quests` | A checklist of the quests the reference data names but cannot lead to. |

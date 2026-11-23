@@ -1,14 +1,15 @@
 guide completionist-alliance/65-eastern-plaguelands
-title 65 Eastern Plaguelands (55-60) (Completionist)
+title 65 Eastern Plaguelands (52-60) (Completionist)
 faction Alliance
-levels 55-60
+levels 52-60
 category Leveling
 zone Eastern Plaguelands
-next completionist-alliance/dungeon-dire-maul
-pitch On along the line: Eastern Plaguelands, quests of level 55 to 60.
+next completionist-alliance/dungeon-stratholme
+next completionist-alliance/66-tanaris-2
+pitch On along the line: Eastern Plaguelands, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 28 quests; estimated level at the end 55.8 (heuristic XP, class quests not counted).
-# Skipped: 3 prerequisite N not in this route; 2 exclusive with N (done).
+# Routed 29 quests; estimated level at the end 52.9 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route; 1 exclusive with N; 1 exclusive with N (done).
 
 step Clavicus Knavingham
   when onquest 7795
@@ -19,6 +20,7 @@ step Additional Runecloth
   when onquest 7796
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1453
+  collect 14047 x20 anywhere optional
   turnin 7796 direct optional
 
 step Royal Factor Bathrilor
@@ -46,18 +48,25 @@ step Highlord Bolvar Fordragon
   zone map 1453
   accept 6187
 
+step Into The Temple of Atal'Hakkar
+  tip For Sunken Temple: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1453
+  accept 1475 optional
+
+step Mathrengyl Bearwalker
+  when onquest 4986
+  zone map 1457
+  turnin 4986
+
 step Deliana
   only Warlock
   when complete 8936
   zone map 1455
   turnin 8936
 
-step Level 58
-  zone map 1455
-  level 58
-
 step Deliana
-  accept 8929
+  zone map 1455
+  accept 8929 npc 230319
 
 step Highlord Bolvar Fordragon
   when group 6187
@@ -108,73 +117,20 @@ step The Flesh Does Not Lie
   tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 5212 optional
 
-step Rotting Dwarf Corpse
-  accept 84414 @23.0,73.5 map 1423
-
-step A Wee Bit O' Necromancy
-  only Paladin
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1423
-  accept 84330 optional
-
-step Mysterious Chest
-  zone map 1423
-  turnin 84414 @23.0,73.5 map 1423
-  accept 84332 @23.0,73.5 map 1423
-  turnin 84332 @23.0,73.5 map 1423
-
-step Torn Scroll
-  accept 6024
-
-step Orthas
-  accept 84319 @24.3,69.1 map 1423
-
-step Infiltrator Hameya
-  collect 15767 x1 quest 6024.1
-
-step Abomination
-  collect 227689 x1 quest 84319.1
-
-step Book
-  accept 84398 object 463207
-
-step Book
-  collect 228135 x1 quest 84398.1
-
-step Emmisary Whitebeard
+step Duke Nicholas Zverenhoff
   sethome "Light's Hope Chapel"
-  accept 9664
-
-step Chromatic Mantle of the Dawn
-  when available 5517
-  tip One of several exclusive quests; the route takes Chromatic Mantle of the Dawn (5521). This one shows for a character the game offers it to instead.
-  tip Needs Exalted standing (42000) with Argent Dawn; without it the quest is not offered.
-  zone map 1423
-  accept 5517 optional
+  turnin 6030
 
 step Epic Armaments of Battle - Exalted Amongst the Dawn
   tip Needs Exalted standing (42000) with Argent Dawn; without it the quest is not offered.
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1423
   collect 22523 x27 anywhere optional
   collect 22524 x27 anywhere optional
   turnin 9228 direct optional
 
-step Chromatic Mantle of the Dawn
-  when onquest 5517
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 5517 @71.8,50.2 optional
-
-step Chromatic Mantle of the Dawn
-  when onquest 5517
-  zone map 1423
-  turnin 5517 optional
-
 step Superior Armaments of Battle - Exalted Amongst the Dawn
   tip Needs Exalted standing (42000) with Argent Dawn; without it the quest is not offered.
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1423
   collect 22523 x6 anywhere optional
   collect 22524 x6 anywhere optional
   turnin 9227 direct optional
@@ -303,8 +259,30 @@ step Craftsman's Writ - Runecloth Boots
   collect 13864 x8 anywhere optional
   turnin 9190 direct optional
 
+step Level 55
+  level 55
+
+step Chromatic Mantle of the Dawn
+  when available 5517
+  tip One of several exclusive quests; the route takes Chromatic Mantle of the Dawn (5521). This one shows for a character the game offers it to instead.
+  tip Needs Exalted standing (42000) with Argent Dawn; without it the quest is not offered.
+  zone map 1423
+  accept 5517 optional
+
+step Chromatic Mantle of the Dawn
+  when onquest 5517
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 5517 @71.8,50.2 optional
+
+step Chromatic Mantle of the Dawn
+  when onquest 5517
+  zone map 1423
+  turnin 5517 optional
+
 step Craftsman's Writ - Brightcloth Pants
   tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1423
   collect 14104 x6 anywhere optional
   turnin 9188 direct optional
 
@@ -508,37 +486,37 @@ step Argent Dawn Commission
 
 step Document from the Front
   when has 22975
-  tip A Smudged Document drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+  tip A Smudged Document drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier; no arrow leads there.
   zone map 1423
   accept 9304 item 22975
 
 step Missive from the Front
   when has 22973
-  tip A Crumpled Missive drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+  tip A Crumpled Missive drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier; no arrow leads there.
   zone map 1423
   accept 9302 item 22973
 
 step Envelope from the Front
   when has 22970
-  tip A Bloodstained Envelope drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+  tip A Bloodstained Envelope drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier; no arrow leads there.
   zone map 1423
   accept 9301 item 22970
 
 step Page from the Front
   when has 22974
-  tip A Ragged Page drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+  tip A Ragged Page drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier; no arrow leads there.
   zone map 1423
   accept 9300 item 22974
 
 step Note from the Front
   when has 22972
-  tip A Careworn Note drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+  tip A Careworn Note drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier; no arrow leads there.
   zone map 1423
   accept 9299 item 22972
 
 step Letter from the Front
   when has 22977
-  tip A Torn Letter drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+  tip A Torn Letter drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier; no arrow leads there.
   zone map 1423
   accept 9295 item 22977
 
@@ -645,14 +623,14 @@ step That's Asking A Lot
 step Smokey LaRue
   accept 6041
 
-step Orthas
-  turnin 84319 @24.3,69.1 map 1423
+step Book
+  accept 84398 object 463207
 
-step <TXT>Crown Guard Capture Quest Doodad
-  kill 17689 x1 quest 9664.1
+step Book
+  collect 228135 x1 quest 84398.1
 
-step <TXT>Plaguewood Capture Quest Doodad
-  kill 17698 x1 quest 9664.4
+step Aurora Skycaller
+  turnin 5245
 
 step Book
   accept 84401 object 463212
@@ -660,14 +638,59 @@ step Book
 step Book
   collect 228140 x1 quest 84401.1
 
-step Aurora Skycaller
-  accept 5246
+step Book
+  accept 84400 object 463208
+
+step Book
+  collect 228138 x1 quest 84400.1
+
+step Orthas
+  accept 84319
+
+step A Wee Bit O' Necromancy
+  only Paladin
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1423
+  accept 84330 optional
+
+step Level 55
+  zone map 1423
+  level 55
+
+step Emmisary Whitebeard
+  accept 9664
+
+step Smokey LaRue
+  kill 12247 x8 quest 6041.1
+  turnin 6041
+
+step Defenders of Darrowshire
+  turnin 5211
+
+step <TXT>Eastwall Capture Quest Doodad
+  kill 17690 x1 quest 9664.2
 
 step <TXT>Northpass Capture Quest Doodad
   kill 17696 x1 quest 9664.3
 
-step <TXT>Eastwall Capture Quest Doodad
-  kill 17690 x1 quest 9664.2
+step <TXT>Plaguewood Capture Quest Doodad
+  kill 17698 x1 quest 9664.4
+
+step <TXT>Crown Guard Capture Quest Doodad
+  kill 17689 x1 quest 9664.1
+
+step Abomination
+  collect 227689 x1 quest 84319.1
+
+step Emmisary Whitebeard
+  turnin 9664
+
+step Caretaker Alen
+  accept 5281
+  accept 6021
+
+step Aurora Skycaller
+  accept 5246
 
 step Sacred Highborne Writings
   zone map 1447
@@ -699,36 +722,36 @@ step Wynd Nightchaser
   turnin 5252
 
 step Wynd Nightchaser
-  zone map 1447
+  zone map 1423
   accept 5253
 
-step Book
+step Orthas
   zone map 1457
-  accept 84400 object 463208
+  turnin 84319
 
-step Book
-  collect 228138 x1 quest 84400.1
+step Zaeldarr the Outcast
+  collect 15785 x1 quest 6021.1
 
-step Emmisary Whitebeard
-  turnin 9664
+step Torn Scroll
+  accept 6024
 
-step Smokey LaRue
-  zone map 1423
-  kill 12247 x8 quest 6041.1
-  turnin 6041
-
-step Defenders of Darrowshire
-  turnin 5211
+step Infiltrator Hameya
+  collect 15767 x1 quest 6024.1
 
 step Caretaker Alen
-  accept 5281
-  accept 6021
+  turnin 6021
 
-step Mound of Dirt
-  turnin 6024
+step Pamela Redpath
+  turnin 5142
+
+step Sister Pamela
+  when onquest 5601
+  zone map 1423
+  turnin 5601
 
 step Pamela's Doll
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
   accept 5149
   complete 5149 @31.1,78.0
 
@@ -742,14 +765,7 @@ step Marlene Redpath
   zone map 1422
   turnin 5152
 
-step Little Pamela
-  when available 5142
-  tip One of several exclusive quests; the route takes Sister Pamela (5601). This one shows for a character the game offers it to instead.
-  zone map 1422
-  accept 5142 optional
-
 step Marlene Redpath
-  zone map 1422
   accept 5153
 
 step Joseph's Wedding Ring
@@ -776,13 +792,7 @@ step Chromie
 step Pamela Redpath
   accept 5241
 
-step Little Pamela
-  when onquest 5142
-  zone map 1423
-  turnin 5142 optional
-
 step Carlin Redpath
-  zone map 1423
   turnin 5241
 
 step Carlin Redpath
@@ -804,8 +814,6 @@ step Redpath's Shield
 step Carlin Redpath
   zone map 1423
   turnin 5168
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Skull of Horgus
   collect 12956 x1 quest 5181.1
@@ -831,6 +839,8 @@ step Chromie
   zone map 1422
   turnin 5941
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Chromie
   accept 5721
 
@@ -845,8 +855,8 @@ step Pamela Redpath
 step Joseph's Chest
   turnin 5942
 
-step Zaeldarr the Outcast
-  collect 15785 x1 quest 6021.1
+step Mound of Dirt
+  turnin 6024
 
 step Egan
   turnin 5281
@@ -862,61 +872,51 @@ step Augustus' Receipt Book
 step Augustus the Touched
   turnin 6164
 
-step Caretaker Alen
-  turnin 6021
-
 step Jennea Cannon
   turnin 84398
   turnin 84400
   turnin 84401
 
-step Argent Arbiter
-  when turnedin 8152
-  zone map 1423
-  accept 97986
+step Level 58
+  level 58
 
-step Argent Arbiter
-  when onquest 97986
-  zone map 1423
-  turnin 97986 @40.4,35.2 map 1423
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84179
+  complete 84179 @26.1,11.3
 
-step Bleeding Edge
-  when turnedin 97986
-  zone map 1423
-  accept 98109 @40.4,35.2 map 1423
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84186
+  complete 84186 @26.1,11.3
 
-step Bleeding Edge
-  when onquest 98109
-  zone map 1423
-  turnin 98109
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84184
+  complete 84184 @26.1,11.3
 
-step Stormwind's High Order
-  when turnedin 98109
-  zone map 1423
-  accept 97987
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84183
+  complete 84183 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84182
+  complete 84182 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84181
+  complete 84181 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84180
+  complete 84180 @26.1,11.3
 
 step Anthion Harmon
-  zone map 1423
   turnin 8929
-
-step Mathrengyl Bearwalker
-  when onquest 4986
-  zone map 1457
-  turnin 4986
-
-step Highlord Bolvar Fordragon
-  when group 6187
-  zone map 1453
-  turnin 6187
-
-step Arch Druid Fandral Staghelm
-  zone map 1457
-  turnin 5253
-
-step Stormwind's High Order
-  when onquest 97987
-  zone map 1453
-  turnin 97987 @36.6,74.7 map 1453
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
@@ -931,6 +931,30 @@ step Better Late Than Never
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1453
   turnin 5022 optional
+
+step Little Pamela
+  when onquest 5142
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5142 optional
+
+step Troubled Spirits of Kel'Theril
+  when onquest 5245
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5245 optional
+
+step Sister Pamela
+  when onquest 5601
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5601 optional
+
+step Duke Nicholas Zverenhoff
+  when onquest 6030
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 6030 optional
 
 step The Blightcaller Cometh
   when onquest 6186

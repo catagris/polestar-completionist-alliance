@@ -155,16 +155,6 @@ step Bath'rah the Windwatcher
   accept 79363
   accept 96137
 
-step More Unstable Magic
-  when turnedin 96603
-  zone map 1416
-  accept 96602 optional
-
-step More Unstable Magic
-  when onquest 96602
-  zone map 1416
-  turnin 96602 optional
-
 step Young Black Ravager
   zone map 1431
   kill 923 x10 quest 96137.1

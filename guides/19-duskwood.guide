@@ -135,15 +135,22 @@ step Field Captain Palandar
   accept 81741
 
 step Field Captain Palandar
+  when group 81742
+  zone map 1431
   accept 81742
 
 step Field Captain Palandar
+  when group 81743
+  zone map 1431
   accept 81743
 
 step Field Captain Palandar
+  when group 81744
+  zone map 1431
   accept 81744
 
 step Field Captain Palandar
+  zone map 1431
   accept 81747
   turnin 81747
 
@@ -154,15 +161,6 @@ step Field Captain Palandar
 step Field Captain Palandar
   accept 81745
   turnin 81745
-
-step Amokarok
-  kill 221207 x1 quest 81744.1
-
-step Vvarc' Zul
-  kill 221206 x1 quest 81743.1
-
-step Unhatched Green Dragon Egg and Ylanthrius
-  kill 221204 x1 quest 81742.1
 
 step Wyrmkin Terrorwalker and Nightterror Whelp
   collect 219402 x10 quest 81741.1
@@ -200,7 +198,26 @@ step Nightmare Runner and Nightmare Weaver
 step Mysterious Box
   collect 219404 x1 quest 81736.1
 
+step Unhatched Green Dragon Egg and Ylanthrius
+  when group 81742
+  tip Duskwood Mission XIII: Defeat Ylanthrius is group work: elites. Grouping up is advised.
+  zone map 1431
+  kill 221204 x1 quest 81742.1
+
+step Vvarc' Zul
+  when group 81743
+  tip Duskwood Mission XIV: Defeat Vvarc'zul is group work: elites. Grouping up is advised.
+  zone map 1431
+  kill 221206 x1 quest 81743.1
+
+step Amokarok
+  when group 81744
+  tip Duskwood Mission XV: Defeat Amokarok is group work: elites. Grouping up is advised.
+  zone map 1431
+  kill 221207 x1 quest 81744.1
+
 step Green Recluse
+  zone map 1431
   collect 1130 x5 quest 101.2
 
 step Field Captain Palandar
@@ -211,11 +228,24 @@ step Field Captain Palandar
   turnin 81737
   turnin 81738
   turnin 81741
+
+step Field Captain Palandar
+  when group 81742
+  zone map 1431
   turnin 81742
+
+step Field Captain Palandar
+  when group 81743
+  zone map 1431
   turnin 81743
+
+step Field Captain Palandar
+  when group 81744
+  zone map 1431
   turnin 81744
 
 step Watcher Dodds
+  zone map 1431
   accept 245
 
 step Pygmy Venom Web Spider

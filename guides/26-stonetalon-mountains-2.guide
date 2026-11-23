@@ -1,13 +1,13 @@
-guide completionist-alliance/27-stonetalon-mountains-2
-title 27 Stonetalon Mountains, visit 2 (33-45) (Completionist)
+guide completionist-alliance/26-stonetalon-mountains-2
+title 26 Stonetalon Mountains, visit 2 (33-45) (Completionist)
 faction Alliance
 levels 33-45
 category Leveling
 zone Stonetalon Mountains
-next completionist-alliance/28-dun-morogh-and-ironforge-2
+next completionist-alliance/27-dustwallow-marsh
 pitch On along the line: Stonetalon Mountains, quests of level 33 to 45.
 # Generated from the reference data: change the planner, not this file.
-# Routed 22 quests; estimated level at the end 34.8 (heuristic XP, class quests not counted).
+# Routed 22 quests; estimated level at the end 34.9 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N.
 
 step Roetten Stonehammer
@@ -45,7 +45,10 @@ step Burning Blade Adept and Burning Blade Felsworn
 step Tyranis Malem
   collect 6767 x1 quest 1439.1
 
-step Gelkis Windchaser
+step Uthek the Wise
+  turnin 1382
+
+step Gelkis Guardian
   collect 254432 x5 quest 93224.1
 
 step Burning Blade Reaver
@@ -91,9 +94,6 @@ step Warug
 
 step Gorhak
   turnin 93226
-
-step Uthek the Wise
-  turnin 1382
 
 step Kreldig Ungor
   zone map 1455

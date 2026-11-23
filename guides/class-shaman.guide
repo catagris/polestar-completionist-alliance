@@ -8,7 +8,7 @@ zone Durotar
 why Every Shaman class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Shaman quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 11 quests; estimated level at the end 12.9 (heuristic XP).
+# Routed 12 quests; estimated level at the end 13.1 (heuristic XP).
 # Skipped: 4 prerequisite N not in this route; 3 objective N (item N) outside the zones.
 
 step Eldrun Stormbreaker
@@ -44,24 +44,12 @@ step Fire Sapta
   zone map 1432
   turnin 94473 direct optional
 
-step Minor Manifestation of Fire
-  zone Durotar
-  collect 6655 x1 quest 94467.1 only Shaman
-
-step Brazier of the Dormant Flame
-  turnin 94467 only Shaman
-  accept 94468 only Shaman
-
-step Bruegs Kindleborn
-  zone Dun Morogh
-  turnin 94468 only Shaman
-
 step Level 58
   level 58
 
 step Eldrun Stormbreaker
   zone Ironforge
-  accept 97168 @47.1,13.8 map 1455 only Shaman
+  accept 97168 only Shaman
 
 step Doomguard Commander
   zone Blasted Lands
@@ -70,6 +58,14 @@ step Doomguard Commander
 step Rich Thorium Vein
   zone Western Plaguelands
   collect 12800 x1 quest 97168.1 only Shaman
+
+step Odd Totem
+  zone Tanaris
+  accept 95753 only Shaman
+
+step Odd Totem
+  zone Tanaris
+  turnin 95753 only Shaman
 
 step Eldrun Stormbreaker
   zone Ironforge
@@ -114,12 +110,21 @@ step Eldrun Stormbreaker
   zone Ironforge
   accept 94494 npc 258098 only Shaman
 
-step Norric Lochthane
-  zone Loch Modan
-  turnin 94494 only Shaman
+step Minor Manifestation of Fire
+  zone Durotar
+  collect 6655 x1 quest 94467.1 only Shaman
+
+step Brazier of the Dormant Flame
+  turnin 94467 only Shaman
+  accept 94468 only Shaman
+
+step Bruegs Kindleborn
+  zone Dun Morogh
+  turnin 94468 only Shaman
 
 step Norric Lochthane
   zone Loch Modan
+  turnin 94494 only Shaman
   accept 94495 only Shaman
 
 step Hervdana Saegrund
@@ -128,7 +133,7 @@ step Hervdana Saegrund
 
 step Eldrun Stormbreaker
   zone Ironforge
-  turnin 97168 @47.1,13.8 map 1455 only Shaman
+  turnin 97168 only Shaman
 
 step Call of Water
   only Shaman
@@ -190,19 +195,19 @@ step Call of Water
   turnin 94502 optional
 
 step Call of Water
-  only Shaman,Dwarf,Gnome
+  only Shaman,Dwarf
   zone map 1436
   accept 94503 optional
 
 step Call of Water
-  only Shaman,Dwarf,Gnome
+  only Shaman,Dwarf
   turnin 94503 optional
 
 step Call of Water
-  only Shaman,Dwarf,Gnome
+  only Shaman,Dwarf
   zone map 1421
   accept 94505 optional
 
 step Call of Water
-  only Shaman,Dwarf,Gnome
+  only Shaman,Dwarf
   turnin 94505 optional

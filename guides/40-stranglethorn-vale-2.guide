@@ -1,26 +1,26 @@
-guide completionist-alliance/38-stranglethorn-vale-2
-title 38 Stranglethorn Vale, visit 2 (40-51) (Completionist)
+guide completionist-alliance/40-stranglethorn-vale-2
+title 40 Stranglethorn Vale, visit 2 (40-53) (Completionist)
 faction Alliance
-levels 40-51
+levels 40-53
 category Leveling
 zone Stranglethorn Vale
-next completionist-alliance/39-thousand-needles-2
-pitch On along the line: Stranglethorn Vale, quests of level 40 to 51.
+next completionist-alliance/41-tanaris
+pitch On along the line: Stranglethorn Vale, quests of level 40 to 53.
 # Generated from the reference data: change the planner, not this file.
-# Routed 19 quests; estimated level at the end 41.2 (heuristic XP, class quests not counted).
-# Skipped: 3 exclusive with N.
+# Routed 23 quests; estimated level at the end 41.2 (heuristic XP, class quests not counted).
+# Skipped: 4 exclusive with N.
 
-step Gracina Spiritmight
-  when onquest 2972
-  zone map 1457
-  turnin 4267
-  turnin 2972
+step Curator Thorius
+  when onquest 3368
+  zone map 1455
+  turnin 3368
+  accept 3371
 
-step Master of the Wild Leather
-  when onquest 2853
-  when skill Leatherworking 1
+step Astarii Starseeker
+  when onquest 3378
+  when group 3378
   zone map 1457
-  turnin 2853 optional
+  turnin 3378
 
 step In Search of Galvan
   when skill Blacksmithing 1
@@ -28,15 +28,39 @@ step In Search of Galvan
   zone map 1453
   accept 2759 optional
 
-step Kindal Moonweaver
-  zone map 1444
-  accept 3841
+step Dying Archaeologist
+  when onquest 3371
+  zone map 1427
+  turnin 3371
+  accept 3372
+
+step Twilight Artifact
+  zone map 1427
+  collect 10442 x1 quest 3372.1
+
+step Altar of Suntara
+  when onquest 3372
+  zone map 1427
+  turnin 3372
+
+step Dying Archaeologist
+  when group 3566
+  zone map 1427
+  accept 3566
+
+step Lathoric the Black and Obsidion
+  when group 3566
+  tip Rise, Obsidion! is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 10447 x1 quest 3566.1
+  collect 10446 x1 quest 3566.2
 
 step Whiskey Slim
   zone map 1434
   sethome "Booty Bay"
   accept 580
   accept 621
+  turnin 1118
   accept 606
   accept 2872
   accept 348
@@ -74,13 +98,6 @@ step Stranglethorn Fever
   collect 2799 x10 anywhere optional
   turnin 349 direct optional
 
-step Fool's Stout
-  when turnedin 1122
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1434
-  collect 4016 x12 anywhere optional
-  turnin 1127 direct optional
-
 step Torn Mystical Scroll
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   zone map 1434
@@ -108,12 +125,12 @@ step Mokk the Savage
 step Elder Mistvale Gorilla
   collect 3919 x5 quest 606.1
 
-step Oglethorpe Obnoticus
-  zone map 1444
-  complete 2767 @45.6,43.4 map 1444
-  turnin 2767
+step Fin Fizracket
   turnin 348
   turnin 621
+
+step Crank Fizzlebub
+  accept 1119
   turnin 580
   turnin 617
   accept 623
@@ -206,17 +223,6 @@ step "Sea Wolf" MacKinley
   zone map 1434
   accept 613
 
-step Knaz Blunderflame
-  when group 97405
-  zone map 1434
-  accept 97405
-
-step Mosh'Ogg Warmonger
-  when group 97405
-  tip Noise Complaints is group work: elites. Grouping up is advised.
-  zone map 1434
-  kill 709 x3 quest 97405.2
-
 step Level 45
   zone map 1434
   level 45
@@ -226,13 +232,6 @@ step Half-Buried Bottle
 
 step Princess Poobah
   turnin 594
-
-step Arena Grandmaster
-  when turnedin 7810
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1434
-  collect 18706 x12 anywhere optional
-  turnin 7838 direct optional
 
 step Princess Poobah
   when group 630
@@ -250,6 +249,25 @@ step Princess Poobah
   zone map 1434
   turnin 630
 
+step Level 48
+  zone map 1434
+  level 48
+
+step Rix Xizzix
+  accept 96379
+  turnin 96379
+
+step Knaz Blunderflame
+  when group 97405
+  zone map 1434
+  accept 97405
+
+step Mosh'Ogg Warmonger
+  when group 97405
+  tip Noise Complaints is group work: elites. Grouping up is advised.
+  zone map 1434
+  kill 709 x3 quest 97405.2
+
 step Mosh'Ogg Mauler and Mosh'Ogg Shaman
   when group 97405
   tip Noise Complaints is group work: elites. Grouping up is advised.
@@ -263,8 +281,6 @@ step Mosh'Ogg Spellcrafter
   zone map 1434
   kill 710 x3 quest 97405.1
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Knaz Blunderflame
   when group 97405
   zone map 1434
@@ -273,6 +289,62 @@ step Knaz Blunderflame
 step Privateer Groy
   zone map 1445
   turnin 623
+
+step Kravel Koalbeard
+  zone map 1441
+  turnin 1119
+  accept 1120 either
+  accept 1121 either
+  turnin 1120
+  accept 1122
+
+step Get the Goblins Drunk
+  when onquest 1121
+  zone map 1441
+  turnin 1121
+
+step Level 55
+  zone map 1434
+  level 55
+
+step Avast Ye, Scallywag
+  tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.
+  accept 1036 optional
+
+step Avast Ye, Scallywag
+  when onquest 1036
+  zone map 1434
+  turnin 1036 optional
+
+step Crank Fizzlebub
+  zone map 1434
+  turnin 1122
+
+step Fool's Stout
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 4016 x12 anywhere optional
+  turnin 1127 direct optional
+
+step Avast Ye, Admiral!
+  tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.
+  accept 4621 optional
+
+step Avast Ye, Admiral!
+  when onquest 4621
+  zone map 1434
+  complete 4621 @27.2,76.9 optional
+
+step Avast Ye, Admiral!
+  when onquest 4621
+  zone map 1434
+  turnin 4621 optional
+
+step Arena Grandmaster
+  when turnedin 7810
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 18706 x12 anywhere optional
+  turnin 7838 direct optional
 
 step In Search of Galvan
   when skill Blacksmithing 1
@@ -325,6 +397,8 @@ step The Great Silver Deceiver
   zone map 1434
   turnin 2762 optional
 
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
 step The Art of the Imbue
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -343,8 +417,6 @@ step Expert Blacksmith!
   zone map 1434
   accept 2765 optional
   complete 2765 @50.6,20.5 optional
-
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Expert Blacksmith!
   when skill Blacksmithing 1
@@ -398,26 +470,20 @@ step The Captain's Chest
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Rescue OOX-22/FE!
-  when onquest 2767
+step Back to Booty Bay
+  when onquest 1118
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1434
-  turnin 2767 optional
+  turnin 1118 optional
 
-step Master of the Wild Leather
-  when onquest 2853
+step Suntara Stones
+  when onquest 3368
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 3368 optional
+
+step Prayer to Elune
+  when onquest 3378
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1457
-  turnin 2853 optional
-
-step Doling Justice
-  when onquest 2972
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 2972 optional
-
-step Rise of the Silithid
-  when onquest 4267
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 4267 optional
+  turnin 3378 optional

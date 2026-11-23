@@ -8,8 +8,8 @@ zone Durotar
 why Every Rogue class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Rogue quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 23 quests; estimated level at the end 15.9 (heuristic XP).
-# Skipped: 4 objective N (item N) outside the zones; 4 prerequisite N not in this route; 3 exclusive with N.
+# Routed 26 quests; estimated level at the end 16.6 (heuristic XP).
+# Skipped: 7 prerequisite N not in this route; 3 exclusive with N; 1 objective N (item N) outside the zones.
 
 step Keryn Sylvius
   zone map 1429
@@ -197,8 +197,11 @@ step Lucius
 
 step Fahrad
   zone map 1416
+  accept 80453 only Rogue
   accept 80526 only Rogue
   turnin 80526 only Rogue
+  turnin 80453 only Rogue
+  accept 80454 only Rogue
   turnin 8233 only Rogue
   accept 8234 only Rogue
 
@@ -296,26 +299,23 @@ step Covert Extraction
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 96782 @84.9,80.4 optional
 
-step Syndicate Sabotage
-  only Rogue
-  zone map 1416
-  turnin 96779 optional
-
-step Covert Extraction
-  only Rogue
-  zone map 1416
-  turnin 96782 optional
-
 step Timbermaw Shaman
   zone map 1447
   collect 19775 x1 quest 8234.1 only Rogue
 
-step Archmage Xylem
-  turnin 8234 only Rogue
-  accept 8235 only Rogue
-
 step Level 58
   level 58
+
+step Geologist Larksbane
+  when turnedin 8315
+  zone map 1451
+  accept 8378 only Rogue
+  turnin 8378 only Rogue
+
+step Archmage Xylem
+  zone map 1451
+  turnin 8234 only Rogue
+  accept 8235 only Rogue
 
 step Deliana
   zone map 1455
@@ -333,23 +333,39 @@ step Deliana
   zone map 1455
   turnin 8910 only Rogue
 
-step Level 58
-  level 58
-
-step Geologist Larksbane
-  when turnedin 8315
-  zone map 1451
-  accept 8378 only Rogue
-  turnin 8378 only Rogue
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Forest Ooze
-  zone map 1451
   collect 20023 x10 quest 8235.1 only Rogue
 
 step Archmage Xylem
   turnin 8235 only Rogue
+
+step Dead Drop
+  zone map 1421
+  turnin 80454 only Rogue
+  accept 80455 only Rogue
+
+step The Eye of Bhossca
+  only Rogue
+  when turnedin 78676
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1421
+  turnin 78699 direct @47.1,71.0 map 1421 optional
+
+step Fahrad
+  zone map 1416
+  turnin 80455 only Rogue
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Covert Extraction
+  only Rogue
+  zone map 1416
+  turnin 96782 optional
+
+step Syndicate Sabotage
+  only Rogue
+  zone map 1416
+  turnin 96779 optional
 
 step Erion's Behest
   only Rogue

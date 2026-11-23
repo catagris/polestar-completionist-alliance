@@ -8,7 +8,7 @@ next completionist-alliance/dungeon-the-drowned-city
 next completionist-alliance/34-odd-jobs-in-the-eastern-kingdoms-2
 pitch On along the line: Stranglethorn Vale, quests of level 30 to 46.
 # Generated from the reference data: change the planner, not this file.
-# Routed 84 quests; estimated level at the end 36.7 (heuristic XP, class quests not counted).
+# Routed 83 quests; estimated level at the end 36.6 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N (done).
 
 step Gerrig Bonegrip
@@ -51,10 +51,6 @@ step Partial Mystical Notes
   zone map 1434
   turnin 95384 direct @28.3,76.3 map 1434
 
-step State Secrets
-  zone map 1434
-  accept 96379 optional
-
 step A Special Gift
   when available 60870
   tip One of several exclusive quests; the route takes Your Reward has Arrived! (60860). This one shows for a character the game offers it to instead.
@@ -64,15 +60,7 @@ step A Special Gift
 step Caravaneer Ruzzgot
   zone map 1434
   accept 1041
-  accept 95322
-  turnin 95322
-  accept 95325
   accept 1181
-
-step State Secrets
-  when onquest 96379
-  zone map 1434
-  turnin 96379 optional
 
 step A Special Gift
   when onquest 60870
@@ -104,15 +92,33 @@ step Barnil Stonepot
   accept 583
   turnin 583
   accept 194
-  accept 78830
   accept 185
-  accept 190
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 339
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 340
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 341
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 342
 
 step Terror of the Desert Skies
-  when has 211269
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  when turnedin 78823
   zone map 1434
-  turnin 78823 direct @35.7,10.8 map 1434
+  accept 78830
+  complete 78830 @35.7,10.8
 
 step The Green Hills of Stranglethorn
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -120,20 +126,17 @@ step The Green Hills of Stranglethorn
   accept 338
   complete 338 @35.7,10.5
 
-step Barnil Stonepot
-  accept 339
-  accept 340
-  accept 341
-  accept 342
+step Terror of the Desert Skies
+  when onquest 78830
+  zone map 1434
+  turnin 78830
+
+step Sir S. J. Erlgadin
+  zone map 1434
+  accept 190
 
 step The Green Hills of Stranglethorn
   turnin 338
-
-step Young Stranglethorn Tiger
-  kill 681 x10 quest 185.1
-
-step Stranglethorn Raptor
-  kill 685 x10 quest 194.1
 
 step Level 32
   level 32
@@ -159,79 +162,24 @@ step Kebok
 step Venture Co. Geologist
   collect 4106 x8 quest 213.1
 
-step Bloodscalp Axe Thrower
-  collect 1519 x15 quest 189.1
-
-step Lord Sakrasis
-  collect 2732 x1 quest 339.4
-
-step Negolash
-  collect 2738 x1 quest 340.3
-  collect 2749 x1 quest 342.1
-
-step Roloch
-  collect 2742 x1 quest 341.1
-  collect 2748 x1 quest 341.4
-  collect 2750 x1 quest 342.2
-  collect 2751 x1 quest 342.3
-
-step Gluggle
-  collect 2725 x1 quest 339.1
-  collect 2728 x1 quest 339.2
-
-step Young Panther
-  kill 683 x10 quest 190.1
-
-step Bookie Herod
-  collect 2730 x1 quest 339.3
-  collect 2734 x1 quest 340.1
-  collect 2735 x1 quest 340.2
-  collect 2740 x1 quest 340.4
-  collect 2744 x1 quest 341.2
-  collect 2745 x1 quest 341.3
-
-step Gharrik
-  zone map 1418
-  collect 211293 x1 quest 78830.1
-
-step Clerk Daltry
-  zone map 1431
-  turnin 1041
-  accept 1042
-
-step Jonathan Carevin
-  turnin 1042
-  accept 1043
-
-step Mound of Dirt
-  interact 19030 quest 1043.1
-
-step Jonathan Carevin
-  turnin 1043
-  accept 1044
-
-step Lieutenant Doren
-  zone map 1434
-  turnin 215
-  accept 200
-
-step Barnil Stonepot
-  turnin 339
-  turnin 340
-  turnin 341
-  turnin 342
-  turnin 185
-  accept 186
-  turnin 190
-  accept 191
-
-step Hemet Nesingwary
-  turnin 194
-  turnin 78830
-  accept 195
-
 step Level 36
   level 36
+
+step Caravaneer Ruzzgot
+  accept 95322
+  turnin 95322
+
+step Caravaneer Ruzzgot
+  accept 95325
+
+step Young Stranglethorn Tiger
+  kill 681 x10 quest 185.1
+
+step Stranglethorn Raptor
+  kill 685 x10 quest 194.1
+
+step Bloodscalp Axe Thrower
+  collect 1519 x15 quest 189.1
 
 step Lost Shipping Crate
   when available 93443
@@ -239,15 +187,114 @@ step Lost Shipping Crate
   zone map 1434
   accept 93443 optional
 
-step Stranglethorn Tiger
+step Lord Sakrasis
+  when onquest 338
   zone map 1434
-  kill 682 x10 quest 186.1
+  collect 2732 x1 quest 339.4
+
+step Negolash
+  when onquest 338
+  zone map 1434
+  collect 2738 x1 quest 340.3
+
+step Negolash
+  when onquest 338
+  zone map 1434
+  collect 2749 x1 quest 342.1
+
+step Roloch
+  when onquest 338
+  zone map 1434
+  collect 2742 x1 quest 341.1
+  collect 2748 x1 quest 341.4
+
+step Roloch
+  when onquest 338
+  zone map 1434
+  collect 2750 x1 quest 342.2
+  collect 2751 x1 quest 342.3
+
+step Gluggle
+  when onquest 338
+  zone map 1434
+  collect 2725 x1 quest 339.1
+  collect 2728 x1 quest 339.2
+
+step Young Panther
+  zone map 1434
+  kill 683 x10 quest 190.1
+
+step Bookie Herod
+  when onquest 338
+  zone map 1434
+  collect 2730 x1 quest 339.3
+
+step Bookie Herod
+  when onquest 338
+  zone map 1434
+  collect 2734 x1 quest 340.1
+  collect 2735 x1 quest 340.2
+  collect 2740 x1 quest 340.4
+
+step Bookie Herod
+  when onquest 338
+  zone map 1434
+  collect 2744 x1 quest 341.2
+  collect 2745 x1 quest 341.3
+
+step Wendel Mathers
+  zone map 1434
+  accept 97047
+
+step Kurzen Subchief
+  collect 216616 x1 quest 97047.1
+
+step Kurzen Supply Crate
+  collect 216617 x1 quest 97047.2
+
+step Wendel Mathers
+  turnin 97047
+  accept 97048
+
+step Barnil Stonepot
+  turnin 185
+  accept 186
+  turnin 190
+  accept 191
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  turnin 339
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  turnin 340
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  turnin 341
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  turnin 342
+
+step Hemet Nesingwary
+  zone map 1434
+  turnin 194
+  accept 195
+
+step Lashtail Raptor
+  kill 686 x10 quest 195.1
 
 step Panther
   kill 736 x10 quest 191.1
 
-step Lashtail Raptor
-  kill 686 x10 quest 195.1
+step Stranglethorn Tiger
+  kill 682 x10 quest 186.1
 
 step Thoroughly Scavenged Supplies
   accept 97328
@@ -289,69 +336,16 @@ step Venture Co. Ledger
 step Venture Co. Agent
   collect 268810 x1 quest 95326.1
 
-step Bookie Herod's Records
-  turnin 200
-  accept 328
-  accept 97047
+step Hemet Nesingwary
+  turnin 196
 
-step Kurzen Subchief
-  collect 216616 x1 quest 97047.1
-
-step Bookie Herod's Strongbox
-  turnin 328
-  accept 329
-
-step Kurzen Supply Crate
-  collect 216617 x1 quest 97047.2
-
-step Wendel Mathers
-  turnin 97047
-  accept 97048
-
-step Sergeant Yohwa
-  accept 203
-  accept 204
-  turnin 329
-  accept 330
-  turnin 330
-  accept 331
-  turnin 331
-  accept 210
-
-step Kurzen Supplies
-  collect 2634 x1 quest 204.2
-
-step Kurzen Jungle Fighter
-  kill 937 x15 quest 203.1
-
-step Kurzen Witch Doctor
-  collect 2633 x7 quest 204.1
-
-step Sergeant Yohwa
-  turnin 203
-  turnin 204
-  accept 574
-  accept 207
-
-step Kurzen Headshrinker
-  kill 941 x6 quest 574.2
-
-step Kurzen Commando
-  kill 938 x10 quest 574.1
-
-step Moon Over the Vale
-  collect 2005 x1 quest 207.1
-
-step Gri'lek the Wanderer
-  collect 2006 x1 quest 207.2
-
-step Fall of Gurubashi
-  collect 2007 x1 quest 207.3
-
-step The Emperor's Tomb
-  collect 2008 x1 quest 207.4
+step Hemet Nesingwary
+  when group 197
+  zone map 1434
+  accept 197
 
 step Ajeck Rouack
+  zone map 1434
   turnin 187
   accept 188
   turnin 192
@@ -360,15 +354,6 @@ step Sir S. J. Erlgadin
   when group 193
   zone map 1434
   accept 193
-
-step Hemet Nesingwary
-  zone map 1434
-  turnin 196
-
-step Hemet Nesingwary
-  when group 197
-  zone map 1434
-  accept 197
 
 step Sin'Dall
   zone map 1434
@@ -385,6 +370,13 @@ step Bhag'thera
   tip Panther Mastery is group work: elites. Grouping up is advised.
   zone map 1434
   collect 3876 x1 quest 193.1
+
+step Gnaz Blunderflame
+  zone map 1434
+  accept 97420
+
+step Venture Co. Mechanic
+  collect 277986 x4 quest 97420.1
 
 step Hemet Nesingwary
   when group 197
@@ -413,18 +405,70 @@ step King Bangalash
 
 step Gnaz Blunderflame
   zone map 1434
-  accept 97420
-
-step Venture Co. Mechanic
-  collect 277986 x4 quest 97420.1
+  turnin 97420
 
 step Hemet Nesingwary
   when group 208
   zone map 1434
   turnin 208
 
-step Brother Nimetz
+step Corporal Kaleb
   zone map 1434
+  accept 210
+  accept 203
+  accept 204
+  turnin 215
+  accept 200
+
+step Kurzen Witch Doctor
+  collect 2633 x7 quest 204.1
+
+step Kurzen Jungle Fighter
+  kill 937 x15 quest 203.1
+
+step Kurzen Supplies
+  collect 2634 x1 quest 204.2
+
+step Bookie Herod's Records
+  turnin 200
+  accept 328
+
+step Bookie Herod's Strongbox
+  turnin 328
+  accept 329
+
+step Sergeant Yohwa
+  turnin 203
+  turnin 204
+  accept 574
+  turnin 329
+  accept 330
+  turnin 330
+  accept 331
+  accept 207
+
+step Lieutenant Doren
+  turnin 331
+
+step Kurzen Headshrinker
+  kill 941 x6 quest 574.2
+
+step Kurzen Commando
+  kill 938 x10 quest 574.1
+
+step Moon Over the Vale
+  collect 2005 x1 quest 207.1
+
+step Gri'lek the Wanderer
+  collect 2006 x1 quest 207.2
+
+step Fall of Gurubashi
+  collect 2007 x1 quest 207.3
+
+step The Emperor's Tomb
+  collect 2008 x1 quest 207.4
+
+step Brother Nimetz
   turnin 207
   accept 205
   turnin 574
@@ -456,11 +500,8 @@ step Kurzen Subchief
   zone map 1434
   kill 978 x4 quest 202.2
 
-step Gnaz Blunderflame
-  zone map 1434
-  turnin 97420
-
 step Brother Nimetz
+  zone map 1434
   turnin 205
   accept 95786
 
@@ -484,6 +525,22 @@ step Brother Nimetz
   when group 206
   zone map 1434
   turnin 206
+
+step Clerk Daltry
+  zone map 1431
+  turnin 1041
+  accept 1042
+
+step Jonathan Carevin
+  turnin 1042
+  accept 1043
+
+step Mound of Dirt
+  interact 19030 quest 1043.1
+
+step Jonathan Carevin
+  turnin 1043
+  accept 1044
 
 step Cold Eye Basilisk
   zone map 1434
@@ -657,6 +714,8 @@ step Elder Saltwater Crocolisk
   zone map 1434
   collect 4105 x1 quest 628.1
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Drizzlik
   when group 628
   zone map 1434
@@ -670,6 +729,18 @@ step Kravel Koalbeard
   zone map 1441
   turnin 1117
   turnin 1183
+
+step Terror of the Desert Skies
+  tip Primitive Drawing drops from Dustbelcher Ogre, Dustbelcher Brute, Dustbelcher Wyrmhunter: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1418
+  collect 211269 x1 optional
+  accept 78823 item 211269 optional
+  complete 78823 @35.7,10.8
+
+step Terror of the Desert Skies
+  when onquest 78823
+  zone map 1434
+  turnin 78823
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

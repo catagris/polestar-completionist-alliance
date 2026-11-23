@@ -1,54 +1,19 @@
-guide completionist-alliance/44-burning-steppes
-title 44 Burning Steppes (50-60) (Completionist)
+guide completionist-alliance/46-burning-steppes
+title 46 Burning Steppes (50-60) (Completionist)
 faction Alliance
 levels 50-60
 category Leveling
 zone Burning Steppes
 next completionist-alliance/dungeon-blackrock-depths
-next completionist-alliance/45-blasted-lands
+next completionist-alliance/47-odd-jobs-in-kalimdor-3
 pitch On along the line: Burning Steppes, quests of level 50 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 10 quests; estimated level at the end 50.6 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N (done).
 
-step Curator Thorius
-  when onquest 3368
+step Royal Historian Archesonus
   zone map 1455
-  turnin 3368
-  accept 3371
-
-step Astarii Starseeker
-  when onquest 3378
-  when group 3378
-  zone map 1457
-  turnin 3378
-
-step Dying Archaeologist
-  when onquest 3371
-  zone map 1427
-  turnin 3371
-  accept 3372
-
-step Twilight Artifact
-  zone map 1427
-  collect 10442 x1 quest 3372.1
-
-step Altar of Suntara
-  when onquest 3372
-  zone map 1427
-  turnin 3372
-
-step Dying Archaeologist
-  when group 3566
-  zone map 1427
-  accept 3566
-
-step Lathoric the Black and Obsidion
-  when group 3566
-  tip Rise, Obsidion! is group work: elites. Grouping up is advised.
-  zone map 1427
-  collect 10447 x1 quest 3566.1
-  collect 10446 x1 quest 3566.2
+  accept 3701
 
 step Oralius
   zone map 1428
@@ -171,17 +136,3 @@ step A Taste of Flame
 step Felnok Steelspring
   zone map 1452
   turnin 4808
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step Suntara Stones
-  when onquest 3368
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 3368 optional
-
-step Prayer to Elune
-  when onquest 3378
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 3378 optional

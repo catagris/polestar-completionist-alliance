@@ -1,10 +1,10 @@
-guide completionist-alliance/50-ungoro-crater
-title 50 Un'Goro Crater (50-55) (Completionist)
+guide completionist-alliance/51-ungoro-crater
+title 51 Un'Goro Crater (50-55) (Completionist)
 faction Alliance
 levels 50-55
 category Leveling
 zone Un'Goro Crater
-next completionist-alliance/51-moonglade
+next completionist-alliance/52-moonglade
 pitch On along the line: Un'Goro Crater, quests of level 50 to 55.
 # Generated from the reference data: change the planner, not this file.
 # Routed 23 quests; estimated level at the end 51.3 (heuristic XP, class quests not counted).
@@ -231,6 +231,17 @@ step Williden's Journal
 step Gregan Brewspewer
   zone map 1444
   turnin 4142
+
+step Tiala Whitemane
+  zone map 2482
+  turnin 92020
+
+step Donova Snowden
+  zone map 1452
+  turnin 980
+
+step Donova Snowden
+  turnin 3908
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

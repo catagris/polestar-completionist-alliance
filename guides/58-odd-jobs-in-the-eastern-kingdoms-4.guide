@@ -1,14 +1,14 @@
-guide completionist-alliance/60-odd-jobs-in-the-eastern-kingdoms-4
-title 60 Odd jobs in the Eastern Kingdoms, visit 4 (58-60) (Completionist)
+guide completionist-alliance/58-odd-jobs-in-the-eastern-kingdoms-4
+title 58 Odd jobs in the Eastern Kingdoms, visit 4 (58-60) (Completionist)
 faction Alliance
 levels 58-60
 category Leveling
 zone Stranglethorn Vale
-next completionist-alliance/61-swamp-of-sorrows-2
+next completionist-alliance/59-swamp-of-sorrows-2
 pitch On along the line: errands across the Eastern Kingdoms, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 4 quests; estimated level at the end 58.1 (heuristic XP, class quests not counted).
-# Skipped: 2 prerequisite N not in this route.
+# Skipped: 2 prerequisite N not in this route; 1 no turn-in in data.
 
 step Mistina Steelshield
   when onquest 7805
@@ -46,8 +46,6 @@ step Deliana
   zone map 1455
   turnin 8937
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Deliana
   only Priest
   when complete 8934
@@ -60,10 +58,23 @@ step Deliana
   zone map 1455
   turnin 8935
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Pix Xizzix
   zone map 1434
   accept 83934
   turnin 83934
+
+step Level 60
+  level 60
+
+step In Demand - Blackrock Legal Records
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 96075
+  complete 96075 @28.5,75.9
+
+step In Demand - Blackrock Legal Records
+  turnin 96075
 
 step Night Watch Guard
   zone map 1431
@@ -88,16 +99,9 @@ step Shipping Label
   zone map 1433
   turnin 98247
 
-step Veteran of the Third War
-  zone map 2482
-  turnin 93551 @27.5,50.9 map 2482
-
-step Level 60
-  zone map 1417
-  level 60
-
 step Arathi Basin Resources!
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
   accept 8297
   complete 8297 @45.9,45.3
 

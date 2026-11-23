@@ -88,26 +88,26 @@ step Jennea Cannon
   accept 1953 npc 5497 only Mage
 
 step High Sorcerer Andromath
-  accept 1938 only Human,Gnome
+  accept 1938 only Human,Gnome,Skyborne
 
 step Ur's Treatise on Shadow Magic
   zone map 1433
-  collect 7266 x1 quest 1938.1 only Human,Gnome
+  collect 7266 x1 quest 1938.1 only Human,Gnome,Skyborne
 
 step High Sorcerer Andromath
   zone map 1453
-  turnin 1938 only Human,Gnome
+  turnin 1938 only Human,Gnome,Skyborne
 
 step High Sorcerer Andromath
-  accept 1940 only Human,Gnome
+  accept 1940 only Human,Gnome,Skyborne
 
 step Carrion Recluse
   zone map 1431
-  collect 7267 x8 quest 1940.1 only Human,Gnome
+  collect 7267 x8 quest 1940.1 only Human,Gnome,Skyborne
 
 step Wynne Larson
   zone map 1453
-  turnin 1940 only Human,Gnome
+  turnin 1940 only Human,Gnome,Skyborne
 
 step Wynne Larson
   accept 1942 only Human,Gnome
@@ -120,19 +120,19 @@ step Jennea Cannon
 step High Sorcerer Andromath
   turnin 1939 only Human,Gnome
   turnin 1920 only Human,Gnome,Skyborne
-  accept 1921 only Human,Gnome
+  accept 1921 only Human,Gnome,Skyborne
 
 step Adam Lind
   zone map 1437
-  collect 2589 x10 quest 1921.1 only Human,Gnome
+  collect 2589 x10 quest 1921.1 only Human,Gnome,Skyborne
 
 step Miners' League Crates
   zone map 1432
-  collect 7249 x6 quest 1921.2 only Human,Gnome
+  collect 7249 x6 quest 1921.2 only Human,Gnome,Skyborne
 
 step Wynne Larson
   zone map 1453
-  turnin 1921 only Human,Gnome
+  turnin 1921 only Human,Gnome,Skyborne
   accept 1941 only Human,Gnome
   turnin 1941 only Human,Gnome
 
@@ -301,7 +301,7 @@ step Archmage Xylem
   accept 9364 only Mage
 
 step Archmage Xylem
-  kill 16479 x50 quest 9364.1 only Mage
+  complete 9364 only Mage
   turnin 9364 only Mage
 
 step Atiesh, Greatstaff of the Guardian

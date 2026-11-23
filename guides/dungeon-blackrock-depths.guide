@@ -407,6 +407,12 @@ step The Heart of the Mountain
   zone map 1428
   turnin 4123 optional
 
+step Ragnar Thunderbrew
+  when onquest 4128
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 4128 optional
+
 step The Good Stuff
   when onquest 4286
   tip Still in your log from an earlier guide: hand it in now.

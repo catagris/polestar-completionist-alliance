@@ -8,8 +8,8 @@ zone Durotar
 why Every Paladin class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Paladin quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 29 quests; estimated level at the end 22.0 (heuristic XP).
-# Skipped: 18 prerequisite N not in this route; 5 exclusive with N; 2 objective N (item N) outside the zones.
+# Routed 35 quests; estimated level at the end 23.5 (heuristic XP).
+# Skipped: 18 prerequisite N not in this route; 5 exclusive with N; 1 objective N (item N) outside the zones.
 
 step Lord Grayson Shadowbreaker
   accept 3000 only Dwarf
@@ -23,23 +23,7 @@ step Aeonas the Vindicated
 
 step Katherine the Pure
   zone Durotar
-  accept 96476 @48.5,49.1 map 1453 only Paladin
-
-step Aeonas the Vindicated
-  zone Felwood
-  complete 96476 @43,57.0 map 1448 only Paladin
-  turnin 96476 @45,52.2 map 1448 only Paladin
-
-step Materials of Significance
-  only Paladin
-  zone map 1448
-  accept 81790 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 81790 @44.7,52.0 optional
-
-step Materials of Significance
-  only Paladin
-  turnin 81790 optional
+  accept 96476 only Paladin
 
 step Level 50
   level 50
@@ -61,7 +45,18 @@ step Lord Grayson Shadowbreaker
 
 step Lord Grayson Shadowbreaker
   zone Durotar
-  accept 7641 only Human,Dwarf
+  accept 7637 only Human,Dwarf
+
+step Aeonas the Vindicated
+  zone Felwood
+  accept 82135 only Paladin
+
+step Materials of Significance
+  only Paladin
+  zone map 1448
+  accept 81790 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 81790 @44.7,52.0 optional
 
 step Strange Orb
   zone Darkshore
@@ -71,25 +66,41 @@ step Delgren the Purifier
   zone Ashenvale
   turnin 78088 only Paladin
 
-step Shattered Orb
-  zone Felwood
-  accept 78093 only Human,Dwarf
+step Broken Warhammer
+  zone Desolace
+  accept 79939 only Paladin
 
-step Delgren the Purifier
-  zone Felwood
-  turnin 78093 only Human,Dwarf
+step Geologist Larksbane
+  when turnedin 8315
+  zone Silithus
+  accept 8376 only Paladin
+  turnin 8376 only Paladin
 
 step Delgren the Purifier
   zone Ashenvale
   accept 78089 only Paladin
 
-step Lord Grayson Shadowbreaker
-  zone Durotar
-  accept 7637 only Human,Dwarf
+step Aeonas the Vindicated
+  zone Felwood
+  accept 81885 only Paladin
+  turnin 81885 only Paladin
+
+step Materials of Significance
+  only Paladin
+  turnin 81790 optional
+
+step Aeonas the Vindicated
+  zone Felwood
+  complete 96476 @43.0,57.1 map 1448 only Paladin
+  turnin 96476 only Paladin
 
 step Katherine the Pure
   zone Durotar
   accept 96438 only Paladin
+
+step Broken Warhammer
+  zone Desolace
+  turnin 96438 only Paladin
 
 step Katherine the Pure
   zone Durotar
@@ -98,17 +109,6 @@ step Katherine the Pure
 step Katherine the Pure
   zone Stormwind City
   turnin 81762 only Paladin
-
-step Broken Warhammer
-  zone Desolace
-  turnin 96438 only Paladin
-  accept 79939 only Paladin
-
-step Geologist Larksbane
-  when turnedin 8315
-  zone Silithus
-  accept 8376 only Paladin
-  turnin 8376 only Paladin
 
 step Elrick
   zone Dustwallow Marsh
@@ -121,9 +121,24 @@ step Commander Ashlam Valorfist
   turnin 8415 only Human,Dwarf
   accept 8414 only Human,Dwarf
 
-step Dark Summoner
+step Rotting Dwarf Corpse
   zone Eastern Plaguelands
+  accept 84414 only Paladin
+  turnin 84414 only Paladin
+  accept 84332 only Paladin
+  turnin 84332 only Paladin
+
+step Dark Summoner
   collect 12840 x20 quest 8414.1 only Human,Dwarf
+
+step Orthas
+  accept 84318 only Human,Dwarf
+
+step Orthas' Hammer
+  collect 227686 x1 quest 84318.1 only Human,Dwarf
+
+step Orthas
+  turnin 84318 only Human,Dwarf
 
 step High Priest Thel'danis
   zone Western Plaguelands
@@ -133,9 +148,13 @@ step High Priest Thel'danis
 step Commander Ashlam Valorfist
   turnin 8416 only Human,Dwarf
 
+step Brave Stonetorch
+  zone Hillsbrad Foothills
+  accept 81944 only Paladin
+  turnin 81944 only Paladin
+
 step Merideth Carlson
   when onquest 7643
-  zone Hillsbrad Foothills
   accept 7645 only Human,Dwarf
 
 step Argent Quartermaster Hasana
@@ -151,19 +170,19 @@ step Harold Riggs
   zone Wetlands
   accept 96449 only Paladin
 
-step Brandur Ironhammer
+step High Priest Rohan
   zone Ironforge
-  accept 4486 only Human,Dwarf
   turnin 7637 only Human,Dwarf
   accept 7639 only Human,Dwarf
   turnin 3000 only Dwarf
+  accept 4485 only Human,Dwarf
 
 step The Tome of Nobility
   only Paladin,Human,Dwarf
-  when available 4485
-  tip One of several exclusive quests; the route takes The Tome of Nobility (4486). This one shows for a character the game offers it to instead.
+  when available 4486
+  tip One of several exclusive quests; the route takes The Tome of Nobility (4485). This one shows for a character the game offers it to instead.
   zone map 1455
-  accept 4485 optional
+  accept 4486 optional
 
 step Tome of Divinity
   only Paladin,Human
@@ -194,6 +213,39 @@ step Slain Scarlet Crusader
   zone Dun Morogh
   turnin 96449 only Paladin
 
+step Duthorian Rall
+  turnin 4485 only Human,Dwarf
+  accept 1661 only Human,Dwarf
+  turnin 1661 only Human,Dwarf
+
+step The Tome of Nobility
+  only Paladin,Human,Dwarf
+  when onquest 4486
+  zone map 1453
+  turnin 4486 optional
+
+step Tome of Divinity
+  only Paladin,Human
+  when onquest 3681
+  zone map 1453
+  turnin 3681 optional
+
+step Katherine the Pure
+  turnin 78089 only Paladin
+  turnin 79939 only Paladin
+  turnin 82135 only Paladin
+  accept 78090 only Human,Dwarf
+  accept 79940 only Human,Dwarf
+  turnin 79940 only Human,Dwarf
+
+step Lord Grayson Shadowbreaker
+  only Paladin
+  turnin 7670 optional
+
+step Lord Grayson Shadowbreaker
+  turnin 7639 only Human,Dwarf
+  accept 7640 only Human,Dwarf
+
 step Tome of Divinity
   only Paladin,Dwarf
   when available 2997
@@ -207,8 +259,16 @@ step Tome of Divinity
   zone map 1455
   turnin 2997 optional
 
-step Grimand Elmore
+step Terrordale Spirit
+  zone Eastern Plaguelands
+  kill 14564 x25 quest 7640.1 only Human,Dwarf
+
+step Lord Grayson Shadowbreaker
   zone Stormwind City
+  turnin 7640 only Human,Dwarf
+  accept 7641 only Human,Dwarf
+
+step Grimand Elmore
   turnin 7641 only Human,Dwarf
 
 step Grimand's Finest Work
@@ -217,60 +277,11 @@ step Grimand's Finest Work
   zone map 1453
   accept 7648 optional
 
-step Duthorian Rall
-  turnin 4486 only Human,Dwarf
-  accept 1661 only Human,Dwarf
-  turnin 1661 only Human,Dwarf
-  turnin 78089 only Paladin
-  turnin 79939 only Paladin
-  accept 78090 only Human,Dwarf
-  accept 79940 only Paladin
-  turnin 79940 only Paladin
-
 step Grimand's Finest Work
   only Paladin,Human,Dwarf
   when onquest 7648
   zone map 1453
   turnin 7648 optional
-
-step The Tome of Nobility
-  only Paladin,Human,Dwarf
-  when onquest 4485
-  zone map 1453
-  turnin 4485 optional
-
-step Tome of Divinity
-  only Paladin,Human
-  when onquest 3681
-  zone map 1453
-  turnin 3681 optional
-
-step Lord Grayson Shadowbreaker
-  only Paladin
-  turnin 7670 optional
-
-step Lord Grayson Shadowbreaker
-  turnin 7639 only Human,Dwarf
-  accept 7640 only Human,Dwarf
-
-step Terrordale Spirit
-  zone Eastern Plaguelands
-  kill 14564 x25 quest 7640.1 only Human,Dwarf
-
-step Oi!
-  only Paladin
-  zone map 1423
-  accept 84318 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 84318 @24.3,69.1 optional
-
-step Oi!
-  only Paladin
-  turnin 84318 optional
-
-step Lord Grayson Shadowbreaker
-  zone Stormwind City
-  turnin 7640 only Human,Dwarf
 
 step Ursula Deline
   turnin 78090 only Human,Dwarf
@@ -296,6 +307,10 @@ step Mannoroc Lasher
 step Spear of Mannoroth
   zone Ashenvale
   turnin 78092 only Human,Dwarf
+  accept 78093 only Human,Dwarf
+
+step Delgren the Purifier
+  turnin 78093 only Human,Dwarf
 
 step Duthorian Rall
   zone Stormwind City
@@ -509,29 +524,14 @@ step The Test of Righteousness
   turnin 1653 optional
 
 step By The Light's Grace
-  only Paladin
-  when turnedin 79946
+  only Paladin,Human,Dwarf
   tip The giver stands inside the instance: the arrow leads to its entrance.
   zone map 1420
   accept 79963 @85.2,31.3 optional
 
 step By The Light's Grace
-  only Paladin
-  when turnedin 79946
+  only Paladin,Human,Dwarf
   when onquest 79963
   tip The hand-in is inside the instance: the arrow leads to its entrance.
   zone map 1420
   turnin 79963 @85.2,31.3 optional
-
-step Aeonas the Vindicated
-  only Paladin
-  when turnedin 79963
-  tip The giver stands inside the instance: the arrow leads to its entrance.
-  zone map 1420
-  accept 79970 @85.2,31.3 optional
-
-step Aeonas the Vindicated
-  only Paladin
-  when onquest 79970
-  zone map 1453
-  turnin 79970 optional

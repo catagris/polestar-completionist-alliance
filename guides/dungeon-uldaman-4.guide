@@ -4,7 +4,7 @@ faction Alliance
 category Dungeons
 levels 35-47
 zone Badlands
-next completionist-alliance/40-tanaris
+next completionist-alliance/38-odd-jobs-in-the-eastern-kingdoms-3
 pitch Uldaman, in Badlands.
 why Every Alliance quest of Uldaman: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
@@ -13,12 +13,21 @@ step Advisor Belgrum
   turnin 1139
 
 step Talvash del Kissel
+  when turnedin 2201
   accept 3375
+
+step Talvash del Kissel
+  when turnedin 2201
   accept 2204
 
 step Inside Uldaman, again
+  when turnedin 2201
   zone map 1418
   complete 3375 @67.8,44.4
+
+step Inside Uldaman, again
+  when turnedin 2201
+  zone map 1418
   complete 2204 @67.8,44.4
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.

@@ -52,7 +52,7 @@ step Sprite Jumpsprocket
   turnin 97234
   accept 97237
 
-step Field Accounts of Horde Razings, Trollbane Conquests, The Forsaken Ally and Cycles of Morality
+step Field Accounts of Horde Razings, Trollbane Conquests, The Forsaken Ally and Highback Chair
   collect 277196 x1 quest 97237.1
   collect 277194 x1 quest 97237.2
   collect 277195 x1 quest 97237.3
@@ -151,6 +151,10 @@ step Lord Ello Ebonlocke
   when onquest 145
   zone map 1431
   turnin 145
+
+step Fishing Hut
+  zone map 1422
+  collect 6529 x1 quest 95065.1
 
 step Ziggurat Protector
   zone map 1423

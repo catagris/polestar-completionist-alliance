@@ -8,7 +8,7 @@ zone Durotar
 why Every Hunter class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Hunter quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 21 quests; estimated level at the end 13.6 (heuristic XP).
+# Routed 23 quests; estimated level at the end 14.7 (heuristic XP).
 # Skipped: 7 exclusive with N; 3 prerequisite N not in this route.
 
 step Jocaste
@@ -69,13 +69,6 @@ step Josephine Carson
   turnin 94792 only Hunter
   accept 94863 only Hunter
 
-step Gray Forest Wolf
-  kill 1922 x1 quest 94863.1 only Hunter
-
-step Josephine Carson
-  turnin 94863 only Hunter
-  accept 94864 only Hunter
-
 step Level 50
   level 50
 
@@ -111,6 +104,18 @@ step Ogtinc
   zone Darnassus
   turnin 8231 only Hunter
 
+step Pratt McGrubben
+  zone Feralas
+  accept 82657 only Hunter,Rogue,Druid
+  turnin 82657 only Hunter,Rogue,Druid
+
+step Gray Forest Wolf
+  kill 1922 x1 quest 94863.1 only Hunter
+
+step Josephine Carson
+  turnin 94863 only Hunter
+  accept 94864 only Hunter
+
 step Young Forest Bear
   kill 822 x1 quest 94864.1 only Hunter
 
@@ -118,6 +123,16 @@ step Josephine Carson
   turnin 94864 only Hunter
   accept 94793 only Hunter
   turnin 94793 only Hunter
+
+step Bloodmage Lynnore
+  zone Blasted Lands
+  accept 81919 only Hunter,Druid
+
+step Calefactus the Unleashed
+  collect 220213 x1 quest 81919.1 only Hunter,Druid
+
+step Bloodmage Lynnore
+  turnin 81919 only Hunter,Druid
 
 step Olmin Burningbeard
   zone Ironforge
@@ -154,6 +169,15 @@ step The Hunter's Path
   zone map 1438
   turnin 6722 optional
 
+step Level 58
+  level 58
+
+step Geologist Larksbane
+  when turnedin 8315
+  zone Silithus
+  accept 8377 only Hunter
+  turnin 8377 only Hunter
+
 step Large Crag Boar
   kill 1126 x1 quest 6064.1 only Dwarf
 
@@ -170,15 +194,6 @@ step Grif Wildheart
 
 step Ice Claw Bear
   kill 1196 x1 quest 6085.1 only Dwarf
-
-step Level 58
-  level 58
-
-step Geologist Larksbane
-  when turnedin 8315
-  zone Silithus
-  accept 8377 only Hunter
-  turnin 8377 only Hunter
 
 step Grif Wildheart
   turnin 6085 only Dwarf
