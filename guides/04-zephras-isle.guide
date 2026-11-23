@@ -2,6 +2,7 @@ guide completionist-alliance/04-zephras-isle
 title 04 Zephras Isle (1-13) (Completionist)
 faction Alliance
 levels 1-13
+category Leveling
 zone map 2521
 next completionist-alliance/01-elwynn-forest-and-stormwind when !turnedin 95065
 next completionist-alliance/02-dun-morogh-and-ironforge when !turnedin 96390

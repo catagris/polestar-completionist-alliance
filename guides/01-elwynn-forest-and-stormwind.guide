@@ -2,6 +2,7 @@ guide completionist-alliance/01-elwynn-forest-and-stormwind
 title 01 Elwynn Forest and Stormwind (1-12) (Completionist)
 faction Alliance
 levels 1-12
+category Leveling
 zone Elwynn Forest
 next completionist-alliance/02-dun-morogh-and-ironforge when !turnedin 96390
 next completionist-alliance/03-teldrassil-and-darnassus when !turnedin 941

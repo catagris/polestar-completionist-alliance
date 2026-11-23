@@ -2,6 +2,7 @@ guide completionist-alliance/02-dun-morogh-and-ironforge
 title 02 Dun Morogh and Ironforge (1-13) (Completionist)
 faction Alliance
 levels 1-13
+category Leveling
 zone Dun Morogh
 next completionist-alliance/01-elwynn-forest-and-stormwind when !turnedin 95065
 next completionist-alliance/03-teldrassil-and-darnassus when !turnedin 941

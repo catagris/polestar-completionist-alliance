@@ -2,6 +2,7 @@ guide completionist-alliance/03-teldrassil-and-darnassus
 title 03 Teldrassil and Darnassus (1-12) (Completionist)
 faction Alliance
 levels 1-12
+category Leveling
 zone Teldrassil
 next completionist-alliance/01-elwynn-forest-and-stormwind when !turnedin 95065
 next completionist-alliance/02-dun-morogh-and-ironforge when !turnedin 96390
