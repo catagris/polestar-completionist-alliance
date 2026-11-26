@@ -1,8 +1,9 @@
 guide completionist-alliance/33-stranglethorn-vale
-title 33 Stranglethorn Vale (30-46) (Completionist)
+title 33 Stranglethorn Vale
 faction Alliance
 levels 30-46
 category Leveling
+folder Completionist 31-40
 zone Stranglethorn Vale
 next completionist-alliance/dungeon-the-drowned-city
 next completionist-alliance/34-odd-jobs-in-the-eastern-kingdoms-2
@@ -70,14 +71,6 @@ step A Special Gift
 step Stone Maw Basilisk
   zone map 1431
   collect 3918 x10 quest 605.1
-
-step Barkeep Kelly
-  zone map 1424
-  buy 4600 x1 npc 2366 -- for Cherry for Your Thoughts?
-
-step In the Name of the Light
-  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 1053 optional
 
 step Dreaming Whelp
   zone map 1435
@@ -155,6 +148,10 @@ step Level 35
 
 step Fleet Master Seahorn
   accept 670
+
+step Buy Cherry Grog
+  tip Sold in 4 places: the arrow leads to the nearest vendor.
+  buy 4600 x1 nearest -- for Cherry for Your Thoughts?
 
 step Kebok
   accept 213
@@ -688,10 +685,26 @@ step Loremaster Dibbs
   zone map 1424
   turnin 95786
 
+step In the Name of the Light
+  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 1053 optional
+
+step Magics of the Drowned City
+  tip For The Drowned City: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 95788 optional
+
+step Take Two With Water
+  tip For The Drowned City: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 95787 optional
+
 step Archmage Ansirem Runeweaver
   zone map 1416
   turnin 602
   accept 603
+
+step Past Due
+  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 96800 optional
 
 step Catelyn the Blade
   zone map 1434
@@ -700,6 +713,8 @@ step Catelyn the Blade
 
 step "Pretty Boy" Duncan
   collect 4027 x1 quest 610.1
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Catelyn the Blade
   turnin 610
@@ -713,8 +728,6 @@ step Elder Saltwater Crocolisk
   tip Excelsior is group work: elites. Grouping up is advised.
   zone map 1434
   collect 4105 x1 quest 628.1
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Drizzlik
   when group 628

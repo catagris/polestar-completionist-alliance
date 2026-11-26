@@ -1,8 +1,9 @@
 guide completionist-alliance/19-duskwood
-title 19 Duskwood (18-31) (Completionist)
+title 19 Duskwood
 faction Alliance
 levels 18-31
 category Leveling
+folder Completionist 11-20
 zone Duskwood
 next completionist-alliance/20-wetlands
 pitch On along the line: Duskwood, quests of level 18 to 31.
@@ -268,6 +269,12 @@ step Abercrombie
   turnin 165
   accept 148
 
+step Craftsman's Writ: Silver Skeleton Key
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264023 x1 anywhere optional
+  collect 15869 x1 anywhere optional
+  turnin 94223 direct optional
+
 step Jitters
   turnin 163
   accept 5
@@ -497,6 +504,31 @@ step Lord Ello Ebonlocke
   turnin 401
   accept 252
   turnin 252
+
+step Craftsman's Writ: Shadow Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1431
+  collect 264014 x1 anywhere optional
+  collect 6048 x1 anywhere optional
+  turnin 94214 direct optional
+
+step Craftsman's Writ: Small Silk Pack
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264050 x1 anywhere optional
+  collect 4245 x1 anywhere optional
+  turnin 94250 direct optional
+
+step Craftsman's Writ: Dark Leather Tunic
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264041 x1 anywhere optional
+  collect 2317 x1 anywhere optional
+  turnin 94241 direct optional
+
+step Craftsman's Writ: Minor Recombobulator
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264032 x1 anywhere optional
+  collect 4381 x1 anywhere optional
+  turnin 94232 direct optional
 
 step Lord Ello Ebonlocke
   when group 253

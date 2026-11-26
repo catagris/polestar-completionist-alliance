@@ -1,5 +1,5 @@
 guide completionist-alliance/class-mage
-title Mage class quests (10-60) (Completionist)
+title Mage class quests
 faction Alliance
 class Mage
 levels 10-60
@@ -11,7 +11,37 @@ reward text What the Mage quests give, quest by quest: abilities, forms, pets, t
 # Routed 28 quests; estimated level at the end 17.1 (heuristic XP).
 # Skipped: 3 exclusive with N; 1 objective N (kill N) outside the zones.
 
+step Speak with Bink
+  only Mage,Gnome
+  zone map 1426
+  accept 1879 optional only Gnome
+
+step Speak with Bink
+  only Mage,Gnome
+  when onquest 1879
+  zone map 1455
+  turnin 1879 optional only Gnome
+
+step Mage-tastic Gizmonitor
+  only Mage,Gnome
+  zone map 1455
+  accept 1880 optional only Gnome
+
+step Mage-tastic Gizmonitor
+  only Mage,Gnome
+  when onquest 1880
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 1880 @27.2,8.3 optional only Gnome
+
+step Mage-tastic Gizmonitor
+  only Mage,Gnome
+  when onquest 1880
+  zone map 1455
+  turnin 1880 optional only Gnome
+
 step Garion Wendell
+  zone map 1458
   accept 97286 only Mage
   turnin 97286 only Mage
 
@@ -20,7 +50,7 @@ step Level 15
 
 step Zaldimar Wefhellt
   zone map 1429
-  accept 1860 only Human,Gnome
+  accept 1860 only Human
   accept 1919 npc 328 only Human,Gnome
 
 step Level 15
@@ -28,19 +58,19 @@ step Level 15
 
 step Jennea Cannon
   zone map 1453
-  turnin 1860 only Human,Gnome
+  turnin 1860 only Human
   turnin 1919 only Human,Gnome
   accept 1920 only Human,Gnome,Skyborne
 
 step Mirror Lake
-  only Mage,Human,Gnome,Skyborne
+  only Mage,Human,Skyborne
   zone map 1453
-  accept 1861 optional
+  accept 1861 optional only Human,Skyborne
   tip A class quest, done from the quest text: the reference data does not route it.
-  complete 1861 @49.6,85.8 optional
+  complete 1861 @49.6,85.8 optional only Human,Skyborne
 
 step Filled Containment Coffer
-  zone map 1458
+  zone map 1453
   collect 7292 x3 quest 1920.1 only Human,Gnome,Skyborne
 
 step Chest of Containment Coffers and Cantation of Manifestation
@@ -51,40 +81,18 @@ step Level 50
   level 50
 
 step Maginor Dumas
-  zone map 1453
   accept 8250 npc 331 only Mage
 
 step Mirror Lake
-  only Mage,Human,Gnome,Skyborne
+  only Mage,Human,Skyborne
   zone map 1453
-  turnin 1861 optional
+  turnin 1861 optional only Human,Skyborne
 
 step Jennea Cannon
   zone map 1411
   accept 1939 npc 5497 only Human,Gnome
 
-step Mage-tastic Gizmonitor
-  only Mage,Human,Gnome
-  when available 1880
-  tip One of several exclusive quests; the route takes Mirror Lake (1861). This one shows for a character the game offers it to instead.
-  zone map 1455
-  accept 1880 optional
-
-step Mage-tastic Gizmonitor
-  only Mage,Human,Gnome
-  when onquest 1880
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1455
-  complete 1880 @27.2,8.3 optional
-
-step Mage-tastic Gizmonitor
-  only Mage,Human,Gnome
-  when onquest 1880
-  zone map 1455
-  turnin 1880 optional
-
 step Jennea Cannon
-  zone map 1411
   accept 1953 npc 5497 only Mage
 
 step High Sorcerer Andromath
@@ -122,9 +130,9 @@ step High Sorcerer Andromath
   turnin 1920 only Human,Gnome,Skyborne
   accept 1921 only Human,Gnome,Skyborne
 
-step Adam Lind
-  zone map 1437
-  collect 2589 x10 quest 1921.1 only Human,Gnome,Skyborne
+step Linen Cloth
+  tip Dropped by 481 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2589 x10 anywhere only Human,Gnome,Skyborne
 
 step Miners' League Crates
   zone map 1432
@@ -257,6 +265,8 @@ step Spitelash Siren
 step Archmage Xylem
   turnin 8252 only Mage
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Level 58
   level 58
 
@@ -265,21 +275,6 @@ step Geologist Larksbane
   zone map 1451
   accept 8381 only Mage,Warlock
   turnin 8381 only Mage,Warlock
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
-step Speak with Bink
-  only Mage,Human,Gnome
-  when available 1879
-  tip One of several exclusive quests; the route takes Speak with Jennea (1860). This one shows for a character the game offers it to instead.
-  zone map 1426
-  accept 1879 optional
-
-step Speak with Bink
-  only Mage,Human,Gnome
-  when onquest 1879
-  zone map 1455
-  turnin 1879 optional
 
 step Level 60
   zone map 1455

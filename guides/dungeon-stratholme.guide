@@ -1,72 +1,58 @@
 guide completionist-alliance/dungeon-stratholme
-title Stratholme, part 1 of 2 (Completionist)
+title Stratholme
 faction Alliance
 category Dungeons
-levels 57-60
+folder Completionist dungeons and raids
+levels 58-60
 zone Eastern Plaguelands
-next completionist-alliance/dungeon-stratholme-2
+next completionist-alliance/66-tanaris-2
 pitch Stratholme, in Eastern Plaguelands.
 why Every Alliance quest of Stratholme: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Level 58
+step Just Compensation
   zone map 1455
-  level 58
+  accept 84164
 
-step An Earnest Proposition
-  only Warrior
-  zone map 1455
-  accept 8912
-
-step An Earnest Proposition
-  only Warrior
+step Just Compensation
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1455
-  complete 8912 @43.53,52.64
+  complete 84164 @58.07,29.54
 
-step An Earnest Proposition
-  only Warrior
-  zone map 1455
-  turnin 8912
+step Just Compensation
+  turnin 84164
 
 step Deliana
-  only Druid
-  zone map 1455
-  accept 8905
-
-step A Supernatural Device
-  zone map 1455
-  accept 8922
-
-step Deliana
-  only Hunter
-  zone map 1455
-  accept 8906
-
-step An Earnest Proposition
-  only Mage
-  zone map 1455
-  accept 8907
-
-step An Earnest Proposition
-  only Mage
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1455
-  complete 8907 @43.53,52.64
-
-step An Earnest Proposition
-  only Mage
-  zone map 1455
-  turnin 8907
+  accept 84148
+  accept 84151
+  accept 84166
+  accept 97447
 
 step Deliana
   only Paladin
   zone map 1455
-  accept 8908
+  accept 84150
 
 step Deliana
-  only Priest
   zone map 1455
-  accept 8909
+  accept 84167
+
+step Just Compensation
+  accept 84168
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 84168 @58.07,29.54
+
+step Just Compensation
+  turnin 84168
+
+step Deliana
+  accept 84169
+
+step Deliana
+  accept 84170
+
+step In Search of Anthion
+  accept 8929
 
 step Collection of Goods
   only Paladin,Human,Dwarf
@@ -201,7 +187,12 @@ step The Dying, Ras Frostwhisper
 
 step Anthion Harmon
   zone map 1423
-  accept 8945
+  accept 84179
+  accept 84180
+  accept 84181
+  accept 84182
+  accept 84183
+  accept 84184
 
 step Betina Bigglezink
   accept 5212
@@ -266,23 +257,27 @@ step Inside Stratholme
   complete 5305 @26.3,18.3
   complete 5307 @26.3,18.3
   complete 5848 @26.3,18.3
-  complete 8945 @26.3,18.3
-  turnin 8945 @26.3,18.3
+  complete 84148 @26.3,18.3
+  complete 84151 @26.3,18.3
+  complete 84166 @26.3,18.3
+  complete 84179 @26.3,18.3
+  complete 84180 @26.3,18.3
+  complete 84181 @26.3,18.3
+  complete 84182 @26.3,18.3
+  complete 84183 @26.3,18.3
+  complete 84184 @26.3,18.3
+  complete 97447 @26.3,18.3
 
 step Inside Stratholme
   only Paladin
   zone map 1423
   complete 84330 @26.3,18.3
+  complete 84150 @26.3,18.3
 
 step Inside Stratholme
   when turnedin 5462
   zone map 1423
   turnin 5463 @26.3,18.3
-
-step Inside Stratholme
-  only Druid
-  zone map 1423
-  complete 8905 @26.3,18.3
 
 step Betina Bigglezink
   zone map 1423
@@ -359,50 +354,42 @@ step Malyfous Darkhammer
 step Seril Scourgebane
   turnin 5307
 
-step A Supernatural Device
-  zone map 1446
-  turnin 8922
-
-step The Ectoplasmic Distiller
-  accept 8921
-
-step The Ectoplasmic Distiller
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8921 @52.47,27.23
-
-step The Ectoplasmic Distiller
-  turnin 8921
-
-step Hunting for Ectoplasm
-  accept 8924
-
-step Hunting for Ectoplasm
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8924 @52.47,27.23
-
-step Hunting for Ectoplasm
-  turnin 8924
-
-step A Portable Power Source
-  accept 8925
-
-step A Portable Power Source
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8925 @52.47,27.23
-
-step A Portable Power Source
-  turnin 8925
-
-step A Shifty Merchant
-  accept 8928
-
-step A Shifty Merchant
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8928 @52.47,27.23
+step Betina Bigglezink
+  zone map 1423
+  accept 5213
 
 step Level 60
-  zone map 1423
+  zone map 1434
   level 60
+
+step Pix Xizzix
+  accept 96087
+
+step Inside Stratholme
+  zone map 1423
+  complete 96087 @26.3,18.3
+
+step Pix Xizzix
+  zone map 1434
+  turnin 96087
+
+step Inside Stratholme, again
+  zone map 1423
+  accept 5125 @26.3,18.3
+  collect 13250 @26.3,18.3
+  accept 5262 item 13250
+  turnin 5125 @26.3,18.3
+  complete 5213 @26.3,18.3
+  complete 84167 @26.3,18.3
+
+step Inside Stratholme
+  when turnedin 5463
+  zone map 1423
+  accept 5464 @26.3,18.3
+
+step Betina Bigglezink
+  zone map 1423
+  turnin 5213
 
 step Inside Stratholme
   accept 8829 item 21514
@@ -412,39 +399,8 @@ step Aurel Goldleaf
   zone map 1451
   turnin 8829
 
-step A Shifty Merchant
-  zone map 1446
-  turnin 8928
-
-step Return to Deliana
-  accept 8977
-
-step Betina Bigglezink
-  zone map 1423
-  accept 5213
-
-step Inside Stratholme, again
-  accept 5125 @26.3,18.3
-  collect 13250 @26.3,18.3
-  accept 5262 item 13250
-  turnin 5125 @26.3,18.3
-  complete 5213 @26.3,18.3
-
-step Inside Stratholme
-  when turnedin 5463
-  zone map 1423
-  accept 5464 @26.3,18.3
-
-step Inside Stratholme
-  only Hunter
-  zone map 1423
-  complete 8906 @26.3,18.3
-
-step Betina Bigglezink
-  zone map 1423
-  turnin 5213
-
 step Duke Nicholas Zverenhoff
+  zone map 1423
   turnin 5262
 
 step Leonid Barthalomew the Revered
@@ -458,14 +414,9 @@ step Duke Nicholas Zverenhoff
 
 step Inside Stratholme, again
   complete 5263 @26.3,18.3
-
-step Inside Stratholme
-  only Paladin
-  zone map 1423
-  complete 8908 @26.3,18.3
+  complete 84169 @26.3,18.3
 
 step Duke Nicholas Zverenhoff
-  zone map 1423
   turnin 5263
 
 step Lord Maxwell Tyrosus
@@ -476,31 +427,141 @@ step Lord Maxwell Tyrosus
   zone map 1423
   turnin 5264
 
-step Inside Stratholme
-  only Priest
+step Inside Stratholme, again
   zone map 1423
-  complete 8909 @26.3,18.3
+  complete 84170 @26.3,18.3
+
+step In Search of Anthion
+  turnin 8929
+
+step Anthion Harmon
+  accept 8945
+
+step Inside Stratholme, again
+  complete 8945 @26.3,18.3
+  turnin 8945 @26.3,18.3
 
 step Proof of Life
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1423
-  turnin 8946 direct @26.1,11.3 map 1423
+  accept 8946 @26.3,18.3
+
+step Proof of Life
+  turnin 8946
 
 step Anthion's Strange Request
-  when turnedin 8946
-  zone map 1423
   accept 8947
 
 step Anthion's Strange Request
-  when onquest 8947
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 8947 @26.1,11.3
+  complete 8947 @26.11,11.3
 
 step Anthion's Strange Request
-  when onquest 8947
-  zone map 1423
   turnin 8947
+
+step Anthion's Old Friend
+  accept 8948
+
+step Anthion's Old Friend
+  turnin 8948 @26.3,18.3
+
+step Falrin's Vendetta
+  accept 8949 @26.3,18.3
+
+step Falrin's Vendetta
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8949 @26.3,18.3
+
+step Falrin's Vendetta
+  turnin 8949 @26.3,18.3
+
+step The Instigator's Enchantment
+  accept 8950 @26.3,18.3
+
+step The Instigator's Enchantment
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8950 @26.3,18.3
+
+step The Instigator's Enchantment
+  turnin 8950 @26.3,18.3
+
+step The Challenge
+  accept 9015 @26.3,18.3
+
+step The Challenge
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 9015 @26.3,18.3
+
+step The Challenge
+  turnin 9015
+
+step Anthion Harmon
+  only Druid
+  zone map 1423
+  accept 8951
+
+step Anthion Harmon
+  only Hunter
+  zone map 1423
+  accept 8952
+
+step Anthion Harmon
+  only Mage
+  zone map 1423
+  accept 8953
+
+step Anthion Harmon
+  only Paladin
+  zone map 1423
+  accept 8954
+
+step Anthion Harmon
+  only Priest
+  zone map 1423
+  accept 8955
+
+step Anthion Harmon
+  only Rogue
+  zone map 1423
+  accept 8956
+
+step Anthion Harmon
+  only Warlock
+  zone map 1423
+  accept 8958
+
+step Inside Stratholme
+  only Druid
+  zone map 1423
+  complete 8951 @26.3,18.3
+
+step Inside Stratholme
+  only Hunter
+  zone map 1423
+  complete 8952 @26.3,18.3
+
+step Inside Stratholme
+  only Mage
+  zone map 1423
+  complete 8953 @26.3,18.3
+
+step Inside Stratholme
+  only Paladin
+  zone map 1423
+  complete 8954 @26.3,18.3
+
+step Inside Stratholme
+  only Priest
+  zone map 1423
+  complete 8955 @26.3,18.3
+
+step Inside Stratholme
+  only Rogue
+  zone map 1423
+  complete 8956 @26.3,18.3
+
+step Inside Stratholme
+  only Warlock
+  zone map 1423
+  complete 8958 @26.3,18.3
 
 step The Argent Hold
   when turnedin 5264

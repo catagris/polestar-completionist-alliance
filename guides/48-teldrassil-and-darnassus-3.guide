@@ -1,8 +1,9 @@
 guide completionist-alliance/48-teldrassil-and-darnassus-3
-title 48 Teldrassil and Darnassus, visit 3 (47-60) (Completionist)
+title 48 Teldrassil and Darnassus, visit 3
 faction Alliance
 levels 47-60
 category Leveling
+folder Completionist 41-50
 zone Teldrassil
 next completionist-alliance/49-felwood
 pitch On along the line: Teldrassil and Darnassus, quests of level 47 to 60.
@@ -10,15 +11,15 @@ pitch On along the line: Teldrassil and Darnassus, quests of level 47 to 60.
 # Routed 14 quests; estimated level at the end 47.4 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N (done); 2 prerequisite N not in this route; 1 exclusive with N.
 
-step Laris Geardawdle
-  when onquest 4512
-  zone map 1455
-  turnin 4512
-
 step Master Mathias Shaw
   when onquest 95264
   zone map 1453
   turnin 95264
+
+step Laris Geardawdle
+  when onquest 4512
+  zone map 1455
+  turnin 4512
 
 step Gracina Spiritmight
   zone map 1457
@@ -47,15 +48,15 @@ step Lelanai
   turnin 99205 only NightElf
 
 step Lelanai
-  accept 99214
+  accept 99214 only NightElf
 
 step Swift Stormsaber, Swift Mistsaber and Swift Frostsaber
-  kill 276730 x1 quest 99214.1
-  kill 276731 x1 quest 99214.2
-  kill 276732 x1 quest 99214.3
+  kill 276730 x1 quest 99214.1 only NightElf
+  kill 276731 x1 quest 99214.2 only NightElf
+  kill 276732 x1 quest 99214.3 only NightElf
 
 step Lelanai
-  turnin 99214
+  turnin 99214 only NightElf
   accept 3781
   accept 6761
   turnin 3781

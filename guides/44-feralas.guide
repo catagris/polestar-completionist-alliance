@@ -1,11 +1,12 @@
 guide completionist-alliance/44-feralas
-title 44 Feralas (42-52) (Completionist)
+title 44 Feralas
 faction Alliance
 levels 42-52
 category Leveling
+folder Completionist 41-50
 zone Feralas
 next completionist-alliance/dungeon-maraudon
-next completionist-alliance/45-blasted-lands
+next completionist-alliance/45-burning-steppes
 pitch On along the line: Feralas, quests of level 42 to 52.
 # Generated from the reference data: change the planner, not this file.
 # Routed 48 quests; estimated level at the end 44.3 (heuristic XP, class quests not counted).
@@ -265,6 +266,30 @@ step Latronicus Moonspear
 step Large Leather Backpacks
   turnin 4131
   accept 4135
+
+step Craftsman's Writ: Catseye Draught
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264060 x1 anywhere optional
+  collect 10592 x1 anywhere optional
+  turnin 94260 direct optional
+
+step Craftsman's Writ: Wild Leather Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264096 x1 anywhere optional
+  collect 8210 x1 anywhere optional
+  turnin 94296 direct optional
+
+step Craftsman's Writ: Catseye Ultra Goggles
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264084 x1 anywhere optional
+  collect 10501 x1 anywhere optional
+  turnin 94284 direct optional
+
+step Craftsman's Writ: Blue Glittering Axe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264072 x1 anywhere optional
+  collect 7942 x1 anywhere optional
+  turnin 94272 direct optional
 
 step The Old Key
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.

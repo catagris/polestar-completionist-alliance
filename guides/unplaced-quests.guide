@@ -1,7 +1,8 @@
 guide completionist-alliance/unplaced-quests
-title Quests the data cannot place (Completionist)
+title Quests the data cannot place
 faction Alliance
 category Miscellaneous
+folder Completionist events and extras
 levels 1-60
 zone Stormwind City
 pitch A checklist: the quests Polestar's reference data names but cannot lead to.
@@ -9,15 +10,11 @@ pitch A checklist: the quests Polestar's reference data names but cannot lead to
 step About this guide
   note The reference data has no giver, hand-in, level or zone for these quests, so no guide can lead to them. Each is listed by its title for you to find and tick off. Some may not be in the game.
 
-step Alterac Mountains
-  task "Junkboxes Needed, level 60" optional -- quest 98529
-
 step Darkspear Islands
   task "Darkspear's Standard Care Package, level 49" optional -- quest 98914
   task "Darkspear's Advanced Care Package, level 60" optional -- quest 98915
 
 step Dun Morogh
-  task "An Epic Ride, level 60" optional only Dwarf -- quest 99210
   task "An Epic Ride, level 60" optional only Gnome -- quest 99212
 
 step Dustwallow Marsh
@@ -28,33 +25,23 @@ step Eastern Plaguelands
   task "Stormwind's High Order, level 57" optional -- quest 97987
   task "Bleeding Edge, level 57" optional -- quest 98109
 
-step Elwynn Forest
-  task "Swift as the Wind, level 60" optional -- quest 99206
-  task "An Epic Ride, level 60" optional -- quest 99213
-
 step Hillsbrad Foothills
   task "Your First Horse, level 40" optional only Human -- quest 99326
 
 step Ironforge
   task "Just Compensation, level 60" optional -- quest 97448
 
-step Orgrimmar
-  task "Just Compensation, level 60" optional -- quest 97412
-  task "Swift as the Wind, level 60" optional -- quest 99201
-
 step Western Plaguelands
   task "Rapid Escape" optional -- quest 8152
 
-step Zephras Isle
-  task "Swift as the Wind, level 60" optional -- quest 99203
-  task "An Epic Ride, level 60" optional -- quest 99216
-
 step No zone in the data
-  task "A Taste of Darkness" optional -- quest 95771
   task "Camping 101: Engineering, level 6" optional -- quest 98287
   task "Confounding Flash, level 10" optional only Priest,Gnome -- quest 94825
   task "Confounding Flash, level 10" optional only Priest,Gnome -- quest 94826
   task "Message from the Supreme Magister, level 35" optional only Skyborne -- quest 98471
   task "A Ticking Present, level 40" optional -- quest 79637
   task "Krol'dok No More!, level 42" optional -- quest 94969
+  task "Saving the Best for Last, level 60" optional -- quest 84198
+  task "Anthion's Parting Words, level 60" optional -- quest 97413
+  task "Conquering the Island, level 60" optional -- quest 98919
   task "Brawl at the Maul, level 60" optional -- quest 99234

@@ -1,13 +1,14 @@
 guide completionist-alliance/49-felwood
-title 49 Felwood (48-60) (Completionist)
+title 49 Felwood
 faction Alliance
 levels 48-60
 category Leveling
+folder Completionist 41-50
 zone Felwood
 next completionist-alliance/50-the-barrens-2
 pitch On along the line: Felwood, quests of level 48 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 28 quests; estimated level at the end 50.2 (heuristic XP, class quests not counted).
+# Routed 26 quests; estimated level at the end 50.2 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N (done).
 
 step Tannysa
@@ -30,15 +31,42 @@ step The Mystery of Morrowgrain
   zone map 1444
   turnin 3791
 
-step Ketharas
+step Greta Mosshoof
   zone map 1448
-  accept 95568
-  accept 95569
   accept 5155
   accept 91952
-  turnin 91952
   accept 86577
   accept 5156
+
+step Craftsman's Writ: Shadoweave Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264107 x1 anywhere optional
+  collect 10004 x1 anywhere optional
+  turnin 94307 direct optional
+
+step Craftsman's Writ: Wild Leather Helmet
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264095 x1 anywhere optional
+  collect 8214 x1 anywhere optional
+  turnin 94295 direct optional
+
+step Craftsman's Writ: Goblin Land Mine
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264083 x1 anywhere optional
+  collect 4395 x1 anywhere optional
+  turnin 94283 direct optional
+
+step Craftsman's Writ: Ornate Mithril Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264071 x1 anywhere optional
+  collect 7928 x1 anywhere optional
+  turnin 94271 direct optional
+
+step Craftsman's Writ: Nature Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264059 x1 anywhere optional
+  collect 6052 x1 anywhere optional
+  turnin 94259 direct optional
 
 step Corrupted Windblossom
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -50,34 +78,7 @@ step Corrupted Songflower
   collect 11516 x2 anywhere optional
   turnin 2523 direct optional
 
-step Jaedenar Hound, Jaedenar Guardian and Jaedenar Adept
-  kill 7125 x4 quest 5155.1
-  kill 7113 x4 quest 5155.2
-  kill 7115 x6 quest 5155.3
-
-step Jaedenar Cultist
-  kill 7112 x6 quest 5155.4
-
-step Entropic Beast and Entropic Horror
-  kill 9878 x2 quest 5156.1
-  kill 9879 x2 quest 5156.2
-
-step Untainted Flower
-  zone map 2482
-  collect 260176 x10 quest 95568.1
-
-step Hyjal Owl Egg
-  collect 269920 x12 quest 95569.1
-
-step Angerclaw Bear
-  zone map 1440
-  collect 277958 x8 quest 86577.1
-
-step Felpaw Wolf
-  collect 277959 x10 quest 86577.2
-
 step Arathandris Silversky
-  zone map 1448
   accept 4101
 
 step Corrupted Night Dragon
@@ -89,6 +90,26 @@ step Corrupted Songflower
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 11516 x2 anywhere optional
   turnin 4113 direct optional
+
+step Angerclaw Bear
+  zone map 1440
+  collect 277958 x8 quest 86577.1
+
+step Felpaw Wolf
+  collect 277959 x10 quest 86577.2
+
+step Jaedenar Cultist
+  kill 7112 x6 quest 5155.4
+
+step Jaedenar Hound, Jaedenar Guardian and Jaedenar Adept
+  zone map 1448
+  kill 7125 x4 quest 5155.1
+  kill 7113 x4 quest 5155.2
+  kill 7115 x6 quest 5155.3
+
+step Entropic Beast and Entropic Horror
+  kill 9878 x2 quest 5156.1
+  kill 9879 x2 quest 5156.2
 
 step Warpwood Moss Flayer
   collect 11503 x15 quest 4101.1
@@ -155,6 +176,15 @@ step Deadwood Shaman
 step Deadwood Den Watcher
   kill 7156 x6 quest 8461.1
 
+step Nafien
+  turnin 8461
+  accept 8465
+
+step Feathers for Nafien
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 21377 x5 anywhere optional
+  turnin 8467 direct optional
+
 step Level 53
   level 53
 
@@ -169,18 +199,8 @@ step To Winterspring!
   zone map 1452
   turnin 5249 optional
 
-step Nafien
-  zone map 1452
-  turnin 8461
-  accept 8465
-
-step Feathers for Nafien
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1448
-  collect 21377 x5 anywhere optional
-  turnin 8467 direct optional
-
 step Book
+  zone map 1452
   accept 84397 object 463209
 
 step Gorn One Eye
@@ -188,6 +208,7 @@ step Gorn One Eye
 
 step The Root of All Evil
   tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
+  zone map 1448
   accept 8481 optional
 
 step Sacred Cloth
@@ -230,33 +251,19 @@ step Deadwood Ritual Totem
 
 step Gorn One Eye
   when group 86814
-  zone map 1448
+  zone map 1439
   accept 86814
 
 step Book
-  zone map 1448
+  zone map 1439
   collect 228134 x1 quest 84397.1
 
 step Chieftain Bloodmaw
   collect 236631 x1 quest 87346.1
 
-step Level 49
-  level 49
-
-step Eridan Bluewind
-  accept 4421
-
-step Jadefire Felsworn, Jadefire Shadowstalker, Jadefire Rogue and Xavathras
-  zone map 1439
-  kill 7109 x11 quest 4421.1
-  kill 7110 x9 quest 4421.2
-  kill 7106 x9 quest 4421.3
-  kill 9454 x1 quest 4421.4
-
 step Ketharas
   zone map 2482
-  turnin 95568
-  turnin 95569
+  turnin 91952
 
 step Arathandris Silversky
   zone map 1448
@@ -291,30 +298,30 @@ step Salve via Mining
   accept 5883 optional
   complete 5883 @54.1,86.8 optional
 
-step Greta Mosshoof
+step Level 49
   zone map 1448
+  level 49
+
+step Eridan Bluewind
+  accept 4421
+
+step Jadefire Felsworn, Jadefire Shadowstalker, Jadefire Rogue and Xavathras
+  zone map 1439
+  kill 7109 x11 quest 4421.1
+  kill 7110 x9 quest 4421.2
+  kill 7106 x9 quest 4421.3
+  kill 9454 x1 quest 4421.4
+
+step Greta Mosshoof
   turnin 5155
   accept 5157
   turnin 86577
-
-step Xavaric
-  zone map 1439
-  accept 939 item 11668 -- Drops from Xavaric
-
-step Jadefire Trickster
-  zone map 1448
-  collect 11674 x5 quest 939.1
-
-step Taronn Redfeather
   complete 5156 @41.0,42.0 map 1448
   turnin 5156
-  turnin 939
   turnin 4421
-  accept 4441
   accept 4906
 
 step Jadefire Hellcaller and Xavaric
-  zone map 1439
   kill 7111 x8 quest 4906.1
   kill 10648 x1 quest 4906.4
 
@@ -325,8 +332,22 @@ step Jadefire Betrayer
 step Jadefire Trickster
   kill 7107 x8 quest 4906.3
 
-step Jaedenar Warlock
+step Xavaric
   zone map 1439
+  accept 939 item 11668 -- Drops from Xavaric
+
+step Jadefire Trickster
+  zone map 1448
+  collect 11674 x5 quest 939.1
+
+step Eridan Bluewind
+  zone map 1439
+  turnin 939
+
+step Eridan Bluewind
+  accept 4441
+
+step Jaedenar Warlock
   collect 11515 x6 quest 5882.1
 
 step Corrupt Jaedenar Moonwell
@@ -345,6 +366,12 @@ step A Strange Red Key
 step Statue of Malorne
   zone map 1448
   accept 86611
+
+step Craftsman's Writ: Enchanted Mageweave Pouch
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264108 x1 anywhere optional
+  collect 22246 x1 anywhere optional
+  turnin 94308 direct optional
 
 step Corrupted Songflower
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -387,14 +414,6 @@ step Corrupted Night Dragon
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 11516 x4 anywhere optional
   turnin 4447 direct optional
-
-step Violence Into Verdure
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 93747
-  complete 93747 @51.2,82.2
-
-step Violence Into Verdure
-  turnin 93747
 
 step Corrupted Songflower
   tip A repeatable quest: hand it in once, with what it asks for.

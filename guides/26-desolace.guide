@@ -1,31 +1,32 @@
-guide completionist-alliance/25-desolace
-title 25 Desolace (33-42) (Completionist)
+guide completionist-alliance/26-desolace
+title 26 Desolace
 faction Alliance
-levels 33-42
+levels 33-43
 category Leveling
+folder Completionist 21-30
 zone Desolace
-next completionist-alliance/26-stonetalon-mountains-2
-pitch On along the line: Desolace, quests of level 33 to 42.
+next completionist-alliance/27-stonetalon-mountains-2
+pitch On along the line: Desolace, quests of level 33 to 43.
 # Generated from the reference data: change the planner, not this file.
 # Routed 17 quests; estimated level at the end 33.9 (heuristic XP, class quests not counted).
-# Skipped: 7 prerequisite N not in this route.
+# Skipped: 15 prerequisite N not in this route.
 
-step Brohann Caskbelly
-  when onquest 1448
+step Angus Stern
+  when onquest 1271
   zone map 1453
-  turnin 1448
+  accept 1271
+  turnin 1271
 
 step Malem Chest
   zone map 1443
   accept 1465
 
-step Bibbly F'utzbuckle
-  accept 5501
-
-step Kodo Bones
-  collect 13703 x10 quest 5501.1
+step Cork Gizelton
+  accept 5821
 
 step Smeed Scrabblescrew
+  complete 5821 @67.2,56.6 map 1443
+  turnin 5821
   accept 5561
 
 step Aged Kodo
@@ -33,6 +34,9 @@ step Aged Kodo
 
 step Extinguished Campfire
   accept 79229
+
+step Smeed Scrabblescrew
+  turnin 5561
 
 step Rigger Gizelton
   accept 5943
@@ -56,24 +60,37 @@ step Raid on the Kolkar
 
 step Smeed Scrabblescrew
   zone map 1443
-  turnin 5561
   complete 5943 @55.7,67.8 map 1443
   turnin 5943
 
 step Bibbly F'utzbuckle
-  turnin 5501
   turnin 79229
+  accept 5501
   accept 79235
 
-step Cork Gizelton
-  accept 5821
+step Craftsman's Writ: Shadoweave Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264105 x1 anywhere optional
+  collect 10023 x1 anywhere optional
+  turnin 94305 direct optional
 
-step Smeed Scrabblescrew
-  complete 5821 @67.2,56.6 map 1443
-  turnin 5821
+step Craftsman's Writ: Advanced Target Dummy
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264081 x1 anywhere optional
+  collect 4392 x1 anywhere optional
+  turnin 94281 direct optional
 
-step Rackmore's Log
-  accept 6161
+step Craftsman's Writ: Inlaid Mithril Cylinder
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264069 x1 anywhere optional
+  collect 9060 x1 anywhere optional
+  turnin 94269 direct optional
+
+step Kodo Bones
+  collect 13703 x10 quest 5501.1
+
+step Bibbly F'utzbuckle
+  turnin 5501
 
 step Level 36
   level 36
@@ -83,27 +100,19 @@ step Lost Shipping Crate
   getfp "Nijel's Point"
   accept 94841
 
-step Melizza Brimbuzzle
-  accept 6132
+step Azore Aldamort
+  accept 5741
+  turnin 93464
+  accept 93465
 
-step Hornizz Brimbuzzle
-  complete 6132 @40.1,61.6 map 1443
-  turnin 6132
+step Craftsman's Writ: Guardian Cloak
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264093 x1 anywhere optional
+  collect 5965 x1 anywhere optional
+  turnin 94293 direct optional
 
-step Drysnap Crawler
-  collect 15878 x1 quest 6161.1
-
-step Hornizz Brimbuzzle
-  accept 6134
-
-step Magrami Spectre
-  collect 15849 x8 quest 6134.1
-
-step Hornizz Brimbuzzle
-  turnin 6134
-
-step Slitherblade Naga
-  collect 15881 x1 quest 6161.2
+step Burning Blade Seer
+  collect 15750 x1 quest 5741.1
 
 step Umarak
   when group 96222
@@ -121,14 +130,22 @@ step Umarak
   zone map 1443
   turnin 96222
 
-step Azore Aldamort
+step Hornizz Brimbuzzle
   zone map 1443
-  accept 5741
-  turnin 93464
-  accept 93465
+  accept 6134
 
-step Burning Blade Seer
-  collect 15750 x1 quest 5741.1
+step Magrami Spectre
+  collect 15849 x8 quest 6134.1
+
+step Hornizz Brimbuzzle
+  turnin 6134
+
+step Melizza Brimbuzzle
+  accept 6132
+
+step Hornizz Brimbuzzle
+  complete 6132 @40.1,61.6 map 1443
+  turnin 6132
 
 step Gimashi
   collect 258774 x1 quest 93465.1
@@ -139,14 +156,36 @@ step Azore Aldamort
   accept 6027
   accept 93678
 
-step Rackmore's Chest
-  turnin 6161
-
 step Lord Kragaru
   collect 15803 x1 quest 6027.1
 
 step Azore Aldamort
   turnin 6027
+
+step Rackmore's Log
+  accept 6161
+
+step Drysnap Crawler
+  collect 15878 x1 quest 6161.1
+
+step Slitherblade Naga
+  collect 15881 x1 quest 6161.2
+
+step Rackmore's Chest
+  turnin 6161
+
+step Craftsman's Writ: Lesser Invisibility Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264057 x1 anywhere optional
+  collect 3823 x1 anywhere optional
+  turnin 94257 direct optional
+
+step Economic Warfare
+  when turnedin 93226
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1443
+  collect 254432 x1 anywhere optional
+  turnin 92811 direct optional
 
 step Stealing Supplies
   when turnedin 1384
@@ -299,6 +338,88 @@ step A Conqueror's Crown
   zone map 1443
   turnin 92743
 
+step Valley of Bones
+  when turnedin 92743
+  zone map 1443
+  accept 92841
+
+step Valley of Bones
+  when onquest 92841
+  zone map 1443
+  turnin 92841
+
+step Mountain of Bones
+  when turnedin 92841
+  zone map 1443
+  accept 92844
+
+step Mountain of Bones
+  when onquest 92844
+  zone map 1443
+  turnin 92844
+
+step Outcast Necromancers
+  when turnedin 92841
+  zone map 1443
+  accept 92846
+
+step Outcast Necromancers
+  when onquest 92846
+  zone map 1443
+  turnin 92846
+
+step Corrupting Tears
+  when turnedin 92844
+  when turnedin 92846
+  zone map 1443
+  accept 92847
+
+step Corrupting Tears
+  when onquest 92847
+  zone map 1443
+  turnin 92847
+
+step Proof of Concept
+  when turnedin 92847
+  zone map 1443
+  accept 92873
+
+step Proof of Concept
+  when onquest 92873
+  zone map 1443
+  turnin 92873
+
+step Bone Raising
+  when turnedin 92873
+  zone map 1443
+  accept 92894
+
+step Bone Raising
+  when onquest 92894
+  zone map 1443
+  turnin 92894
+
+step No Mercy for the Weak
+  when turnedin 92873
+  zone map 1443
+  accept 92893
+
+step No Mercy for the Weak
+  when onquest 92893
+  zone map 1443
+  turnin 92893
+
+step Bristleback Retreat
+  when turnedin 92893
+  when turnedin 92894
+  zone map 1443
+  accept 93066
+
+step Bristleback Retreat
+  when onquest 93066
+  zone map 2652
+  turnin 93066
+
 step Big, No, MASSIVE Iron Axes
   when turnedin 1369
   zone map 1443
@@ -374,21 +495,11 @@ step Magtoor
   zone map 1435
   turnin 93678
 
-step Friz Frazzlespark
-  zone map 2548
-  turnin 94841
-
 step Tokal
   zone map 1434
   turnin 79235
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step In Search of The Temple
-  when onquest 1448
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 1448 optional
 
 step The Visiting Mage
   when onquest 93464

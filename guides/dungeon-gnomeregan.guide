@@ -1,8 +1,9 @@
 guide completionist-alliance/dungeon-gnomeregan
-title Gnomeregan, part 1 of 2 (Completionist)
+title Gnomeregan, part 1 of 2
 faction Alliance
 category Dungeons
-levels 25-35
+folder Completionist dungeons and raids
+levels 25-40
 zone Dun Morogh
 next completionist-alliance/dungeon-gnomeregan-2
 pitch Gnomeregan, in Dun Morogh.
@@ -18,6 +19,10 @@ step Shoni the Shilent
 step Gnoarn
   zone map 1455
   accept 2927
+
+step The Mad King
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 80324 direct @68.8,49.0 map 1455
 
 step High Tinker Mekkatorque
   accept 2929

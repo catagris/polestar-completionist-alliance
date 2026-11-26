@@ -1,8 +1,9 @@
 guide completionist-alliance/32-arathi-highlands
-title 32 Arathi Highlands (25-42) (Completionist)
+title 32 Arathi Highlands
 faction Alliance
 levels 25-42
 category Leveling
+folder Completionist 31-40
 zone Arathi Highlands
 next completionist-alliance/33-stranglethorn-vale
 pitch On along the line: Arathi Highlands, quests of level 25 to 42.
@@ -321,9 +322,8 @@ step Keystone
   turnin 652
 
 step Keystone
-  when turnedin 652
   zone map 1417
-  accept 653 optional
+  accept 653
 
 step Brewmeister Bilger
   zone map 1424
@@ -338,6 +338,18 @@ step Skuerto
   zone map 1417
   turnin 690
   accept 691
+
+step Craftsman's Writ: Elixir of Wisdom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264012 x1 anywhere optional
+  collect 3383 x1 anywhere optional
+  turnin 94212 direct optional
+
+step Craftsman's Writ: Golden Rod
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264021 x1 anywhere optional
+  collect 11128 x1 anywhere optional
+  turnin 94221 direct optional
 
 step Witherbark Axe Thrower
   collect 4503 x10 quest 691.1
@@ -369,6 +381,24 @@ step Anyone Can Cook
   collect 213422 x1 optional
   accept 79624 item 213422 optional
   complete 79624 @57.7,74.7
+
+step Craftsman's Writ: Explosive Sheep
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264030 x1 anywhere optional
+  collect 4384 x1 anywhere optional
+  turnin 94230 direct optional
+
+step Craftsman's Writ: Blue Overalls
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264048 x1 anywhere optional
+  collect 6263 x1 anywhere optional
+  turnin 94248 direct optional
+
+step Craftsman's Writ: Fine Leather Pants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264039 x1 anywhere optional
+  collect 5958 x1 anywhere optional
+  turnin 94239 direct optional
 
 step Anyone Can Cook
   when onquest 79624
@@ -433,14 +463,12 @@ step Apprentice Kryten
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Apprentice Kryten
-  when turnedin 694
   zone map 1417
-  accept 695 optional
-  turnin 695 optional
-  accept 696 optional
+  accept 695
+  turnin 695
+  accept 696
 
 step Trelane's Footlocker, Trelane's Chest and Trelane's Lockbox
-  when onquest 696
   collect 4530 x1 quest 696.1
   collect 4531 x1 quest 696.2
   collect 4532 x1 quest 696.3
@@ -448,12 +476,8 @@ step Trelane's Footlocker, Trelane's Chest and Trelane's Lockbox
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Skuerto
-  when turnedin 696
-  accept 697 optional
-
-step Skuerto
-  when onquest 696
   turnin 696
+  accept 697
 
 step Syndicate Prowler
   when group 682

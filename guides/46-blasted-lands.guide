@@ -1,86 +1,33 @@
-guide completionist-alliance/45-blasted-lands
-title 45 Blasted Lands (41-57) (Completionist)
+guide completionist-alliance/46-blasted-lands
+title 46 Blasted Lands
 faction Alliance
 levels 41-57
 category Leveling
+folder Completionist 41-50
 zone Blasted Lands
-next completionist-alliance/46-burning-steppes
+next completionist-alliance/47-odd-jobs-in-kalimdor-3
 pitch On along the line: Blasted Lands, quests of level 41 to 57.
 # Generated from the reference data: change the planner, not this file.
 # Routed 18 quests; estimated level at the end 43.2 (heuristic XP, class quests not counted).
 
-step Gracina Spiritmight
-  when onquest 2972
-  zone map 1457
-  turnin 4267
-  turnin 2972
+step Royal Historian Archesonus
+  when onquest 3701
+  zone map 1455
+  turnin 3701
 
-step Master of the Wild Leather
-  when onquest 2853
-  when skill Leatherworking 1
-  zone map 1457
-  turnin 2853 optional
+step King Magni Bronzebeard
+  when onquest 4363
+  zone map 1455
+  turnin 4363
 
 step Acolyte Dellis
   zone map 1453
   accept 1364
 
-step Kindal Moonweaver
-  zone map 1444
-  accept 3841
-
-step Quentin
-  when onquest 3841
-  zone map 1441
-  turnin 3841
-
-step A Short Incubation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1441
-  accept 3842
-  complete 3842 @78.3,74.7
-
-step A Short Incubation
-  when onquest 3842
-  zone map 1441
-  turnin 3842
-
-step Quentin
-  zone map 1441
-  accept 3843
-
-step Agnar Beastamer
-  when onquest 3843
-  zone map 1424
-  turnin 3843
-
-step Agnar Beastamer
-  zone map 1424
-  accept 4297
-
-step Silvermane Stalker
-  zone map 1425
-  collect 11472 x5 quest 4297.1
-
-step Agnar Beastamer
-  when onquest 4297
-  zone map 1424
-  turnin 4297
-
-step Agnar Beastamer
-  when onquest 4298
-  zone map 1424
-  accept 4298
-  turnin 4298
-
 step Ambassador Ardalan
   zone map 1419
   getfp "Nethergarde Keep"
   accept 91882
-
-step Ragnar Thunderbrew
-  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 4128 optional
 
 step The Lost Supplies
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -120,6 +67,7 @@ step Gryphon Master Talonaxe
   accept 2994
 
 step Gryphon Master Talonaxe
+  zone map 1425
   interact 144070 quest 2994.1
   turnin 2994
 
@@ -150,6 +98,30 @@ step Bloodmage Lynnore
 
 step Kum'isha the Collector
   accept 2521
+
+step Craftsman's Writ: Runecloth Bag
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264153 x1 anywhere optional
+  collect 14046 x1 anywhere optional
+  turnin 94353 direct optional
+
+step Craftsman's Writ: Green Lens
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264135 x1 anywhere optional
+  collect 10504 x1 anywhere optional
+  turnin 94335 direct optional
+
+step Craftsman's Writ: Radiant Belt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264126 x1 anywhere optional
+  collect 12416 x1 anywhere optional
+  turnin 94326 direct optional
+
+step Craftsman's Writ: Dreamless Sleep Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264117 x1 anywhere optional
+  collect 12190 x1 anywhere optional
+  turnin 94317 direct optional
 
 step Kum'isha the Collector
   accept 3501
@@ -274,20 +246,14 @@ step Sefira Everbright
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Master of the Wild Leather
-  when onquest 2853
+step The Smoldering Ruins of Thaurissan
+  when onquest 3701
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 2853 optional
+  zone map 1455
+  turnin 3701 optional
 
-step Doling Justice
-  when onquest 2972
+step The Princess's Surprise
+  when onquest 4363
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 2972 optional
-
-step Rise of the Silithid
-  when onquest 4267
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1457
-  turnin 4267 optional
+  zone map 1455
+  turnin 4363 optional

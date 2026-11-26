@@ -1,8 +1,9 @@
 guide completionist-alliance/08-darkshore
-title 08 Darkshore (10-24) (Completionist)
+title 08 Darkshore
 faction Alliance
 levels 10-24
 category Leveling
+folder Completionist 01-10
 zone Darkshore
 next completionist-alliance/09-undercity
 pitch On along the line: Darkshore, quests of level 10 to 24.
@@ -64,7 +65,6 @@ step Huldar
 step Prospector Ironband
   when onquest 309
   zone map 1432
-  complete 309 @65.1,65.8 map 1432
   turnin 309
 
 step Mountaineer Stormpike

@@ -1,7 +1,8 @@
 guide completionist-alliance/event-other
-title Other event quests (Completionist)
+title Other event quests
 faction Alliance
 category Miscellaneous
+folder Completionist events and extras
 levels 1-60
 zone Stormwind City
 pitch Event quests whose event the data numbers but does not name.

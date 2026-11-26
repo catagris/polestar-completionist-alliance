@@ -1,8 +1,9 @@
 guide completionist-alliance/38-odd-jobs-in-the-eastern-kingdoms-3
-title 38 Odd jobs in the Eastern Kingdoms, visit 3 (45-55) (Completionist)
+title 38 Odd jobs in the Eastern Kingdoms, visit 3
 faction Alliance
 levels 45-55
 category Leveling
+folder Completionist 31-40
 zone Arathi Highlands
 next completionist-alliance/39-searing-gorge
 pitch On along the line: errands across the Eastern Kingdoms, quests of level 45 to 55.
@@ -95,7 +96,7 @@ step Arille Azuregaze
   zone map 1416
   accept 96609
 
-step Ranger Lydrea
+step Lieutenant Suncrest
   zone map 1447
   collect 274966 x10 quest 96609.1
 

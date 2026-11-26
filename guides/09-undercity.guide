@@ -1,8 +1,9 @@
 guide completionist-alliance/09-undercity
-title 09 Undercity (20) (Completionist)
+title 09 Undercity
 faction Alliance
 levels 20-20
 category Leveling
+folder Completionist 01-10
 zone Undercity
 next completionist-alliance/10-the-barrens
 pitch On along the line: Undercity, level 20 quests.
@@ -42,7 +43,7 @@ step Garion Wendell
   accept 79096 npc 211033
   accept 79097 npc 211033
 
-step Charge of the Dragonflights
+step Library Book
   zone map 1455
   collect 203754 x1 quest 79091.1
 

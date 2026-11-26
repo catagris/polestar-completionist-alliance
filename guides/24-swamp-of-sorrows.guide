@@ -1,10 +1,11 @@
 guide completionist-alliance/24-swamp-of-sorrows
-title 24 Swamp of Sorrows (34-43) (Completionist)
+title 24 Swamp of Sorrows
 faction Alliance
 levels 34-43
 category Leveling
+folder Completionist 21-30
 zone Swamp of Sorrows
-next completionist-alliance/25-desolace
+next completionist-alliance/25-dustwallow-marsh
 pitch On along the line: Swamp of Sorrows, quests of level 34 to 43.
 # Generated from the reference data: change the planner, not this file.
 # Routed 16 quests; estimated level at the end 34.9 (heuristic XP, class quests not counted).

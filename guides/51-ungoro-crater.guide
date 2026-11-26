@@ -1,8 +1,9 @@
 guide completionist-alliance/51-ungoro-crater
-title 51 Un'Goro Crater (50-55) (Completionist)
+title 51 Un'Goro Crater
 faction Alliance
 levels 50-55
 category Leveling
+folder Completionist 51-60
 zone Un'Goro Crater
 next completionist-alliance/52-moonglade
 pitch On along the line: Un'Goro Crater, quests of level 50 to 55.
@@ -27,6 +28,24 @@ step Williden Marshal
   accept 3882
   accept 4501
   accept 4492
+
+step Craftsman's Writ: Earthen Silk Belt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264115 x1 anywhere optional
+  collect 7061 x1 anywhere optional
+  turnin 94315 direct optional
+
+step Craftsman's Writ: Thick Leather Ammo Pouch
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264103 x1 anywhere optional
+  collect 8218 x1 anywhere optional
+  turnin 94303 direct optional
+
+step Craftsman's Writ: Wildvine Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264067 x1 anywhere optional
+  collect 9144 x1 anywhere optional
+  turnin 94267 direct optional
 
 step Dadanga is Hungry!
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -124,19 +143,31 @@ step Red Power Crystal, Yellow Power Crystal, Green Power Crystal and Blue Power
   collect 11185 x7 quest 4284.3
   collect 11184 x7 quest 4284.4
 
-step Microcrystal Contamination
-  when has 280459
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1446
-  turnin 87494 direct @27.5,42.7 map 1446
+step Craftsman's Writ: Heavy Mithril Axe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264079 x1 anywhere optional
+  collect 7941 x1 anywhere optional
+  turnin 94279 direct optional
 
 step A Wrecked Raft
   zone map 1449
   accept 3844
   turnin 3844
 
+step Microcrystal Contamination
+  tip Crystal Infused Scale drops from Ravasaur, Ravasaur Runner, Ravasaur Hunter: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 280459 x1 optional
+  accept 87494 item 280459 optional
+  complete 87494 @27.5,42.7
+
+step Microcrystal Contamination
+  when onquest 87494
+  zone map 1446
+  turnin 87494
+
 step It's a Secret to Everybody
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1449
   accept 3845
   complete 3845 @63.1,69.1
 

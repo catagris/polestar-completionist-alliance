@@ -1,8 +1,9 @@
 guide completionist-alliance/02-dun-morogh-and-ironforge
-title 02 Dun Morogh and Ironforge (1-13) (Completionist)
+title 02 Dun Morogh and Ironforge
 faction Alliance
 levels 1-13
 category Leveling
+folder Completionist 01-10
 zone Dun Morogh
 next completionist-alliance/01-elwynn-forest-and-stormwind when !turnedin 95065
 next completionist-alliance/03-teldrassil-and-darnassus when !turnedin 941
@@ -278,16 +279,16 @@ step Sunhammer's Rifle
 step Stoneanvil's Rifle
   collect 286360 x1 quest 99162.1
 
-step Minor Ice Elemental
-  kill 276003 x10 quest 99160.1
+step Loslor Rudge
+  accept 5541
+  accept 313
+  accept 317
 
 step Coalbeard's Rifle
   collect 286358 x1 quest 99162.3
 
-step Pilot Stonegear
-  accept 313
-  accept 317
-  accept 5541
+step Minor Ice Elemental
+  kill 276003 x10 quest 99160.1
 
 step Dire Mottled Boar
   zone map 1411

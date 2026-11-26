@@ -1,8 +1,9 @@
 guide completionist-alliance/01-elwynn-forest-and-stormwind
-title 01 Elwynn Forest and Stormwind (1-12) (Completionist)
+title 01 Elwynn Forest and Stormwind
 faction Alliance
 levels 1-12
 category Leveling
+folder Completionist 01-10
 zone Elwynn Forest
 next completionist-alliance/02-dun-morogh-and-ironforge when !turnedin 96390
 next completionist-alliance/03-teldrassil-and-darnassus when !turnedin 941
@@ -325,8 +326,8 @@ step Camping 101: Mining
   when skill Mining 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1429
-  accept 97923 optional only NightElf,Gnome
-  complete 97923 @44.9,63.4 optional only NightElf,Gnome
+  accept 97923 optional only Human
+  complete 97923 @44.9,63.4 optional only Human
 
 step Camping 101: Skinning
   when skill Skinning 1
@@ -802,7 +803,7 @@ step Camping 101: Herbalism
 step Camping 101: Mining
   when skill Mining 1
   zone map 1453
-  turnin 97923 optional only NightElf,Gnome
+  turnin 97923 optional only Human
 
 step Morgan Pestle
   zone map 1453

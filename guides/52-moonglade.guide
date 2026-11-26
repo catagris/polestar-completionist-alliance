@@ -1,8 +1,9 @@
 guide completionist-alliance/52-moonglade
-title 52 Moonglade (55-60) (Completionist)
+title 52 Moonglade
 faction Alliance
 levels 55-60
 category Leveling
+folder Completionist 51-60
 zone Moonglade
 next completionist-alliance/53-azshara
 pitch On along the line: Moonglade, quests of level 55 to 60.
@@ -35,6 +36,24 @@ step Ysondre
 step Rabine Saturna
   zone map 1450
   accept 5527
+
+step Craftsman's Writ: Quickdraw Quiver
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264097 x1 anywhere optional
+  collect 8217 x1 anywhere optional
+  turnin 94297 direct optional
+
+step Craftsman's Writ: Unstable Trigger
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264085 x1 anywhere optional
+  collect 10560 x1 anywhere optional
+  turnin 94285 direct optional
+
+step Craftsman's Writ: Moonsteel Broadsword
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264073 x1 anywhere optional
+  collect 3853 x1 anywhere optional
+  turnin 94273 direct optional
 
 step Dusty Reliquary
   zone map 1451
@@ -95,6 +114,18 @@ step Rabine Saturna
 step Umber
   accept 1185
   turnin 1185
+
+step Craftsman's Writ: Great Rage Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264061 x1 anywhere optional
+  collect 5633 x1 anywhere optional
+  turnin 94261 direct optional
+
+step Craftsman's Writ: Star Belt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264109 x1 anywhere optional
+  collect 4329 x1 anywhere optional
+  turnin 94309 direct optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

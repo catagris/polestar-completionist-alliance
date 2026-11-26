@@ -1,7 +1,8 @@
 guide completionist-alliance/dungeon-the-drowned-city
-title The Drowned City (Completionist)
+title The Drowned City
 faction Alliance
 category Dungeons
+folder Completionist dungeons and raids
 levels 33-40
 zone Stranglethorn Vale
 next completionist-alliance/34-odd-jobs-in-the-eastern-kingdoms-2
@@ -60,6 +61,18 @@ step The Web of Magic
   turnin 95798
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Take Two With Water
+  when onquest 95787
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1424
+  turnin 95787 optional
+
+step Magics of the Drowned City
+  when onquest 95788
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1424
+  turnin 95788 optional
 
 step Shady Saltseers
   when onquest 95789

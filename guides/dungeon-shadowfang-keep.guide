@@ -1,7 +1,8 @@
 guide completionist-alliance/dungeon-shadowfang-keep
-title Shadowfang Keep (Completionist)
+title Shadowfang Keep
 faction Alliance
 category Dungeons
+folder Completionist dungeons and raids
 levels 20-25
 zone Silverpine Forest
 next completionist-alliance/16-ashenvale
@@ -40,3 +41,13 @@ step Doan Karhan
   only Warlock
   zone The Barrens
   turnin 1740
+
+step Dead Drop
+  only Rogue
+  zone Silverpine Forest
+  accept 78307
+
+step Dead Drop
+  only Rogue
+  zone Silverpine Forest
+  turnin 78307

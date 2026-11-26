@@ -1,14 +1,15 @@
 guide completionist-alliance/29-riverglades
-title 29 Riverglades (36-47) (Completionist)
+title 29 Riverglades
 faction Alliance
 levels 36-47
 category Leveling
+folder Completionist 21-30
 zone Riverglades
 next completionist-alliance/dungeon-kroldok-stronghold
 next completionist-alliance/30-undercity-2
 pitch On along the line: Riverglades, quests of level 36 to 47.
 # Generated from the reference data: change the planner, not this file.
-# Routed 83 quests; estimated level at the end 44.8 (heuristic XP, class quests not counted).
+# Routed 81 quests; estimated level at the end 44.6 (heuristic XP, class quests not counted).
 # Skipped: 2 prerequisite N not in this route.
 
 step Jemma Quikswitch
@@ -48,11 +49,6 @@ step Grand Mason Marblesten
   zone map 1455
   accept 689
 
-step Me Brother, Nipsy
-  when onquest 6662
-  zone map 1453
-  turnin 6662 @64.5,7.5 map 1453
-
 step Alterac Granite
   zone map 1416
   collect 4521 x5 quest 689.1
@@ -73,12 +69,11 @@ step Sister Rowland
 step Picked Carcass
   accept 95983
 
-step Dawn Brightstar
-  zone map 1429
-  buy 17028 x5 npc 958 -- for Keeping the Light On
+step Drop the Hammer
+  tip Komuk's Warmaul drops from Komuk: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 266889 x1 optional
 
 step Scout Bolain
-  zone map 2548
   accept 95147
 
 step Gelinda Coppergleam
@@ -95,71 +90,19 @@ step Gelinda Coppergleam
   turnin 95934
 
 step Cedric Dalton
-  turnin 95147
-  accept 94678
-  accept 95148
-
-step Hail the Dragonslayer
-  when has 271612
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 2548
-  turnin 95935 direct @39.6,74.7 map 2548
-
-step Cedric Dalton
-  when group 94679
-  zone map 2548
-  accept 94679
-
-step Redridge Mystic, Redridge Trapper and Redridge Brute
   zone map 1433
-  kill 255770 x8 quest 94678.1
-  kill 255772 x8 quest 94678.2
-  kill 255769 x6 quest 94678.3
+  turnin 95147
 
-step Snargl
-  when group 94679
-  tip Snargl's Snout is group work: elites. Grouping up is advised.
+step Halligan Turner
   zone map 2548
-  collect 265357 x1 quest 94679.1
-
-step Cedric Dalton
-  zone map 2548
-  turnin 94678
-
-step Cedric Dalton
-  when group 94679
-  zone map 2548
-  turnin 94679
-
-step Eleanor Holmsby
-  zone map 2548
-  accept 94999
-  accept 94923
-
-step Hollow Clam Shell
-  collect 266884 x1 quest 94923.1
-
-step Curly
-  accept 94857
-
-step Hurley
-  turnin 94857
   accept 94842
   accept 94931
-
-step Helping Hands
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 94861
-  complete 94861 @41.4,64.5
 
 step Murloc Tideskimmer
   collect 267266 x8 quest 94842.3
 
 step Fresh Manure
   collect 266156 x4 quest 94842.2
-
-step Watcher Fredericks
-  turnin 94999
 
 step Stolen Tools
   collect 266897 x8 quest 94931.1
@@ -176,95 +119,14 @@ step Abominable Magics
   accept 95642
   complete 95642 @47.6,47.2
 
-step Chogg'Zac and Twilight Ritualist
+step Twilight Ritualist
   kill 262169 x5 quest 95643.2
-
-step Empowered Brute
-  kill 261711 x5 quest 95643.1
 
 step Twilight Instigator
   collect 267073 x20 quest 94961.1
 
-step Sleebo Fizzlespout
-  accept 96063
-
-step Drop the Hammer
-  tip Komuk's Warmaul drops from Komuk: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  collect 266889 x1 optional
-
-step Marsh Gas Vent
-  collect 272004 x5 quest 96063.1
-
-step Watcher Cornelius
-  turnin 95983
-  accept 94924
-  accept 94925
-  accept 95984
-
-step Rog'mar Poacher
-  kill 259052 x12 quest 94924.1
-
-step Roving Tallstrider
-  collect 271778 x1 quest 95984.1
-
-step Wildplains Huntress
-  collect 266888 x8 quest 94925.1
-
-step Sleebo Fizzlespout
-  turnin 96063
-  accept 96067
-  turnin 96067
-
-step Friz Frazzlespark
-  accept 95059
-  accept 95254
-
-step Not My Circus
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 95982
-  complete 95982 @76.0,52.6
-
-step WANTED!
-  when group 95120
-  zone map 2548
-  accept 95120
-
-step Fimbo Greasemitz
-  zone map 2548
-  accept 95121
-  accept 95118
-
-step Trapclaw
-  collect 268586 x1 quest 95254.1
-
-step Murloc Oracle
-  kill 255898 x8 quest 95118.2
-  collect 268344 x12 quest 95121.1
-
-step Sand Crawler
-  collect 268345 x6 quest 95121.2
-
-step Murloc Warrior
-  kill 256801 x8 quest 95118.1
-
-step Demar Brant
-  turnin 95059
-  turnin 95148
-  accept 94613
-  accept 94877
-  accept 94879
-
-step Twilight Page
-  collect 266424 x5 quest 94879.1
-
-step Twilight Shadowmancer
-  kill 254560 x8 quest 94877.2
-
-step Twilight Neophyte
-  kill 256798 x8 quest 94877.3
-
-step Twilight Raider
-  kill 256952 x8 quest 94877.1
+step Empowered Brute
+  kill 261711 x5 quest 95643.1
 
 step Fuzzle
   turnin 94961
@@ -312,21 +174,7 @@ step Field Marshal's Log
 step Apprentice Claire
   accept 94884
 
-step Level 38
-  level 38
-
-step Drop the Hammer
-  tip Komuk's Warmaul drops from Komuk: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  accept 94926 item 266889 optional
-  complete 94926 @66.7,81.0
-
-step Drop the Hammer
-  when onquest 94926
-  zone map 2548
-  turnin 94926
-
 step Farmer Elbrim
-  zone map 2548
   accept 94829
 
 step Loose Soil
@@ -340,17 +188,31 @@ step Discarded Doll and Converted Farmer
   collect 266251 x1 quest 94858.1
   collect 266252 x1 quest 94858.2
 
-step Level 40
-  level 40
-
-step Friz Frazzlespark
-  accept 95219
-
-step Not My Circus
-  turnin 95982
-
 step Farmer Elbrim
   turnin 94858
+
+step Watcher Cornelius
+  turnin 95983
+  accept 94924
+  accept 94925
+  accept 95984
+
+step Level 38
+  level 38
+
+step Drop the Hammer
+  tip Komuk's Warmaul drops from Komuk: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  accept 94926 item 266889 optional
+  complete 94926 @66.7,81.0
+
+step Rog'mar Poacher
+  kill 259052 x12 quest 94924.1
+
+step Roving Tallstrider
+  collect 271778 x1 quest 95984.1
+
+step Wildplains Patriarch
+  collect 266888 x8 quest 94925.1
 
 step Watcher Cornelius
   turnin 94924
@@ -359,24 +221,14 @@ step Watcher Cornelius
   accept 94928
   accept 95064
   accept 95426
-  accept 96125
 
 step Watcher Cornelius
   when group 95986
   zone map 2548
   accept 95986
 
-step Wharfmaster Whizzbuzz
-  zone map 2548
-  accept 95119
-
-step Eastsea Buccaneer
-  kill 257901 x10 quest 95119.1
-
-step Eastsea Musketeer
-  kill 257910 x10 quest 95119.2
-
 step Rog'mar Supply Crate
+  zone map 2548
   collect 274975 x1 quest 95426.1
 
 step Rog'mar Trainee
@@ -388,8 +240,14 @@ step Ombassa
   zone map 2548
   collect 281052 x1 quest 95986.1
 
-step Watcher Cornelius
+step Sleebo Fizzlespout
   zone map 2548
+  accept 96063
+
+step Marsh Gas Vent
+  collect 272004 x8 quest 96063.1
+
+step Watcher Cornelius
   turnin 95064
   turnin 95426
   accept 95066
@@ -401,40 +259,59 @@ step Watcher Cornelius
 
 step Benjy Wheeler
   zone map 2548
-  turnin 94613
   accept 94614
-  accept 94615
 
-step Track
-  collect 267223 x1 quest 94615.1
-
-step Mudfin Warrior and Mudfin Oracle
-  kill 258574 x8 quest 94614.1
+step Mudfin Oracle
   kill 258573 x8 quest 94614.2
 
 step Halligan Turner
   turnin 94842
   turnin 94931
 
-step Helping Hands
-  turnin 94861
-
 step From Seed to Sprout
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 94843
   complete 94843 @41.2,62.9
 
+step Mudfin Warrior
+  kill 258574 x8 quest 94614.1
+
+step Curly
+  accept 94857
+
+step Hurley
+  turnin 94857
+
+step Helping Hands
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 94861
+  complete 94861 @41.4,64.5
+
+step From Seed to Sprout
+  turnin 94843
+
+step Helping Hands
+  turnin 94861
+
+step Eleanor Holmsby
+  accept 94999
+  accept 94923
+
+step Hollow Clam Shell
+  collect 266884 x1 quest 94923.1
+
 step Robbie Holmsby
   turnin 94923
 
+step Watcher Fredericks
+  turnin 94999
+
 step Benjy Wheeler
   turnin 94614
-  turnin 94615
-  accept 94617
-  accept 94618
 
-step Sootfur
-  collect 265738 x1 quest 94617.1
+step Buy Holy Candle
+  tip Sold in 18 places: the arrow leads to the nearest vendor.
+  buy 17028 x5 nearest -- for Keeping the Light On
 
 step Sister Rowland
   turnin 95613
@@ -448,19 +325,134 @@ step In Memoriam
 step Foreman's Crate
   collect 271620 x1 quest 95943.1
 
-step Lost Horse
-  turnin 94618
+step Sleebo Fizzlespout
+  turnin 96063
+  accept 96067
+  turnin 96067
 
-step Rescue Roundup
+step Friz Frazzlespark
+  turnin 94928
+  accept 95059
+  turnin 94841
+  accept 95254
+
+step Craftsman's Writ: Black Mageweave Vest
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264110 x1 anywhere optional
+  collect 9998 x1 anywhere optional
+  turnin 94310 direct optional
+
+step Craftsman's Writ: Swift Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264098 x1 anywhere optional
+  collect 7391 x1 anywhere optional
+  turnin 94298 direct optional
+
+step Craftsman's Writ: Flash Bomb
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264086 x1 anywhere optional
+  collect 4852 x1 anywhere optional
+  turnin 94286 direct optional
+
+step Craftsman's Writ: Golden Scale Coif
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264074 x1 anywhere optional
+  collect 3837 x1 anywhere optional
+  turnin 94274 direct optional
+
+step Craftsman's Writ: Mana Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264062 x1 anywhere optional
+  collect 3827 x1 anywhere optional
+  turnin 94262 direct optional
+
+step Not My Circus
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 94992
-  complete 94992 @53.7,66.3
+  accept 95982
+  complete 95982 @76.0,52.6
 
-step Benjy Wheeler
-  turnin 94617
+step WANTED!
+  when group 95120
+  zone map 2548
+  accept 95120
 
-step Rescue Roundup
-  turnin 94992
+step Fimbo Greasemitz
+  zone map 2548
+  accept 95121
+  accept 95118
+
+step Trapclaw
+  collect 268586 x1 quest 95254.1
+
+step Level 38
+  level 38
+
+step Watcher Cornelius
+  accept 96125
+
+step Painted Hide
+  accept 95260
+
+step Murloc Warrior
+  kill 256801 x8 quest 95118.1
+
+step Friz Frazzlespark
+  accept 95288
+
+step Not My Circus
+  turnin 95982
+
+step Eastsea Buccaneer
+  collect 268796 x8 quest 95288.1
+
+step Friz Frazzlespark
+  turnin 95288
+
+step Friz Frazzlespark
+  accept 95293
+
+step Wharfmaster Whizzbuzz
+  accept 95119
+
+step Eastsea Buccaneer
+  kill 257901 x10 quest 95119.1
+
+step Eastsea Musketeer
+  kill 257910 x10 quest 95119.2
+
+step Sand Crawler
+  collect 268345 x6 quest 95121.2
+
+step Murloc Oracle
+  kill 255898 x8 quest 95118.2
+  collect 268344 x12 quest 95121.1
+
+step Fimbo Greasemitz
+  turnin 95121
+  turnin 95254
+  turnin 95118
+  turnin 95119
+  accept 95122
+  accept 95123
+
+step Argo Brinewhistle
+  turnin 95260
+  accept 95261
+
+step Powder Keg
+  collect 268346 x5 quest 95123.1
+
+step Rotflesh Mushroom
+  collect 268664 x8 quest 95261.2
+
+step Eastsea Bombardier
+  kill 257916 x8 quest 95122.2
+
+step Eastsea Raider
+  kill 257915 x8 quest 95122.1
+
+step Roosting Duskbat
+  collect 268632 x15 quest 95261.1
 
 step Bertrand Ironbrow
   turnin 95943
@@ -475,6 +467,11 @@ step Bundle of Wood
 step Bertrand Ironbrow
   turnin 96009
   accept 95330
+
+step Drop the Hammer
+  when onquest 94926
+  zone map 2548
+  turnin 94926
 
 step Field Marshal's Log
   when onquest 94885
@@ -508,38 +505,72 @@ step Wanted
 
 step Demar Brant
   zone map 2548
-  turnin 94877
+  turnin 95059
   turnin 95066
-  accept 95329
-  turnin 94879
+  accept 94613
+  accept 94877
+  accept 94879
   accept 94881
-  accept 94886
   accept 95156
-  accept 96081
+
+step Level 40
+  level 40
+
+step Friz Frazzlespark
+  accept 95219
 
 step Hay Bale
   collect 268536 x3 quest 95156.1
 
-step Halligan Turner
-  turnin 95330
+step Twilight Raider
+  kill 256952 x8 quest 94877.1
 
-step From Seed to Sprout
-  turnin 94843
+step Twilight Neophyte
+  kill 256798 x8 quest 94877.3
 
 step Twilight Shadowmancer
+  kill 254560 x8 quest 94877.2
   collect 266425 x25 quest 94881.1
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x20 quest 96081.1
+step Twilight Page
+  collect 266424 x5 quest 94879.1
 
-step Watcher Cornelius
-  zone map 2548
-  turnin 95329
+step Wharfmaster Whizzbuzz
+  turnin 95122
+  turnin 95123
+  accept 95124
+  turnin 95261
+  accept 95267
 
-step Brother Lowley
-  turnin 96081
-  accept 96082
+step See Ya, Scallywags!
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 95165
+  complete 95165 @79.5,52.7
+
+step Monstrous Threshadon
+  collect 268633 x1 quest 95267.1
+
+step Argo Brinewhistle
+  turnin 95267
+
+step See Ya, Scallywags!
+  turnin 95165
+
+step Admiral Lamora and Admiral's Treasure Chest
+  kill 257861 x1 quest 95124.1
+  collect 268506 x1 quest 95124.2
+
+step Captain Bentcoin
+  turnin 95293
+  accept 95294
+
+step Wharfmaster Whizzbuzz
+  turnin 95124
+  turnin 95294
+  accept 95295
+  accept 95296
+
+step Ember Bladewhisper
   turnin 95156
 
 step The Sharpest of Blades
@@ -547,14 +578,14 @@ step The Sharpest of Blades
   accept 95184
   complete 95184 @66.2,79.6
 
-step Wounded Soldier
-  kill 263614 x3 quest 96082.1
-
-step Brother Lowley
-  turnin 96082
-  accept 96083
+step Demar Brant
+  turnin 94877
+  accept 95329
+  turnin 94879
   turnin 94881
   accept 94907
+  accept 94886
+  accept 96081
 
 step The Sharpest of Blades
   turnin 95184
@@ -574,15 +605,21 @@ step Twilight Thrall
   zone map 2548
   kill 258652 x1 quest 94907.1
 
-step Twilight Corrupter and Twilight Champion
+step Twilight Fanatic and Twilight Corrupter
+  kill 256795 x8 quest 94889.1
   kill 256797 x8 quest 94889.2
+
+step Twilight Champion
   kill 256799 x8 quest 94889.3
 
-step Twilight Fanatic
-  kill 256795 x8 quest 94889.1
-
-step Ogre Miner and Twilight Subjugator
+step Ogre Miner
   kill 260995 x5 quest 96015.1
+
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4338 x20 anywhere
+
+step Twilight Subjugator
   kill 260996 x5 quest 96015.2
 
 step Sergeant Riftan
@@ -608,20 +645,86 @@ step Sergeant Riftan
   turnin 94890
 
 step Sergeant Riftan
-  when turnedin 94890
   zone map 2548
-  accept 94891 optional
+  accept 94891
 
-step Sister Rowland
+step Halligan Turner
+  turnin 95330
+
+step Benjy Wheeler
+  turnin 94613
+  accept 94615
+
+step Track
+  collect 267223 x1 quest 94615.1
+
+step Benjy Wheeler
+  turnin 94615
+  accept 94617
+  accept 94618
+
+step Sootfur
+  collect 265738 x1 quest 94617.1
+
+step Benjy Wheeler
+  turnin 94617
+
+step Lost Horse
+  turnin 94618
+
+step Rescue Roundup
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 94992
+  complete 94992 @53.7,66.3
+
+step Rescue Roundup
+  turnin 94992
+
+step Watcher Cornelius
+  turnin 95329
+
+step Brother Lowley
+  turnin 96081
+  accept 96082
+
+step Dying Wish
+  when onquest 94892
+  zone map 2548
+  turnin 94892
+
+step Wounded Soldier
+  zone map 2548
+  kill 263614 x3 quest 96082.1
+
+step Brother Lowley
+  turnin 96082
+  accept 96083
+  turnin 94891
+  turnin 94907
+  accept 94894
+
+step Delivering Closure
+  when turnedin 94892
+  zone map 1453
+  accept 94893
+
+step Tessa Dawnbright
+  zone map 1453
+  accept 95561
   turnin 96083
 
 step Something's in the Water
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2548
   accept 96084
   complete 96084 @61.8,83.1
 
+step Fresh Apple
+  collect 271431 x6 quest 95561.1
+
 step Tessa Dawnbright
-  accept 95561
+  turnin 95561
+  accept 95913
 
 step Something's in the Water
   turnin 96084
@@ -631,22 +734,9 @@ step Sister Rowland
   zone map 2548
   accept 96085
 
-step Fresh Apple
-  zone map 2548
-  collect 271431 x6 quest 95561.1
-
-step Tessa Dawnbright
-  turnin 95561
-  accept 95913
-
 step Plains Coyote
-  collect 271432 x3 quest 95913.1
-
-step Sister Rowland
-  when group 96085
   zone map 2548
-  kill 263615 x1 quest 96085.1
-  turnin 96085
+  collect 271432 x3 quest 95913.1
 
 step Blademaster Kaijo
   when group 95912
@@ -675,105 +765,50 @@ step Tessa Dawnbright
   turnin 95913
   accept 95961
 
-step Ashe Amberhall
-  turnin 94907
-
-step Ashe Amberhall
-  when turnedin 94891
-  accept 94894
-
-step Ashe Amberhall
-  when onquest 94891
-  turnin 94891
-
-step Dying Wish
-  when onquest 94892
+step Sister Rowland
+  when group 96085
   zone map 2548
-  turnin 94892
-
-step Painted Hide
-  zone map 2548
-  accept 95260
-
-step Friz Frazzlespark
-  turnin 94928
-  accept 95288
-
-step Eastsea Buccaneer
-  collect 268796 x8 quest 95288.1
-
-step Argo Brinewhistle
-  turnin 95260
-  accept 95261
-  turnin 95118
-  turnin 95119
-  accept 95122
-  accept 95123
+  kill 263615 x1 quest 96085.1
+  turnin 96085
 
 step Gray Dawnbright
+  zone map 2548
   turnin 95961
-
-step Innkeeper Zizplink
   accept 95988
-  turnin 95121
-  turnin 95254
 
 step Gritta Chumwater
-  buy 271657 x1 npc 260487 -- for Goes Down Smooth
-
-step Friz Frazzlespark
-  turnin 95288
-  accept 95293
+  buy 271657 x1 nearest -- for Goes Down Smooth
 
 step Kor'gar and Krikshank
-  buy 271653 x1 npc 260565 -- for Goes Down Smooth
-  buy 271654 x1 npc 260560 -- for Goes Down Smooth
-
-step Eastsea Raider
-  kill 257915 x8 quest 95122.1
-
-step Snort
-  collect 268632 x15 quest 95261.1
+  buy 271653 x1 nearest -- for Goes Down Smooth
+  buy 271654 x1 nearest -- for Goes Down Smooth
 
 step Shore Crawler
   collect 271650 x3 quest 95988.1
 
-step Rotflesh Mushroom
-  collect 268664 x8 quest 95261.2
+step Dunston Willis
+  turnin 96125
+  accept 96126
 
-step Eastsea Bombardier
-  kill 257916 x8 quest 95122.2
+step Gronok the Butcher
+  collect 272190 x1 quest 96126.1
 
-step Powder Keg
-  collect 268346 x5 quest 95123.1
+step Dunston Willis
+  turnin 96126
 
-step Argo Brinewhistle
-  turnin 95261
-  accept 95267
-  turnin 95122
-  turnin 95123
-  accept 95124
+step Dunston Checks Out
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 94927
+  complete 94927 @68.6,12.7
+
+step Dunston Checks Out
+  turnin 94927
+
+step Innkeeper Zizplink
   turnin 95988
   accept 95957
-
-step See Ya, Scallywags!
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 95165
-  complete 95165 @79.5,52.7
-
-step Gray Dawnbright
   turnin 95957
   accept 95975
-
-step See Ya, Scallywags!
-  turnin 95165
-
-step Monstrous Threshadon
-  collect 268633 x1 quest 95267.1
-
-step Admiral Lamora and Admiral's Treasure Chest
-  kill 257861 x1 quest 95124.1
-  collect 268506 x1 quest 95124.2
 
 step Wildflower
   collect 271823 x20 quest 95975.1
@@ -792,44 +827,6 @@ step Wharfmaster Whizzbuzz
 step Tessa Dawnbright
   zone map 2548
   turnin 95975
-
-step Delivering Closure
-  when turnedin 94892
-  zone map 1453
-  accept 94893
-
-step Wharfmaster Whizzbuzz
-  zone map 1453
-  turnin 95124
-  turnin 95267
-
-step Captain Bentcoin
-  turnin 95293
-  accept 95294
-
-step Friz Frazzlespark
-  turnin 95294
-  accept 95295
-  accept 95296
-
-step Dunston Willis
-  turnin 96125
-  accept 96126
-
-step Gronok the Butcher
-  collect 272190 x1 quest 96126.1
-
-step Dunston Willis
-  turnin 96126
-
-step Dunston Checks Out
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 2548
-  accept 94927
-  complete 94927 @68.6,12.7
-
-step Dunston Checks Out
-  turnin 94927
 
 step Caravaneer Ruzzgot
   zone map 1434
@@ -857,11 +854,11 @@ step Gnome Improvement
   zone map 1455
   turnin 2948 optional
 
-step Me Brother, Nipsy
-  when onquest 6662
+step Lost Shipping Crate
+  when onquest 94841
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 6662 @64.5,7.5 map 1453 optional
+  zone map 2548
+  turnin 94841 optional
 
 step Data Hoarders
   when onquest 95041

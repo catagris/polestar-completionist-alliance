@@ -1,34 +1,25 @@
 guide completionist-alliance/60-odd-jobs-in-kalimdor-4
-title 60 Odd jobs in Kalimdor, visit 4 (58-60) (Completionist)
+title 60 Odd jobs in Kalimdor, visit 4
 faction Alliance
 levels 58-60
 category Leveling
+folder Completionist 51-60
 zone Ashenvale
 next completionist-alliance/61-mount-hyjal
 pitch On along the line: errands across Kalimdor, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 4 quests; estimated level at the end 58.1 (heuristic XP, class quests not counted).
+# Routed 3 quests; estimated level at the end 58.1 (heuristic XP, class quests not counted).
 
 step Brivelthwerp
-  zone Thousand Needles
-  buy 7228 x1 npc 6496 -- for You Scream, I Scream...
+  zone map 1441
+  buy 7228 x1 nearest -- for You Scream, I Scream...
 
 step Veteran of the Third War
   accept 92102
 
-step Gorhak
-  zone Desolace
-  accept 92811
-
-step Gelkis Guardian
-  collect 254432 x1 quest 92811.1
-
-step Gorhak
-  turnin 92811
-
 step Ribbons of Sacrifice
-  zone map 1440
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1440
   accept 8269
   complete 8269 @61.9,83.9
 
@@ -40,6 +31,7 @@ step Sentinel Advanced Care Package
   accept 7865 optional
 
 step Ribbons of Sacrifice
+  zone map 1440
   turnin 8269
 
 step Sentinel Advanced Care Package
@@ -48,6 +40,7 @@ step Sentinel Advanced Care Package
   turnin 7865 optional
 
 step Level 60
+  zone map 1440
   level 60
 
 step Examine the Vessel
@@ -58,12 +51,10 @@ step Examine the Vessel
 
 step Brawl at the Maul
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1444
   turnin 97270 direct @62,30.1 map 1444
 
 step Brawl at the Maul
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1444
   turnin 99233 direct @62,30.1 map 1444
 
 step Examine the Vessel
@@ -92,13 +83,11 @@ step Corrupted Windblossom
 
 step Corrupted Night Dragon
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1439
   collect 11516 x4 anywhere optional
   turnin 4448 direct optional
 
 step Corrupted Night Dragon
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1439
   collect 11516 x4 anywhere optional
   turnin 4462 direct optional
 
@@ -110,7 +99,6 @@ step More Resource Crates
 
 step Control Four Bases
   tip Needs Friendly standing (3000) with The League of Arathor; without it the quest is not offered.
-  zone map 1417
   accept 8114 optional
 
 step Control Four Bases

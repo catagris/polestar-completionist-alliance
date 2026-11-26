@@ -1,15 +1,16 @@
 guide completionist-alliance/53-azshara
-title 53 Azshara (47-60) (Completionist)
+title 53 Azshara
 faction Alliance
 levels 47-60
 category Leveling
+folder Completionist 51-60
 zone Azshara
 next completionist-alliance/dungeon-alcaz-prison
 next completionist-alliance/54-hillsbrad-foothills-and-alterac-mountains-3
 pitch On along the line: Azshara, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 41 quests; estimated level at the end 49.5 (heuristic XP, class quests not counted).
-# Skipped: 2 prerequisite N not in this route; 1 profession.
+# Skipped: 1 profession.
 
 step Sentinel Dalia Sunblade
   zone map 1457
@@ -81,6 +82,24 @@ step Meeting with the Master
 step Archmage Xylem
   accept 90789
 
+step Craftsman's Writ: Wizardweave Turban
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264152 x1 anywhere optional
+  collect 14130 x1 anywhere optional
+  turnin 94352 direct optional
+
+step Craftsman's Writ: Masterwork Target Dummy
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264134 x1 anywhere optional
+  collect 16023 x1 anywhere optional
+  turnin 94334 direct optional
+
+step Craftsman's Writ: Potion of Demonslaying
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264116 x1 anywhere optional
+  collect 9224 x1 anywhere optional
+  turnin 94316 direct optional
+
 step Warlord Krellian
   collect 23250 x1 quest 90789.1
 
@@ -100,7 +119,7 @@ step Legashi Cauldron
   accept 86926
   accept 86927
 
-step object 507746
+step Satyrweed Bramble
   collect 235470 x5 quest 86926.1
 
 step Legashi Satyr, Legashi Rogue and Fel Mote
@@ -114,23 +133,19 @@ step Korsa
   accept 86792
   accept 86797
 
-step Master Feardred
-  collect 235334 x1 quest 86777.1
-
-step Legashi Hellraiser
-  kill 236874 x6 quest 86792.1
-
-step Legashi Soulstealer and Legashi Blackguard
-  kill 236867 x4 quest 86792.2
+step Legashi Blackguard
   kill 236876 x2 quest 86792.3
 
-step Graal
-  accept 86796
+step Legashi Hellraiser and Legashi Soulstealer
+  kill 236874 x6 quest 86792.1
+  kill 236867 x4 quest 86792.2
+
+step Master Feardred
+  collect 235334 x1 quest 86777.1
 
 step Korsa
   turnin 86777
   turnin 86792
-  turnin 86796
 
 step Legashi Cauldron
   turnin 86925
@@ -162,18 +177,14 @@ step Gatekeeper Rageroar
   accept 86791
   accept 86798
 
+step Blackmaw Reclamation
+  tip For Blackmaw Hold: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92065 optional
+
 step The Twin Bears
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 92066
   complete 92066 @41.3,20.1
-
-step Blackmaw Reclamation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 92065
-  complete 92065 @42.3,20.1
-
-step The Twin Bears
-  turnin 92066
 
 step Elder Bramblesnap
   turnin 86799
@@ -184,8 +195,8 @@ step Elder Bramblesnap
   turnin 86812
   turnin 86813
 
-step Blackmaw Reclamation
-  turnin 92065
+step The Twin Bears
+  turnin 92066
 
 step Kim'jael
   turnin 5534
@@ -195,6 +206,12 @@ step Legashi Cauldron
 
 step Korsa
   turnin 86791
+
+step Graal
+  accept 86796
+
+step Korsa
+  turnin 86796
 
 step Archmage Xylem
   turnin 90789

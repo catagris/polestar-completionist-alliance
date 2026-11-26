@@ -1,8 +1,9 @@
 guide completionist-alliance/dungeon-blackmaw-hold
-title Blackmaw Hold (Completionist)
+title Blackmaw Hold
 faction Alliance
 category Dungeons
-levels 47-60
+folder Completionist dungeons and raids
+levels 52-60
 zone Azshara
 next completionist-alliance/54-hillsbrad-foothills-and-alterac-mountains-3
 pitch Blackmaw Hold, in Azshara.
@@ -17,18 +18,32 @@ step Getting there
   zone map 1447
   note The entrance is in Azshara: the arrow leads to it.
 
+step Gatekeeper Rageroar
+  accept 92065
+
 step Ogtinc
   accept 92069
 
+step Archmage Timear
+  zone map 1416
+  accept 97173
+
 step Inside Blackmaw Hold
+  zone map 1447
   collect 249698 @37.6,38.7
   accept 92070 item 249698
   complete 92070 @37.6,38.7
   complete 92069 @37.6,38.7
+  complete 97173 @37.6,38.7
+  complete 92065 @37.6,38.7
 
 step Inside Blackmaw Hold
   when turnedin 92345
+  zone map 1447
   complete 92344 @37.6,38.7
+
+step Gatekeeper Rageroar
+  turnin 92065
 
 step Ogtinc
   turnin 92069
@@ -39,8 +54,6 @@ step Unele
 step Level 55
   level 55
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Ekkal
   accept 97327
 
@@ -50,33 +63,42 @@ step Inside Blackmaw Hold
 step Ekkal
   turnin 97327
 
-step Blackmaw Pouches
-  accept 96246
-
-step Blackmaw Pouches
-  when onquest 96246
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1447
-  complete 96246 @42,38.9
-
-step Blackmaw Pouches
-  when onquest 96246
-  zone map 1447
-  turnin 96246
-
-step Archmage Timear
-  zone map 1416
-  accept 97173
-
-step Inside Blackmaw Hold
-  zone map 1447
-  complete 97173 @37.6,38.7
-
 step Archmage Timear
   zone map 1416
   turnin 97173
 
+step Level 60
+  zone map 1434
+  level 60
+
+step Pix Xizzix
+  accept 96088
+
+step Inside Blackmaw Hold
+  zone map 1447
+  complete 96088 @37.6,38.7
+
+step Pix Xizzix
+  zone map 1434
+  turnin 96088
+
+step Ekkal
+  zone map 1447
+  accept 96246
+
+step Inside Blackmaw Hold, again
+  complete 96246 @37.6,38.7
+
+step Ekkal
+  turnin 96246
+
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Blackmaw Reclamation
+  when onquest 92065
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1447
+  turnin 92065 optional
 
 step Claws That Rend, Tusks that Gore
   when onquest 92069

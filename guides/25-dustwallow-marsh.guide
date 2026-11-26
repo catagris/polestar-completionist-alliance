@@ -1,20 +1,24 @@
-guide completionist-alliance/27-dustwallow-marsh
-title 27 Dustwallow Marsh (35-45) (Completionist)
+guide completionist-alliance/25-dustwallow-marsh
+title 25 Dustwallow Marsh
 faction Alliance
 levels 35-45
 category Leveling
+folder Completionist 21-30
 zone Dustwallow Marsh
-next completionist-alliance/28-dun-morogh-and-ironforge-2
+next completionist-alliance/26-desolace
 pitch On along the line: Dustwallow Marsh, quests of level 35 to 45.
 # Generated from the reference data: change the planner, not this file.
-# Routed 24 quests; estimated level at the end 37.7 (heuristic XP, class quests not counted).
+# Routed 27 quests; estimated level at the end 37.7 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N (done); 1 no turn-in in data.
 
-step Roetten Stonehammer
-  when onquest 1457
-  zone map 1455
-  turnin 1457
-  turnin 1467
+step Brohann Caskbelly
+  when onquest 1448
+  zone map 1453
+  turnin 1448
+
+step Angus Stern
+  zone map 1453
+  accept 1260
 
 step I Got Nothin' Left!
   when skill Fishing 1
@@ -28,21 +32,18 @@ step Alliance Trauma
   zone map 1455
   accept 6625 optional
 
-step Angus Stern
-  zone map 1453
-  accept 1260
-
 step Commander Samaul
   zone map 1445
   sethome "Theramore Isle"
   getfp "Theramore"
   accept 1265
+  turnin 1252
+  turnin 1253
+  turnin 1284
   accept 1259
   accept 1319
   turnin 1259
   accept 1285
-  turnin 1285
-  accept 1286
 
 step They Call Him Smiling Jim
   when available 1282
@@ -62,17 +63,10 @@ step Triage
   accept 6624 optional
   complete 6624 @67.8,49.0 optional
 
-step Balos Jacken
-  zone map 1413
-  turnin 1286
-  accept 1287
-
-step Caz Twosprocket
-  turnin 1319
-  accept 1320
-  complete 1265 @59.9,40.9 map 1445
-  turnin 1265
-  accept 1266
+step Captain Garran Vimes
+  zone map 1445
+  turnin 1285
+  accept 1286
 
 step They Call Him Smiling Jim
   when onquest 1282
@@ -83,6 +77,24 @@ step Triage
   when skill "First Aid" 1
   zone map 1445
   turnin 6624 optional
+
+step Balos Jacken
+  zone map 1413
+  turnin 1286
+  accept 1287
+
+step Craftsman's Writ: Lesser Stoneshield Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264058 x1 anywhere optional
+  collect 4623 x1 anywhere optional
+  turnin 94258 direct optional
+
+step Caz Twosprocket
+  turnin 1319
+  accept 1320
+  complete 1265 @59.9,40.9 map 1445
+  turnin 1265
+  accept 1266
 
 step I Got Nothin' Left!
   when skill Fishing 1
@@ -166,9 +178,10 @@ step Jarl Needs a Blade
   zone map 1445
   accept 81570 optional
 
-step Gunder Thornbush
-  zone map 1431
-  buy 3713 x3 npc 960 -- for Soothing Spices
+step Buy Soothing Spices
+  tip Sold in 34 places: the arrow leads to the nearest vendor.
+  zone map 1453
+  buy 3713 x3 nearest -- for Soothing Spices
 
 step "Swamp Eye" Jarl
   zone map 1445
@@ -184,6 +197,12 @@ step Private Hendel
   zone map 1445
   turnin 1266
   accept 1324
+
+step Craftsman's Writ: Steel Weapon Chain
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264070 x1 anywhere optional
+  collect 6041 x1 anywhere optional
+  turnin 94270 direct optional
 
 step Private Hendel
   kill 4966 x1 quest 1324.1
@@ -216,8 +235,6 @@ step Morgan Stern
   turnin 1204
   accept 1258
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Silt Crawler
   zone map 1435
   collect 5938 x12 quest 1258.1
@@ -231,8 +248,28 @@ step Archmage Tervosh
   accept 1267
   turnin 1267
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Captain Garran Vimes
   turnin 1220
+
+step Craftsman's Writ: Craftsman's Monocle
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264082 x1 anywhere optional
+  collect 4393 x1 anywhere optional
+  turnin 94282 direct optional
+
+step Craftsman's Writ: Crimson Silk Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264106 x1 anywhere optional
+  collect 7063 x1 anywhere optional
+  turnin 94306 direct optional
+
+step Craftsman's Writ: Dusky Bracers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264094 x1 anywhere optional
+  collect 7378 x1 anywhere optional
+  turnin 94294 direct optional
 
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
@@ -255,14 +292,26 @@ step Jarl Needs a Blade
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step The Karnitol Shipwreck
-  when onquest 1457
+step Lieutenant Paval Reethe
+  when onquest 1252
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 1457 optional
+  zone map 1445
+  turnin 1252 optional
 
-step Reagents for Reclaimers Inc.
-  when onquest 1467
+step The Black Shield
+  when onquest 1253
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 1467 optional
+  zone map 1445
+  turnin 1253 optional
+
+step Suspicious Hoofprints
+  when onquest 1284
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1445
+  turnin 1284 optional
+
+step In Search of The Temple
+  when onquest 1448
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 1448 optional

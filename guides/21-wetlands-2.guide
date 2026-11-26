@@ -1,8 +1,9 @@
 guide completionist-alliance/21-wetlands-2
-title 21 Wetlands, visit 2 (27-40) (Completionist)
+title 21 Wetlands, visit 2
 faction Alliance
 levels 27-40
 category Leveling
+folder Completionist 21-30
 zone Wetlands
 next completionist-alliance/dungeon-excavation-site-wetlands
 next completionist-alliance/22-elwynn-forest-and-stormwind-3
@@ -137,9 +138,8 @@ step Prospector Whelgar
   turnin 98310
 
 step Prospector Whelgar
-  when turnedin 98310
   zone map 1437
-  accept 98313 optional
+  accept 98313
 
 step Longbraid the Grim
   when group 304
@@ -193,6 +193,36 @@ step Vincent Hyal
 step Lost in the Thicket Things
   tip For Excavation Site: Wetlands: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 95647 optional
+
+step Craftsman's Writ: Draught of Water Breathing
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264019 x1 anywhere optional
+  collect 5996 x1 anywhere optional
+  turnin 94219 direct optional
+
+step Craftsman's Writ: Spider Silk Slippers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264055 x1 anywhere optional
+  collect 4321 x1 anywhere optional
+  turnin 94255 direct optional
+
+step Craftsman's Writ: Red Whelp Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264046 x1 anywhere optional
+  collect 7284 x1 anywhere optional
+  turnin 94246 direct optional
+
+step Craftsman's Writ: Crafted Solid Shot
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264037 x1 anywhere optional
+  collect 8069 x1 anywhere optional
+  turnin 94237 direct optional
+
+step Craftsman's Writ: Green Iron Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264028 x1 anywhere optional
+  collect 3484 x1 anywhere optional
+  turnin 94228 direct optional
 
 step Clerk Lendry
   zone map 1445

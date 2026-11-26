@@ -1,8 +1,9 @@
 guide completionist-alliance/10-the-barrens
-title 10 The Barrens (14-25) (Completionist)
+title 10 The Barrens
 faction Alliance
 levels 14-25
 category Leveling
+folder Completionist 01-10
 zone The Barrens
 next completionist-alliance/dungeon-wailing-caverns
 next completionist-alliance/11-westfall

@@ -1,13 +1,14 @@
 guide completionist-alliance/23-odd-jobs-in-kalimdor-2
-title 23 Odd jobs in Kalimdor, visit 2 (30-40) (Completionist)
+title 23 Odd jobs in Kalimdor, visit 2
 faction Alliance
 levels 30-40
 category Leveling
+folder Completionist 21-30
 zone The Barrens
 next completionist-alliance/24-swamp-of-sorrows
 pitch On along the line: errands across Kalimdor, quests of level 30 to 40.
 # Generated from the reference data: change the planner, not this file.
-# Routed 15 quests; estimated level at the end 30.7 (heuristic XP, class quests not counted).
+# Routed 14 quests; estimated level at the end 30.7 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N (done).
 
 step Warden Thelwater
@@ -90,9 +91,6 @@ step Thyn'tel Bladeweaver
   turnin 1038
   accept 1039
 
-step Level 32
-  level 32
-
 step Level 40
   level 40
 
@@ -109,25 +107,19 @@ step Learning to Ride
 
 step Your First Feline Friend
   only NightElf
-  when available 95511
-  tip One of several exclusive quests; the route takes Your First Riding Ram (97017). This one shows for a character the game offers it to instead.
   when turnedin 97074
   zone map 1457
-  accept 95511 optional
+  accept 95511
 
 step Your First Feline Friend
   only NightElf
   when onquest 95511
   zone map 1457
-  turnin 95511 optional
+  turnin 95511
 
 step Clara's Fresh Apples
   zone map 1429
   collect 8683 x2 quest 2746.2
-
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x3 quest 2746.1
 
 step Marshal Haggard
   when onquest 74
@@ -182,10 +174,6 @@ step Gazlowe
   accept 1180
   accept 1112
 
-step Brelinda McFarry
-  accept 98903
-  turnin 98903
-
 step Fiora Longears
   zone map 1445
   accept 1135
@@ -203,11 +191,6 @@ step Black Shield
 step Fiora Longears
   zone map 1445
   turnin 1135
-
-step Captain Garran Vimes
-  turnin 1252
-  turnin 1253
-  turnin 1284
 
 step Kravel Koalbeard
   zone map 1441
@@ -227,8 +210,15 @@ step Balthule Shadowstrike
   turnin 1143
   accept 981
 
-step Mudcrush Durtfeet
+step Delgren the Purifier
+  zone map 1440
+  turnin 981
+
+step Level 32
   zone map 1413
+  level 32
+
+step Mudcrush Durtfeet
   accept 1177
 
 step Mirefin Muckdweller
@@ -237,14 +227,18 @@ step Mirefin Muckdweller
 step Mudcrush Durtfeet
   turnin 1177
 
-step Delgren the Purifier
-  zone map 1440
-  turnin 981
-
 step Wharfmaster Dizzywig
-  zone map 1413
   turnin 1039
   accept 1040
+
+step The Battle for Darkspear Islands!
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 98903
+  complete 98903 @63.3,58.8
+
+step The Battle for Darkspear Islands!
+  zone map 1457
+  turnin 98903
 
 step Caravaneer Ruzzgot
   zone map 1434

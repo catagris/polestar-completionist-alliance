@@ -1,5 +1,5 @@
 guide completionist-alliance/class-warlock
-title Warlock class quests (10-60) (Completionist)
+title Warlock class quests
 faction Alliance
 class Warlock
 levels 10-60
@@ -8,7 +8,7 @@ zone Durotar
 why Every Warlock class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Warlock quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 31 quests; estimated level at the end 23.0 (heuristic XP).
+# Routed 30 quests; estimated level at the end 22.3 (heuristic XP).
 # Skipped: 8 exclusive with N; 8 prerequisite N not in this route; 5 objective N (item N) outside the zones; 3 objective N (talk N) outside the zones; 1 objective N (kill N) outside the zones.
 
 step Level 25
@@ -16,7 +16,7 @@ step Level 25
 
 step Zardeth of the Black Claw
   when turnedin 336
-  zone Stormwind City
+  zone map 1453
   accept 397 only Human,Gnome
 
 step Devourer of Souls
@@ -26,6 +26,7 @@ step Devourer of Souls
 
 step Devourer of Souls
   only Warlock
+  zone map 1453
   turnin 1716 optional
 
 step What Is Love?
@@ -51,6 +52,7 @@ step Surena Caledon
 
 step What Is Love?
   only Warlock
+  zone map 1453
   turnin 65602 optional
 
 step The Binding
@@ -62,10 +64,12 @@ step The Binding
 
 step Heartswood
   only Warlock
+  zone map 1453
   turnin 1738 optional
 
 step The Binding
   only Warlock
+  zone map 1453
   turnin 65603 optional
 
 step The Binding
@@ -77,15 +81,17 @@ step The Binding
 
 step Zggi
   when turnedin 336
-  zone Stormwind City
+  zone map 1453
   turnin 397 only Human,Gnome
 
 step The Binding
   only Warlock
+  zone map 1453
   turnin 1739 optional
 
 step Surena Caledon
   only Warlock
+  zone map 1453
   turnin 1688 optional
 
 step The Binding
@@ -95,48 +101,86 @@ step The Binding
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 1689 @39.2,85.2 optional
 
+step Level 31
+  level 31
+
+step In Search of Menara Voidrender
+  only Warlock,Gnome
+  zone map 1455
+  accept 4736 optional only Gnome
+
+step In Search of Menara Voidrender
+  only Warlock,Gnome
+  when onquest 4736
+  zone map 1413
+  turnin 4736 optional only Gnome
+
+step Level 35
+  level 35
+
+step Knowledge of the Orb of Orahil
+  only Warlock,Gnome
+  zone map 1455
+  accept 4965 optional only Gnome
+
+step Knowledge of the Orb of Orahil
+  only Warlock,Gnome
+  when onquest 4965
+  zone map 1413
+  turnin 4965 optional only Gnome
+
+step Level 40
+  level 40
+
+step Summon Felsteed
+  only Warlock,Gnome
+  zone map 1455
+  accept 4487 optional only Gnome
+
+step Summon Felsteed
+  only Warlock,Gnome
+  when onquest 4487
+  zone map 1413
+  turnin 4487 optional only Gnome
+
 step Level 60
+  zone map 1453
   level 60
 
 step Spackle Thornberry
-  zone Durotar
+  zone map 1411
   accept 7562 npc 5520 only Warlock
 
 step Summon Felsteed
-  only Warlock
-  when available 4488
-  tip One of several exclusive quests; the route takes Summon Felsteed (4487). This one shows for a character the game offers it to instead.
+  only Warlock,Human
   zone map 1453
-  accept 4488 optional
+  accept 4488 optional only Human
 
 step Knowledge of the Orb of Orahil
-  only Warlock
-  when available 4968
-  tip One of several exclusive quests; the route takes Knowledge of the Orb of Orahil (4965). This one shows for a character the game offers it to instead.
+  only Warlock,Human
   zone map 1453
-  accept 4968 optional
+  accept 4968 optional only Human
 
 step In Search of Menara Voidrender
-  only Warlock
-  when available 4738
-  tip One of several exclusive quests; the route takes In Search of Menara Voidrender (4736). This one shows for a character the game offers it to instead.
+  only Warlock,Human
   zone map 1453
-  accept 4738 optional
+  accept 4738 optional only Human
 
 step The Binding
   only Warlock
+  zone map 1453
   turnin 1689 optional
 
 step Demisette Cloyce
-  zone Durotar
+  zone map 1411
   accept 8419 npc 461 only Warlock
 
 step Felcular
-  zone Blasted Lands
+  zone map 1419
   collect 14256 x1 quest 8419.1 only Warlock
 
 step Impsy
-  zone Felwood
+  zone map 1448
   turnin 8419 only Warlock
 
 step Hot and Itchy
@@ -147,7 +191,7 @@ step Hot and Itchy
   accept 8420 optional
 
 step Impsy
-  zone Felwood
+  zone map 1448
   accept 8421 only Warlock
 
 step Hot and Itchy
@@ -164,7 +208,7 @@ step Hot and Itchy
   turnin 8420 optional
 
 step Gakin the Darkbinder
-  zone Durotar
+  zone map 1411
   accept 1798 npc 6122 only Warlock
 
 step The Slaughtered Lamb
@@ -175,15 +219,15 @@ step The Slaughtered Lamb
   accept 1715 optional
 
 step Daio the Decrepit
-  zone Durotar
+  zone map 1411
   accept 7582 only Warlock
 
 step Hederine Manastalker
-  zone Winterspring
+  zone map 1452
   collect 18604 x5 quest 7582.1 only Warlock
 
 step Niby the Almighty
-  zone Durotar
+  zone map 1411
   accept 7601 only Warlock
   turnin 7601 only Warlock
   accept 7602 only Warlock
@@ -192,15 +236,15 @@ step Withered Protector
   collect 20613 x10 quest 8421.1 only Warlock
 
 step Legashi Satyr
-  zone Azshara
+  zone map 1447
   collect 18624 x1 quest 7602.1 only Warlock
 
 step Felguard Sentry
-  zone Blasted Lands
+  zone map 1419
   collect 18623 x1 quest 7602.3 only Warlock
 
 step Tainted Ooze
-  zone Felwood
+  zone map 1448
   collect 20614 x4 quest 8421.2 only Warlock
 
 step Jaedenar Legionnaire
@@ -219,7 +263,7 @@ step Niby the Almighty
   turnin 7603 only Warlock
 
 step Acolyte Wytula
-  zone The Barrens
+  zone map 1413
   accept 4962 only Warlock
   turnin 1798 only Warlock
   accept 1758 only Warlock
@@ -232,22 +276,22 @@ step Shard of an Infernal
   accept 4963 optional
 
 step Summon Felsteed
-  only Warlock
+  only Warlock,Human
   when onquest 4488
   zone map 1413
-  turnin 4488 optional
+  turnin 4488 optional only Human
 
 step Knowledge of the Orb of Orahil
-  only Warlock
+  only Warlock,Human
   when onquest 4968
   zone map 1413
-  turnin 4968 optional
+  turnin 4968 optional only Human
 
 step In Search of Menara Voidrender
-  only Warlock
+  only Warlock,Human
   when onquest 4738
   zone map 1413
-  turnin 4738 optional
+  turnin 4738 optional only Human
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
@@ -270,15 +314,16 @@ step Shard of an Infernal
   turnin 4963 optional
 
 step Mana Eater
-  zone Desolace
+  zone map 1443
   collect 12648 x1 quest 4962.1 only Warlock
 
 step Menara Voidrender
-  zone The Barrens
+  zone map 1413
   turnin 4962 only Warlock
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
+  zone map 1413
   turnin 1796 optional
 
 step Components for the Enchanted Gold Bloodrobe
@@ -290,6 +335,7 @@ step Components for the Enchanted Gold Bloodrobe
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
+  zone map 1413
   turnin 4781 optional
 
 step Components for the Enchanted Gold Bloodrobe
@@ -298,16 +344,16 @@ step Components for the Enchanted Gold Bloodrobe
   accept 4782 optional
 
 step Mor'zul Bloodbringer
-  zone Burning Steppes
+  zone map 1428
   turnin 7562 only Warlock
   accept 7563 only Warlock
 
 step Raging Owlbeast
-  zone Winterspring
+  zone map 1452
   collect 18590 x30 quest 7563.1 only Warlock
 
 step Mor'zul Bloodbringer
-  zone Burning Steppes
+  zone map 1428
   turnin 7563 only Warlock
   accept 7564 only Warlock
   turnin 7564 only Warlock
@@ -330,9 +376,11 @@ step Bell of Dethmoora
 
 step Wheel of the Black March
   only Warlock
+  zone map 1428
   turnin 7627 optional
 
 step Flamescale Wyrmkin
+  zone map 1428
   collect 15416 x35 quest 7628.1 only Warlock
 
 step Gorzeeki Wildeyes
@@ -340,6 +388,7 @@ step Gorzeeki Wildeyes
 
 step Bell of Dethmoora
   only Warlock
+  zone map 1428
   turnin 7626 optional
 
 step Arcanite
@@ -356,7 +405,7 @@ step The Slaughtered Lamb
   turnin 1715 optional
 
 step Daio the Decrepit
-  zone Blasted Lands
+  zone map 1419
   turnin 7582 only Warlock
 
 step Suppression
@@ -378,67 +427,66 @@ step Suppression
   zone map 1419
   turnin 7583 optional
 
-step Deliana
-  zone Ironforge
-  accept 8911 only Warlock
-
-step Scarshield Quartermaster
-  zone Searing Gorge
-  collect 16703 x1 quest 8911.2 only Warlock
-
-step Frostsaber Huntress
-  zone Winterspring
-  collect 21928 x15 quest 8911.1 only Warlock
-
-step Lord Banehollow
-  zone Darkshore
-  turnin 7623 only Warlock
-  accept 7624 only Warlock
-
-step Ulathek
-  zone Felwood
-  collect 18719 x1 quest 7624.1 only Warlock
-
-step Lord Banehollow
-  zone Darkshore
-  turnin 7624 only Warlock
-  accept 7625 only Warlock
-
-step Ur'dan
-  zone Felwood
-  buy 18687 x1 npc 14522 -- for Xorothian Stardust
-
-step Gorzeeki Wildeyes
-  zone Burning Steppes
-  turnin 7625 only Warlock
-
-step Arcanite
-  only Warlock
-  turnin 7630 optional
-
-step Deliana
-  zone Ironforge
-  turnin 8911 only Warlock
-
 step Krom Stoutarm
+  zone map 1455
   turnin 1758 only Warlock
   accept 1802 only Warlock
 
 step Tome of the Cabal
-  zone Hillsbrad Foothills
+  zone map 1424
   collect 6931 x1 quest 1802.1 only Warlock
 
 step Damaged Chest
-  zone The Barrens
+  zone map 1413
   collect 6997 x1 quest 1802.2 only Warlock
 
-step Menara Voidrender
-  accept 1799 only Warlock
+step Lord Banehollow
+  zone map 1439
+  turnin 7623 only Warlock
+  accept 7624 only Warlock
+
+step Ulathek
+  zone map 1448
+  collect 18719 x1 quest 7624.1 only Warlock
+
+step Lord Banehollow
+  zone map 1439
+  turnin 7624 only Warlock
+  accept 7625 only Warlock
+
+step Ur'dan
+  zone map 1448
+  buy 18687 x1 nearest -- for Xorothian Stardust
+
+step Gorzeeki Wildeyes
+  zone map 1428
+  turnin 7625 only Warlock
+
+step Arcanite
+  only Warlock
+  zone map 1428
+  turnin 7630 optional
+
+step Krom Stoutarm
+  zone map 1428
+  turnin 1802 only Warlock
+  accept 1804 only Warlock
+
+step Dragonmaw Bonewarder
+  zone map 1437
+  collect 6930 x3 quest 1804.1 only Warlock
+
+step Strahad Farsan
+  zone map 1413
+  turnin 1804 only Warlock
+  accept 1795 only Warlock
   accept 4490 only Warlock
   turnin 4490 only Warlock
+  accept 1799 only Warlock
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
+  zone map 1413
   turnin 4782 optional
 
 step Components for the Enchanted Gold Bloodrobe
@@ -449,32 +497,53 @@ step Components for the Enchanted Gold Bloodrobe
   complete 4783 @62.5,35.5 optional
 
 step Burning Blade Summoner
-  zone Mulgore
+  zone map 1412
   collect 7291 x1 quest 1799.1 only Warlock
 
+step Summoned Felhunter
+  zone map 1413
+  kill 6268 x1 quest 1795.1 only Warlock
+
+step Strahad Farsan
+  turnin 1795 only Warlock
+
+step Components for the Enchanted Gold Bloodrobe
+  only Warlock
+  zone map 1413
+  turnin 4783 optional
+
+step Fine Gold Thread
+  only Warlock
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  turnin 4785 direct optional
+
+step Components for the Enchanted Gold Bloodrobe
+  only Warlock
+  zone map 1413
+  accept 4784 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 4784 @62.5,35.5 optional
+
 step Tabetha
-  zone Dustwallow Marsh
+  zone map 1445
   turnin 1799 only Warlock
 
 step Tabetha
-  zone Dustwallow Marsh
   accept 4961 only Warlock
 
-step Demon of the Orb
-  zone Dustwallow Marsh
-  kill 6549 x1 quest 4961.1 only Warlock
-
 step Tabetha
-  zone Dustwallow Marsh
+  complete 4961 only Warlock
   turnin 4961 only Warlock
 
 step Tabetha
-  zone The Barrens
+  zone map 1413
   accept 4976 only Warlock
 
 step Menara Voidrender
-  zone The Barrens
   turnin 4976 only Warlock
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step The Completed Orb of Noh'Orahil
   only Warlock
@@ -495,39 +564,11 @@ step The Completed Orb of Noh'Orahil
   zone map 1413
   turnin 4975 optional
 
-step Components for the Enchanted Gold Bloodrobe
-  only Warlock
-  turnin 4783 optional
-
-step Fine Gold Thread
-  only Warlock
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1434
-  turnin 4785 direct optional
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Components for the Enchanted Gold Bloodrobe
   only Warlock
   zone map 1413
-  accept 4784 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 4784 @62.5,35.5 optional
-
-step Krom Stoutarm
-  zone Ironforge
-  turnin 1802 only Warlock
-  accept 1804 only Warlock
-
-step Dragonmaw Bonewarder
-  zone Wetlands
-  collect 6930 x3 quest 1804.1 only Warlock
-
-step Strahad Farsan
-  zone The Barrens
-  turnin 1804 only Warlock
-  accept 1795 only Warlock
-
-step Components for the Enchanted Gold Bloodrobe
-  only Warlock
   turnin 4784 optional
 
 step The Completed Robe
@@ -537,17 +578,10 @@ step The Completed Robe
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 4786 @62.5,35.5 optional
 
-step Summoned Felhunter
-  kill 6268 x1 quest 1795.1 only Warlock
-
-step Strahad Farsan
-  turnin 1795 only Warlock
-
 step The Completed Robe
   only Warlock
+  zone map 1413
   turnin 4786 optional
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Atiesh, Greatstaff of the Guardian
   only Warlock
@@ -567,8 +601,6 @@ step Atiesh, Greatstaff of the Guardian
   when onquest 9271
   zone map 1446
   turnin 9271 optional
-
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Gakin's Summons
   only Warlock
@@ -595,45 +627,6 @@ step Gakin's Summons
   when onquest 1717
   zone map 1453
   turnin 1717 optional
-
-step In Search of Menara Voidrender
-  only Warlock
-  when available 4736
-  tip One of several exclusive quests; the route takes In Search of Menara Voidrender (4738). This one shows for a character the game offers it to instead.
-  zone map 1455
-  accept 4736 optional
-
-step In Search of Menara Voidrender
-  only Warlock
-  when onquest 4736
-  zone map 1413
-  turnin 4736 optional
-
-step Knowledge of the Orb of Orahil
-  only Warlock
-  when available 4965
-  tip One of several exclusive quests; the route takes Knowledge of the Orb of Orahil (4968). This one shows for a character the game offers it to instead.
-  zone map 1455
-  accept 4965 optional
-
-step Knowledge of the Orb of Orahil
-  only Warlock
-  when onquest 4965
-  zone map 1413
-  turnin 4965 optional
-
-step Summon Felsteed
-  only Warlock
-  when available 4487
-  tip One of several exclusive quests; the route takes Summon Felsteed (4488). This one shows for a character the game offers it to instead.
-  zone map 1455
-  accept 4487 optional
-
-step Summon Felsteed
-  only Warlock
-  when onquest 4487
-  zone map 1413
-  turnin 4487 optional
 
 step The Completed Orb of Dar'Orahil
   only Warlock

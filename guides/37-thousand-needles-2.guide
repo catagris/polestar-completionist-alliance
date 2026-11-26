@@ -1,8 +1,9 @@
 guide completionist-alliance/37-thousand-needles-2
-title 37 Thousand Needles, visit 2 (37-46) (Completionist)
+title 37 Thousand Needles, visit 2
 faction Alliance
 levels 37-46
 category Leveling
+folder Completionist 31-40
 zone Thousand Needles
 next completionist-alliance/dungeon-uldaman
 next completionist-alliance/38-odd-jobs-in-the-eastern-kingdoms-3
@@ -38,6 +39,36 @@ step Kravel Koalbeard
   accept 1190
   turnin 1186
   accept 1187
+
+step Craftsman's Writ: Greater Adept's Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264054 x1 anywhere optional
+  collect 6264 x1 anywhere optional
+  turnin 94254 direct optional
+
+step Craftsman's Writ: Barbaric Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264045 x1 anywhere optional
+  collect 4254 x1 anywhere optional
+  turnin 94245 direct optional
+
+step Craftsman's Writ: Big Bronze Bomb
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264036 x1 anywhere optional
+  collect 4380 x1 anywhere optional
+  turnin 94236 direct optional
+
+step Craftsman's Writ: Big Bronze Knife
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264027 x1 anywhere optional
+  collect 3848 x1 anywhere optional
+  turnin 94227 direct optional
+
+step Craftsman's Writ: Elixir of Defense
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264018 x1 anywhere optional
+  collect 8951 x1 anywhere optional
+  turnin 94218 direct optional
 
 step Zamek's Distraction
   when onquest 1190

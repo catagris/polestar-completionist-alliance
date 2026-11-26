@@ -1,8 +1,9 @@
 guide completionist-alliance/59-swamp-of-sorrows-2
-title 59 Swamp of Sorrows, visit 2 (55-60) (Completionist)
+title 59 Swamp of Sorrows, visit 2
 faction Alliance
 levels 55-60
 category Leveling
+folder Completionist 51-60
 zone Swamp of Sorrows
 next completionist-alliance/60-odd-jobs-in-kalimdor-4
 pitch On along the line: Swamp of Sorrows, quests of level 55 to 60.
@@ -142,58 +143,47 @@ step Lord Arkkoroc
   turnin 3510
 
 step Lord Arkkoroc
-  when turnedin 3510
   zone Blasted Lands
-  accept 3511 optional
+  accept 3511
 
 step Loramus Thalipedes
-  when onquest 3511
   zone Blasted Lands
   turnin 3511
 
 step Loramus Thalipedes
-  when turnedin 3511
   zone Blasted Lands
-  accept 3602 optional
+  accept 3602
 
 step Azsharite Formation
-  when onquest 3602
   zone Blasted Lands
   collect 10714 x20 quest 3602.1
 
 step Loramus Thalipedes
-  when onquest 3602
   zone Blasted Lands
   turnin 3602
 
 step Loramus Thalipedes
-  when turnedin 3602
   zone Blasted Lands
-  accept 3621 optional
+  accept 3621
 
 step Galvan the Ancient
-  when onquest 3621
   zone Stranglethorn Vale
   turnin 3621
 
 step Enchanted Azsharite Fel Weaponry
-  when turnedin 3621
   zone map 1434
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 3625 optional
-  complete 3625 @50.6,20.5 optional
+  accept 3625
+  complete 3625 @50.6,20.5
 
 step Enchanted Azsharite Fel Weaponry
-  when onquest 3625
   turnin 3625
 
 step Galvan the Ancient
-  when turnedin 3625
   zone Stranglethorn Vale
-  accept 3626 optional
+  accept 3626
 
 step Fallen Hero of the Horde
-  when onquest 3626
   zone Swamp of Sorrows
   turnin 3626
 
@@ -245,3 +235,38 @@ step The Essence of Eranikus
   tip Oathstone of Ysera's Dragonflight drops from Itharius: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
   zone map 1435
   collect 10589 x1 optional
+
+step Craftsman's Writ: Shadow Oil
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1435
+  collect 264064 x1 anywhere optional
+  collect 3824 x1 anywhere optional
+  turnin 94264 direct optional
+
+step Craftsman's Writ: Big Voodoo Mask
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1435
+  collect 264100 x1 anywhere optional
+  collect 8201 x1 anywhere optional
+  turnin 94300 direct optional
+
+step Craftsman's Writ: Wicked Mithril Blade
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1435
+  collect 264076 x1 anywhere optional
+  collect 7943 x1 anywhere optional
+  turnin 94276 direct optional
+
+step Craftsman's Writ: Mithril Frag Bomb
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1435
+  collect 264088 x1 anywhere optional
+  collect 10514 x1 anywhere optional
+  turnin 94288 direct optional
+
+step Craftsman's Writ: Orange Martial Shirt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1435
+  collect 264112 x1 anywhere optional
+  collect 10052 x1 anywhere optional
+  turnin 94312 direct optional

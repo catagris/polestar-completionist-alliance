@@ -1,8 +1,9 @@
 guide completionist-alliance/18-thousand-needles
-title 18 Thousand Needles (26-37) (Completionist)
+title 18 Thousand Needles
 faction Alliance
 levels 26-37
 category Leveling
+folder Completionist 11-20
 zone Thousand Needles
 next completionist-alliance/19-duskwood
 pitch On along the line: Thousand Needles, quests of level 26 to 37.
@@ -19,16 +20,6 @@ step Major Samuelson
   when onquest 563
   zone map 1453
   turnin 563
-
-step High Sorcerer Andromath
-  when complete 92489
-  zone map 1453
-  turnin 92489
-
-step Shylamiir
-  when complete 92456
-  zone map 1453
-  turnin 92456
 
 step Collin Mauren
   zone map 1453
@@ -250,15 +241,3 @@ step Devils in Westfall
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1453
   turnin 1076 optional
-
-step A Green Sample
-  when onquest 92456
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 92456 optional
-
-step Power Overwhelming
-  when onquest 92489
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 92489 optional

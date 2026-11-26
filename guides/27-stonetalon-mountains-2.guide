@@ -1,10 +1,11 @@
-guide completionist-alliance/26-stonetalon-mountains-2
-title 26 Stonetalon Mountains, visit 2 (33-45) (Completionist)
+guide completionist-alliance/27-stonetalon-mountains-2
+title 27 Stonetalon Mountains, visit 2
 faction Alliance
 levels 33-45
 category Leveling
+folder Completionist 21-30
 zone Stonetalon Mountains
-next completionist-alliance/27-dustwallow-marsh
+next completionist-alliance/28-dun-morogh-and-ironforge-2
 pitch On along the line: Stonetalon Mountains, quests of level 33 to 45.
 # Generated from the reference data: change the planner, not this file.
 # Routed 22 quests; estimated level at the end 34.9 (heuristic XP, class quests not counted).
@@ -162,6 +163,36 @@ step Brother Anton
 
 step Brother Anton
   accept 1052
+
+step Craftsman's Writ: Elixir of Lesser Agility
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264016 x1 anywhere optional
+  collect 3390 x1 anywhere optional
+  turnin 94216 direct optional
+
+step Craftsman's Writ: Red Woolen Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264052 x1 anywhere optional
+  collect 4313 x1 anywhere optional
+  turnin 94252 direct optional
+
+step Craftsman's Writ: Heavy Quiver
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264043 x1 anywhere optional
+  collect 7371 x1 anywhere optional
+  turnin 94243 direct optional
+
+step Craftsman's Writ: Shadow Goggles
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264034 x1 anywhere optional
+  collect 4373 x1 anywhere optional
+  turnin 94234 direct optional
+
+step Craftsman's Writ: Rough Bronze Leggings
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264025 x1 anywhere optional
+  collect 2865 x1 anywhere optional
+  turnin 94225 direct optional
 
 step Raleigh the Devout
   zone map 1424

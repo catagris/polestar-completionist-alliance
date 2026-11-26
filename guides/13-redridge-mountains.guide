@@ -1,8 +1,9 @@
 guide completionist-alliance/13-redridge-mountains
-title 13 Redridge Mountains (14-26) (Completionist)
+title 13 Redridge Mountains
 faction Alliance
 levels 14-26
 category Leveling
+folder Completionist 11-20
 zone Redridge Mountains
 next completionist-alliance/14-elwynn-forest-and-stormwind-2
 pitch On along the line: Redridge Mountains, quests of level 14 to 26.
@@ -11,7 +12,7 @@ pitch On along the line: Redridge Mountains, quests of level 14 to 26.
 
 step Roberto Pupellyverbos
   zone map 1453
-  buy 1941 x1 npc 277 -- for Dry Times
+  buy 1941 x1 nearest -- for Dry Times
 
 step Gearing Redridge
   when skill Blacksmithing 1
@@ -40,15 +41,15 @@ step Wiley the Black
 
 step Barkeep Dobbins
   zone map 1429
-  buy 1939 x1 npc 465 -- for Dry Times
+  buy 1939 x1 nearest -- for Dry Times
 
 step Grimbooze Thunderbrew
   zone map 1436
-  buy 1262 x1 npc 239 -- for Dry Times
+  buy 1262 x1 nearest -- for Dry Times
 
 step Barkeep Hann
   zone map 1431
-  buy 1942 x1 npc 274 -- for Dry Times
+  buy 1942 x1 nearest -- for Dry Times
 
 step Level 20
   zone map 1433

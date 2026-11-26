@@ -1,8 +1,9 @@
 guide completionist-alliance/16-ashenvale
-title 16 Ashenvale (18-32) (Completionist)
+title 16 Ashenvale
 faction Alliance
 levels 18-32
 category Leveling
+folder Completionist 11-20
 zone Ashenvale
 next completionist-alliance/dungeon-blackfathom-deeps
 next completionist-alliance/17-hillsbrad-foothills-and-alterac-mountains
@@ -26,14 +27,6 @@ step Exploring the Alliance
   zone map 1453
   accept 93963 only Skyborne
   complete 93963 @80.2,38.4 only Skyborne
-
-step A Green Sample
-  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 92456 optional
-
-step Power Overwhelming
-  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 92489 optional
 
 step Exploring the Alliance
   when onquest 93963
@@ -64,14 +57,14 @@ step The Powers Below
 step Inside The Hall of Thanes
   when complete 96395
   zone map 1455
-  accept 96395 @15.1,86
-  collect 281030 @15.1,86
+  accept 96395 @28.4,47.7
+  collect 281030 @28.4,47.7
   accept 98423 item 281030
-  complete 96394 @15.1,86
-  complete 96395 @15.1,86
-  turnin 96395 @15.1,86
-  complete 96403 @15.1,86
-  complete 96393 @15.1,86
+  complete 96394 @28.4,47.7
+  complete 96395 @28.4,47.7
+  turnin 96395 @28.4,47.7
+  complete 96403 @28.4,47.7
+  complete 96393 @28.4,47.7
 
 step Afadra Dunwall
   when complete 96394
@@ -198,7 +191,13 @@ step Foulweald Den Watcher and Foulweald Ursa
 step Maseara Autumnmoon
   accept 98417
 
-step Campfire
+step Craftsman's Writ: Moonsight Rifle
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264031 x1 anywhere optional
+  collect 4383 x1 anywhere optional
+  turnin 94231 direct optional
+
+step Kurothel's Knapsack
   collect 281014 x1 quest 98417.1
 
 step Kayneth Stillwind
@@ -210,6 +209,12 @@ step Bottle of Disease
 
 step Gleaming Crescent Pendant
   accept 98027
+
+step Craftsman's Writ: Lesser Mana Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264013 x1 anywhere optional
+  collect 3385 x1 anywhere optional
+  turnin 94213 direct optional
 
 step Level 25
   level 25
@@ -403,6 +408,24 @@ step Illiyana
 step Sentinel Basic Care Package
   tip Needs Friendly standing (3000) with Silverwing Sentinels; without it the quest is not offered.
   accept 7863 optional
+
+step Craftsman's Writ: Herbalist's Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264040 x1 anywhere optional
+  collect 7349 x1 anywhere optional
+  turnin 94240 direct optional
+
+step Craftsman's Writ: Iridescent Hammer
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264022 x1 anywhere optional
+  collect 5541 x1 anywhere optional
+  turnin 94222 direct optional
+
+step Craftsman's Writ: Azure Silk Hood
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264049 x1 anywhere optional
+  collect 7048 x1 anywhere optional
+  turnin 94249 direct optional
 
 step Sentinel Basic Care Package
   when onquest 7863

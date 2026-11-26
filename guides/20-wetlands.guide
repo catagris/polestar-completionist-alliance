@@ -1,8 +1,9 @@
 guide completionist-alliance/20-wetlands
-title 20 Wetlands (18-34) (Completionist)
+title 20 Wetlands
 faction Alliance
 levels 18-34
 category Leveling
+folder Completionist 11-20
 zone Wetlands
 next completionist-alliance/dungeon-stormwind-stockade
 next completionist-alliance/21-wetlands-2
@@ -173,7 +174,7 @@ step Dark Iron Tunneler and Dark Iron Saboteur
   kill 1053 x5 quest 303.2
   kill 1052 x5 quest 303.3
 
-step Captive Fire Elemental
+step Renegade Fire Elemental
   zone map 1437
   accept 87491
 
@@ -196,15 +197,15 @@ step Roggo Harlbarrow
 step Howin Kindfeather
   turnin 98246
 
+step Rethiel the Greenwarden
+  turnin 463
+  accept 276
+
 step Dragonmaw Armaments
   accept 98293
 
 step Dragonmaw Armaments
   collect 280369 x30 quest 98293.1
-
-step Rethiel the Greenwarden
-  turnin 463
-  accept 276
 
 step Mosshide Mongrel
   kill 1008 x10 quest 276.2
@@ -245,20 +246,14 @@ step Chief Engineer Hinderweir VII
   turnin 278
 
 step Chief Engineer Hinderweir VII
-  when turnedin 278
   zone map 1432
-  accept 280 optional
+  accept 280
 
 step Explosive Charge
-  when turnedin 280
-  accept 283 optional
-
-step Explosive Charge
-  when onquest 280
   turnin 280
+  accept 283
 
 step Chief Engineer Hinderweir VII
-  when onquest 283
   turnin 283
 
 step Rethiel the Greenwarden
@@ -491,10 +486,8 @@ step Howin Kindfeather
   turnin 98297
 
 step Howin Kindfeather
-  when turnedin 98297
-  when turnedin 98291
   zone map 1437
-  accept 98300 optional
+  accept 98300
 
 step Thundris Windweaver
   zone map 1439

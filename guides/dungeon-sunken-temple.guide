@@ -1,7 +1,8 @@
 guide completionist-alliance/dungeon-sunken-temple
-title Sunken Temple, part 1 of 2 (Completionist)
+title Sunken Temple, part 1 of 2
 faction Alliance
 category Dungeons
+folder Completionist dungeons and raids
 levels 50-60
 zone Swamp of Sorrows
 next completionist-alliance/dungeon-sunken-temple-2
@@ -239,8 +240,6 @@ step The Azure Key
   zone map 1447
   accept 8236 optional
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step The Azure Key
   only Rogue
   when onquest 8236
@@ -291,6 +290,8 @@ step Blood of Morphaz
   when onquest 8257
   zone map 1448
   turnin 8257 optional
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Forging the Mightstone
   only Paladin,Human,Dwarf

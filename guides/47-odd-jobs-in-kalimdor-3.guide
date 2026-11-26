@@ -1,8 +1,9 @@
 guide completionist-alliance/47-odd-jobs-in-kalimdor-3
-title 47 Odd jobs in Kalimdor, visit 3 (47-55) (Completionist)
+title 47 Odd jobs in Kalimdor, visit 3
 faction Alliance
 levels 47-55
 category Leveling
+folder Completionist 41-50
 zone Dustwallow Marsh
 next completionist-alliance/48-teldrassil-and-darnassus-3
 pitch On along the line: errands across Kalimdor, quests of level 47 to 55.
@@ -10,34 +11,15 @@ pitch On along the line: errands across Kalimdor, quests of level 47 to 55.
 # Routed 6 quests; estimated level at the end 47.8 (heuristic XP, class quests not counted).
 # Skipped: 1 profession.
 
-step Royal Historian Archesonus
-  when onquest 3701
-  zone map 1455
-  turnin 3701
-
-step Deliana
-  only Paladin
-  when complete 8933
-  zone map 1455
-  turnin 8933
-
-step King Magni Bronzebeard
-  when onquest 4363
-  zone map 1455
-  turnin 4363
-
-step Level 48
-  zone map 1455
-  level 48
-
-step Laris Geardawdle
-  accept 4512
-
 step Our Man in Theramore
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1453
   accept 95194
   complete 95194 @78.3,70.7
+
+step Laris Geardawdle
+  zone map 1455
+  accept 4512
 
 step Loh'atu
   zone map 1440
@@ -56,22 +38,16 @@ step Haldarr Satyr, Haldarr Trickster and Haldarr Felsworn
 step Highborne Lichling
   kill 6117 x6 quest 5535.2
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Loh'atu
   zone map 1440
   turnin 5535
   turnin 5536
 
-step Cursed Ooze
-  zone map 1448
-  collect 11947 x6 quest 4512.1
-
-step Tainted Ooze
-  collect 11949 x6 quest 4512.2
+step Level 48
+  zone map 1445
+  level 48
 
 step Sully McCleary
-  zone map 1445
   accept 95264
 
 step Our Man in Theramore
@@ -87,6 +63,17 @@ step Sully McCleary
 
 step Sully McCleary
   accept 95198
+
+step Cursed Ooze
+  zone map 1448
+  collect 11947 x6 quest 4512.1
+
+step Tainted Ooze
+  collect 11949 x6 quest 4512.2
+
+step Sully McCleary
+  zone map 1445
+  complete 95198 @66.3,49 map 1445
   turnin 95198
 
 step Tribal Leatherworking
@@ -103,27 +90,9 @@ step Tribal Leatherworking
   zone map 1441
   complete 5143 @7.7,19 optional
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Tribal Leatherworking
   when onquest 5143
   zone map 1441
   turnin 5143 optional
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step The Smoldering Ruins of Thaurissan
-  when onquest 3701
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 3701 optional
-
-step The Princess's Surprise
-  when onquest 4363
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 4363 optional
-
-step Just Compensation
-  when onquest 8933
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 8933 optional

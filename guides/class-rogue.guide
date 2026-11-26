@@ -1,5 +1,5 @@
 guide completionist-alliance/class-rogue
-title Rogue class quests (10-60) (Completionist)
+title Rogue class quests
 faction Alliance
 class Rogue
 levels 10-60
@@ -90,25 +90,42 @@ step XT:4
   zone map 1442
   collect 4371 x1 quest 2609.3 only Rogue
 
+step To Hulfdan!
+  only Rogue,Human,Dwarf,Gnome,Skyborne
+  zone map 1426
+  accept 2299 optional only Human,Dwarf,Gnome,Skyborne
+
+step To Hulfdan!
+  only Rogue,Human,Dwarf,Gnome,Skyborne
+  when onquest 2299
+  zone map 1455
+  turnin 2299 optional only Human,Dwarf,Gnome,Skyborne
+
 step Veenix
+  when onquest 78261
+  zone map 1442
   accept 78270 only Rogue
 
 step Venture Co. Operator
+  when onquest 78261
+  zone map 1442
   collect 210187 x1 quest 78270.1 only Rogue
 
 step Veenix
+  when onquest 78261
+  zone map 1442
   turnin 78270 only Rogue
 
 step Jannok Breezesong
   zone map 1438
   accept 2241 only Rogue
-  accept 2259 only Rogue
+  accept 2259 only Human,NightElf,Skyborne
 
 step Syurna
   zone map 1457
   turnin 2241 only Rogue
   accept 2242 only Rogue
-  turnin 2259 only Rogue
+  turnin 2259 only Human,NightElf,Skyborne
 
 step Sethir the Ancient
   zone map 1438
@@ -122,26 +139,12 @@ step Hogral Bakkan
   zone map 1426
   accept 2218 only Rogue
 
-step To Hulfdan!
-  only Rogue
-  when available 2299
-  tip One of several exclusive quests; the route takes Erion Shadewhisper (2259). This one shows for a character the game offers it to instead.
-  zone map 1426
-  accept 2299 optional
-
 step Hulfdan Blackbeard
-  zone map 1426
+  zone map 1455
   turnin 2218 only Rogue
   accept 2238 only Rogue
 
-step To Hulfdan!
-  only Rogue
-  when onquest 2299
-  zone map 1455
-  turnin 2299 optional
-
 step Level 24
-  zone map 1455
   level 24
 
 step The Manor, Ravenholdt
@@ -159,12 +162,11 @@ step Kingly Shakedown
   accept 2298 optional
 
 step Onin MacHammar
-  zone map 1426
+  zone map 1455
   turnin 2238 only Rogue
   accept 2239 only Rogue
 
 step Hulfdan Blackbeard
-  zone map 1455
   turnin 2239 only Rogue
 
 step Level 50
@@ -306,6 +308,22 @@ step Timbermaw Shaman
 step Level 58
   level 58
 
+step Deliana
+  zone map 1426
+  accept 84152 only Rogue
+
+step Winterspring Blood Sample
+  zone map 1452
+  collect 21928 x15 quest 84152.1 only Rogue
+
+step Shadowcraft Bracers
+  zone map 1422
+  collect 16710 x1 quest 84152.2 only Rogue
+
+step Deliana
+  zone map 1426
+  turnin 84152 only Rogue
+
 step Geologist Larksbane
   when turnedin 8315
   zone map 1451
@@ -317,22 +335,6 @@ step Archmage Xylem
   turnin 8234 only Rogue
   accept 8235 only Rogue
 
-step Deliana
-  zone map 1455
-  accept 8910 only Rogue
-
-step Winterspring Blood Sample
-  zone map 1452
-  collect 21928 x15 quest 8910.1 only Rogue
-
-step Shadowcraft Bracers
-  zone map 1422
-  collect 16710 x1 quest 8910.2 only Rogue
-
-step Deliana
-  zone map 1455
-  turnin 8910 only Rogue
-
 step Forest Ooze
   collect 20023 x10 quest 8235.1 only Rogue
 
@@ -343,13 +345,6 @@ step Dead Drop
   zone map 1421
   turnin 80454 only Rogue
   accept 80455 only Rogue
-
-step The Eye of Bhossca
-  only Rogue
-  when turnedin 78676
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1421
-  turnin 78699 direct @47.1,71.0 map 1421 optional
 
 step Fahrad
   zone map 1416

@@ -1,13 +1,14 @@
 guide completionist-alliance/63-elwynn-forest-and-stormwind-4
-title 63 Elwynn Forest and Stormwind, visit 4 (47-60) (Completionist)
+title 63 Elwynn Forest and Stormwind, visit 4
 faction Alliance
 levels 47-60
 category Leveling
+folder Completionist 61-67
 zone Elwynn Forest
 next completionist-alliance/64-western-plaguelands
 pitch On along the line: Elwynn Forest and Stormwind, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 8 quests; estimated level at the end 47.6 (heuristic XP, class quests not counted).
+# Routed 10 quests; estimated level at the end 47.7 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N (done); 2 prerequisite N not in this route; 1 profession.
 
 step Arch Druid Fandral Staghelm
@@ -26,15 +27,10 @@ step Assisting Arch Druid Staghelm
   zone map 1453
   accept 3789 optional
 
-step Level 56
+step Clavicus Knavingham
   zone map 1453
-  level 56
-
-step Highlord Bolvar Fordragon
-  accept 6182
-
-step Level 60
-  level 60
+  turnin 7791
+  turnin 7793
 
 step The New Frontier
   when available 1015
@@ -53,6 +49,12 @@ step Cracked Necrotic Crystal
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   turnin 9292 direct @69.0,82.9 map 1453
 
+step Clavicus Knavingham
+  accept 7795
+
+step Highlord Bolvar Fordragon
+  accept 6182
+
 step Master Mathias Shaw
   turnin 6182
 
@@ -65,8 +67,16 @@ step Flint Shadowmore
   zone map 1453
   accept 6184
 
-step Jennea Cannon
+step Clavicus Knavingham
   zone map 1453
+  turnin 7795
+
+step Additional Runecloth
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 14047 x20 anywhere optional
+  turnin 7796 direct optional
+
+step Jennea Cannon
   accept 84394
 
 step Gnome Engineering
@@ -81,23 +91,26 @@ step Gnome Engineering
   zone map 1455
   turnin 3630 optional
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x60 quest 7793.1
-
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 7791.1
-
 step Michelle Belle
   zone map 1429
   sethome "Goldshire"
   turnin 96077
 
-step White Stallion Exchange
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 12353 x1 anywhere optional
-  turnin 7677 direct optional
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1457
+  collect 4306 x60 anywhere
+
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2592 x60 anywhere
+
+step Level 60
+  zone map 1429
+  level 60
+
+step Randal Hunter
+  accept 99206 only Human
 
 step Your Fortune Awaits You...
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -108,8 +121,31 @@ step Palomino Exchange
   collect 12354 x1 anywhere optional
   turnin 7678 direct optional
 
-step Jennea Cannon
+step White Stallion Exchange
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12353 x1 anywhere optional
+  turnin 7677 direct optional
+
+step Katie Hunter
+  turnin 99206 only Human
+
+step Katie Hunter
+  accept 99213 only Human
+
+step Swift Brown Steed, Swift Palomino and Swift White Steed
+  kill 276785 x1 quest 99213.1 only Human
+  kill 276786 x1 quest 99213.2 only Human
+  kill 276787 x1 quest 99213.3 only Human
+
+step Katie Hunter
+  turnin 99213 only Human
+
+step Runecloth
+  tip Dropped by 265 kinds of mob in 22 zones: bring it from wherever you are. The arrow leads to no one for it.
   zone map 1453
+  collect 14047 x60 anywhere
+
+step Jennea Cannon
   turnin 84394
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.

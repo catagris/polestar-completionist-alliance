@@ -1,19 +1,80 @@
-guide completionist-alliance/46-burning-steppes
-title 46 Burning Steppes (50-60) (Completionist)
+guide completionist-alliance/45-burning-steppes
+title 45 Burning Steppes
 faction Alliance
 levels 50-60
 category Leveling
+folder Completionist 41-50
 zone Burning Steppes
 next completionist-alliance/dungeon-blackrock-depths
-next completionist-alliance/47-odd-jobs-in-kalimdor-3
+next completionist-alliance/46-blasted-lands
 pitch On along the line: Burning Steppes, quests of level 50 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 10 quests; estimated level at the end 50.6 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N (done).
 
+step Gracina Spiritmight
+  when onquest 2972
+  zone map 1457
+  turnin 4267
+  turnin 2972
+
+step Master of the Wild Leather
+  when onquest 2853
+  when skill Leatherworking 1
+  zone map 1457
+  turnin 2853 optional
+
 step Royal Historian Archesonus
   zone map 1455
   accept 3701
+
+step Kindal Moonweaver
+  zone map 1444
+  accept 3841
+
+step Quentin
+  when onquest 3841
+  zone map 1441
+  turnin 3841
+
+step A Short Incubation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1441
+  accept 3842
+  complete 3842 @78.3,74.7
+
+step A Short Incubation
+  when onquest 3842
+  zone map 1441
+  turnin 3842
+
+step Quentin
+  zone map 1441
+  accept 3843
+
+step Agnar Beastamer
+  when onquest 3843
+  zone map 1424
+  turnin 3843
+
+step Agnar Beastamer
+  zone map 1424
+  accept 4297
+
+step Silvermane Stalker
+  zone map 1425
+  collect 11472 x5 quest 4297.1
+
+step Agnar Beastamer
+  when onquest 4297
+  zone map 1424
+  turnin 4297
+
+step Agnar Beastamer
+  when onquest 4298
+  zone map 1424
+  accept 4298
+  turnin 4298
 
 step Oralius
   zone map 1428
@@ -118,9 +179,17 @@ step A Taste of Flame
 step A Taste of Flame
   turnin 4022
 
-step Ever After
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  turnin 82062 direct @35.8,19.8 map 1428
+step Craftsman's Writ: Greater Fire Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264118 x1 anywhere optional
+  collect 13457 x1 anywhere optional
+  turnin 94318 direct optional
+
+step Craftsman's Writ: Runecloth Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264154 x1 anywhere optional
+  collect 13864 x1 anywhere optional
+  turnin 94354 direct optional
 
 step A Taste of Flame
   when onquest 4023
@@ -136,3 +205,23 @@ step A Taste of Flame
 step Felnok Steelspring
   zone map 1452
   turnin 4808
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Master of the Wild Leather
+  when onquest 2853
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 2853 optional
+
+step Doling Justice
+  when onquest 2972
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 2972 optional
+
+step Rise of the Silithid
+  when onquest 4267
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1457
+  turnin 4267 optional

@@ -1,8 +1,9 @@
 guide completionist-alliance/64-western-plaguelands
-title 64 Western Plaguelands (52-60) (Completionist)
+title 64 Western Plaguelands
 faction Alliance
 levels 52-60
 category Leveling
+folder Completionist 61-67
 zone Western Plaguelands
 next completionist-alliance/dungeon-scholomance
 next completionist-alliance/65-eastern-plaguelands
@@ -20,20 +21,6 @@ step The New Frontier
   when onquest 1015
   zone map 1457
   turnin 1015 optional
-
-step Clavicus Knavingham
-  when onquest 7791
-  zone map 1453
-  turnin 7791
-  turnin 7793
-
-step Clavicus Knavingham
-  zone map 1453
-  accept 7795
-
-step Stormwind Royal Guard
-  zone map 1429
-  collect 14047 x60 quest 7795.1
 
 step Nathaniel Dumah
   zone map 1422
@@ -130,11 +117,14 @@ step Of Love and Family
   tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 5848 optional
 
-step Book
-  accept 84402 object 463211
+step Craftsman's Writ: Sniper Scope
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264141 x1 anywhere optional
+  collect 10548 x1 anywhere optional
+  turnin 94341 direct optional
 
 step Book
-  collect 228141 x1 quest 84402.1
+  accept 84402 object 463211
 
 step Level 55
   level 55
@@ -161,6 +151,9 @@ step Mantles of the Dawn
   tip Needs Revered standing (21000) with Argent Dawn; without it the quest is not offered.
   zone map 1422
   accept 5507 optional
+
+step Book
+  collect 228141 x1 quest 84402.1
 
 step Mulgris Deepriver
   turnin 4984
@@ -224,6 +217,12 @@ step Chromie
   zone map 1422
   accept 4971
 
+step Craftsman's Writ: Runic Leather Bracers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264150 x1 anywhere optional
+  collect 15092 x1 anywhere optional
+  turnin 94350 direct optional
+
 step Temporal Parasite
   kill 10717 x15 quest 4971.1
 
@@ -233,6 +232,12 @@ step Mulgris Deepriver
 
 step Marlene Redpath
   accept 5142
+
+step Craftsman's Writ: Ghostweave Vest
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264159 x1 anywhere optional
+  collect 14141 x1 anywhere optional
+  turnin 94359 direct optional
 
 step Fallen Skyborne
   accept 7790
@@ -340,6 +345,12 @@ step Flint Shadowmore
 step Flint Shadowmore
   accept 6186
 
+step Craftsman's Writ: Major Rejuvenation Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264123 x1 anywhere optional
+  collect 18253 x1 anywhere optional
+  turnin 94323 direct optional
+
 step Quintus Wainworth
   zone map 2482
   turnin 92842
@@ -369,15 +380,3 @@ step Flint Shadowmore
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1422
   turnin 6184 optional
-
-step A Donation of Wool
-  when onquest 7791
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 7791 optional
-
-step A Donation of Silk
-  when onquest 7793
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 7793 optional

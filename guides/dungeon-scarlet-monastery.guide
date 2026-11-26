@@ -1,7 +1,8 @@
 guide completionist-alliance/dungeon-scarlet-monastery
-title Scarlet Monastery (Completionist)
+title Scarlet Monastery
 faction Alliance
 category Dungeons
+folder Completionist dungeons and raids
 levels 30-40
 zone Tirisfal Glades
 next completionist-alliance/36-shendralas
@@ -34,9 +35,13 @@ step The Horn of Xelthos
 
 step The Horn of Xelthos
   only Rogue
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   zone map 1421
-  turnin 78307 direct
+  accept 78307
+
+step The Horn of Xelthos
+  only Rogue
+  zone map 1421
+  turnin 78307
 
 step Magus Olvek
   zone map 1416
@@ -47,18 +52,10 @@ step Dead Drop
   zone map 1421
   accept 78676
 
-step Level 34
-  zone map 1424
-  level 34
-
-step Raleigh the Devout
-  accept 1053
-
 step Inside Scarlet Monastery
   zone map 1420
   complete 1050 @85.2,31.3
   complete 96800 @85.2,31.3
-  complete 1053 @85.2,31.3
 
 step Inside Scarlet Monastery
   only Rogue
@@ -74,9 +71,30 @@ step Dead Drop
   zone map 1421
   turnin 78676
 
+step Level 34
+  zone map 1424
+  level 34
+
+step Raleigh the Devout
+  accept 1053
+
+step Inside Scarlet Monastery
+  zone map 1420
+  complete 1053 @85.2,31.3
+
 step Raleigh the Devout
   zone map 1424
   turnin 1053
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  accept 78699
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  turnin 78699
 
 step Rituals of Power
   only Mage

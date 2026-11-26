@@ -1,8 +1,9 @@
 guide completionist-alliance/22-elwynn-forest-and-stormwind-3
-title 22 Elwynn Forest and Stormwind, visit 3 (28-41) (Completionist)
+title 22 Elwynn Forest and Stormwind, visit 3
 faction Alliance
 levels 28-41
 category Leveling
+folder Completionist 21-30
 zone Elwynn Forest
 next completionist-alliance/dungeon-gnomeregan
 next completionist-alliance/23-odd-jobs-in-kalimdor-2
@@ -82,6 +83,10 @@ step Innkeeper Farley
 step Storage Chest
   collect 910 x1 quest 70.1
 
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4306 x3 anywhere
+
 step Level 40
   level 40
 
@@ -91,7 +96,7 @@ step Randal Hunter
 step Your First Horse
   only Human
   when available 97045
-  tip One of several exclusive quests; the route takes Your First Riding Ram (97017). This one shows for a character the game offers it to instead.
+  tip One of several exclusive quests; the route takes Your First Horse (97171). This one shows for a character the game offers it to instead.
   zone map 1429
   accept 97045 optional
 

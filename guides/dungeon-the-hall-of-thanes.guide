@@ -1,7 +1,8 @@
 guide completionist-alliance/dungeon-the-hall-of-thanes
-title The Hall of Thanes (Completionist)
+title The Hall of Thanes
 faction Alliance
 category Dungeons
+folder Completionist dungeons and raids
 levels 10-16
 zone Ironforge
 next completionist-alliance/dungeon-deadmines

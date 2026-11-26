@@ -1,8 +1,9 @@
 guide completionist-alliance/03-teldrassil-and-darnassus
-title 03 Teldrassil and Darnassus (1-12) (Completionist)
+title 03 Teldrassil and Darnassus
 faction Alliance
 levels 1-12
 category Leveling
+folder Completionist 01-10
 zone Teldrassil
 next completionist-alliance/01-elwynn-forest-and-stormwind when !turnedin 95065
 next completionist-alliance/02-dun-morogh-and-ironforge when !turnedin 96390
@@ -300,7 +301,7 @@ step Camping 101: Cooking
   complete 96634 @57.6,56.6 only NightElf
 
 step Camping 101: Leatherworking
-  only Hunter,Rogue,Druid,NightElf
+  only Hunter,Rogue,Druid
   tip A class quest, done from the quest text: the reference data does not route it.
   zone map 1438
   accept 97946 optional
@@ -406,7 +407,7 @@ step Sentinel Shayla Nightbreeze
   accept 490
 
 step Camping 101: Leatherworking
-  only Hunter,Rogue,Druid,NightElf
+  only Hunter,Rogue,Druid
   zone map 1438
   turnin 97946 optional
 
@@ -488,12 +489,12 @@ step Chest of the Black Feather, Chest of the Sky and Chest of Nesting
   collect 3407 x1 quest 483.3
   collect 3408 x1 quest 483.4
 
-step Tharynn Bouden
-  zone map 1429
-  buy 3371 x1 npc 66 -- for The Great Tree Provides
+step Buy Empty Vial
+  tip Sold in 49 places: the arrow leads to the nearest vendor.
+  zone map 1412
+  buy 3371 x1 nearest -- for The Great Tree Provides
 
 step Water Barrel
-  zone map 1412
   collect 159 x1 quest 99050.3
 
 step Wrathvine

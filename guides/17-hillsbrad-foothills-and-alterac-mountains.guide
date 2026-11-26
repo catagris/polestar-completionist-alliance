@@ -1,10 +1,10 @@
 guide completionist-alliance/17-hillsbrad-foothills-and-alterac-mountains
-title 17 Hillsbrad Foothills and Alterac Mountains (21-33) (Completionist)
+title 17 Hillsbrad Foothills and Alterac Mountains
 faction Alliance
 levels 21-33
 category Leveling
+folder Completionist 11-20
 zone Hillsbrad Foothills
-next completionist-alliance/dungeon-city-of-dalaran
 next completionist-alliance/18-thousand-needles
 pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 21 to 33.
 # Generated from the reference data: change the planner, not this file.
@@ -102,13 +102,13 @@ step Barkeep Kelly
 step Chef Jessen
   accept 555
 
-step Coralshell Tortoise
+step Buy Soothing Spices
+  tip Sold in 34 places: the arrow leads to the nearest vendor.
   zone map 1447
-  collect 3712 x10 quest 555.1
+  buy 3713 x1 nearest -- for Soothing Turtle Bisque
 
-step Gunder Thornbush
-  zone map 1431
-  buy 3713 x1 npc 960 -- for Soothing Turtle Bisque
+step Coralshell Tortoise
+  collect 3712 x10 quest 555.1
 
 step Torn Fin Tidehunter
   zone map 1424
@@ -181,14 +181,6 @@ step Quae
 step Image of Archmage Modera
   zone map 1421
   turnin 92432
-
-step Heart of Disruption
-  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 92458 optional
-
-step Starving Arcane
-  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 92457 optional
 
 step Nixxrax Fillamug
   zone map 1434

@@ -1,0 +1,25 @@
+guide completionist-alliance/67-last-hand-ins
+title 67 Last hand-ins
+faction Alliance
+levels 51-60
+category Leveling
+folder Completionist 61-67
+zone Tanaris
+next completionist-alliance/dungeon-sunken-temple
+pitch The last hand-ins in the capitals, for the work of the guide before.
+# Generated from the reference data: change the planner, not this file.
+# Routed 30 quests; estimated level at the end 52.9 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N; 2 prerequisite N not in this route.
+
+step Deliana
+  when onquest 8977
+  zone map 1455
+  turnin 8977 npc 16013
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Return to Deliana
+  when onquest 8977
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8977 optional

@@ -1,8 +1,9 @@
 guide completionist-alliance/40-stranglethorn-vale-2
-title 40 Stranglethorn Vale, visit 2 (40-53) (Completionist)
+title 40 Stranglethorn Vale, visit 2
 faction Alliance
 levels 40-53
 category Leveling
+folder Completionist 31-40
 zone Stranglethorn Vale
 next completionist-alliance/41-tanaris
 pitch On along the line: Stranglethorn Vale, quests of level 40 to 53.
@@ -77,6 +78,24 @@ step Tip the Scales - Brownell's Blue Striped Racer
 step Tip the Scales - Keefer's Angelfish
   tip A repeatable quest: hand it in once, with what it asks for.
   turnin 97065 direct optional
+
+step Craftsman's Writ: Dark Leather Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264044 x1 anywhere optional
+  collect 4252 x1 anywhere optional
+  turnin 94244 direct optional
+
+step Craftsman's Writ: Gnomish Universal Remote
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264035 x1 anywhere optional
+  collect 7506 x1 anywhere optional
+  turnin 94235 direct optional
+
+step Craftsman's Writ: Green Iron Gauntlets
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264026 x1 anywhere optional
+  collect 3485 x1 anywhere optional
+  turnin 94226 direct optional
 
 step The Captain's Chest
   when available 8551
@@ -324,6 +343,18 @@ step Fool's Stout
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 4016 x12 anywhere optional
   turnin 1127 direct optional
+
+step Craftsman's Writ: Lesser Troll's Blood Elixir
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264017 x1 anywhere optional
+  collect 3388 x1 anywhere optional
+  turnin 94217 direct optional
+
+step Craftsman's Writ: Colorful Kilt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264053 x1 anywhere optional
+  collect 10048 x1 anywhere optional
+  turnin 94253 direct optional
 
 step Avast Ye, Admiral!
   tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.

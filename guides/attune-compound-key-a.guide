@@ -1,0 +1,35 @@
+guide completionist-alliance/attune-compound-key-a
+title Krol'dok Compound Key (Krol'dok Stronghold key)
+faction Alliance
+levels 41-41
+category Dungeons
+folder Completionist attunements and keys
+zone Riverglades
+pitch Krol'dok Compound Key: Opens the way into the upper area of Krol'dok Stronghold. Tunk, by the smithy near War Handler Ashka, drops the Krol'dok Moulding; Alphonse Dumas in Farholde Keep forges the key from it with 4 Thick Leather and 12 Iron Bars.
+why Opens the way into the upper area of Krol'dok Stronghold. Tunk, by the smithy near War Handler Ashka, drops the Krol'dok Moulding; Alphonse Dumas in Farholde Keep forges the key from it with 4 Thick Leather and 12 Iron Bars.
+
+
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Krol'dok Moulding
+  when has 267138
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 2548
+  accept 94980 item 267138
+
+step Krol'dok Moulding
+  when onquest 94980
+  zone map 2548
+  turnin 94980
+
+step Key Ingredients
+  when turnedin 94980
+  zone map 2548
+  accept 94981
+  complete 94981 @64.5,82.0
+
+step Key Ingredients
+  when onquest 94981
+  zone map 2548
+  turnin 94981

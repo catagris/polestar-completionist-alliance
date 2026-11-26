@@ -1,14 +1,15 @@
 guide completionist-alliance/54-hillsbrad-foothills-and-alterac-mountains-3
-title 54 Hillsbrad Foothills and Alterac Mountains, visit 3 (58-60) (Completionist)
+title 54 Hillsbrad Foothills and Alterac Mountains, visit 3
 faction Alliance
-levels 58-60
+levels 59-60
 category Leveling
+folder Completionist 51-60
 zone Alterac Mountains
+next completionist-alliance/dungeon-city-of-dalaran
 next completionist-alliance/55-silithus
-pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 58 to 60.
+pitch On along the line: Hillsbrad Foothills and Alterac Mountains, level 60 quests.
 # Generated from the reference data: change the planner, not this file.
-# Routed 14 quests; estimated level at the end 58.6 (heuristic XP, class quests not counted).
-# Skipped: 1 no turn-in in data.
+# Routed 15 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
 
 step Mathrengyl Bearwalker
   when onquest 92345
@@ -26,6 +27,15 @@ step Raedon Duskstriker
   accept 7798
   accept 7799
 
+step Raedon Duskstriker
+  turnin 7792
+  turnin 7798
+  turnin 7799
+  accept 7800
+
+step Raedon Duskstriker
+  turnin 7800
+
 step Tymor
   when onquest 3461
   zone map 1455
@@ -39,8 +49,14 @@ step Lieutenant Rotimer
 step Mistina Steelshield
   accept 7804
 
+step Mistina Steelshield
+  turnin 7804
+
 step Bubulo Acerbus
   accept 7809
+
+step Bubulo Acerbus
+  turnin 7809
 
 step Renzik "The Shiv"
   when complete 96377
@@ -51,20 +67,37 @@ step Clavicus Knavingham
   zone map 1453
   accept 7794
 
-step Southshore
-  zone map 1424
-  sethome "Southshore"
+step A Green Sample
+  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92456 optional
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7804.1
+step Power Overwhelming
+  tip For City of Dalaran: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92489 optional
+
+step Clavicus Knavingham
+  turnin 7794
+
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1455
+  collect 4338 x60 anywhere
+
+step Fahrad
+  zone map 1416
+  accept 98529
+  turnin 98529
+
+step Junkboxes Needed
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 16885 x5 anywhere optional
+  turnin 8249 direct optional
 
 step Lieutenant Haggerdin
   turnin 7261
 
 step Speak with Prospector Stonehewer
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1416
   turnin 7221 direct @40.6,79.6 map 1416
 
 step Korrak the Bloodrager
@@ -214,6 +247,36 @@ step Towers and Bunkers
 step Strange Snowman
   turnin 79482
 
+step Craftsman's Writ: Elixir of Ogre's Strength
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264011 x1 anywhere optional
+  collect 3391 x1 anywhere optional
+  turnin 94004 direct optional
+
+step Craftsman's Writ: Heavy Leather Ball
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264038 x1 anywhere optional
+  collect 18662 x1 anywhere optional
+  turnin 94238 direct optional
+
+step Craftsman's Writ: Pearl-Handled Dagger
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264020 x1 anywhere optional
+  collect 5540 x1 anywhere optional
+  turnin 94220 direct optional
+
+step Craftsman's Writ: Lesser Wizard's Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264047 x1 anywhere optional
+  collect 5766 x1 anywhere optional
+  turnin 94247 direct optional
+
+step Craftsman's Writ: Ornate Spyglass
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264029 x1 anywhere optional
+  collect 5507 x1 anywhere optional
+  turnin 94229 direct optional
+
 step Belanaa Windveil
   accept 99191
   accept 99192
@@ -227,29 +290,22 @@ step Unstable Magic
 step Unstable Magic
   turnin 96603
 
-step More Unstable Magic
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 96602
-  complete 96602 @14.2,60.0
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4338 x1 anywhere
 
-step More Unstable Magic
-  turnin 96602
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4306 x1 anywhere
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x1 quest 99193.1
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2592 x60 anywhere
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x1 quest 99192.1
-
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 99191.1
-
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7794.1
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1453
+  collect 4338 x60 anywhere
 
 step Belanaa Windveil
   zone map 1416
@@ -258,39 +314,48 @@ step Belanaa Windveil
   turnin 99193
   accept 99194
 
-step Stormwind Royal Guard
-  zone map 1453
-  collect 14047 x1 quest 99194.1
+step Runecloth
+  tip Dropped by 265 kinds of mob in 22 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 14047 x1 anywhere
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7809.1
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1455
+  collect 4338 x60 anywhere
 
 step Belanaa Windveil
   zone map 1416
   turnin 99194
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Additional Runecloth
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 14047 x1 anywhere optional
   turnin 99195 direct optional
 
-step Junkboxes Needed
+step Craftsman's Writ: Phoenix Pants
   tip A repeatable quest: hand it in once, with what it asks for.
-  collect 16885 x5 anywhere optional
-  turnin 8249 direct optional
+  collect 264051 x1 anywhere optional
+  collect 4317 x1 anywhere optional
+  turnin 94251 direct optional
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x60 quest 7798.1
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1457
+  collect 4306 x60 anywhere
 
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 7792.1
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2592 x60 anywhere
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7799.1
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4338 x60 anywhere
+
+step Runecloth
+  tip Dropped by 265 kinds of mob in 22 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 14047 x60 anywhere
 
 step Your Fortune Awaits You...
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -302,12 +367,63 @@ step Your Fortune Awaits You...
   zone map 1413
   turnin 7944 direct @46.6,35.7 map 1413 optional
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Your Fortune Awaits You...
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1412
   turnin 7945 direct optional
+
+step Southshore
+  zone map 1424
+  sethome "Southshore"
+
+step Craftsman's Writ: Free Action Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264015 x1 anywhere optional
+  collect 5634 x1 anywhere optional
+  turnin 94215 direct optional
+
+step Craftsman's Writ: Heavy Bronze Mace
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264024 x1 anywhere optional
+  collect 3491 x1 anywhere optional
+  turnin 94224 direct optional
+
+step Craftsman's Writ: Practice Lock
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264033 x1 anywhere optional
+  collect 6712 x1 anywhere optional
+  turnin 94233 direct optional
+
+step Craftsman's Writ: Pilferer's Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264042 x1 anywhere optional
+  collect 7358 x1 anywhere optional
+  turnin 94242 direct optional
+
+step Craftsman's Writ: Draught of Detect Demon
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1430
+  collect 264119 x1 anywhere optional
+  collect 9233 x1 anywhere optional
+  turnin 94319 direct optional
+
+step Craftsman's Writ: Mithril Spurs
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264128 x1 anywhere optional
+  collect 7969 x1 anywhere optional
+  turnin 94328 direct optional
+
+step Craftsman's Writ: Runic Leather Headband
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264146 x1 anywhere optional
+  collect 15094 x1 anywhere optional
+  turnin 94346 direct optional
+
+step Craftsman's Writ: Tuxedo Jacket
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264155 x1 anywhere optional
+  collect 10036 x1 anywhere optional
+  turnin 94355 direct optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

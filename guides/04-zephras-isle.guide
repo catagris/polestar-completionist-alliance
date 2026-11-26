@@ -1,8 +1,9 @@
 guide completionist-alliance/04-zephras-isle
-title 04 Zephras Isle (1-13) (Completionist)
+title 04 Zephras Isle
 faction Alliance
 levels 1-13
 category Leveling
+folder Completionist 01-10
 zone map 2521
 next completionist-alliance/01-elwynn-forest-and-stormwind when !turnedin 95065
 next completionist-alliance/02-dun-morogh-and-ironforge when !turnedin 96390
@@ -38,6 +39,18 @@ step Elatrell Featherlight
 step Cirrusfly Queen
   kill 251404 x1 quest 92463.1
 
+step Yala Windwatcher
+  accept 92465
+
+step Al'Aketh Convert
+  kill 251160 x7 quest 92465.1
+
+step Roiling Winds
+  kill 251143 x6 quest 92465.2
+
+step Yala Windwatcher
+  turnin 92465
+
 step Elatrell Featherlight
   turnin 92463
   turnin 92461
@@ -48,29 +61,13 @@ step Elatrell Featherlight
   accept 92485 only Druid
   accept 92532 only Warrior
 
-step Yala Windwatcher
-  zone map 2521
-  accept 92465
-
-step Al'Aketh Convert and Roiling Winds
-  kill 251160 x7 quest 92465.1
-  kill 251143 x6 quest 92465.2
-
-step Yala Windwatcher
-  turnin 92465
-
 step Myriaal Mistwake
+  zone map 2521
   accept 92474 only Skyborne
 
 step Rorian the Dayseeker
   complete 92474 @43.7,24.1 map 2521 only Skyborne
   turnin 92474 only Skyborne
-
-step Yala Windwatcher
-  accept 92469
-
-step Rorian the Dayseeker
-  turnin 92469
 
 step Xyton Silverwind
   only Druid
@@ -101,8 +98,12 @@ step Akeri Duskblade
   zone map 2521
   turnin 92483
 
-step Falorne Fallwind
+step Yala Windwatcher
   zone map 2521
+  accept 92469
+
+step Rorian the Dayseeker
+  turnin 92469
   accept 92597 only Skyborne
 
 step Ley Line
@@ -114,14 +115,12 @@ step Raw Windstone
 step Hanaa Nightwind
   accept 92544
 
-step Al'Aketh Neophyte
+step Al'Aketh Brute and Al'Aketh Neophyte
+  kill 251145 x6 quest 92544.1
   kill 251448 x4 quest 92544.2
 
 step Malduko Cloudcrush
   kill 256935 x1 quest 92544.3
-
-step Al'Aketh Brute
-  kill 251145 x6 quest 92544.1
 
 step Hanaa Nightwind
   turnin 92544
@@ -207,18 +206,23 @@ step A Sacrifice in Vain
   zone map 2521
   turnin 94493 optional
 
-step Al'Aketh Stormchaser
+step Al'Aketh Footsoldier
   zone map 2521
   collect 265141 x1 quest 94487.1
-
-step Elegael Thornpaw
-  turnin 94487
 
 step Vayn Moongaze
   accept 93165
 
-step Al'Aketh Stormchaser
+step Al'Aketh Footsoldier
   collect 258771 x5 quest 93165.1
+
+step Vayn Moongaze
+  turnin 93165
+
+step More Al'Aketh Ears
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 258771 x1 anywhere optional
+  turnin 93459 direct optional
 
 step Ealaane Nimbuswalker
   accept 94896
@@ -235,14 +239,26 @@ step Resaan Nimbuswalker
 step Elegael Thornpaw
   accept 94486
 
+step Shadowgale Shriekling
+  collect 265140 x20 quest 94486.1
+
 step Elegael Thornpaw
   accept 94485
 
 step Lady's Tear Moss
   collect 265105 x8 quest 94485.1
 
-step Shadowgale Shriekling
-  collect 265140 x20 quest 94486.1
+step Elegael Thornpaw
+  turnin 94485
+  turnin 94486
+  turnin 94487
+  accept 94488
+
+step Commander Haalien
+  collect 265475 x1 quest 94488.1
+
+step Elegael Thornpaw
+  turnin 94488
 
 step Constable Aonda
   turnin 92472
@@ -253,27 +269,6 @@ step Raan Wildwind
 step Ealaane Nimbuswalker
   turnin 94896
   turnin 94897
-
-step Elegael Thornpaw
-  turnin 94485
-  turnin 94486
-
-step Elegael Thornpaw
-  accept 94488
-
-step Commander Haalien
-  collect 265475 x1 quest 94488.1
-
-step Elegael Thornpaw
-  turnin 94488
-
-step Vayn Moongaze
-  turnin 93165
-
-step More Al'Aketh Ears
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 258771 x1 anywhere optional
-  turnin 93459 direct optional
 
 step The High Order
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -452,9 +447,11 @@ step Teeri Wellwind
   zone map 2521
   accept 92516
 
-step Hippogryph Protector and Hippogryph Matriarch
-  kill 251284 x6 quest 92516.2
+step Hippogryph Matriarch
   kill 251261 x1 quest 92516.3
+
+step Hippogryph Protector
+  kill 251284 x6 quest 92516.2
 
 step Hippogryph Youth
   kill 251291 x8 quest 92516.1
@@ -498,14 +495,14 @@ step Constable Aonda
   turnin 92528
 
 step Danarii Bellowveil
-  accept 92551 only Skyborne
+  accept 92551
 
 step Galemender Delanea
-  collect 252760 x10 quest 92551.1 only Skyborne
+  collect 252760 x10 quest 92551.1
 
 step Danarii Bellowveil
   zone map 1432
-  turnin 92551 only Skyborne
+  turnin 92551
 
 step Constable Aonda
   zone map 2521
@@ -681,7 +678,7 @@ step Talaanis Shadowsong
 step Elaadrin Evengale
   accept 92834
 
-step Al'Aketh Stormchaser
+step Al'Aketh Footsoldier
   collect 255658 x10 quest 92834.1
 
 step Elaadrin Evengale

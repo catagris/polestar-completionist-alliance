@@ -1,8 +1,9 @@
 guide completionist-alliance/14-elwynn-forest-and-stormwind-2
-title 14 Elwynn Forest and Stormwind, visit 2 (15-27) (Completionist)
+title 14 Elwynn Forest and Stormwind, visit 2
 faction Alliance
 levels 15-27
 category Leveling
+folder Completionist 11-20
 zone Elwynn Forest
 next completionist-alliance/15-odd-jobs-in-the-eastern-kingdoms
 pitch On along the line: Elwynn Forest and Stormwind, quests of level 15 to 27.
@@ -52,7 +53,7 @@ step Sprite Jumpsprocket
   turnin 97234
   accept 97237
 
-step Field Accounts of Horde Razings, Trollbane Conquests, The Forsaken Ally and Highback Chair
+step Field Accounts of Horde Razings, Trollbane Conquests, The Forsaken Ally and Cycles of Morality
   collect 277196 x1 quest 97237.1
   collect 277194 x1 quest 97237.2
   collect 277195 x1 quest 97237.3
@@ -153,7 +154,7 @@ step Lord Ello Ebonlocke
   turnin 145
 
 step Fishing Hut
-  zone map 1422
+  zone map 1430
   collect 6529 x1 quest 95065.1
 
 step Ziggurat Protector

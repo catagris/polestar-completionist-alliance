@@ -1,5 +1,5 @@
 guide completionist-alliance/class-warrior
-title Warrior class quests (10-62) (Completionist)
+title Warrior class quests
 faction Alliance
 class Warrior
 levels 10-62
@@ -11,39 +11,88 @@ reward text What the Warrior quests give, quest by quest: abilities, forms, pets
 # Routed 32 quests; estimated level at the end 17.0 (heuristic XP).
 # Skipped: 6 prerequisite N not in this route; 5 exclusive with N; 4 objective N (item N) outside the zones; 1 profession.
 
+step Bartleby the Drunk
+  only Warrior,Human,Skyborne
+  zone map 1453
+  accept 1639 optional only Human,Skyborne
+
+step Bartleby the Drunk
+  only Warrior,Human,Skyborne
+  when onquest 1639
+  zone map 1453
+  turnin 1639 optional only Human,Skyborne
+
+step A Warrior's Training
+  only Warrior,Human,Skyborne
+  zone map 1429
+  accept 1638 optional only Human,Skyborne
+
+step A Warrior's Training
+  only Warrior,Human,Skyborne
+  when onquest 1638
+  zone map 1453
+  turnin 1638 optional only Human,Skyborne
+
+step Muren Stormpike
+  only Warrior,Dwarf,Gnome,Skyborne
+  zone map 1426
+  accept 1679 optional only Dwarf,Gnome,Skyborne
+
+step Muren Stormpike
+  only Warrior,Dwarf,Gnome,Skyborne
+  when onquest 1679
+  zone map 1455
+  turnin 1679 optional only Dwarf,Gnome,Skyborne
+
+step Vejrek
+  only Warrior,Dwarf,Gnome,Skyborne
+  zone map 1455
+  accept 1678 optional only Dwarf,Gnome,Skyborne
+
+step Vejrek
+  only Warrior,Dwarf,Gnome,Skyborne
+  when onquest 1678
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 1678 @70.8,90.3 optional only Dwarf,Gnome,Skyborne
+
+step Vejrek
+  only Warrior,Dwarf,Gnome,Skyborne
+  when onquest 1678
+  zone map 1455
+  turnin 1678 optional only Dwarf,Gnome,Skyborne
+
 step Elanaria
-  zone Darnassus
-  accept 1683 only Warrior
+  zone map 1457
+  accept 1683 only NightElf,Skyborne
 
 step Vorlus Vilehoof
-  zone Teldrassil
-  collect 6805 x1 quest 1683.1 only Warrior
-
-step Elanaria
-  only Warrior
-  when available 1684
-  tip One of several exclusive quests; the route takes A Warrior's Training (1638). This one shows for a character the game offers it to instead.
   zone map 1438
-  accept 1684 optional
+  collect 6805 x1 quest 1683.1 only NightElf,Skyborne
 
 step Elanaria
-  zone Darnassus
-  turnin 1683 only Warrior
+  only Warrior,NightElf,Skyborne
+  zone map 1438
+  accept 1684 optional only NightElf,Skyborne
+
+step Elanaria
+  zone map 1457
+  turnin 1683 only NightElf,Skyborne
   accept 1686 only Warrior
 
 step Elanaria
-  only Warrior
+  only Warrior,NightElf,Skyborne
   when onquest 1684
   zone map 1457
-  turnin 1684 optional
+  turnin 1684 optional only NightElf,Skyborne
 
 step Crate of Elunite and Shade of Elura
-  zone Darkshore
+  zone map 1439
   collect 6808 x8 quest 1686.1 only Warrior
   collect 6809 x1 quest 1686.2 only Warrior
 
 step Elanaria
-  zone Darnassus
+  zone map 1457
   turnin 1686 only Warrior
   accept 1692 only Warrior
   turnin 1692 only Warrior
@@ -54,7 +103,7 @@ step Level 15
   level 15
 
 step Alonso
-  zone Ashenvale
+  zone map 1440
   accept 78134 only Warrior
 
 step Level 15
@@ -68,6 +117,7 @@ step Dragonslayer's Shield
   complete 78133 @42,69.2 optional
 
 step Level 15
+  zone map 1440
   level 15
 
 step Dragonslayer's Helm
@@ -79,39 +129,26 @@ step Dragonslayer's Helm
 
 step Dragonslayer's Shield
   only Warrior
+  zone map 1440
   turnin 78133 optional
 
 step Dark Iron Entrepreneur
-  zone Wetlands
-  buy 209874 x1 npc 3180 -- for Dragonslayer's Lance
+  zone map 1437
+  buy 209874 x1 nearest -- for Dragonslayer's Lance
 
 step Tormus Deepforge
-  zone Ironforge
+  zone map 1455
   accept 1681 only Warrior
 
 step Muren Stormpike
   accept 1680 only Warrior
 
-step Vejrek
-  only Warrior
-  when available 1678
-  tip One of several exclusive quests; the route takes Bartleby the Drunk (1639). This one shows for a character the game offers it to instead.
-  zone map 1455
-  accept 1678 optional
-
 step Ironband's Strongbox
-  zone Dun Morogh
+  zone map 1426
   collect 6800 x1 quest 1681.1 only Warrior
 
-step Muren Stormpike
-  only Warrior
-  when available 1679
-  tip One of several exclusive quests; the route takes A Warrior's Training (1638). This one shows for a character the game offers it to instead.
-  zone map 1426
-  accept 1679 optional
-
 step Tormus Deepforge
-  zone Ironforge
+  zone map 1455
   turnin 1680 only Warrior
   turnin 1681 only Warrior
   accept 1682 only Warrior
@@ -121,91 +158,80 @@ step Level 50
   level 50
 
 step Darnath Bladesinger
-  zone Darnassus
+  zone map 1457
   accept 8417 npc 7315 only Warrior
 
 step Fallen Hero of the Horde
-  zone Swamp of Sorrows
+  zone map 1435
   turnin 8417 only Warrior
 
 step Fallen Hero of the Horde
-  zone Swamp of Sorrows
   accept 8423 only Warrior
 
-step Kelv Sternhammer
-  zone Ironforge
-  accept 1718 npc 5113 only Warrior
-
 step Helboar
-  zone Blasted Lands
+  zone map 1419
   kill 5993 x7 quest 8423.1 only Warrior
 
 step Fallen Hero of the Horde
-  zone Swamp of Sorrows
+  zone map 1435
   turnin 8423 only Warrior
 
+step Fallen Hero of the Horde
+  accept 8424 only Warrior
+
+step Shadowsworn Thug
+  zone map 1419
+  kill 6005 x20 quest 8424.3 only Warrior
+
 step Darnath Bladesinger
-  zone Darnassus
+  zone map 1457
   accept 1698 npc 7315 only Warrior
 
-step Vejrek
-  only Warrior
-  when onquest 1678
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1455
-  complete 1678 @70.8,90.3 optional
-
-step Vejrek
-  only Warrior
-  when onquest 1678
-  zone map 1455
-  turnin 1678 optional
-
-step Muren Stormpike
-  only Warrior
-  when onquest 1679
-  zone map 1455
-  turnin 1679 optional
-
 step Yorus Barleybrew
-  zone Redridge Mountains
+  zone map 1433
   turnin 1698 only Warrior
 
 step Yorus Barleybrew
-  zone Redridge Mountains
   accept 1699 only Warrior
 
 step Yorus Barleybrew
-  zone Redridge Mountains
   complete 1699 @14.1,24.7 map 1433 only Warrior
   turnin 1699 only Warrior
 
 step Yorus Barleybrew
-  zone Ironforge
+  zone map 1455
   accept 1702 only Warrior
 
-step Fallen Hero of the Horde
-  zone Swamp of Sorrows
-  accept 8424 only Warrior
-
-step Shadowsworn Thug
-  zone Blasted Lands
-  kill 6005 x20 quest 8424.3 only Warrior
-
 step Shadowsworn Cultist
-  zone Searing Gorge
+  zone map 1419
   kill 6004 x10 quest 8424.2 only Warrior
 
+step Kelv Sternhammer
+  zone map 1455
+  accept 1718 npc 5113 only Warrior
+
 step Shadowsworn Adept
-  zone Searing Gorge
+  zone map 1419
   kill 6006 x20 quest 8424.1 only Warrior
 
 step Fallen Hero of the Horde
-  zone Swamp of Sorrows
+  zone map 1435
   turnin 8424 only Warrior
 
+step Level 58
+  level 58
+
+step Red Bag
+  zone map 1428
+  accept 84211 object 457056 only Warrior
+
+step Sulfuron Smuggler
+  zone map 1427
+  collect 226698 x1 quest 84211.1 only Warrior
+  collect 226699 x1 quest 84211.2 only Warrior
+
 step Furen Longbeard
-  zone Stormwind City
+  zone map 1453
   turnin 1702 only Warrior
 
 step Furen's Armor
@@ -270,9 +296,6 @@ step Iron Coral
   zone map 1455
   turnin 1708 optional
 
-step Level 58
-  level 58
-
 step Klockmort's Creation
   only Warrior
   when turnedin 1708
@@ -292,22 +315,10 @@ step Beat Bartleby
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 1640 @76.8,52.5 optional
 
-step Bartleby the Drunk
-  only Warrior
-  when available 1639
-  tip One of several exclusive quests; the route takes Vorlus Vilehoof (1683). This one shows for a character the game offers it to instead.
-  zone map 1453
-  accept 1639 optional
-
 step Beat Bartleby
   only Warrior
-  turnin 1640 optional
-
-step Bartleby the Drunk
-  only Warrior
-  when onquest 1639
   zone map 1453
-  turnin 1639 optional
+  turnin 1640 optional
 
 step Bartleby's Mug
   only Warrior
@@ -322,6 +333,7 @@ step Marshal Haggard
 
 step Marshal Haggard
   only Warrior
+  zone map 1453
   turnin 1666 optional
 
 step Burning Blood
@@ -400,38 +412,17 @@ step Dead-tooth Jack
 
 step Dead-tooth Jack
   only Warrior
-  turnin 1667 optional
-
-step A Warrior's Training
-  only Warrior
-  when available 1638
-  tip One of several exclusive quests; the route takes Vorlus Vilehoof (1683). This one shows for a character the game offers it to instead.
   zone map 1429
-  accept 1638 optional
-
-step A Warrior's Training
-  only Warrior
-  when onquest 1638
-  zone map 1453
-  turnin 1638 optional
-
-step Red Bag
-  zone Burning Steppes
-  accept 84211 object 457056 only Warrior
-
-step Blackrock Bootlegger
-  zone Searing Gorge
-  collect 226698 x1 quest 84211.1 only Warrior
-  collect 226699 x1 quest 84211.2 only Warrior
+  turnin 1667 optional
 
 step Geologist Larksbane
   when turnedin 8315
-  zone Silithus
+  zone map 1451
   accept 8316 only Warrior
   turnin 8316 only Warrior
 
 step Sebastian Jurgens
-  zone Tanaris
+  zone map 1446
   accept 84213 only Warrior
 
 step Half-Buried Mech
@@ -439,7 +430,7 @@ step Half-Buried Mech
   turnin 84135 only Warrior
 
 step Klannoc Macleod
-  zone The Barrens
+  zone map 1413
   turnin 1718 only Warrior
   accept 1719 only Warrior
 
@@ -452,15 +443,16 @@ step Klannoc Macleod
   accept 1791 only Warrior
 
 step Alonso
-  zone Ashenvale
+  zone map 1440
   turnin 78134 only Warrior
 
 step Dragonslayer's Helm
   only Warrior
+  zone map 1440
   turnin 78132 optional
 
 step Nami
-  zone Mount Hyjal
+  zone map 1452
   turnin 84211 only Warrior
 
 step Lorax's Tale
@@ -472,6 +464,7 @@ step Lorax's Tale
 
 step Lorax's Tale
   only Warrior,Paladin,Shaman
+  zone map 1452
   turnin 5126 optional
 
 step Seena Skybreaker
@@ -485,7 +478,7 @@ step Seena Skybreaker
   turnin 94003 only Skyborne
 
 step Bath'rah the Windwatcher
-  zone Alterac Mountains
+  zone map 1416
   turnin 1791 only Warrior
 
 step Cyclonian
@@ -507,6 +500,7 @@ step Essence of the Exile
 
 step Cyclonian
   only Warrior
+  zone map 1416
   turnin 1712 optional
 
 step The Summoning
@@ -518,6 +512,7 @@ step The Summoning
 
 step The Summoning
   only Warrior
+  zone map 1416
   turnin 1713 optional
 
 step Whirlwind Weapon
@@ -527,7 +522,7 @@ step Whirlwind Weapon
   turnin 1792 optional
 
 step Mech Arm
-  zone Westfall
+  zone map 1420
   turnin 84213 only Warrior
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.

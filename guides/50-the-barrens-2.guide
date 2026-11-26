@@ -1,14 +1,15 @@
 guide completionist-alliance/50-the-barrens-2
-title 50 The Barrens, visit 2 (47-60) (Completionist)
+title 50 The Barrens, visit 2
 faction Alliance
 levels 47-60
 category Leveling
+folder Completionist 41-50
 zone The Barrens
 next completionist-alliance/51-ungoro-crater
 pitch On along the line: The Barrens, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 8 quests; estimated level at the end 47.4 (heuristic XP, class quests not counted).
-# Skipped: 2 exclusive with N (done); 2 profession.
+# Skipped: 2 exploration objective has no location in data; 2 profession.
 
 step Temple of the Moon Fountain
   zone map 1457
@@ -142,6 +143,12 @@ step The Battle for Darkspear Islands!
 
 step The Battle for Darkspear Islands!
   when onquest 98904
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  complete 98904 @63.3,58.8 optional
+
+step The Battle for Darkspear Islands!
+  when onquest 98904
   zone map 1413
   turnin 98904 optional
 
@@ -174,19 +181,6 @@ step A Sealed Crate
   collect 248771 x1 anywhere optional
   turnin 91905 direct optional
 
-step A Sealed Crate
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 248770 x1 anywhere optional
-  turnin 91904 direct optional
-
-step A Sealed Crate
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 91902 direct optional
-
-step A Sealed Crate
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 91901 direct optional
-
 step Level 51
   level 51
 
@@ -210,17 +204,18 @@ step The Battle for Darkspear Islands!
 
 step The Battle for Darkspear Islands!
   when onquest 98905
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  complete 98905 @63.3,58.8 optional
+
+step The Battle for Darkspear Islands!
+  when onquest 98905
   zone map 1413
   turnin 98905 optional
 
-step A Sealed Crate
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1413
-  collect 248766 x1 anywhere optional
-  turnin 91900 direct optional
-
 step Remember Alterac Valley!
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
   accept 8375
   complete 8375 @63.6,58.6
 
@@ -230,6 +225,28 @@ step Remember Alterac Valley!
 step Remember Alterac Valley!
   tip A repeatable quest: hand it in once, with what it asks for.
   turnin 8383 direct optional
+
+step A Sealed Crate
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 248770 x1 anywhere optional
+  turnin 91904 direct optional
+
+step A Sealed Crate
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 91903 direct optional
+
+step A Sealed Crate
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 91902 direct optional
+
+step A Sealed Crate
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 91901 direct optional
+
+step A Sealed Crate
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 248766 x1 anywhere optional
+  turnin 91900 direct optional
 
 step A Sealed Crate
   tip A repeatable quest: hand it in once, with what it asks for.

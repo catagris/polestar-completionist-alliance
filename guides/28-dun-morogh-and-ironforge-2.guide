@@ -1,8 +1,9 @@
 guide completionist-alliance/28-dun-morogh-and-ironforge-2
-title 28 Dun Morogh and Ironforge, visit 2 (4-40) (Completionist)
+title 28 Dun Morogh and Ironforge, visit 2
 faction Alliance
 levels 4-40
 category Leveling
+folder Completionist 21-30
 zone Dun Morogh
 next completionist-alliance/29-riverglades
 pitch On along the line: Dun Morogh and Ironforge, quests of level 4 to 40.
@@ -10,11 +11,11 @@ pitch On along the line: Dun Morogh and Ironforge, quests of level 4 to 40.
 # Routed 9 quests; estimated level at the end 9.0 (heuristic XP, class quests not counted).
 # Skipped: 3 profession; 2 exclusive with N (done); 2 objective N (talk N) outside the zones.
 
-step Angus Stern
-  when onquest 1271
-  zone map 1453
-  accept 1271
-  turnin 1271
+step Roetten Stonehammer
+  when onquest 1457
+  zone map 1455
+  turnin 1457
+  turnin 1467
 
 step Ironforge
   zone map 1455
@@ -22,10 +23,6 @@ step Ironforge
 
 step Jemma Quikswitch
   accept 95041
-
-step The Mad King
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  turnin 80324 direct @68.8,49.0 map 1455
 
 step Camping 101: Enchanting
   when available 96059
@@ -135,6 +132,11 @@ step The Art of the Armorsmith
   zone map 1455
   turnin 5283 optional
 
+step Me Brother, Nipsy
+  when onquest 6662
+  zone map 1453
+  turnin 6662 @64.5,7.5 map 1453
+
 step Thunderbrew Distillery
   zone map 1426
   sethome "Thunderbrew Distillery"
@@ -165,6 +167,7 @@ step Teo Hammerstorm
   turnin 96243 only Dwarf,Gnome
 
 step Your First Riding Ram
+  only Dwarf
   zone map 1426
   accept 97017
 
@@ -172,6 +175,11 @@ step Learning to Ride
   only Dwarf
   zone map 1426
   accept 97018
+
+step Your First Mechanostrider
+  only Gnome
+  zone map 1426
+  accept 97046
 
 step Learning to Ride
   only Gnome
@@ -185,20 +193,16 @@ step Learning to Ride
   turnin 97188
 
 step Your First Mechanostrider
-  when available 97046
-  tip One of several exclusive quests; the route takes Your First Riding Ram (97017). This one shows for a character the game offers it to instead.
-  zone map 1426
-  accept 97046 optional
-
-step Your First Mechanostrider
+  only Gnome
   when onquest 97046
   zone map 1426
-  complete 97046 @49.1,48.1 optional
+  complete 97046 @49.1,48.1
 
 step Your First Mechanostrider
+  only Gnome
   when onquest 97046
   zone map 1426
-  turnin 97046 optional
+  turnin 97046
 
 step Learning to Ride
   only Dwarf
@@ -207,11 +211,27 @@ step Learning to Ride
   turnin 97018
 
 step Your First Riding Ram
+  only Dwarf
   when onquest 97017
   zone map 1426
   complete 97017 @64.3,50.2
 
 step Your First Riding Ram
+  only Dwarf
   when onquest 97017
   zone map 1426
   turnin 97017
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Karnitol Shipwreck
+  when onquest 1457
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 1457 optional
+
+step Reagents for Reclaimers Inc.
+  when onquest 1467
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 1467 optional

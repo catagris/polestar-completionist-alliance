@@ -1,7 +1,8 @@
 guide completionist-alliance/dungeon-alcaz-prison
-title Alcaz Prison, part 1 of 2 (Completionist)
+title Alcaz Prison, part 1 of 2
 faction Alliance
 category Dungeons
+folder Completionist dungeons and raids
 levels 48-53
 zone Dustwallow Marsh
 next completionist-alliance/dungeon-alcaz-prison-2
@@ -39,6 +40,7 @@ step Inside Alcaz Prison, again
   zone map 1445
   accept 95263 @75.4,14
   accept 96337 @75.4,14
+  complete 96337 @75.4,14
 
 step Sully McCleary
   turnin 95263

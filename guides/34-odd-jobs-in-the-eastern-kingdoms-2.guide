@@ -1,14 +1,15 @@
 guide completionist-alliance/34-odd-jobs-in-the-eastern-kingdoms-2
-title 34 Odd jobs in the Eastern Kingdoms, visit 2 (30-44) (Completionist)
+title 34 Odd jobs in the Eastern Kingdoms, visit 2
 faction Alliance
 levels 30-44
 category Leveling
+folder Completionist 31-40
 zone Duskwood
 next completionist-alliance/35-badlands
 pitch On along the line: errands across the Eastern Kingdoms, quests of level 30 to 44.
 # Generated from the reference data: change the planner, not this file.
-# Routed 18 quests; estimated level at the end 31.3 (heuristic XP, class quests not counted).
-# Skipped: 1 exclusive with N (done); 1 objective N (talk N) outside the zones.
+# Routed 20 quests; estimated level at the end 31.6 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N (done); 1 objective N (talk N) outside the zones; 1 prerequisite N not in this route.
 
 step Angus Stern
   when onquest 212
@@ -66,10 +67,6 @@ step Mor'Ladim
   zone map 1431
   collect 3514 x1 quest 228.1
 
-step Carved Figurine
-  zone map 1432
-  accept 79975
-
 step Level 40
   zone map 1436
   level 40
@@ -99,6 +96,36 @@ step Sack of Rye
 step Sack of Corn
   zone map 1446
   collect 739 x1 quest 49.2
+
+step Cedric Dalton
+  zone map 1433
+  accept 94678
+
+step Hail the Dragonslayer
+  when has 271612
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1433
+  turnin 95935 direct @89.1,19.6 map 1433
+
+step Cedric Dalton
+  when group 94679
+  zone map 1433
+  accept 94679
+
+step Cedric Dalton
+  zone map 1433
+  accept 95148
+
+step Redridge Mystic, Redridge Trapper and Redridge Brute
+  kill 255770 x8 quest 94678.1
+  kill 255772 x8 quest 94678.2
+  kill 255769 x6 quest 94678.3
+
+step Snargl
+  when group 94679
+  tip Snargl's Snout is group work: elites. Grouping up is advised.
+  zone map 2548
+  collect 265357 x1 quest 94679.1
 
 step Ghak Healtouch
   zone map 1432
@@ -132,33 +159,25 @@ step Ghak Healtouch
   zone map 1432
   turnin 2500
 
+step Carved Figurine
+  accept 79975
+
 step Prospector Ironband
   turnin 707
   accept 738
 
-step Shakes O'Breen
-  zone map 1417
-  accept 667
+step Cedric Dalton
+  zone map 1433
+  turnin 94678
 
-step Shakes O'Breen
-  turnin 667
+step Cedric Dalton
+  when group 94679
+  zone map 1433
+  turnin 94679
 
-step Messenger Bag
-  turnin 79975
-  accept 79976
-  turnin 79976
-
-step Image of Archmage Modera
-  zone map 1421
-  accept 92459
-
-step Archmage Celindra
-  zone map 1416
-  turnin 92459
-
-step Past Due
-  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 96800 optional
+step Demar Brant
+  zone map 2548
+  turnin 95148
 
 step Commander Althea Ebonlocke
   when group 228
@@ -188,8 +207,6 @@ step Grimbooze Thunderbrew
   turnin 50
   accept 51
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Cursed Sycamore
   zone map 1444
   collect 742 x1 quest 51.1
@@ -203,9 +220,40 @@ step The Charred Oak
   zone map 1427
   collect 743 x1 quest 53.1
 
+step Shakes O'Breen
+  zone map 1417
+  accept 667
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Shakes O'Breen
+  turnin 667
+
+step Messenger Bag
+  turnin 79975
+  accept 79976
+  turnin 79976
+
 step Grimbooze Thunderbrew
   zone map 1436
   turnin 53
+
+step Your First Riding Galestrider
+  only Skyborne
+  zone map 2521
+  accept 96996
+
+step Your First Riding Galestrider
+  only Skyborne
+  when onquest 96996
+  zone map 2521
+  complete 96996 @53.6,81.3
+
+step Your First Riding Galestrider
+  only Skyborne
+  when onquest 96996
+  zone map 2521
+  turnin 96996
 
 step Learning to Ride
   only Skyborne
@@ -217,25 +265,6 @@ step Learning to Ride
   when onquest 97205
   zone map 2521
   turnin 97205
-
-step Your First Riding Galestrider
-  only Skyborne
-  when available 96996
-  tip One of several exclusive quests; the route takes Your First Riding Ram (97017). This one shows for a character the game offers it to instead.
-  zone map 2521
-  accept 96996 optional
-
-step Your First Riding Galestrider
-  only Skyborne
-  when onquest 96996
-  zone map 2521
-  complete 96996 @53.6,81.3 optional
-
-step Your First Riding Galestrider
-  only Skyborne
-  when onquest 96996
-  zone map 2521
-  turnin 96996 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

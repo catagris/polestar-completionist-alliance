@@ -1,27 +1,16 @@
 guide completionist-alliance/65-eastern-plaguelands
-title 65 Eastern Plaguelands (52-60) (Completionist)
+title 65 Eastern Plaguelands
 faction Alliance
 levels 52-60
 category Leveling
+folder Completionist 61-67
 zone Eastern Plaguelands
 next completionist-alliance/dungeon-stratholme
 next completionist-alliance/66-tanaris-2
 pitch On along the line: Eastern Plaguelands, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 29 quests; estimated level at the end 52.9 (heuristic XP, class quests not counted).
+# Routed 28 quests; estimated level at the end 52.9 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route; 1 exclusive with N; 1 exclusive with N (done).
-
-step Clavicus Knavingham
-  when onquest 7795
-  zone map 1453
-  turnin 7795
-
-step Additional Runecloth
-  when onquest 7796
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1453
-  collect 14047 x20 anywhere optional
-  turnin 7796 direct optional
 
 step Royal Factor Bathrilor
   when onquest 5022
@@ -57,16 +46,6 @@ step Mathrengyl Bearwalker
   when onquest 4986
   zone map 1457
   turnin 4986
-
-step Deliana
-  only Warlock
-  when complete 8936
-  zone map 1455
-  turnin 8936
-
-step Deliana
-  zone map 1455
-  accept 8929 npc 230319
 
 step Highlord Bolvar Fordragon
   when group 6187
@@ -120,6 +99,12 @@ step The Flesh Does Not Lie
 step Duke Nicholas Zverenhoff
   sethome "Light's Hope Chapel"
   turnin 6030
+
+step Craftsman's Writ: Wicked Leather Bracers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264147 x1 anywhere optional
+  collect 15084 x1 anywhere optional
+  turnin 94347 direct optional
 
 step Epic Armaments of Battle - Exalted Amongst the Dawn
   tip Needs Exalted standing (42000) with Argent Dawn; without it the quest is not offered.
@@ -254,11 +239,6 @@ step Craftsman's Writ - Runecloth Bag
   collect 14046 x8 anywhere optional
   turnin 9191 direct optional
 
-step Craftsman's Writ - Runecloth Boots
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 13864 x8 anywhere optional
-  turnin 9190 direct optional
-
 step Level 55
   level 55
 
@@ -280,9 +260,14 @@ step Chromatic Mantle of the Dawn
   zone map 1423
   turnin 5517 optional
 
-step Craftsman's Writ - Brightcloth Pants
+step Craftsman's Writ - Runecloth Boots
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1423
+  collect 13864 x8 anywhere optional
+  turnin 9190 direct optional
+
+step Craftsman's Writ - Brightcloth Pants
+  tip A repeatable quest: hand it in once, with what it asks for.
   collect 14104 x6 anywhere optional
   turnin 9188 direct optional
 
@@ -632,8 +617,38 @@ step Book
 step Aurora Skycaller
   turnin 5245
 
+step Craftsman's Writ: Gift of Arthas
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264120 x1 anywhere optional
+  collect 9088 x1 anywhere optional
+  turnin 94320 direct optional
+
 step Book
   accept 84401 object 463212
+
+step Anthion's Parting Words
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84184 optional
+
+step Anthion's Parting Words
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84183 optional
+
+step Anthion's Parting Words
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84182 optional
+
+step Anthion's Parting Words
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84181 optional
+
+step Anthion's Parting Words
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84180 optional
+
+step Anthion's Parting Words
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84179 optional
 
 step Book
   collect 228140 x1 quest 84401.1
@@ -839,8 +854,6 @@ step Chromie
   zone map 1422
   turnin 5941
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Chromie
   accept 5721
 
@@ -866,6 +879,12 @@ step The Restless Souls
   tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 5282 optional
 
+step Craftsman's Writ: Felcloth Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264156 x1 anywhere optional
+  collect 14108 x1 anywhere optional
+  turnin 94356 direct optional
+
 step Augustus' Receipt Book
   collect 15884 x1 quest 6164.1
 
@@ -882,41 +901,8 @@ step Level 58
 
 step Anthion's Parting Words
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84179
-  complete 84179 @26.1,11.3
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
   accept 84186
   complete 84186 @26.1,11.3
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84184
-  complete 84184 @26.1,11.3
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84183
-  complete 84183 @26.1,11.3
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84182
-  complete 84182 @26.1,11.3
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84181
-  complete 84181 @26.1,11.3
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84180
-  complete 84180 @26.1,11.3
-
-step Anthion Harmon
-  turnin 8929
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
@@ -961,15 +947,3 @@ step The Blightcaller Cometh
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1453
   turnin 6186 optional
-
-step A Donation of Runecloth
-  when onquest 7795
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1453
-  turnin 7795 optional
-
-step Just Compensation
-  when onquest 8936
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 8936 optional

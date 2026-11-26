@@ -1,13 +1,14 @@
 guide completionist-alliance/11-westfall
-title 11 Westfall (9-24) (Completionist)
+title 11 Westfall
 faction Alliance
 levels 9-24
 category Leveling
+folder Completionist 11-20
 zone Westfall
 next completionist-alliance/12-stonetalon-mountains
 pitch On along the line: Westfall, quests of level 9 to 24.
 # Generated from the reference data: change the planner, not this file.
-# Routed 30 quests; estimated level at the end 17.7 (heuristic XP, class quests not counted).
+# Routed 30 quests; estimated level at the end 17.4 (heuristic XP, class quests not counted).
 # Skipped: 1 prerequisite N not in this route.
 
 step In Nightmares
@@ -38,11 +39,12 @@ step Molsen Farm Water Well
 step Ozwin Ironsprocket
   accept 92909
 
-step Rusty Harvest Golem
-  collect 255007 x14 quest 92909.1
-
 step Harvest Watcher
   collect 255010 x5 quest 92909.2
+
+step Decrepit Harvester
+  zone map 1420
+  collect 255007 x14 quest 92909.1
 
 step Alba Fairmoon
   turnin 92742
@@ -65,25 +67,15 @@ step Suspicious Crate
   collect 254676 x8 quest 92747.1
 
 step Alba Fairmoon
+  zone map 1436
   turnin 92747
 
 step Alba Fairmoon
+  zone map 1420
   accept 92748
 
-step Gryan Stoutmantle
-  accept 12
-  accept 102
-
-step Defias Smuggler
-  kill 95 x15 quest 12.2
-
-step Riverpaw Shaman
-  collect 725 x8 quest 102.1
-
-step Defias Trapper
-  kill 504 x15 quest 12.1
-
 step Level 10
+  zone map 1436
   level 10
 
 step Scout Galiaan
@@ -94,6 +86,9 @@ step Defias Highwayman
 
 step Scout Galiaan
   turnin 153
+
+step Alexston's Chest
+  collect 2998 x1 quest 399.1
 
 step Level 15
   level 15
@@ -118,11 +113,23 @@ step Burned-Out Remains
   accept 79008
 
 step Gryan Stoutmantle
+  accept 12
+  accept 65
+  accept 102
+  accept 6181 only Human
+
+step Defias Smuggler
+  kill 95 x15 quest 12.2
+
+step Riverpaw Shaman
+  collect 725 x8 quest 102.1
+
+step Defias Trapper
+  kill 504 x15 quest 12.1
+
+step Gryan Stoutmantle
   turnin 12
   accept 13
-
-step Quartermaster Lewis
-  accept 6181 only Human
   turnin 102
 
 step Defias Pillager
@@ -130,9 +137,6 @@ step Defias Pillager
 
 step Defias Looter
   kill 590 x15 quest 13.2
-
-step Gryan Stoutmantle
-  accept 65
 
 step Thor
   turnin 6181 only Human
@@ -185,21 +189,11 @@ step Great Goretusk
   zone map 1433
   collect 723 x8 quest 22.1
 
-step Alexston's Chest
+step Farmer Furlbrow
   zone map 1436
-  collect 2998 x1 quest 399.1
-
-step Farmer Saldean
-  turnin 9
-  turnin 22
-
-step Ozwin Ironsprocket
-  turnin 92909
-
-step Verna Furlbrow
+  accept 64
   accept 36
   accept 151
-  accept 64
 
 step Furlbrow's Wardrobe
   collect 841 x1 quest 64.1
@@ -212,7 +206,9 @@ step Captain Grayson
   turnin 104
   turnin 152
 
-step Salma Saldean
+step Farmer Saldean
+  turnin 9
+  turnin 22
   turnin 36
   accept 38
 
@@ -237,6 +233,9 @@ step Harvest Reaper
 
 step Salma Saldean
   turnin 38
+
+step Ozwin Ironsprocket
+  turnin 92909
 
 step Captain Sander's Hidden Treasure
   tip Captain Sander's Treasure Map drops from Murloc Coastrunner, Murloc Tidehunter, Murloc Warrior: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.

@@ -1,80 +1,99 @@
 guide completionist-alliance/58-odd-jobs-in-the-eastern-kingdoms-4
-title 58 Odd jobs in the Eastern Kingdoms, visit 4 (58-60) (Completionist)
+title 58 Odd jobs in the Eastern Kingdoms, visit 4
 faction Alliance
 levels 58-60
 category Leveling
+folder Completionist 51-60
 zone Stranglethorn Vale
 next completionist-alliance/59-swamp-of-sorrows-2
 pitch On along the line: errands across the Eastern Kingdoms, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 4 quests; estimated level at the end 58.1 (heuristic XP, class quests not counted).
-# Skipped: 2 prerequisite N not in this route; 1 no turn-in in data.
-
-step Mistina Steelshield
-  when onquest 7805
-  zone map 1455
-  turnin 7805
-
-step Additional Runecloth
-  when onquest 7806
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1455
-  collect 14047 x20 anywhere optional
-  turnin 7806 direct optional
-
-step Bubulo Acerbus
-  when onquest 7811
-  zone map 1455
-  turnin 7811
-
-step Additional Runecloth
-  when onquest 7812
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1455
-  collect 14047 x20 anywhere optional
-  turnin 7812 direct optional
+# Routed 6 quests; estimated level at the end 58.2 (heuristic XP, class quests not counted).
+# Skipped: 2 prerequisite N not in this route.
 
 step Deliana
-  only Hunter
-  when complete 8931
+  when complete 84148
   zone map 1455
-  turnin 8931
+  turnin 84148
+  turnin 84154
+  turnin 84164
+  turnin 84167
+  turnin 84179
+  turnin 84180
+  turnin 84182
+  turnin 84183
+  turnin 84195
+  turnin 84196
+  turnin 84200
+  turnin 84202
 
 step Deliana
-  only Warrior
-  when complete 8937
+  only Mage
+  when complete 84149
   zone map 1455
-  turnin 8937
+  turnin 84149
+
+step Deliana
+  when complete 84168
+  zone map 1455
+  turnin 84168
+
+step Deliana
+  when complete 84170
+  zone map 1455
+  turnin 84170
+
+step Deliana
+  only Druid
+  when complete 8951
+  zone map 1455
+  turnin 8951
 
 step Deliana
   only Priest
-  when complete 8934
+  when complete 8955
   zone map 1455
-  turnin 8934
+  turnin 8955
 
 step Deliana
-  only Rogue
-  when complete 8935
+  only Hunter
+  when complete 8952
   zone map 1455
-  turnin 8935
+  turnin 8952
+
+step Anthion's Parting Words
+  only Mage
+  when complete 8953
+  zone map 1455
+  turnin 8953
+
+step Deliana
+  only Paladin
+  when complete 8954
+  zone map 1455
+  turnin 8954
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Back to the Beginning
+  when onquest 8997
+  zone map 1455
+  turnin 8997
+
+step Master Mathias Shaw
+  when onquest 84377
+  zone map 1453
+  turnin 84377
+
+step Count Remington Ridgewell
+  when onquest 4765
+  zone map 1453
+  turnin 4765
 
 step Pix Xizzix
   zone map 1434
   accept 83934
   turnin 83934
-
-step Level 60
-  level 60
-
-step In Demand - Blackrock Legal Records
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 96075
-  complete 96075 @28.5,75.9
-
-step In Demand - Blackrock Legal Records
-  turnin 96075
 
 step Night Watch Guard
   zone map 1431
@@ -86,6 +105,9 @@ step Night Watch Guard
 step Veteran of the Third War
   zone map 1433
   accept 93551
+
+step Level 60
+  level 60
 
 step Shipping Label
   when has 280179
@@ -99,6 +121,20 @@ step Shipping Label
   zone map 1433
   turnin 98247
 
+step Genn Fairweather
+  zone map 2521
+  accept 99203 only Skyborne
+  accept 99216 only Skyborne
+  turnin 99203 only Skyborne
+
+step Swift Empyrean Galestrider, Swift Stormy Galestrider and Swift Umber Galestrider
+  kill 265762 x1 quest 99216.1 only Skyborne
+  kill 265761 x1 quest 99216.2 only Skyborne
+  kill 265760 x1 quest 99216.3 only Skyborne
+
+step Genn Fairweather
+  turnin 99216 only Skyborne
+
 step Arathi Basin Resources!
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1417
@@ -110,38 +146,116 @@ step Arathi Basin Resources!
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step A Donation of Runecloth
-  when onquest 7805
+step Delivery to Ridgewell
+  when onquest 4765
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 7805 optional
+  zone map 1453
+  turnin 4765 optional
 
-step A Donation of Runecloth
-  when onquest 7811
+step Anthion's Parting Words
+  when onquest 8951
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
-  turnin 7811 optional
+  turnin 8951 optional
 
-step Just Compensation
-  when onquest 8931
+step Anthion's Parting Words
+  when onquest 8952
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
-  turnin 8931 optional
+  turnin 8952 optional
 
-step Just Compensation
-  when onquest 8934
+step Anthion's Parting Words
+  when onquest 8953
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
-  turnin 8934 optional
+  turnin 8953 optional
 
-step Just Compensation
-  when onquest 8935
+step Anthion's Parting Words
+  when onquest 8954
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
-  turnin 8935 optional
+  turnin 8954 optional
 
-step Just Compensation
-  when onquest 8937
+step Anthion's Parting Words
+  when onquest 8955
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
-  turnin 8937 optional
+  turnin 8955 optional
+
+step Back to the Beginning
+  when onquest 8997
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 8997 optional
+
+step An Earnest Proposition
+  when onquest 84148
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84148 optional
+
+step An Earnest Proposition
+  when onquest 84149
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84149 optional
+
+step An Earnest Proposition
+  when onquest 84154
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84154 optional
+
+step Anthion's Parting Words
+  when onquest 84179
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84179 optional
+
+step Anthion's Parting Words
+  when onquest 84180
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84180 optional
+
+step Anthion's Parting Words
+  when onquest 84182
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84182 optional
+
+step Anthion's Parting Words
+  when onquest 84183
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84183 optional
+
+step Saving the Best for Last
+  when onquest 84195
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84195 optional
+
+step Saving the Best for Last
+  when onquest 84196
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84196 optional
+
+step Saving the Best for Last
+  when onquest 84200
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84200 optional
+
+step Saving the Best for Last
+  when onquest 84202
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84202 optional
+
+step End of the Dark Horde
+  when onquest 84377
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 84377 optional

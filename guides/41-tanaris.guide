@@ -1,8 +1,9 @@
 guide completionist-alliance/41-tanaris
-title 41 Tanaris (38-54) (Completionist)
+title 41 Tanaris
 faction Alliance
 levels 38-54
 category Leveling
+folder Completionist 41-50
 zone Tanaris
 next completionist-alliance/dungeon-zulfarrak
 next completionist-alliance/42-dun-morogh-and-ironforge-3
@@ -90,8 +91,7 @@ step Spigot Operator Luglunket
   accept 1707
 
 step Tooga
-  accept 97540
-  turnin 97540
+  accept 1560
 
 step Andi Lynn
   accept 5863
@@ -115,9 +115,6 @@ step Gnarled Thistleshrub and Thistleshrub Rootshaper
 step Wanted Poster
   accept 2781 object 150075
 
-step Tooga
-  accept 1560
-
 step Dunemaul Brute and Dunemaul Enforcer
   kill 5474 x10 quest 5863.1
   kill 5472 x10 quest 5863.2
@@ -130,6 +127,10 @@ step Andre Firebeard
 
 step Torta
   turnin 1560
+
+step Tooga
+  accept 97540
+  turnin 97540
 
 step Wastewander Bandit and Wastewander Thief
   kill 5618 x10 quest 1690.1
