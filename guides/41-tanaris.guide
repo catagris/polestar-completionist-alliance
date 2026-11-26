@@ -287,7 +287,7 @@ step Tran'rek
 
 step A Good Head On Your Shoulders
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 2771 optional
   complete 2771 @51.4,28.8 optional
@@ -299,7 +299,7 @@ step A Good Head On Your Shoulders
 
 step The World At Your Feet
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 2772 optional
   complete 2772 @51.4,28.8 optional
@@ -311,7 +311,7 @@ step The World At Your Feet
 
 step The Mithril Kid
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 2773 optional
   complete 2773 @51.4,28.8 optional
@@ -328,10 +328,10 @@ step I Know A Guy...
 
 step Clamlette Surprise
   when skill Cooking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 6610 optional
-  complete 6610 @52.6,28.1 optional
+  complete 6610 @67.8,23.0 optional
 
 step Clamlette Surprise
   when skill Cooking 1
@@ -357,10 +357,10 @@ step The Pledge of Secrecy
 
 step Show Your Work
   when skill Engineering 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 3639 optional
-  complete 3639 @52.5,27.3 optional
+  complete 3639 @51.4,28.7 optional
 
 step Show Your Work
   when skill Engineering 1
@@ -369,7 +369,7 @@ step Show Your Work
 
 step Did You Lose This?
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 3321 optional
   complete 3321 @51.4,28.8 optional
@@ -380,10 +380,10 @@ step Did You Lose This?
   turnin 3321 optional
 
 step Tazzik's Dues
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 95321
-  complete 95321 @51.6,27.4
+  complete 95321 @67.4,24.0
 
 step Membership Card Renewal
   when skill Engineering 200
@@ -403,10 +403,10 @@ step Friz Frazzlespark
   turnin 95472
 
 step Gnomish Garbage
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 97536
-  complete 97536 @52.3,26.9
+  complete 97536 @50.9,24.7
 
 step Gnomish Garbage
   turnin 97536

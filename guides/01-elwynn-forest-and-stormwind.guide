@@ -215,10 +215,10 @@ step Jason Mathers
 
 step Rough Wolf Pelts
   when skill Skinning 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1429
   accept 91751 optional
-  complete 91751 @46.2,62.2 optional
+  complete 91751 @64.8,63.4 optional
 
 step Fishing Trap
   zone map 1429
@@ -251,9 +251,9 @@ step Jason Mathers
 
 step The Great Outdoors
   tip Sit down (/sit) by Sam's Basic Campfire and stay seated until the Boosted Rest buff appears.
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95998 only Human
-  complete 95998 @44.9,63.4 only Human
+  complete 95998 @44.9,63.3 only Human
 
 step Innkeeper Farley
   turnin 2158
@@ -263,9 +263,9 @@ step The Great Outdoors
   turnin 95998 only Human
 
 step Camping 101: Cooking
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 96626 only Human
-  complete 96626 @44.9,63.4 only Human
+  complete 96626 @44.4,66.0 only Human
 
 step Camping 101: Alchemy
   when skill Alchemy 1
@@ -332,10 +332,10 @@ step Camping 101: Mining
 
 step Camping 101: Skinning
   when skill Skinning 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1429
   accept 97924 optional only Human
-  complete 97924 @44.9,63.4 optional only Human
+  complete 97924 @32.8,85.5 optional only Human
 
 step Camping 101: Tailoring
   when skill Tailoring 1

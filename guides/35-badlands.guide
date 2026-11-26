@@ -290,21 +290,13 @@ step Flash Bomb Recipe
   turnin 1559 optional
 
 step Liquid Stone
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1418
   accept 715
-  complete 715 @25.8,44.2
-
-step Liquid Stone
-  turnin 715
 
 step Stone Is Better than Cloth
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 716
-  complete 716 @25.8,44.2
-
-step Stone Is Better than Cloth
-  turnin 716
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

@@ -87,9 +87,9 @@ step Target: Felstone Field
 
 step Target: Felstone Field
   when onquest 5216
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1422
-  complete 5216 @43.0,84.5
+  complete 5216 @37.0,57.1
 
 step Target: Felstone Field
   when onquest 5216
@@ -135,9 +135,9 @@ step Target: Dalson's Tears
 
 step Target: Dalson's Tears
   when onquest 5219
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1422
-  complete 5219 @43.0,84.5
+  complete 5219 @46.2,52.4
 
 step Target: Dalson's Tears
   when onquest 5219
@@ -161,9 +161,9 @@ step Target: Writhing Haunt
 
 step Target: Writhing Haunt
   when onquest 5222
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1422
-  complete 5222 @43.0,84.5
+  complete 5222 @53.0,66.1
 
 step Target: Writhing Haunt
   when onquest 5222
@@ -187,9 +187,9 @@ step Target: Gahrron's Withering
 
 step Target: Gahrron's Withering
   when onquest 5225
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1422
-  complete 5225 @43.0,84.5
+  complete 5225 @62.8,58.8
 
 step Target: Gahrron's Withering
   when onquest 5225

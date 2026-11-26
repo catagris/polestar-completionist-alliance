@@ -81,9 +81,8 @@ step Laird
   accept 98025
 
 step The Family and the Fishing Pole
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 1141
-  complete 1141 @36.1,44.9
 
 step Gaffer Jacks
   when skill Fishing 1
@@ -99,10 +98,10 @@ step Thundris Windweaver
 
 step Easy Strider Living
   when skill Cooking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1439
   accept 2178 optional
-  complete 2178 @37.7,40.7 optional
+  complete 2178 @37.5,41.7 optional
 
 step Asterion
   zone map 1439
@@ -117,9 +116,6 @@ step Level 11
 
 step Gwennyth Bly'Leggonde
   accept 3524
-
-step The Family and the Fishing Pole
-  turnin 1141
 
 step Gaffer Jacks
   when skill Fishing 1

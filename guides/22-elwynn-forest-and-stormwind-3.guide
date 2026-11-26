@@ -49,15 +49,9 @@ step The Origins of Smithing
 
 step The Origins of Smithing
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1453
   accept 2758 optional
-  complete 2758 @62.9,36.8 optional
-
-step The Origins of Smithing
-  when skill Blacksmithing 1
-  zone map 1453
-  turnin 2758 optional
 
 step Historian Karnik
   when onquest 98313
@@ -68,6 +62,12 @@ step High Explorer Magellas
   when complete 98824
   zone map 1455
   turnin 98824
+
+step The Origins of Smithing
+  when skill Blacksmithing 1
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1455
+  complete 2758 @49.8,44.1 optional
 
 step Sven Yorgen
   when onquest 325

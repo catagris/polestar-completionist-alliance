@@ -11,10 +11,29 @@ pitch On along the line: Shen'dralas, quests of level 38 to 45.
 # Generated from the reference data: change the planner, not this file.
 # Routed 24 quests; estimated level at the end 38.8 (heuristic XP, class quests not counted).
 
+step Liquid Stone
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1455
+  complete 715 @24.2,74.7
+
+step Stone Is Better than Cloth
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  complete 716 @24.2,74.7
+
 step Librarian Mae Paledust
   when complete 1050
   zone map 1455
   turnin 1050
+
+step Liquid Stone
+  when onquest 715
+  zone map 1455
+  turnin 715
+
+step Stone Is Better than Cloth
+  when onquest 716
+  zone map 1455
+  turnin 716
 
 step Shen'dralar Pylon
   zone map 2652
@@ -47,9 +66,9 @@ step Mordent Evenshade
   turnin 96018
 
 step A Brief History Lesson
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93016
-  complete 93016 @35.2,46.6
+  complete 93016 @35.1,46.6
 
 step A Brief History Lesson
   turnin 93016
@@ -71,9 +90,9 @@ step Historian Biraxas
   accept 99257
 
 step Phantasmal Problems
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93450
-  complete 93450 @42,79.0
+  complete 93450 @46.9,60.5
 
 step Phantasmal Problems
   turnin 93450
@@ -199,9 +218,9 @@ step Nerlokh
   turnin 93045
 
 step Saving Our Own
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93058
-  complete 93058 @20.9,22.7
+  complete 93058 @46.4,30.3
 
 step Nerlokh
   accept 93062
@@ -231,6 +250,18 @@ step Uthek the Wise
   turnin 93128
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Liquid Stone
+  when onquest 715
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 715 optional
+
+step Stone Is Better than Cloth
+  when onquest 716
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 716 optional
 
 step Mythology of the Titans
   when onquest 1050

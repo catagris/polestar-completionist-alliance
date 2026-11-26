@@ -9,6 +9,30 @@ next completionist-alliance/dungeon-dire-maul
 pitch Blackrock Spire, in Searing Gorge.
 why Every Alliance quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
+step Anthion's Parting Words
+  only Priest
+  when onquest 84183
+  zone map 1455
+  turnin 84183 optional
+
+step Anthion's Parting Words
+  only Paladin
+  when onquest 84182
+  zone map 1455
+  turnin 84182 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 84180
+  zone map 1455
+  turnin 84180 optional
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 84179
+  zone map 1455
+  turnin 84179 optional
+
 step Deliana
   only Hunter
   zone map 1455
@@ -106,36 +130,16 @@ step Back to the Beginning
   zone map 1455
   turnin 8997
 
-step Anthion's Parting Words
-  only Druid
-  when onquest 84179
-  zone map 1455
-  turnin 84179 optional
-
-step Anthion's Parting Words
-  only Hunter
-  when onquest 84180
-  zone map 1455
-  turnin 84180 optional
-
-step Anthion's Parting Words
-  only Paladin
-  when onquest 84182
-  zone map 1455
-  turnin 84182 optional
-
-step Anthion's Parting Words
-  only Priest
-  when onquest 84183
-  zone map 1455
-  turnin 84183 optional
-
 step Master Mathias Shaw
   zone map 1453
   turnin 84377
 
 step Count Remington Ridgewell
   turnin 4765
+
+step Bodley's Unfortunate Fate
+  zone map 1455
+  accept 8960
 
 step Inside Blackrock Spire
   only Hunter
@@ -161,6 +165,11 @@ step Inside Blackrock Spire
   only Priest
   zone map 1427
   complete 84167 @34.8,85.3
+
+step Bodley's Unfortunate Fate
+  when onquest 8960
+  zone map 1427
+  turnin 8960
 
 step Deliana
   only Hunter

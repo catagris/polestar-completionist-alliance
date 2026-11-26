@@ -60,6 +60,12 @@ step Tyrion
   turnin 2745
   accept 2746
 
+step The Origins of Smithing
+  when onquest 2758
+  when skill Blacksmithing 1
+  zone map 1453
+  turnin 2758 optional
+
 step Klockmort Spannerspan
   when complete 2924
   zone map 1455
@@ -267,6 +273,12 @@ step Mortality Wanes
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1457
   turnin 1142 optional
+
+step The Origins of Smithing
+  when onquest 2758
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1453
+  turnin 2758 optional
 
 step Save Techbot's Brain!
   when onquest 2922

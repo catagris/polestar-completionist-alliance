@@ -46,7 +46,7 @@ step Welcome!
   turnin 5842 only NightElf
 
 step The Goddess Provides
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1438
   accept 97979 only NightElf
   complete 97979 @59.2,40.4 only NightElf
@@ -185,7 +185,7 @@ step Lyreena Duskblade
 
 step The Great Outdoors
   tip Sit down (/sit) by Lyreena's Basic Campfire and stay seated until the Boosted Rest buff appears.
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 96606 only NightElf
   complete 96606 @57.6,56.6 only NightElf
 
@@ -297,10 +297,10 @@ step Camping 101: Alchemy
   complete 97938 @57.6,56.6 optional only NightElf
 
 step Camping 101: Cooking
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1438
   accept 96634 only NightElf
-  complete 96634 @57.6,56.6 only NightElf
+  complete 96634 @57.1,61.3 only NightElf
 
 step Camping 101: Leatherworking
   only Hunter,Rogue,Druid
@@ -339,10 +339,10 @@ step Camping 101: Herbalism
 
 step Recipe of the Kaldorei
   when skill Cooking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1438
   accept 4161 optional
-  complete 4161 @57.1,61.3 optional
+  complete 4161 @62.0,58.9 optional
 
 step Innkeeper Keldamyr
   zone map 1438
@@ -465,9 +465,9 @@ step Tallonkai Swiftroot
   turnin 2438
 
 step Ferocitas the Dream Eater
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 2459
-  complete 2459 @55.6,57.0
+  complete 2459 @69.2,53.0
 
 step Tallonkai Swiftroot
   when group 98403

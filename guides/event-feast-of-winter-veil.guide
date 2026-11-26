@@ -41,9 +41,9 @@ step Treats for Greatfather Winter
 
 step Treats for Greatfather Winter
   when onquest 7025
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1455
-  complete 7025 @33.2,65.4 optional
+  complete 7025 @21.3,54.9 optional
 
 step Treats for Greatfather Winter
   when onquest 7025
@@ -189,9 +189,9 @@ step A Ticking Present
 
 step You're a Mean One...
   when onquest 7043
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1416
-  complete 7043 @35.4,72.5 optional
+  complete 7043 @40.8,67.8 optional
 
 step You're a Mean One...
   when onquest 7043

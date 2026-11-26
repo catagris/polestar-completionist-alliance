@@ -115,9 +115,9 @@ step Fuzzle
   accept 95643
 
 step Abominable Magics
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95642
-  complete 95642 @47.6,47.2
+  complete 95642 @47.2,51.3
 
 step Twilight Ritualist
   kill 262169 x5 quest 95643.2
@@ -269,9 +269,9 @@ step Halligan Turner
   turnin 94931
 
 step From Seed to Sprout
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 94843
-  complete 94843 @41.2,62.9
+  complete 94843 @38.7,61.3
 
 step Mudfin Warrior
   kill 258574 x8 quest 94614.1
@@ -283,9 +283,9 @@ step Hurley
   turnin 94857
 
 step Helping Hands
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 94861
-  complete 94861 @41.4,64.5
+  complete 94861 @46.1,71.1
 
 step From Seed to Sprout
   turnin 94843
@@ -318,9 +318,9 @@ step Sister Rowland
   accept 95943
 
 step In Memoriam
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95615
-  complete 95615 @61.8,83.1
+  complete 95615 @62.0,83.7
 
 step Foreman's Crate
   collect 271620 x1 quest 95943.1
@@ -367,9 +367,9 @@ step Craftsman's Writ: Mana Potion
   turnin 94262 direct optional
 
 step Not My Circus
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95982
-  complete 95982 @76.0,52.6
+  complete 95982 @64.6,83.6
 
 step WANTED!
   when group 95120
@@ -543,9 +543,9 @@ step Wharfmaster Whizzbuzz
   accept 95267
 
 step See Ya, Scallywags!
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95165
-  complete 95165 @79.5,52.7
+  complete 95165 @88.3,25.8
 
 step Monstrous Threshadon
   collect 268633 x1 quest 95267.1
@@ -574,9 +574,9 @@ step Ember Bladewhisper
   turnin 95156
 
 step The Sharpest of Blades
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95184
-  complete 95184 @66.2,79.6
+  complete 95184 @64.6,83.6
 
 step Demar Brant
   turnin 94877
@@ -673,9 +673,9 @@ step Lost Horse
   turnin 94618
 
 step Rescue Roundup
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 94992
-  complete 94992 @53.7,66.3
+  complete 94992 @55.1,72.9
 
 step Rescue Roundup
   turnin 94992
@@ -714,10 +714,10 @@ step Tessa Dawnbright
   turnin 96083
 
 step Something's in the Water
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 2548
   accept 96084
-  complete 96084 @61.8,83.1
+  complete 96084 @62.0,56.2
 
 step Fresh Apple
   collect 271431 x6 quest 95561.1
@@ -797,9 +797,9 @@ step Dunston Willis
   turnin 96126
 
 step Dunston Checks Out
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 94927
-  complete 94927 @68.6,12.7
+  complete 94927 @67.0,29.8
 
 step Dunston Checks Out
   turnin 94927

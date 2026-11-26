@@ -241,10 +241,10 @@ step Frostmane Hold
 
 step The Great Outdoors
   tip Sit down (/sit) by Eric's Basic Campfire and stay seated until the Boosted Rest buff appears.
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1426
   accept 96608 only Dwarf,Gnome
-  complete 96608 @46.6,53.9 only Dwarf,Gnome
+  complete 96608 @46.7,54.0 only Dwarf,Gnome
 
 step Innkeeper Belm
   collect 2894 x1 quest 384.2
@@ -304,9 +304,9 @@ step Mountaineer Gretchen
   turnin 98322
 
 step Secure the Mountain
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 98319
-  complete 98319 @44.1,57.1
+  complete 98319 @43.0,49.6
 
 step Secure the Mountain
   turnin 98319
@@ -358,10 +358,10 @@ step Camping 101: Tailoring
 
 step Camping 101: Skinning
   when skill Skinning 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1426
   accept 96056 optional only Dwarf,Gnome
-  complete 96056 @46.6,53.9 optional only Dwarf,Gnome
+  complete 96056 @41.4,59.2 optional only Dwarf,Gnome
 
 step Camping 101: Herbalism
   when skill Herbalism 1
@@ -426,10 +426,10 @@ step Camping 101: Leatherworking
   complete 96031 @46.6,53.9 optional only Dwarf,Gnome
 
 step Camping 101: Cooking
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1426
   accept 96629 only Dwarf,Gnome
-  complete 96629 @46.6,53.9 only Dwarf,Gnome
+  complete 96629 @47.7,52.3 only Dwarf,Gnome
 
 step Camping 101: Cooking
   turnin 96629 only Dwarf,Gnome
@@ -576,10 +576,10 @@ step Stolen Blasting Powder
   turnin 95213
 
 step Farsen's Watch
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1426
   accept 96392
-  complete 96392 @64.9,58.5
+  complete 96392 @64.8,58.4
 
 step Stolen Blasting Powder
   when turnedin 95213

@@ -10,10 +10,10 @@ pitch On along the line: Undercity, level 20 quests.
 # Generated from the reference data: change the planner, not this file.
 # Routed 17 quests; estimated level at the end 20.1 (heuristic XP, class quests not counted).
 
-step Chief Archaeologist Greywhisker
-  when onquest 741
-  zone map 1457
-  turnin 741
+step The Family and the Fishing Pole
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1453
+  complete 1141 @61.1,70.7
 
 step Baros Alexston
   when onquest 97914
@@ -43,9 +43,19 @@ step Garion Wendell
   accept 79096 npc 211033
   accept 79097 npc 211033
 
+step Chief Archaeologist Greywhisker
+  when onquest 741
+  zone map 1457
+  turnin 741
+
 step Library Book
   zone map 1455
   collect 203754 x1 quest 79091.1
+
+step The Family and the Fishing Pole
+  when onquest 1141
+  zone map 1439
+  turnin 1141
 
 step Thundris Windweaver
   when onquest 97894
@@ -155,6 +165,12 @@ step The Absent Minded Prospector
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1457
   turnin 741 optional
+
+step The Family and the Fishing Pole
+  when onquest 1141
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1439
+  turnin 1141 optional
 
 step Expanding Horizons
   when onquest 97914

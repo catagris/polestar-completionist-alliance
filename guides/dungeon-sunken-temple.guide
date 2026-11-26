@@ -32,10 +32,12 @@ step The Ancient Egg
   accept 4787
 
 step The Ancient Egg
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 4787 @66.99,22.36
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1425
+  complete 4787 @57.5,86.8
 
 step The Ancient Egg
+  zone map 1446
   turnin 4787
 
 step Level 60
@@ -56,8 +58,8 @@ step The Path of the Righteous
   accept 8301
 
 step The Path of the Righteous
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8301 @49.45,36.45
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  complete 8301 @45.2,26.2
 
 step The Path of the Righteous
   turnin 8301

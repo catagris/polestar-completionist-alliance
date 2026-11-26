@@ -99,8 +99,8 @@ step Milton Sheaf
   accept 344
 
 step A Dynamite Plan
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 92749 @61.9,30.6
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  complete 92749 @61.1,70.7
 
 step A Dynamite Plan
   turnin 92749

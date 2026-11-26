@@ -138,13 +138,6 @@ step Ancient Equine Spirit
   zone map 1453
   accept 7643 optional
 
-step Ancient Equine Spirit
-  only Paladin,Human,Dwarf
-  when onquest 7643
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1453
-  complete 7643 @48.4,50.2 optional
-
 step Getting there
   zone map 1444
   note The entrance is in Feralas: the arrow leads to it.
@@ -272,6 +265,13 @@ step Latronicus Moonspear
 
 step Scholar Runethorn
   turnin 7482
+
+step Ancient Equine Spirit
+  only Paladin,Human,Dwarf
+  when onquest 7643
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1422
+  complete 7643 @42.8,83.7 optional
 
 step Ancient Equine Spirit
   only Paladin,Human,Dwarf
@@ -468,9 +468,9 @@ step Dreadsteed of Xoroth
 step Dreadsteed of Xoroth
   only Warlock
   when onquest 7631
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1428
-  complete 7631 @12.7,31.6 optional
+  complete 7631 @12.4,31.6 optional
 
 step Dreadsteed of Xoroth
   only Warlock

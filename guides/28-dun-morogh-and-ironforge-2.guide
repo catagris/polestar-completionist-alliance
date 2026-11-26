@@ -91,9 +91,9 @@ step The Art of the Armorsmith
 
 step The Way of the Weaponsmith
   when onquest 5284
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1455
-  complete 5284 @50.3,43.6 optional
+  complete 5284 @51.4,28.8 optional
 
 step The Way of the Weaponsmith
   when onquest 5284
@@ -123,9 +123,9 @@ step The Art of the Armorsmith
 
 step The Art of the Armorsmith
   when onquest 5283
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1455
-  complete 5283 @50.0,42.8 optional
+  complete 5283 @49.8,44.1 optional
 
 step The Art of the Armorsmith
   when onquest 5283

@@ -42,10 +42,10 @@ step Gerrig Bonegrip
   turnin 971
 
 step Ineptitude + Chemicals = Fun
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1455
   accept 1073
-  complete 1073 @72.1,51.9
+  complete 1073 @24.2,74.6
 
 step Ineptitude + Chemicals = Fun
   turnin 1073

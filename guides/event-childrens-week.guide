@@ -77,9 +77,9 @@ step Jaina's Autograph
 
 step Jaina's Autograph
   when onquest 558
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1453
-  complete 558 @56.3,54.3 optional
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1445
+  complete 558 @66.2,49.0 optional
 
 step Jaina's Autograph
   when onquest 558
@@ -92,9 +92,9 @@ step You Scream, I Scream...
 
 step You Scream, I Scream...
   when onquest 4822
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1453
-  complete 4822 @56.3,54.3 optional
+  complete 4822 @61.3,75.0 optional
 
 step You Scream, I Scream...
   when onquest 4822

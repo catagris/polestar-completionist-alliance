@@ -31,9 +31,9 @@ step The Nightmare's Corruption
 
 step The Nightmare's Corruption
   when onquest 8735
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1450
-  complete 8735 @36.2,41.8
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1440
+  complete 8735 @93.6,39.6
 
 step The Nightmare's Corruption
   when onquest 8735

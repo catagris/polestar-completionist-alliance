@@ -29,7 +29,7 @@ step Kum'isha the Collector
 
 step A Tale of Sorrow
   zone map 1435
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 2801
   complete 2801 @34.3,66.1
 

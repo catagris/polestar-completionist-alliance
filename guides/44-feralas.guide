@@ -376,7 +376,7 @@ step Wild Leather Boots
 
 step Wild Leather Leggings
   when skill Leatherworking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1444
   accept 2852 optional
   complete 2852 @30.6,42.7 optional

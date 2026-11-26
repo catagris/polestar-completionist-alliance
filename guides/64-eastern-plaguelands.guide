@@ -111,11 +111,6 @@ step Highlord Bolvar Fordragon
   zone map 1423
   kill 11878 x1 quest 6187.1
 
-step Bodley's Unfortunate Fate
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1455
-  accept 8960 optional
-
 step Royal Factor Bathrilor
   zone map 1453
   accept 5050
@@ -130,10 +125,10 @@ step Janice Felstone
   turnin 5050
 
 step Two Halves Become One
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1422
   accept 5051
-  complete 5051 @38.4,54.0
+  complete 5051 @37.8,57.6
 
 step Two Halves Become One
   when onquest 5051
@@ -652,10 +647,10 @@ step The Keeper's Call
   turnin 9247
 
 step Defenders of Darrowshire
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1423
   accept 5211
-  complete 5211 @71.7,50.0
+  complete 5211 @58.6,33.0
 
 step Crypt Fiend Parts
   when turnedin 9124
@@ -806,10 +801,10 @@ step Sister Pamela
   turnin 5601
 
 step Pamela's Doll
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1423
   accept 5149
-  complete 5149 @31.1,78.0
+  complete 5149 @32.6,79.3
 
 step Pamela's Doll
   turnin 5149
@@ -821,10 +816,10 @@ step Marlene Redpath
   zone map 1422
   turnin 5152
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Marlene Redpath
   accept 5153
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Joseph's Wedding Ring
   collect 12894 x1 quest 5153.1

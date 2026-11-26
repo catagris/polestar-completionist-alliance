@@ -157,9 +157,10 @@ step Curgle Cranklehop
   turnin 2941
 
 step The Super Snapper FX
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1425
   accept 2944
-  complete 2944 @52.4,26.9
+  complete 2944 @81.4,47.2
 
 step The Super Snapper FX
   turnin 2944

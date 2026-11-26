@@ -48,16 +48,6 @@ step Passing Word of a Threat
 step An Ambassador of Evil
   accept 762
 
-step An Ambassador of Evil
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 762 @77.54,11.82
-
-step An Ambassador of Evil
-  turnin 762
-
-step Advisor Belgrum
-  accept 1139
-
 step High Explorer Magellas
   accept 2439
 
@@ -83,6 +73,10 @@ step The Star, the Hand and the Heart
 step Inside Uldaman, again
   zone map 1418
   complete 2199 @67.8,44.4
+
+step An Ambassador of Evil
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  complete 762 @42.1,28.9
 
 step Forbidden Knowledge
   when turnedin 735

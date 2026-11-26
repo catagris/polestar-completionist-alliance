@@ -237,10 +237,10 @@ step Twilight Fire Guard
   collect 10458 x1 quest 3378.1
 
 step Divine Retribution
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1427
   accept 3441
-  complete 3441 @39.1,39.0
+  complete 3441 @39.0,39.0
 
 step Divine Retribution
   turnin 3441
@@ -283,10 +283,10 @@ step Velarok Windblade
   turnin 3452
 
 step The Torch of Retribution
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1427
   accept 3453
-  complete 3453 @39.1,39.0
+  complete 3453 @39.0,39.0
 
 step The Torch of Retribution
   turnin 3453

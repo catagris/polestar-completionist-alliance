@@ -40,9 +40,9 @@ step Highlord Bolvar Fordragon
 
 step The True Masters
   zone map 1453
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 4185
-  complete 4185 @80.2,38.4
+  complete 4185 @80.1,38.2
 
 step Highlord Bolvar Fordragon
   zone Stormwind City
@@ -62,9 +62,9 @@ step Marshal Maxwell
 
 step The True Masters
   zone map 1428
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 4224
-  complete 4224 @84.7,69.0
+  complete 4224 @65.0,23.8
 
 step The True Masters
   turnin 4224
@@ -180,9 +180,9 @@ step Drakefire Amulet
 
 step Drakefire Amulet
   when onquest 6502
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1452
-  complete 6502 @54.5,51.2
+  complete 6502 @54.6,51.3
 
 step Drakefire Amulet
   when onquest 6502

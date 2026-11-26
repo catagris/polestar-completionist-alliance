@@ -444,10 +444,10 @@ step The Art of the Imbue
 
 step Expert Blacksmith!
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1434
   accept 2765 optional
-  complete 2765 @50.6,20.5 optional
+  complete 2765 @50.6,20.4 optional
 
 step Expert Blacksmith!
   when skill Blacksmithing 1

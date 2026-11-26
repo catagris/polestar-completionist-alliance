@@ -48,7 +48,7 @@ step Courier Hammerfall
   accept 1019
 
 step The Smoldering Ruins of Thaurissan
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 3702
   complete 3702 @38.4,55.3
 
@@ -97,9 +97,9 @@ step Show Your Work
 
 step Show Your Work
   when onquest 3641
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1455
-  complete 3641 @69.5,50.3 optional
+  complete 3641 @49.8,44.1 optional
 
 step Show Your Work
   when onquest 3641

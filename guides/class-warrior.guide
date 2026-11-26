@@ -52,9 +52,9 @@ step Vejrek
 step Vejrek
   only Warrior,Dwarf,Gnome,Skyborne
   when onquest 1678
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1455
-  complete 1678 @70.8,90.3 optional only Dwarf,Gnome,Skyborne
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1426
+  complete 1678 @27.8,58.0 optional only Dwarf,Gnome,Skyborne
 
 step Vejrek
   only Warrior,Dwarf,Gnome,Skyborne

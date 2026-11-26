@@ -13,6 +13,12 @@ step Talvash del Kissel
   zone map 1455
   turnin 2199
 
+step An Ambassador of Evil
+  turnin 762
+
+step Advisor Belgrum
+  accept 1139
+
 step Talvash del Kissel
   accept 2200
 
@@ -30,6 +36,12 @@ step Talvash's Scrying Bowl
   turnin 2201 @67.8,44.4 map 1418
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step An Ambassador of Evil
+  when onquest 762
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1455
+  turnin 762 optional
 
 step Lore for a Price
   when onquest 2199

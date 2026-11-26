@@ -171,7 +171,7 @@ step Level 52
   level 52
 
 step A Taste of Flame
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 4022 either
   accept 4023 either
   complete 4022 @95.1,31.6

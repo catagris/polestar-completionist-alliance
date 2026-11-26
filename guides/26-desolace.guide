@@ -17,6 +17,17 @@ step Angus Stern
   accept 1271
   turnin 1271
 
+step Jarl Needs a Blade
+  when onquest 1203
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1455
+  complete 1203 @24.2,74.7 optional
+
+step Jarl Needs a Blade
+  when onquest 1203
+  zone map 1445
+  turnin 1203 optional
+
 step Malem Chest
   zone map 1443
   accept 1465
@@ -49,9 +60,9 @@ step Raid on the Kolkar
 
 step Raid on the Kolkar
   when onquest 1384
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1443
-  complete 1384 @36.2,79.2 optional
+  complete 1384 @71.0,45.8 optional
 
 step Raid on the Kolkar
   when onquest 1384
@@ -195,9 +206,9 @@ step Stealing Supplies
 
 step Stealing Supplies
   when onquest 1370
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1443
-  complete 1370 @36.2,79.2 optional
+  complete 1370 @70.8,75.2 optional
 
 step Stealing Supplies
   when onquest 1370
@@ -212,9 +223,9 @@ step Ongeku
 
 step Ongeku
   when onquest 1373
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1443
-  complete 1373 @36.2,79.2 optional
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1435
+  complete 1373 @61.3,23.2 optional
 
 step Ongeku
   when onquest 1373
@@ -486,6 +497,8 @@ step Khan Hratha
   zone map 1443
   complete 1381 @75.0,68.2 optional
 
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
 step Khan Hratha
   when onquest 1381
   zone map 1443
@@ -499,7 +512,19 @@ step Tokal
   zone map 1434
   turnin 79235
 
+step Economic Warfare
+  when turnedin 93227
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1443
+  collect 254432 x1 anywhere optional
+
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Jarl Needs a Blade
+  when onquest 1203
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1445
+  turnin 1203 optional
 
 step The Visiting Mage
   when onquest 93464
