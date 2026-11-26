@@ -13,24 +13,28 @@ step About this guide
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Chicken Clucking for a Mint
+  tip Target Innkeeper Firebrew and type /chicken.
   when onquest 8311
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1455
   turnin 8353 direct optional
 
 step Incoming Gumdrop
+  tip Target Talvash del Kissel and type /train.
   when onquest 8311
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1455
   turnin 8355 direct optional
 
 step Flexing for Nougat
+  tip Target Innkeeper Allison and type /flex.
   when onquest 8311
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1453
   turnin 8356 direct optional
 
 step Dancing for Marzipan
+  tip Target Innkeeper Saelienne and type /dance.
   when onquest 8311
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1457

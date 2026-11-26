@@ -9,7 +9,7 @@ why Every Priest class quest from level 10 on, in level order. The earlier ones 
 reward text What the Priest quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
 # Routed 14 quests; estimated level at the end 14.6 (heuristic XP).
-# Skipped: 30 exclusive with N; 1 objective N (kill N) outside the zones.
+# Skipped: 30 exclusive with N; 1 exclusive with N (done); 1 objective N (kill N) outside the zones.
 
 step High Priestess Mims
   zone Dun Morogh
@@ -203,9 +203,28 @@ step Ogtinc
   zone Azshara
   turnin 8255 only Priest
 
-step Ogtinc
-  zone Darnassus
-  accept 8256 only Priest
+step High Priest Rohan
+  zone Ironforge
+  accept 5641 only Dwarf
+  turnin 5641 only Dwarf
+
+step A Lack of Fear
+  only Priest,Dwarf
+  when onquest 5647
+  zone map 1455
+  turnin 5647 optional
+
+step Desperate Prayer
+  only Priest,Dwarf
+  when onquest 5640
+  zone map 1455
+  turnin 5640 optional
+
+step Desperate Prayer
+  only Priest,Dwarf
+  when onquest 5639
+  zone map 1455
+  turnin 5639 optional
 
 step High Priestess Mims
   zone Dun Morogh
@@ -257,6 +276,12 @@ step Desperate Prayer
   zone map 1426
   accept 5637 optional
 
+step Desperate Prayer
+  only Priest,Dwarf
+  when onquest 5637
+  zone map 1455
+  turnin 5637 optional
+
 step Returning Home
   only Priest,NightElf
   when available 5630
@@ -268,15 +293,6 @@ step High Priestess Laurena
   zone Stormwind City
   accept 5676 only Human
   turnin 5676 only Human
-
-step Divine Grace
-  only Priest,Human
-  when onquest 94776
-  zone map 1453
-  turnin 94776 optional
-
-step Level 60
-  level 60
 
 step Elune's Grace
   only Priest,NightElf
@@ -298,12 +314,24 @@ step Divine Grace
   zone map 1453
   turnin 94777 optional
 
+step Divine Grace
+  only Priest,Human
+  when onquest 94776
+  zone map 1453
+  turnin 94776 optional
+
 step Desperate Prayer
   only Priest,Dwarf
   when available 5638
   tip One of several exclusive quests; the route takes Desperate Prayer (5634). This one shows for a character the game offers it to instead.
   zone map 1453
   accept 5638 optional
+
+step Desperate Prayer
+  only Priest,Dwarf
+  when onquest 5638
+  zone map 1455
+  turnin 5638 optional
 
 step Returning Home
   only Priest,NightElf
@@ -312,18 +340,9 @@ step Returning Home
   zone map 1453
   accept 5632 optional
 
-step Eris Havenfire
-  zone Eastern Plaguelands
-  accept 7621 only Priest
-  turnin 7621 only Priest
-
-step Eris Havenfire
-  zone Eastern Plaguelands
-  accept 7622 only Priest
-
-step Eris Havenfire
-  zone Eastern Plaguelands
-  turnin 7622 only Priest
+step Ogtinc
+  zone Darnassus
+  accept 8256 only Priest
 
 step Priestess Alathea
   zone Darnassus
@@ -348,41 +367,6 @@ step Returning Home
   zone map 1457
   turnin 5630 optional
 
-step High Priest Rohan
-  zone Ironforge
-  accept 5641 only Dwarf
-  turnin 5641 only Dwarf
-
-step A Lack of Fear
-  only Priest,Dwarf
-  when onquest 5647
-  zone map 1455
-  turnin 5647 optional
-
-step Desperate Prayer
-  only Priest,Dwarf
-  when onquest 5640
-  zone map 1455
-  turnin 5640 optional
-
-step Desperate Prayer
-  only Priest,Dwarf
-  when onquest 5639
-  zone map 1455
-  turnin 5639 optional
-
-step Desperate Prayer
-  only Priest,Dwarf
-  when onquest 5638
-  zone map 1455
-  turnin 5638 optional
-
-step Desperate Prayer
-  only Priest,Dwarf
-  when onquest 5637
-  zone map 1455
-  turnin 5637 optional
-
 step Anguished Highborne
   zone Winterspring
   collect 7972 x1 quest 8256.1 only Priest
@@ -390,6 +374,22 @@ step Anguished Highborne
 step Ogtinc
   zone Azshara
   turnin 8256 only Priest
+
+step Level 60
+  level 60
+
+step Eris Havenfire
+  zone Eastern Plaguelands
+  accept 7621 only Priest
+  turnin 7621 only Priest
+
+step Eris Havenfire
+  zone Eastern Plaguelands
+  accept 7622 only Priest
+
+step Eris Havenfire
+  zone Eastern Plaguelands
+  turnin 7622 only Priest
 
 step Geologist Larksbane
   when turnedin 8315
@@ -539,3 +539,22 @@ step Atiesh, Greatstaff of the Guardian
   when onquest 9257
   zone map 1446
   turnin 9257 optional
+
+step More Components of Importance
+  only Priest,Mage
+  when turnedin 8970
+  zone map 1427
+  accept 8987 optional
+
+step More Components of Importance
+  only Priest,Mage
+  when onquest 8987
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8987 @39.8,96.5 optional
+
+step More Components of Importance
+  only Priest,Mage
+  when onquest 8987
+  zone map 1427
+  turnin 8987 optional

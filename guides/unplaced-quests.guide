@@ -28,9 +28,6 @@ step Eastern Plaguelands
 step Hillsbrad Foothills
   task "Your First Horse, level 40" optional only Human -- quest 99326
 
-step Ironforge
-  task "Just Compensation, level 60" optional -- quest 97448
-
 step Western Plaguelands
   task "Rapid Escape" optional -- quest 8152
 

@@ -8,7 +8,7 @@ zone Durotar
 why Every Warrior class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Warrior quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 32 quests; estimated level at the end 17.0 (heuristic XP).
+# Routed 34 quests; estimated level at the end 17.8 (heuristic XP).
 # Skipped: 6 prerequisite N not in this route; 5 exclusive with N; 4 objective N (item N) outside the zones; 1 profession.
 
 step Bartleby the Drunk
@@ -117,7 +117,6 @@ step Dragonslayer's Shield
   complete 78133 @42,69.2 optional
 
 step Level 15
-  zone map 1440
   level 15
 
 step Dragonslayer's Helm
@@ -154,18 +153,126 @@ step Tormus Deepforge
   accept 1682 only Warrior
   turnin 1682 only Warrior
 
+step Alonso
+  zone map 1440
+  turnin 78134 only Warrior
+
+step Dragonslayer's Helm
+  only Warrior
+  zone map 1440
+  turnin 78132 optional
+
 step Level 50
+  zone map 1440
   level 50
 
 step Darnath Bladesinger
   zone map 1457
   accept 8417 npc 7315 only Warrior
 
+step Kelv Sternhammer
+  zone map 1455
+  accept 1718 npc 5113 only Warrior
+
+step Klannoc Macleod
+  zone map 1413
+  turnin 1718 only Warrior
+
+step Klannoc Macleod
+  accept 1719 only Warrior
+
+step Big Will and Step on the grate to begin the Affray
+  kill 6238 x1 quest 1719.1 only Warrior
+
+step Klannoc Macleod
+  zone map 1457
+  turnin 1719 only Warrior
+
+step Klannoc Macleod
+  zone map 1440
+  accept 1791 only Warrior
+
+step Level 58
+  level 58
+
+step Darnath Bladesinger
+  zone map 1457
+  accept 1698 npc 7315 only Warrior
+
+step Sebastian Jurgens
+  zone map 1446
+  accept 84213 only Warrior
+
+step Half-Buried Mech
+  accept 84135 only Warrior
+  turnin 84135 only Warrior
+
+step Red Bag
+  zone map 1428
+  accept 84211 npc 218236 only Warrior
+
+step Sulfuron Smuggler
+  zone map 1427
+  collect 226698 x1 quest 84211.1 only Warrior
+  collect 226699 x1 quest 84211.2 only Warrior
+
+step More Components of Importance
+  only Warrior,Rogue
+  when turnedin 8970
+  zone map 1427
+  accept 8985 optional
+
+step More Components of Importance
+  only Warrior,Rogue
+  when onquest 8985
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8985 @39.8,96.5 optional
+
+step More Components of Importance
+  only Warrior,Rogue
+  when onquest 8985
+  zone map 1427
+  turnin 8985 optional
+
+step Components of Importance
+  only Warrior,Mage
+  when turnedin 8961
+  zone map 1427
+  accept 8962 optional
+
+step Components of Importance
+  only Warrior,Mage
+  when onquest 8962
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8962 @39.8,96.5 optional
+
+step Components of Importance
+  only Warrior,Mage
+  when onquest 8962
+  zone map 1427
+  turnin 8962 optional
+
+step Geologist Larksbane
+  when turnedin 8315
+  zone map 1451
+  accept 8316 only Warrior
+  turnin 8316 only Warrior
+
+step Yorus Barleybrew
+  zone map 1433
+  turnin 1698 only Warrior
+  accept 1699 only Warrior
+
+step Yorus Barleybrew
+  complete 1699 @14.1,24.7 map 1433 only Warrior
+  turnin 1699 only Warrior
+  accept 1702 only Warrior
+
 step Fallen Hero of the Horde
   zone map 1435
   turnin 8417 only Warrior
-
-step Fallen Hero of the Horde
   accept 8423 only Warrior
 
 step Helboar
@@ -175,60 +282,25 @@ step Helboar
 step Fallen Hero of the Horde
   zone map 1435
   turnin 8423 only Warrior
-
-step Fallen Hero of the Horde
   accept 8424 only Warrior
 
 step Shadowsworn Thug
   zone map 1419
   kill 6005 x20 quest 8424.3 only Warrior
 
-step Darnath Bladesinger
-  zone map 1457
-  accept 1698 npc 7315 only Warrior
-
-step Yorus Barleybrew
-  zone map 1433
-  turnin 1698 only Warrior
-
-step Yorus Barleybrew
-  accept 1699 only Warrior
-
-step Yorus Barleybrew
-  complete 1699 @14.1,24.7 map 1433 only Warrior
-  turnin 1699 only Warrior
-
-step Yorus Barleybrew
-  zone map 1455
-  accept 1702 only Warrior
-
 step Shadowsworn Cultist
-  zone map 1419
   kill 6004 x10 quest 8424.2 only Warrior
 
-step Kelv Sternhammer
-  zone map 1455
-  accept 1718 npc 5113 only Warrior
-
 step Shadowsworn Adept
-  zone map 1419
   kill 6006 x20 quest 8424.1 only Warrior
 
 step Fallen Hero of the Horde
   zone map 1435
   turnin 8424 only Warrior
 
-step Level 58
-  level 58
-
-step Red Bag
-  zone map 1428
-  accept 84211 object 457056 only Warrior
-
-step Sulfuron Smuggler
-  zone map 1427
-  collect 226698 x1 quest 84211.1 only Warrior
-  collect 226699 x1 quest 84211.2 only Warrior
+step Mech Arm
+  zone map 1436
+  turnin 84213 only Warrior
 
 step Furen Longbeard
   zone map 1453
@@ -415,68 +487,6 @@ step Dead-tooth Jack
   zone map 1429
   turnin 1667 optional
 
-step Geologist Larksbane
-  when turnedin 8315
-  zone map 1451
-  accept 8316 only Warrior
-  turnin 8316 only Warrior
-
-step Sebastian Jurgens
-  zone map 1446
-  accept 84213 only Warrior
-
-step Half-Buried Mech
-  accept 84135 only Warrior
-  turnin 84135 only Warrior
-
-step Klannoc Macleod
-  zone map 1413
-  turnin 1718 only Warrior
-  accept 1719 only Warrior
-
-step Big Will and Step on the grate to begin the Affray
-  kill 6238 x1 quest 1719.1 only Warrior
-  goto 68.6,48.7 "Step on the grate to begin the Affray" -- Explore for The Affray
-
-step Klannoc Macleod
-  turnin 1719 only Warrior
-  accept 1791 only Warrior
-
-step Alonso
-  zone map 1440
-  turnin 78134 only Warrior
-
-step Dragonslayer's Helm
-  only Warrior
-  zone map 1440
-  turnin 78132 optional
-
-step Nami
-  zone map 1452
-  turnin 84211 only Warrior
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  zone map 1452
-  accept 5126 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 5126 @63.8,73.8 optional
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  zone map 1452
-  turnin 5126 optional
-
-step Seena Skybreaker
-  zone map 2521
-  accept 94003 only Skyborne
-
-step Zaal Stormshield
-  collect 263993 x1 quest 94003.1 only Skyborne
-
-step Seena Skybreaker
-  turnin 94003 only Skyborne
-
 step Bath'rah the Windwatcher
   zone map 1416
   turnin 1791 only Warrior
@@ -521,9 +531,31 @@ step Whirlwind Weapon
   accept 1792 optional
   turnin 1792 optional
 
-step Mech Arm
-  zone map 1420
-  turnin 84213 only Warrior
+step Nami
+  zone map 1452
+  turnin 84211 only Warrior
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  zone map 1452
+  accept 5126 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 5126 @63.8,73.8 optional
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  zone map 1452
+  turnin 5126 optional
+
+step Seena Skybreaker
+  zone map 2521
+  accept 94003 only Skyborne
+
+step Zaal Stormshield
+  collect 263993 x1 quest 94003.1 only Skyborne
+
+step Seena Skybreaker
+  turnin 94003 only Skyborne
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
@@ -531,17 +563,17 @@ step Anthion's Parting Words
   only Warrior
   when turnedin 9015
   zone map 1423
-  accept 8959 optional
+  accept 84186 optional
 
 step Anthion's Parting Words
   only Warrior
-  when onquest 8959
+  when onquest 84186
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1423
-  complete 8959 @26.1,11.3 optional
+  complete 84186 @26.1,11.3 optional
 
 step Anthion's Parting Words
   only Warrior
-  when onquest 8959
-  zone map 1455
-  turnin 8959 optional
+  when onquest 84186
+  zone map 1426
+  turnin 84186 optional

@@ -1,0 +1,67 @@
+guide completionist-alliance/57-odd-jobs-in-the-eastern-kingdoms-4
+title 57 Odd jobs in the Eastern Kingdoms, visit 4
+faction Alliance
+levels 58-60
+category Leveling
+folder Completionist 51-60
+zone Stranglethorn Vale
+next completionist-alliance/58-swamp-of-sorrows-2
+pitch On along the line: errands across the Eastern Kingdoms, quests of level 58 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 6 quests; estimated level at the end 58.2 (heuristic XP, class quests not counted).
+# Skipped: 2 prerequisite N not in this route.
+
+step Pix Xizzix
+  accept 83934
+  turnin 83934
+
+step Night Watch Guard
+  zone Duskwood
+  accept 98372
+  accept 99267
+  turnin 98372
+  turnin 99267
+
+step Veteran of the Third War
+  zone Redridge Mountains
+  accept 93551
+
+step Level 60
+  level 60
+
+step Shipping Label
+  when has 280179
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1433
+  accept 98247 item 280179
+  complete 98247 @9.7,70.9
+
+step Shipping Label
+  when onquest 98247
+  zone map 1433
+  turnin 98247
+
+step Genn Fairweather
+  zone map 2521
+  accept 99203 only Skyborne
+  accept 99216 only Skyborne
+  turnin 99203 only Skyborne
+
+step Swift Empyrean Galestrider, Swift Stormy Galestrider and Swift Umber Galestrider
+  kill 265762 x1 quest 99216.1 only Skyborne
+  kill 265761 x1 quest 99216.2 only Skyborne
+  kill 265760 x1 quest 99216.3 only Skyborne
+
+step Genn Fairweather
+  turnin 99216 only Skyborne
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Arathi Basin Resources!
+  zone map 1417
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8297
+  complete 8297 @45.9,45.3
+
+step Arathi Basin Resources!
+  turnin 8297

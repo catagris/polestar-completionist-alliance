@@ -5,8 +5,8 @@ WoW: Forever, by catagris. It is not one of Polestar's own addons and it needs P
 
 The aim: when every guide in the pack is finished, an Alliance character has done every quest
 the reference data knows how to guide, in every zone, dungeons and raids included. It is not a fast
-leveling route: it is every quest, in an order that keeps walking back to a minimum. 4,139 of the
-4,401 quests the data lists for the Alliance are handed in by a guide.
+leveling route: it is every quest, in an order that keeps walking back to a minimum. 4,151 of the
+4,383 quests the data lists for the Alliance are handed in by a guide.
 
 The guides are generated: a custom route planner decides which quests go in which guide and in what
 order, and Polestar's own drafter writes each guide. If a step sends you to the wrong spot or a route
@@ -14,7 +14,7 @@ feels awkward, please report it.
 
 ## What is in it
 
-149 guides, 102 of them on one line that leads from guide to guide.
+149 guides, 101 of them on one line that leads from guide to guide.
 
 | Guides | What they are |
 |---|---|
@@ -43,7 +43,7 @@ How the route works:
 Install Polestar first. Then unzip the release into the game's `Interface/AddOns` folder; it shows in
 the AddOns list as "Polestar Community: Completionist Guides (Alliance)" and its guides appear in
 Polestar's guide list. It needs Polestar 0.3.0 or newer (the build says so in its TOC) and is built
-with the tools and data of Polestar 0.4.3.
+with the tools and data of Polestar 0.4.3.1.
 
 ## Problems
 

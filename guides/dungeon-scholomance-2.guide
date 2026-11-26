@@ -5,58 +5,131 @@ category Dungeons
 folder Completionist dungeons and raids
 levels 58-60
 zone Western Plaguelands
-next completionist-alliance/65-eastern-plaguelands
+next completionist-alliance/64-eastern-plaguelands
 pitch Scholomance, in Western Plaguelands.
 why Every Alliance quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Deliana
+  only Druid
+  zone map 1455
+  turnin 84147
+
+step Deliana
+  only Shaman
+  zone map 1455
+  turnin 97447
+
+step Return to Deliana
+  zone map 1455
+  turnin 8977
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  accept 84163
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84163 @58.07,29.54
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  turnin 84163
+
+step Just Compensation
+  only Hunter
+  zone map 1455
+  accept 84164
+
+step Just Compensation
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84164 @58.07,29.54
+
+step Just Compensation
+  only Hunter
+  zone map 1455
+  turnin 84164
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  accept 84165
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84165 @58.07,29.54
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  turnin 84165
+
+step Just Compensation
+  only Paladin
+  zone map 1455
+  accept 84166
+
+step Just Compensation
+  only Paladin
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84166 @58.07,29.54
+
+step Just Compensation
+  only Paladin
+  zone map 1455
+  turnin 84166
+
+step Just Compensation
+  only Priest
+  zone map 1455
+  accept 84167
+
+step Just Compensation
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84167 @58.07,29.54
+
+step Just Compensation
+  only Priest
+  zone map 1455
+  turnin 84167
+
+step Deliana
+  only Warlock
+  zone map 1455
+  accept 84169
+
+step Anthion's Parting Words
+  only Warlock
+  when onquest 8958
+  zone map 1455
+  turnin 8958 optional
+
+step Anthion's Parting Words
+  only Rogue
+  when onquest 84184
+  zone map 1455
+  turnin 84184 optional
+
+step Anthion's Parting Words
+  only Mage
+  when onquest 84181
+  zone map 1455
+  turnin 84181 optional
 
 step Deliana
   only Paladin
   zone map 1455
   turnin 84150
-
-step Deliana
-  zone map 1455
-  turnin 84169
-  turnin 84181
-  turnin 84184
-  turnin 84195
-  turnin 84196
-  turnin 84200
-  turnin 84202
-  turnin 97447
-
-step Eldrun Stormbreaker
-  turnin 97169
-
-step Anthion's Parting Words
-  only Druid
-  zone map 1455
-  turnin 8951
-
-step Anthion's Parting Words
-  only Hunter
-  zone map 1455
-  turnin 8952
-
-step Deliana
-  only Mage
-  zone map 1455
-  turnin 8953
-
-step Deliana
-  only Rogue
-  zone map 1455
-  turnin 8956
-
-step Deliana
-  only Warlock
-  zone map 1455
-  turnin 8958
-
-step Anthion's Parting Words
-  only Paladin
-  zone map 1455
-  turnin 8954
 
 step Blessed Arcanite Barding
   only Paladin,Human,Dwarf
@@ -96,14 +169,10 @@ step Judgment and Redemption
   zone map 1453
   complete 7647 @48.4,50.2 optional
 
-step Bodley's Unfortunate Fate
-  zone map 1455
-  accept 8960
-
-step Bodley's Unfortunate Fate
-  when onquest 8960
-  zone map 1427
-  turnin 8960
+step Inside Scholomance
+  only Warlock
+  zone map 1422
+  complete 84169 @69.9,74
 
 step Judgment and Redemption
   only Paladin,Human,Dwarf
@@ -121,22 +190,10 @@ step Blessed Arcanite Barding
   turnin 7644 optional
 
 step Anthion's Parting Words
-  when onquest 8956
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 8956 optional
-
-step Anthion's Parting Words
   when onquest 8958
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
   turnin 8958 optional
-
-step An Earnest Proposition
-  when onquest 84150
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1426
-  turnin 84150 optional
 
 step Anthion's Parting Words
   when onquest 84181
@@ -149,15 +206,3 @@ step Anthion's Parting Words
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1426
   turnin 84184 optional
-
-step The Darkreaver Menace
-  when onquest 97169
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1455
-  turnin 97169 optional
-
-step An Earnest Proposition
-  when onquest 97447
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1426
-  turnin 97447 optional

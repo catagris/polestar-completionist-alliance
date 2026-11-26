@@ -1,15 +1,15 @@
-guide completionist-alliance/65-eastern-plaguelands
-title 65 Eastern Plaguelands
+guide completionist-alliance/64-eastern-plaguelands
+title 64 Eastern Plaguelands
 faction Alliance
 levels 52-60
 category Leveling
-folder Completionist 61-67
+folder Completionist 61-65
 zone Eastern Plaguelands
 next completionist-alliance/dungeon-stratholme
-next completionist-alliance/66-tanaris-2
+next completionist-alliance/65-tanaris-2
 pitch On along the line: Eastern Plaguelands, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 28 quests; estimated level at the end 52.9 (heuristic XP, class quests not counted).
+# Routed 29 quests; estimated level at the end 52.9 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route; 1 exclusive with N; 1 exclusive with N (done).
 
 step Royal Factor Bathrilor
@@ -37,9 +37,13 @@ step Highlord Bolvar Fordragon
   zone map 1453
   accept 6187
 
+step Mayara Brightwing
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1453
+  accept 4766 optional
+
 step Into The Temple of Atal'Hakkar
   tip For Sunken Temple: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1453
   accept 1475 optional
 
 step Mathrengyl Bearwalker
@@ -47,10 +51,70 @@ step Mathrengyl Bearwalker
   zone map 1457
   turnin 4986
 
+step Deliana
+  only Warlock
+  when complete 84169
+  zone map 1455
+  turnin 84169
+
+step Level 58
+  zone map 1455
+  level 58
+
+step Deliana
+  accept 8929 npc 230319
+
+step An Earnest Proposition
+  only Priest
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 84151 optional
+
+step An Earnest Proposition
+  only Paladin
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 84150 optional
+
+step An Earnest Proposition
+  only Mage
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 84149 optional
+
+step An Earnest Proposition
+  only Hunter
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 84148 optional
+
+step An Earnest Proposition
+  only Shaman
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 97447 optional
+
+step An Earnest Proposition
+  only Druid
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 84147 optional
+
+step An Earnest Proposition
+  only Warrior
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 84154 optional
+
 step Highlord Bolvar Fordragon
   when group 6187
   zone map 1423
   kill 11878 x1 quest 6187.1
+
+step Bodley's Unfortunate Fate
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1455
+  accept 8960 optional
 
 step Royal Factor Bathrilor
   zone map 1453
@@ -626,30 +690,6 @@ step Craftsman's Writ: Gift of Arthas
 step Book
   accept 84401 object 463212
 
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84184 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84183 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84182 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84181 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84180 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84179 optional
-
 step Book
   collect 228140 x1 quest 84401.1
 
@@ -701,6 +741,7 @@ step Emmisary Whitebeard
   turnin 9664
 
 step Caretaker Alen
+  tip Careful: a Nerubian Overseer (level 60, elite) walks Terrordale and the Terrorweb Tunnel south-west of it. Look for him before you ride in, and wait for him to pass.
   accept 5281
   accept 6021
 
@@ -779,6 +820,8 @@ step Pamela Redpath
 step Marlene Redpath
   zone map 1422
   turnin 5152
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Marlene Redpath
   accept 5153
@@ -896,13 +939,8 @@ step Jennea Cannon
   turnin 84400
   turnin 84401
 
-step Level 58
-  level 58
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84186
-  complete 84186 @26.1,11.3
+step Anthion Harmon
+  turnin 8929
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
@@ -947,3 +985,9 @@ step The Blightcaller Cometh
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1453
   turnin 6186 optional
+
+step Just Compensation
+  when onquest 84169
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84169 optional

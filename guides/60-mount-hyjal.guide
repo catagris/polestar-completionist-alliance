@@ -1,11 +1,11 @@
-guide completionist-alliance/61-mount-hyjal
-title 61 Mount Hyjal
+guide completionist-alliance/60-mount-hyjal
+title 60 Mount Hyjal
 faction Alliance
 levels 55-60
 category Leveling
-folder Completionist 61-67
+folder Completionist 51-60
 zone Mount Hyjal
-next completionist-alliance/62-winterspring
+next completionist-alliance/61-winterspring
 pitch On along the line: Mount Hyjal, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 122 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
@@ -62,6 +62,7 @@ step Fraxinus
   turnin 91770
 
 step Fraxinus
+  tip Fraxinus offers this only once Celastrus the Bitter is handed in to Thylaen.
   accept 95766
 
 step Fraxinus
@@ -656,6 +657,7 @@ step Elder Mistpaw
   accept 93826
 
 step Deadwood Totemic and Deadwood Fel-Tender
+  tip The Deadwood camps fill Malorne's Retreat, a sunken valley: there is no way down into it from Mourning's Rest. Go round to the valley's mouth in the south-east (36.1, 75.4) and follow it west, then north up into the camps.
   kill 252116 x8 quest 93826.1
   kill 252096 x8 quest 93826.2
 

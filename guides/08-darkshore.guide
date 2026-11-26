@@ -484,6 +484,7 @@ step Delgren the Purifier
   turnin 967
 
 step Terenthis
+  tip Grimclaw, the white bear by the road, knows where Volcor is: target him and type /wave, and he shows you the way to Volcor's cave.
   zone map 1439
   turnin 986
   accept 993

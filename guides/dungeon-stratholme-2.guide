@@ -1,0 +1,127 @@
+guide completionist-alliance/dungeon-stratholme-2
+title Stratholme, part 2 of 2
+faction Alliance
+category Dungeons
+folder Completionist dungeons and raids
+levels 58-60
+zone Eastern Plaguelands
+next completionist-alliance/65-tanaris-2
+pitch Stratholme, in Eastern Plaguelands.
+why Every Alliance quest of Stratholme: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Deliana
+  only Druid
+  zone map 1455
+  turnin 84147
+
+step Deliana
+  only Shaman
+  zone map 1455
+  turnin 97447
+
+step Return to Deliana
+  zone map 1455
+  turnin 8977
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  accept 84163
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84163 @58.07,29.54
+
+step Just Compensation
+  only Druid
+  zone map 1455
+  turnin 84163
+
+step Just Compensation
+  only Hunter
+  zone map 1455
+  accept 84164
+
+step Just Compensation
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84164 @58.07,29.54
+
+step Just Compensation
+  only Hunter
+  zone map 1455
+  turnin 84164
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  accept 84165
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84165 @58.07,29.54
+
+step Just Compensation
+  only Mage
+  zone map 1455
+  turnin 84165
+
+step Deliana
+  only Paladin
+  zone map 1455
+  accept 84166
+
+step Deliana
+  only Warlock
+  zone map 1455
+  accept 84169
+
+step Deliana
+  only Warrior
+  zone map 1455
+  accept 84170
+
+step Deliana
+  only Hunter
+  zone map 1455
+  turnin 84148
+
+step Deliana
+  only Priest
+  zone map 1455
+  accept 84167
+
+step Deliana
+  only Paladin
+  zone map 1455
+  turnin 84150
+
+step Deliana
+  only Priest
+  zone map 1455
+  turnin 84151
+
+step Inside Stratholme
+  only Paladin
+  zone map 1423
+  complete 84166 @26.3,18.3
+
+step Inside Stratholme
+  only Warlock
+  zone map 1423
+  complete 84169 @26.3,18.3
+
+step Inside Stratholme
+  only Warrior
+  zone map 1423
+  complete 84170 @26.3,18.3
+
+step Inside Stratholme
+  only Priest
+  zone map 1423
+  complete 84167 @26.3,18.3

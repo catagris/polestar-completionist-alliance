@@ -1,11 +1,11 @@
-guide completionist-alliance/63-elwynn-forest-and-stormwind-4
-title 63 Elwynn Forest and Stormwind, visit 4
+guide completionist-alliance/62-elwynn-forest-and-stormwind-4
+title 62 Elwynn Forest and Stormwind, visit 4
 faction Alliance
 levels 47-60
 category Leveling
-folder Completionist 61-67
+folder Completionist 61-65
 zone Elwynn Forest
-next completionist-alliance/64-western-plaguelands
+next completionist-alliance/63-western-plaguelands
 pitch On along the line: Elwynn Forest and Stormwind, quests of level 47 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 10 quests; estimated level at the end 47.7 (heuristic XP, class quests not counted).

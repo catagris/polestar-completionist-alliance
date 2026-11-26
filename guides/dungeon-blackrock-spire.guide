@@ -1,59 +1,96 @@
 guide completionist-alliance/dungeon-blackrock-spire
-title Blackrock Spire
+title Blackrock Spire, part 1 of 2
 faction Alliance
 category Dungeons
 folder Completionist dungeons and raids
 levels 58-60
 zone Searing Gorge
-next completionist-alliance/58-odd-jobs-in-the-eastern-kingdoms-4
+next completionist-alliance/dungeon-blackrock-spire-2
 pitch Blackrock Spire, in Searing Gorge.
 why Every Alliance quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Just Compensation
+step An Earnest Proposition
+  only Druid
   zone map 1455
-  accept 84166
+  accept 84147
 
-step Just Compensation
+step An Earnest Proposition
+  only Druid
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84166 @58.07,29.54
+  zone map 1455
+  complete 84147 @58.07,29.54
 
-step Just Compensation
-  turnin 84166
+step An Earnest Proposition
+  only Druid
+  zone map 1455
+  turnin 84147
 
 step Deliana
+  only Hunter
+  zone map 1455
   accept 84148
+
+step Deliana
+  only Warrior
+  zone map 1455
   accept 84154
-  accept 84164
-  accept 84167
-  accept 84195
-  accept 84196
-  accept 84200
-  accept 84202
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1455
+  accept 97447
+
+step An Earnest Proposition
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 97447 @58.07,29.54
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1455
+  turnin 97447
+
+step A Supernatural Device
+  zone map 1455
+  accept 8922
 
 step Deliana
   only Mage
   zone map 1455
   accept 84149
 
-step Deliana
+step An Earnest Proposition
+  only Paladin
   zone map 1455
-  accept 84168
+  accept 84150
 
-step Just Compensation
-  accept 84169
-
-step Just Compensation
+step An Earnest Proposition
+  only Paladin
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84169 @58.07,29.54
+  zone map 1455
+  complete 84150 @58.07,29.54
 
-step Just Compensation
-  turnin 84169
+step An Earnest Proposition
+  only Paladin
+  zone map 1455
+  turnin 84150
 
-step Deliana
-  accept 84170
+step An Earnest Proposition
+  only Priest
+  zone map 1455
+  accept 84151
 
-step In Search of Anthion
-  accept 8929
+step An Earnest Proposition
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84151 @58.07,29.54
+
+step An Earnest Proposition
+  only Priest
+  zone map 1455
+  turnin 84151
 
 step Count Remington Ridgewell
   zone map 1453
@@ -113,13 +150,6 @@ step Kibler
   accept 4729
   accept 4862
 
-step Anthion Harmon
-  zone map 1423
-  accept 84179
-  accept 84180
-  accept 84182
-  accept 84183
-
 step Helendis Riverhorn
   zone map 1428
   accept 4701
@@ -131,11 +161,15 @@ step Prospector Ironboot
   zone map 1446
   accept 4788
 
-step Kilram
+step Felnok Steelspring
   zone map 1452
+  accept 4907
+
+step Kilram
   accept 5306
 
 step Inside Blackrock Spire
+  tip Let Mother Smolderweb poison you in Lower Blackrock Spire, then go to Ragged John with the poison still on you: talking to him without it does nothing.
   zone map 1427
   accept 5001 @34.8,85.3
   accept 4742 @34.8,85.3
@@ -156,23 +190,16 @@ step Inside Blackrock Spire
   complete 4867 @34.8,85.3
   turnin 4867 @34.8,85.3
   complete 5306 @34.8,85.3
-  complete 84148 @34.8,85.3
-  complete 84154 @34.8,85.3
-  complete 84164 @34.8,85.3
-  complete 84167 @34.8,85.3
-  complete 84179 @34.8,85.3
-  complete 84180 @34.8,85.3
-  complete 84182 @34.8,85.3
-  complete 84183 @34.8,85.3
-  complete 84195 @34.8,85.3
-  complete 84196 @34.8,85.3
-  complete 84200 @34.8,85.3
-  complete 84202 @34.8,85.3
 
 step Inside Blackrock Spire
-  only Mage
+  only Hunter
   zone map 1427
-  complete 84149 @34.8,85.3
+  complete 84148 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Warrior
+  zone map 1427
+  complete 84154 @34.8,85.3
 
 step Kibler
   zone map 1418
@@ -192,6 +219,9 @@ step Mayara Brightwing
 step Ragged John
   turnin 4866
 
+step Tinkee Steamboil
+  turnin 4907
+
 step Prospector Ironboot
   zone map 1446
   turnin 4788
@@ -209,14 +239,27 @@ step Malyfous Darkhammer
 step Wrath of the Blue Flight
   accept 5161
 
+step Level 60
+  zone map 1434
+  level 60
+
+step Pix Xizzix
+  accept 96075
+
+step Inside Blackrock Spire
+  zone map 1427
+  complete 96075 @34.8,85.3
+
+step Pix Xizzix
+  zone map 1434
+  turnin 96075
+
 step Wrath of the Blue Flight
+  zone map 1452
   turnin 5161
 
 step Wrath of the Blue Flight
   accept 5162
-
-step Level 60
-  level 60
 
 step The Demon Forge
   when turnedin 5126
@@ -235,18 +278,6 @@ step The Demon Forge
   zone map 1452
   turnin 5127 optional
 
-step Pix Xizzix
-  zone map 1434
-  accept 96075
-
-step Inside Blackrock Spire
-  zone map 1427
-  complete 96075 @34.8,85.3
-
-step Pix Xizzix
-  zone map 1434
-  turnin 96075
-
 step Wrath of the Blue Flight
   zone map 1422
   turnin 5162
@@ -257,13 +288,65 @@ step Catalogue of the Wayward
 step Catalogue of the Wayward
   turnin 5164
 
-step Catalogue of the Wayward
-  accept 5166
-  accept 5167
-
 step Inside Blackrock Spire
   zone map 1427
   accept 84377 item 227911
+
+step Bodley's Unfortunate Fate
+  zone map 1455
+  accept 8960
+
+step A Supernatural Device
+  zone map 1446
+  turnin 8922
+
+step The Ectoplasmic Distiller
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step A Portable Power Source
+  accept 8925
+
+step A Portable Power Source
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8925 @52.47,27.23
+
+step A Portable Power Source
+  turnin 8925
+
+step A Shifty Merchant
+  accept 8928
+
+step A Shifty Merchant
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8928 @52.47,27.23
+
+step A Shifty Merchant
+  turnin 8928
+
+step Return to Deliana
+  accept 8977
+
+step Catalogue of the Wayward
+  zone map 1422
+  accept 5166
+  accept 5167
 
 step Marshal Maxwell
   zone map 1428
@@ -272,17 +355,25 @@ step Marshal Maxwell
 step Mayara Brightwing
   accept 4764
 
+step Tinkee Steamboil
+  accept 4734
+
 step Inside Blackrock Spire, again
   zone map 1427
   accept 5002 @34.8,85.3
   accept 4743 @34.8,85.3
+  complete 4734 @34.8,85.3
   complete 4743 @34.8,85.3
   turnin 4743 @34.8,85.3
   complete 4764 @34.8,85.3
   complete 5102 @34.8,85.3
   complete 5166 @34.8,85.3
   complete 5167 @34.8,85.3
-  complete 84168 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Mage
+  zone map 1427
+  complete 84149 @34.8,85.3
 
 step Jeziba
   zone map 1422
@@ -297,242 +388,72 @@ step Marshal Maxwell
 step Mayara Brightwing
   turnin 4764
 
+step Tinkee Steamboil
+  turnin 4734
+
 step Marshal Maxwell
   accept 5081
 
 step Mayara Brightwing
   accept 4765
 
+step Tinkee Steamboil
+  accept 4735
+
 step Inside Blackrock Spire, again
   zone map 1427
+  complete 4735 @34.8,85.3
   complete 5081 @34.8,85.3
-  complete 84170 @34.8,85.3
 
-step Marshal Maxwell
-  zone map 1428
-  turnin 5081
+step The Left Piece of Lord Valthalak's Amulet
+  only Warrior,Mage
+  when turnedin 8962
+  zone map 1427
+  accept 8966 optional
 
-step In Search of Anthion
-  zone map 1423
-  turnin 8929
-
-step Dead Man's Plea
-  accept 8945
-
-step Dead Man's Plea
+step The Left Piece of Lord Valthalak's Amulet
+  only Warrior,Mage
+  when onquest 8966
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8945 @26.11,11.3
-
-step Dead Man's Plea
   zone map 1427
-  turnin 8945 @34.8,85.3
+  complete 8966 @39.8,96.5 optional
 
-step Proof of Life
-  accept 8946 @34.8,85.3
-
-step Proof of Life
-  zone map 1423
-  turnin 8946
-
-step Anthion's Strange Request
-  accept 8947
-
-step Anthion's Strange Request
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8947 @26.11,11.3
-
-step Anthion's Strange Request
-  turnin 8947
-
-step Anthion's Old Friend
-  accept 8948
-
-step Anthion's Old Friend
+step The Left Piece of Lord Valthalak's Amulet
+  only Warrior,Mage
+  when onquest 8966
   zone map 1427
-  turnin 8948 @34.8,85.3
-
-step Falrin's Vendetta
-  accept 8949 @34.8,85.3
-
-step Falrin's Vendetta
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8949 @34.8,85.3
-
-step Falrin's Vendetta
-  turnin 8949 @34.8,85.3
-
-step The Instigator's Enchantment
-  accept 8950 @34.8,85.3
-
-step The Instigator's Enchantment
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8950 @34.8,85.3
-
-step The Instigator's Enchantment
-  turnin 8950 @34.8,85.3
-
-step The Challenge
-  accept 9015 @34.8,85.3
-
-step The Challenge
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 9015 @34.8,85.3
-
-step The Challenge
-  zone map 1423
-  turnin 9015
-
-step Bodley
-  zone map 1427
-  accept 8966
-
-step Anthion Harmon
-  only Druid
-  zone map 1423
-  accept 8951
-
-step Anthion Harmon
-  only Priest
-  zone map 1423
-  accept 8955
-
-step Inside Blackrock Spire, again
-  zone map 1427
-  complete 8966 @34.8,85.3
-
-step Inside Blackrock Spire
-  only Druid
-  zone map 1427
-  complete 8951 @34.8,85.3
-
-step Inside Blackrock Spire
-  only Priest
-  zone map 1427
-  complete 8955 @34.8,85.3
-
-step Bodley
-  zone map 1427
-  turnin 8966
+  turnin 8966 optional
 
 step I See Alcaz Island In Your Future...
   accept 8970
 
-step I See Alcaz Island In Your Future...
-  when onquest 8970
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8970 @39.8,96.5
-
-step I See Alcaz Island In Your Future...
-  when onquest 8970
-  zone map 1427
-  turnin 8970
-
-step Anthion Harmon
-  only Hunter
-  zone map 1423
-  accept 8952
-
-step Inside Blackrock Spire
-  only Hunter
-  zone map 1427
-  complete 8952 @34.8,85.3
-
-step Anthion's Parting Words
-  only Mage
-  zone map 1423
-  accept 8953
-
-step Anthion's Parting Words
-  only Mage
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 8953 @26.11,11.3
-
-step Anthion Harmon
-  only Paladin
-  zone map 1423
-  accept 8954
-
-step Inside Blackrock Spire
-  only Paladin
-  zone map 1427
-  complete 8954 @34.8,85.3
-
-step More Components of Importance
-  when available 8988
-  tip One of several exclusive quests; the route takes More Components of Importance (8986). This one shows for a character the game offers it to instead.
-  when turnedin 8970
-  zone map 1427
-  accept 8988 optional
-
-step More Components of Importance
-  when onquest 8988
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8988 @39.8,96.5 optional
-
-step More Components of Importance
-  when onquest 8988
-  zone map 1427
-  turnin 8988 optional
-
-step More Components of Importance
-  when available 8987
-  tip One of several exclusive quests; the route takes More Components of Importance (8986). This one shows for a character the game offers it to instead.
-  when turnedin 8970
-  zone map 1427
-  accept 8987 optional
-
-step More Components of Importance
-  when onquest 8987
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8987 @39.8,96.5 optional
-
-step More Components of Importance
-  when onquest 8987
-  zone map 1427
-  turnin 8987 optional
-
-step More Components of Importance
-  when available 8986
-  tip One of several exclusive quests; the route takes More Components of Importance (8985). This one shows for a character the game offers it to instead.
-  when turnedin 8970
-  zone map 1427
-  accept 8986 optional
-
-step More Components of Importance
-  when onquest 8986
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8986 @39.8,96.5 optional
-
-step More Components of Importance
-  when onquest 8986
-  zone map 1427
-  turnin 8986 optional
-
 step The Right Piece of Lord Valthalak's Amulet
+  only Paladin,Shaman,Druid
   when turnedin 8985
   zone map 1427
-  accept 8989
+  accept 8989 optional
+
+step Bodley's Unfortunate Fate
+  when onquest 8960
+  zone map 1427
+  turnin 8960
+
+step Final Preparations
+  zone map 1427
+  accept 8994
 
 step The Right Piece of Lord Valthalak's Amulet
+  only Paladin,Shaman,Druid
   when onquest 8989
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1427
-  complete 8989 @39.8,96.5
+  complete 8989 @39.8,96.5 optional
 
 step The Right Piece of Lord Valthalak's Amulet
+  only Paladin,Shaman,Druid
   when onquest 8989
   zone map 1427
-  turnin 8989
-
-step Final Preparations
-  when turnedin 8989
-  zone map 1427
-  accept 8994
+  turnin 8989 optional
 
 step Final Preparations
   when onquest 8994
@@ -574,19 +495,92 @@ step Back to the Beginning
   zone map 1427
   accept 8997
 
-step More Components of Importance
-  when available 8985
-  tip One of several exclusive quests; the route takes More Components of Importance (8986). This one shows for a character the game offers it to instead.
-  zone map 1427
-  accept 8985 optional
-
-step More Components of Importance
-  when onquest 8985
+step I See Alcaz Island In Your Future...
+  when onquest 8970
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1427
-  complete 8985 @39.8,96.5 optional
+  complete 8970 @39.8,96.5
 
-step More Components of Importance
-  when onquest 8985
+step I See Alcaz Island In Your Future...
+  when onquest 8970
   zone map 1427
-  turnin 8985 optional
+  turnin 8970
+
+step Marshal Maxwell
+  zone map 1428
+  turnin 5081
+
+step Tinkee Steamboil
+  turnin 4735
+
+step Anthion's Parting Words
+  only Druid
+  when turnedin 9015
+  zone map 1423
+  accept 84179 optional
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 84179
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84179 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when turnedin 9015
+  zone map 1423
+  accept 84180 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 84180
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84180 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Paladin
+  when turnedin 9015
+  zone map 1423
+  accept 84182 optional
+
+step Anthion's Parting Words
+  only Paladin
+  when onquest 84182
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84182 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Priest
+  when turnedin 9015
+  zone map 1423
+  accept 84183 optional
+
+step Anthion's Parting Words
+  only Priest
+  when onquest 84183
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84183 @26.1,11.3 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Mayara Brightwing
+  when onquest 4766
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1428
+  turnin 4766 optional
+
+step Snakestone of the Shadow Huntress
+  when onquest 5306
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1452
+  turnin 5306 optional
+
+step Bodley's Unfortunate Fate
+  when onquest 8960
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1427
+  turnin 8960 optional

@@ -5,10 +5,10 @@ levels 59-60
 category Leveling
 folder Completionist 51-60
 zone Dun Morogh
-next completionist-alliance/57-searing-gorge-2
+next completionist-alliance/57-odd-jobs-in-the-eastern-kingdoms-4
 pitch On along the line: Dun Morogh and Ironforge, level 60 quests.
 # Generated from the reference data: change the planner, not this file.
-# Routed 11 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+# Routed 10 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
 # Skipped: 1 prerequisite N not in this route.
 
 step Wulmort Jinglepocket
@@ -16,68 +16,7 @@ step Wulmort Jinglepocket
   accept 79492
   turnin 79492
 
-step Just Compensation
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84170 optional
-
-step Just Compensation
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84169 optional
-
-step Just Compensation
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84168 optional
-
-step An Earnest Proposition
-  only Mage
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1455
-  accept 84149 optional
-
-step Saving the Best for Last
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1455
-  accept 84202 optional
-
-step Saving the Best for Last
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84200 optional
-
-step Saving the Best for Last
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84196 optional
-
-step Saving the Best for Last
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84195 optional
-
-step Just Compensation
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84167 optional
-
-step Just Compensation
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84164 optional
-
-step An Earnest Proposition
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84154 optional
-
-step An Earnest Proposition
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84148 optional
-
-step Just Compensation
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84166 optional
-
-step Deliana
-  when group 84153
-  zone map 1455
-  accept 84153
-
 step Mistina Steelshield
-  zone map 1455
   accept 7802
   accept 7803
 
@@ -120,22 +59,6 @@ step Arrows Are For Sissies
   collect 15997 x200 anywhere optional
   turnin 7342 direct optional
 
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84163
-  complete 84163 @58.1,29.5
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84165
-  complete 84165 @58.1,29.5
-
-step Just Compensation
-  turnin 84163
-
-step Just Compensation
-  turnin 84165
-
 step Ultham Ironhorn
   zone map 1426
   accept 99209 only Dwarf
@@ -160,21 +83,9 @@ step Swift Gray Ram, Swift Brown Ram and Swift White Ram
 step Veron Amberstill
   turnin 99210
 
-step Scarshield Quartermaster
-  when group 84153
-  tip An Earnest Proposition is group work: elites. Grouping up is advised.
-  zone map 1427
-  collect 16703 x1 quest 84153.2
-
-step Frostsaber Huntress
-  when group 84153
-  tip An Earnest Proposition is group work: elites. Grouping up is advised.
-  zone map 1452
-  collect 21928 x15 quest 84153.1
-
 step Wool Cloth
   tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
-  zone map 1426
+  zone map 1455
   collect 2592 x60 anywhere
 
 step Silk Cloth
@@ -183,7 +94,6 @@ step Silk Cloth
 
 step Runecloth
   tip Dropped by 265 kinds of mob in 22 zones: bring it from wherever you are. The arrow leads to no one for it.
-  zone map 1455
   collect 14047 x60 anywhere
 
 step Wool Cloth

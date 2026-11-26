@@ -9,15 +9,26 @@ next completionist-alliance/46-blasted-lands
 pitch Blackrock Depths, in Searing Gorge.
 why Every Alliance quest of Blackrock Depths: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Deliana
+step Return to Deliana
   zone map 1455
-  turnin 84166
+  turnin 8977
+
+step Deliana
+  only Paladin
+  zone map 1455
+  accept 84166
 
 step King Magni Bronzebeard
+  zone map 1455
   turnin 4361
 
 step King Magni Bronzebeard
   accept 4362
+
+step Inside Blackrock Depths
+  only Paladin
+  zone map 1427
+  complete 84166 @34.8,85.3
 
 step Inside Blackrock Depths, again
   zone map 1427
@@ -35,8 +46,8 @@ step The Bearer of Bad News
   zone map 1455
   turnin 4361 optional
 
-step Just Compensation
-  when onquest 84166
+step Return to Deliana
+  when onquest 8977
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1426
-  turnin 84166 optional
+  zone map 1455
+  turnin 8977 optional

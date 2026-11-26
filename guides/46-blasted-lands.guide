@@ -15,6 +15,12 @@ step Royal Historian Archesonus
   zone map 1455
   turnin 3701
 
+step Deliana
+  only Paladin
+  when complete 84166
+  zone map 1455
+  turnin 84166
+
 step King Magni Bronzebeard
   when onquest 4363
   zone map 1455
@@ -257,3 +263,9 @@ step The Princess's Surprise
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1455
   turnin 4363 optional
+
+step Just Compensation
+  when onquest 84166
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1426
+  turnin 84166 optional

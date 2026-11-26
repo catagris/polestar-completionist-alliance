@@ -69,6 +69,7 @@ step Doc Mixilpixil
   turnin 2607 only Rogue
 
 step Doc Mixilpixil
+  tip Target Doc Mixilpixil and type /lay beside him, then stay down while he examines you.
   accept 2608 only Rogue
 
 step Doc Mixilpixil

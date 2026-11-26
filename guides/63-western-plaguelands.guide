@@ -1,12 +1,12 @@
-guide completionist-alliance/64-western-plaguelands
-title 64 Western Plaguelands
+guide completionist-alliance/63-western-plaguelands
+title 63 Western Plaguelands
 faction Alliance
 levels 52-60
 category Leveling
-folder Completionist 61-67
+folder Completionist 61-65
 zone Western Plaguelands
 next completionist-alliance/dungeon-scholomance
-next completionist-alliance/65-eastern-plaguelands
+next completionist-alliance/64-eastern-plaguelands
 pitch On along the line: Western Plaguelands, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 32 quests; estimated level at the end 53.2 (heuristic XP, class quests not counted).

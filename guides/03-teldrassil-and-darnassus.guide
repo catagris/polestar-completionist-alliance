@@ -173,6 +173,7 @@ step Tarindrella
   turnin 97977
 
 step Lyreena Duskblade
+  tip The wounded guard counts only Lesser Heal (Rank 2). The quest giver is a priest trainer: learn it now if you have not yet.
   sethome "Dolanaar"
   turnin 96630 only NightElf
   accept 475
@@ -183,6 +184,7 @@ step Lyreena Duskblade
   accept 98391 only NightElf
 
 step The Great Outdoors
+  tip Sit down (/sit) by Lyreena's Basic Campfire and stay seated until the Boosted Rest buff appears.
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 96606 only NightElf
   complete 96606 @57.6,56.6 only NightElf

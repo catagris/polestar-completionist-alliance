@@ -1,14 +1,15 @@
 guide completionist-alliance/39-searing-gorge
 title 39 Searing Gorge
 faction Alliance
-levels 45-55
+levels 45-60
 category Leveling
 folder Completionist 31-40
 zone Searing Gorge
 next completionist-alliance/40-stranglethorn-vale-2
-pitch On along the line: Searing Gorge, quests of level 45 to 55.
+pitch On along the line: Searing Gorge, quests of level 45 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 23 quests; estimated level at the end 46.4 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route.
 
 step Curator Thorius
   when onquest 3182
@@ -30,6 +31,24 @@ step Master Smith Burninate
   accept 7727
   accept 7728
   accept 7729
+
+step Craftsman's Writ: Red Mageweave Pants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264111 x1 anywhere optional
+  collect 10009 x1 anywhere optional
+  turnin 94311 direct optional
+
+step Craftsman's Writ: Nightscape Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264099 x1 anywhere optional
+  collect 8192 x1 anywhere optional
+  turnin 94299 direct optional
+
+step Craftsman's Writ: Solid Sharpening Stone
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264075 x1 anywhere optional
+  collect 7964 x1 anywhere optional
+  turnin 94275 direct optional
 
 step Wanted/Missing/Lost & Found
   when group 7701
@@ -90,6 +109,30 @@ step Master Smith Burninate
   turnin 7727
   turnin 7728
   turnin 7729
+
+step Restoring Fiery Flux Supplies via Heavy Leather
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18944 x2 anywhere optional
+  collect 4234 x10 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8242 direct optional
+
+step Restoring Fiery Flux Supplies via Iron
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18944 x2 anywhere optional
+  collect 3575 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8241 direct optional
+
+step Restoring Fiery Flux Supplies via Kingsblood
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18944 x2 anywhere optional
+  collect 3356 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 7736 direct optional
 
 step Lookout Captain Lolo Longstriker
   when group 7701
@@ -282,10 +325,33 @@ step Hoard of the Black Dragonflight
   accept 3481
   turnin 3481
 
+step Level 55
+  level 55
+
+step Attunement to the Core
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 7487
+  complete 7487 @32.1,94.7
+
+step Attunement to the Core
+  turnin 7487
+
 step The Key to Freedom
   tip Grimesilt Outhouse Key drops from Dark Iron Steamsmith, Dark Iron Slaver, Dark Iron Taskmaster: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
   collect 11818 x1 optional
   accept 4451 item 11818 optional
+
+step Craftsman's Writ: Fire Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264063 x1 anywhere optional
+  collect 6049 x1 anywhere optional
+  turnin 94263 direct optional
+
+step Craftsman's Writ: Fire Goggles
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264087 x1 anywhere optional
+  collect 10500 x1 anywhere optional
+  turnin 94287 direct optional
 
 step The Key to Freedom
   when onquest 4451

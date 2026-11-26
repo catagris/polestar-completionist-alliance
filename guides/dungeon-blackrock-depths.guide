@@ -13,71 +13,179 @@ step Level 58
   zone map 1455
   level 58
 
-step Just Compensation
-  accept 84164
+step An Earnest Proposition
+  only Druid
+  zone map 1455
+  accept 84147
 
-step Just Compensation
+step An Earnest Proposition
+  only Druid
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84164 @58.07,29.54
+  zone map 1455
+  complete 84147 @58.07,29.54
 
-step Just Compensation
-  turnin 84164
+step An Earnest Proposition
+  only Druid
+  zone map 1455
+  turnin 84147
 
-step Deliana
-  accept 84166
+step An Earnest Proposition
+  only Hunter
+  zone map 1455
+  accept 84148
+
+step An Earnest Proposition
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84148 @58.07,29.54
+
+step An Earnest Proposition
+  only Hunter
+  zone map 1455
+  turnin 84148
+
+step An Earnest Proposition
+  only Mage
+  zone map 1455
+  accept 84149
+
+step An Earnest Proposition
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84149 @58.07,29.54
+
+step An Earnest Proposition
+  only Mage
+  zone map 1455
+  turnin 84149
+
+step An Earnest Proposition
+  only Paladin
+  zone map 1455
+  accept 84150
+
+step An Earnest Proposition
+  only Paladin
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84150 @58.07,29.54
+
+step An Earnest Proposition
+  only Paladin
+  zone map 1455
+  turnin 84150
+
+step An Earnest Proposition
+  only Priest
+  zone map 1455
+  accept 84151
+
+step An Earnest Proposition
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84151 @58.07,29.54
+
+step An Earnest Proposition
+  only Priest
+  zone map 1455
+  turnin 84151
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1455
+  accept 84154
+
+step An Earnest Proposition
+  only Warrior
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 84154 @58.07,29.54
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1455
+  turnin 84154
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1455
+  accept 97447
+
+step An Earnest Proposition
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1455
+  complete 97447 @58.07,29.54
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1455
+  turnin 97447
+
+step A Supernatural Device
+  zone map 1455
+  accept 8922
 
 step King Magni Bronzebeard
   when turnedin 3701
   accept 4341
 
-step Just Compensation
-  accept 84167
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84167 @58.07,29.54
-
-step Just Compensation
-  turnin 84167
-
-step Just Compensation
-  accept 84168
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84168 @58.07,29.54
-
-step Just Compensation
-  turnin 84168
-
-step Just Compensation
-  accept 84169
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84169 @58.07,29.54
-
-step Just Compensation
-  turnin 84169
-
-step Just Compensation
-  accept 84170
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84170 @58.07,29.54
-
-step Just Compensation
-  turnin 84170
-
-step In Search of Anthion
-  accept 8929
-
 step Getting there
   zone map 1427
   note The entrance is in Searing Gorge: the arrow leads to it.
 
+step A Supernatural Device
+  zone map 1446
+  turnin 8922
+
+step The Ectoplasmic Distiller
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step A Portable Power Source
+  accept 8925
+
+step A Portable Power Source
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8925 @52.47,27.23
+
+step A Portable Power Source
+  turnin 8925
+
+step A Shifty Merchant
+  accept 8928
+
+step A Shifty Merchant
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8928 @52.47,27.23
+
+step A Shifty Merchant
+  turnin 8928
+
+step Return to Deliana
+  accept 8977
+
 step Master Smith Burninate
+  zone map 1427
   accept 7737
 
 step Enohar Thunderbrew
@@ -92,6 +200,10 @@ step Jalinda Sprig
   accept 4263
 
 step Mathredis Firestar
+  accept 4463
+  accept 4481
+  accept 4482
+  accept 4483
   accept 4484
 
 step Maxwort Uberglint
@@ -99,26 +211,6 @@ step Maxwort Uberglint
 
 step Oralius
   accept 4286
-
-step Level 60
-  zone map 1434
-  level 60
-
-step Pix Xizzix
-  accept 96075
-
-step Mathredis Firestar
-  zone map 1428
-  accept 4483
-
-step Mathredis Firestar
-  accept 4482
-
-step Mathredis Firestar
-  accept 4481
-
-step Mathredis Firestar
-  accept 4463
 
 step Yorba Screwspigot
   zone map 1446
@@ -130,7 +222,6 @@ step Inside Blackrock Depths
   accept 4201 @34.8,85.3
   accept 4083 @34.8,85.3
   collect 18628 @34.8,85.3
-  accept 7604 item 18628
   complete 4295 @34.8,85.3
   turnin 4295 @34.8,85.3
   complete 4201 @34.8,85.3
@@ -146,11 +237,7 @@ step Inside Blackrock Depths
   complete 4263 @34.8,85.3
   complete 4286 @34.8,85.3
   complete 4024 @34.8,85.3
-  complete 7604 @34.8,85.3
-  turnin 7604 @34.8,85.3
   complete 7737 @34.8,85.3
-  complete 84166 @34.8,85.3
-  complete 96075 @34.8,85.3
 
 step Inside Blackrock Depths
   when turnedin 3701
@@ -192,25 +279,6 @@ step Ever After
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   turnin 82062 direct @35.8,19.8 map 1428
 
-step Pix Xizzix
-  zone map 1434
-  turnin 96075
-
-step In Search of Anthion
-  zone map 1423
-  turnin 8929
-
-step Dead Man's Plea
-  accept 8945
-
-step Dead Man's Plea
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8945 @26.11,11.3
-
-step Dead Man's Plea
-  zone map 1427
-  turnin 8945 @34.8,85.3
-
 step Yuka Screwspigot
   zone map 1418
   accept 4136
@@ -239,6 +307,17 @@ step Inside Blackrock Depths, again
   zone map 1427
   accept 4361 @34.8,85.3
 
+step Level 60
+  zone map 1434
+  level 60
+
+step Pix Xizzix
+  accept 96075
+
+step Inside Blackrock Depths
+  zone map 1427
+  complete 96075 @34.8,85.3
+
 step Three Kings of Flame
   when turnedin 8960
   zone map 1427
@@ -255,76 +334,32 @@ step Three Kings of Flame
   zone map 1427
   turnin 8961
 
-step Components of Importance
-  when available 8962
-  tip One of several exclusive quests; the route takes Components of Importance (8963). This one shows for a character the game offers it to instead.
-  zone map 1427
-  accept 8962 optional
+step Pix Xizzix
+  zone map 1434
+  turnin 96075
 
-step Components of Importance
-  when onquest 8962
+step Inside Blackrock Depths
+  zone map 1427
+  accept 7604 item 18628
+  complete 7604 @34.8,85.3
+  turnin 7604 @34.8,85.3
+
+step The Challenge
+  when turnedin 8950
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1427
+  accept 9015 @34.8,85.3
+
+step The Challenge
+  when onquest 9015
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1427
-  complete 8962 @39.8,96.5 optional
+  complete 9015 @34.8,85.3
 
-step Components of Importance
-  when onquest 8962
-  zone map 1427
-  turnin 8962 optional
-
-step Components of Importance
-  when available 8965
-  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
-  when turnedin 8961
-  zone map 1427
-  accept 8965 optional
-
-step Components of Importance
-  when onquest 8965
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8965 @39.8,96.5 optional
-
-step Components of Importance
-  when onquest 8965
-  zone map 1427
-  turnin 8965 optional
-
-step Components of Importance
-  when available 8964
-  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
-  when turnedin 8961
-  zone map 1427
-  accept 8964 optional
-
-step Components of Importance
-  when onquest 8964
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8964 @39.8,96.5 optional
-
-step Components of Importance
-  when onquest 8964
-  zone map 1427
-  turnin 8964 optional
-
-step Components of Importance
-  when available 8963
-  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
-  when turnedin 8961
-  zone map 1427
-  accept 8963 optional
-
-step Components of Importance
-  when onquest 8963
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8963 @39.8,96.5 optional
-
-step Components of Importance
-  when onquest 8963
-  zone map 1427
-  turnin 8963 optional
+step The Challenge
+  when onquest 9015
+  zone map 1423
+  turnin 9015
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

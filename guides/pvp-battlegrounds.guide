@@ -13,6 +13,7 @@ step About this guide
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step CLUCK!
+  tip With the Special Chicken Feed in your bags, target your chicken and type /cheer at it until it turns friendly (green), then give it the feed. Right-clicking it before that attacks it.
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1413
   collect 11109 x1 anywhere optional

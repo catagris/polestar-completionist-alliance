@@ -271,6 +271,7 @@ step Ealaane Nimbuswalker
   turnin 94897
 
 step The High Order
+  tip Rathiril Sunlance asks you to sit with him: sit down (/sit) beside him, then talk to him.
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 92596
   complete 92596 @45.0,46.4
@@ -775,6 +776,7 @@ step Denaaris Stargale
   turnin 94946
 
 step The Great Outdoors
+  tip Sit down (/sit) by Raan's Basic Campfire and stay seated until the Boosted Rest buff appears.
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
   accept 96101 only Skyborne

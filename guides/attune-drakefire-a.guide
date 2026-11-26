@@ -44,35 +44,6 @@ step The True Masters
   accept 4185
   complete 4185 @80.2,38.4
 
-step The Dragon's Eye
-  when turnedin 6403
-  zone map 1453
-  accept 6501
-
-step The Dragon's Eye
-  when onquest 6501
-  zone map 1452
-  turnin 6501
-
-step The True Masters
-  turnin 4185
-
-step Drakefire Amulet
-  when turnedin 6501
-  zone map 1452
-  accept 6502
-
-step Drakefire Amulet
-  when onquest 6502
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1452
-  complete 6502 @54.5,51.2
-
-step Drakefire Amulet
-  when onquest 6502
-  zone map 1452
-  turnin 6502
-
 step Highlord Bolvar Fordragon
   zone Stormwind City
   accept 4186
@@ -107,8 +78,6 @@ step Marshal Windsor
   tip The hand-in is inside the instance: the arrow leads to its entrance.
   zone map 1445
   turnin 4241 @52.6,76.8
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Abandoned Hope
   when turnedin 4241
@@ -190,6 +159,37 @@ step The Great Masquerade
   when onquest 6403
   zone map 1453
   turnin 6403
+
+step The Dragon's Eye
+  when turnedin 6403
+  zone map 1453
+  accept 6501
+
+step The Dragon's Eye
+  when onquest 6501
+  zone map 1452
+  turnin 6501
+
+step The True Masters
+  turnin 4185
+
+step Drakefire Amulet
+  when turnedin 6501
+  zone map 1452
+  accept 6502
+
+step Drakefire Amulet
+  when onquest 6502
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1452
+  complete 6502 @54.5,51.2
+
+step Drakefire Amulet
+  when onquest 6502
+  zone map 1452
+  turnin 6502
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step The Great Masquerade
   when available 99435

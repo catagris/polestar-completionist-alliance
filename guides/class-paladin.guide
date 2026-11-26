@@ -8,7 +8,7 @@ zone Durotar
 why Every Paladin class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Paladin quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 35 quests; estimated level at the end 23.5 (heuristic XP).
+# Routed 37 quests; estimated level at the end 24.0 (heuristic XP).
 # Skipped: 18 prerequisite N not in this route; 5 exclusive with N; 1 objective N (item N) outside the zones.
 
 step Lord Grayson Shadowbreaker
@@ -35,10 +35,24 @@ step Katherine the Pure
   zone map 1411
   accept 96476 only Paladin
 
+step Aeonas the Vindicated
+  zone map 1448
+  complete 96476 @43.0,57.0 map 1448 only Paladin
+  turnin 96476 only Paladin
+
+step Materials of Significance
+  only Paladin
+  zone map 1448
+  accept 81790 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 81790 @44.7,52.0 optional
+
 step Level 50
+  zone map 1448
   level 50
 
 step Lord Grayson Shadowbreaker
+  zone map 1411
   accept 8415 npc 928 only Human,Dwarf
 
 step Level 60
@@ -50,7 +64,19 @@ step Duthorian Rall
 step Lord Grayson Shadowbreaker
   turnin 7638 only Human,Dwarf
 
+step Strange Orb
+  zone map 1439
+  accept 78088 only Paladin
+
+step Delgren the Purifier
+  zone map 1440
+  turnin 78088 only Paladin
+
+step Delgren the Purifier
+  accept 78089 only Paladin
+
 step Lord Grayson Shadowbreaker
+  zone map 1411
   accept 7637 only Human,Dwarf
 
 step Aeonas the Vindicated
@@ -60,17 +86,12 @@ step Aeonas the Vindicated
 step Materials of Significance
   only Paladin
   zone map 1448
-  accept 81790 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 81790 @44.7,52.0 optional
+  turnin 81790 optional
 
-step Strange Orb
-  zone map 1439
-  accept 78088 only Paladin
-
-step Delgren the Purifier
-  zone map 1440
-  turnin 78088 only Paladin
+step Aeonas the Vindicated
+  zone map 1448
+  accept 81885 only Paladin
+  turnin 81885 only Paladin
 
 step Broken Warhammer
   zone map 1443
@@ -81,25 +102,6 @@ step Geologist Larksbane
   zone map 1451
   accept 8376 only Paladin
   turnin 8376 only Paladin
-
-step Delgren the Purifier
-  zone map 1440
-  accept 78089 only Paladin
-
-step Aeonas the Vindicated
-  zone map 1448
-  accept 81885 only Paladin
-  turnin 81885 only Paladin
-
-step Materials of Significance
-  only Paladin
-  zone map 1448
-  turnin 81790 optional
-
-step Aeonas the Vindicated
-  zone map 1448
-  complete 96476 @43.0,57.0 map 1448 only Paladin
-  turnin 96476 only Paladin
 
 step Katherine the Pure
   zone map 1411
@@ -558,3 +560,41 @@ step By The Light's Grace
   tip The hand-in is inside the instance: the arrow leads to its entrance.
   zone map 1420
   turnin 79963 @85.2,31.3 optional
+
+step Components of Importance
+  only Paladin,Priest,Shaman
+  when turnedin 8961
+  zone map 1427
+  accept 8965 optional
+
+step Components of Importance
+  only Paladin,Priest,Shaman
+  when onquest 8965
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8965 @39.8,96.5 optional
+
+step Components of Importance
+  only Paladin,Priest,Shaman
+  when onquest 8965
+  zone map 1427
+  turnin 8965 optional
+
+step More Components of Importance
+  only Paladin,Shaman,Druid
+  when turnedin 8970
+  zone map 1427
+  accept 8986 optional
+
+step More Components of Importance
+  only Paladin,Shaman,Druid
+  when onquest 8986
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8986 @39.8,96.5 optional
+
+step More Components of Importance
+  only Paladin,Shaman,Druid
+  when onquest 8986
+  zone map 1427
+  turnin 8986 optional
